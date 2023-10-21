@@ -1,0 +1,21 @@
+{
+    "name": "itsallwong/kirby-dev-starter",
+    "description": "Development starter set for Kirby-based sites",
+    "type": "project",
+    "require": {
+        "getkirby/cms": "3.9.6.1",
+        "stripe/stripe-php": "^10.19"
+    },
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Nathan",
+            "email": "nathan@itsallwong.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    }
+}
