@@ -1,0 +1,21 @@
+$benibana: rgb(255 153 161);
+$cinnabar: rgb(184 43 43);
+$cobalt: rgb(26 75 213);
+$cobalt-light: rgb(115 180 219);
+$paper: #F3F2EE;
+$paynes: #424457;
+$mars: #0f0506;
+
+:root {
+	// COLORS!
+	--c-benibana: #{$benibana};
+	--c-cobalt: #{$cobalt};
+	--c-cobalt-light: #{$cobalt-light};
+	--c-cinnabar: #{$cinnabar};
+	--c-paper: #{$paper};
+	--c-paynes: #{$paynes};
+	--c-mars: #{$mars};
+
+    // fonts
+    --secondary-font-stack: sans-serif;
+}

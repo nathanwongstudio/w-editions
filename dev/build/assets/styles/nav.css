@@ -1,0 +1,26 @@
+:root {
+  --c-benibana: rgb(255, 153, 161);
+  --c-cobalt: rgb(26, 75, 213);
+  --c-cobalt-light: rgb(115, 180, 219);
+  --c-cinnabar: rgb(184, 43, 43);
+  --c-paper: #F3F2EE;
+  --c-paynes: #424457;
+  --c-mars: #0f0506;
+  --secondary-font-stack: sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0.5em;
+  right: 25%;
+  left: 25%;
+  margin: auto;
+  padding: 0.125rem 0.5rem;
+  text-align: center;
+  color: #0f0506;
+  background: rgba(226, 227, 233, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+/*# sourceMappingURL=nav.css.map */

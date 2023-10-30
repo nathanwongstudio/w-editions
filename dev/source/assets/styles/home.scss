@@ -1,0 +1,223 @@
+@use "sass:color";
+@use "variables" as v;
+
+html,body {
+    background-color:black!important;
+}
+
+body {
+    // margin-bottom:-45vh;
+    // padding-bottom:45vh;
+
+    // background: rgb(255 255 255);
+    // background: linear-gradient(
+    //     180deg,
+    //     rgb(255 255 255 / 100%) 0%,
+    //     rgb(211 211 224 / 100%) 60%,
+    //     rgb(229 222 242 / 100%) 70%, 
+    //     rgb(236 243 251 / 72.5%) 80%, 
+    //     rgb(239 252 255 / 0%) 100%);
+
+    background-image: url("../crt.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+section {
+    position: relative;
+    z-index:9;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    place-content: center;
+
+    box-sizing: border-box;
+
+    width: 100%;
+    min-height:100vh;
+
+    background:black;
+        
+    mix-blend-mode: multiply;
+
+    &.block-type-heading,
+    &.block-type-newsletter {
+        font-family: sans-serif;
+        font-weight: bold;
+        line-height: 1.5em;
+
+        margin:0;
+        padding: 5em;
+
+        text-align: center;
+
+        color:transparent;
+
+        text-shadow: 0 0 3px white;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-color: transparent;
+        -webkit-text-stroke-width: 0;
+    }
+
+    &.block-type-newsletter {
+        form {
+            color: white;
+            text-shadow:none;
+
+            .email {
+                position:relative;
+
+                overflow:hidden;
+
+                width:90%;
+                margin:auto;
+                margin-top:2rem;
+
+                border-radius:1rem;
+                background: black;
+                box-shadow: 0 0 4px 4px white;
+
+                &:hover {
+                    transition:100ms ease;
+
+                    background:white;
+
+                    input {
+                        text-shadow: 0 0 3px black;
+                    }
+                    
+                }
+            }
+
+            input {
+                background:transparent;
+            }
+
+            input[type="email"] {
+                font-size: 3.8416rem;
+                font-weight:bold;
+
+                position:relative;
+
+                display:block;
+
+                box-sizing: border-box;
+
+                width:100%;
+                margin:auto;
+                padding:2rem 4em 2rem 1rem;
+
+                transition:100ms ease;
+
+                color:transparent;
+                border:1px solid ;
+        
+                text-shadow: 0 0 3px white;
+
+                &:focus {
+                    transition:100ms ease;
+
+                    background: white;
+                    text-shadow: 0 0 3px black;
+
+                    & ~ input {
+                        background: white;
+                        text-shadow: 0 0 3px black;
+                    }
+                }
+
+                & + .cursor {
+                    position:absolute;
+                    top:1rem;
+                    bottom:1rem;
+                    left:1rem;
+
+                    width: 3px;
+
+                    content:' ';
+
+                    opacity:0;
+
+                    border-radius:3px;
+                    background: white;
+                }
+
+                &:placeholder-shown + .cursor {
+                    animation:0.5s infinite alternate cursor;
+                }
+
+                @keyframes cursor {
+                    from {
+                        opacity:0;
+                    }
+
+                    to {
+                        opacity:1;
+                    }
+                }
+            }
+
+            input[type="submit"] {
+                font-size: 3.8416rem;
+                font-weight: bold;
+
+                position:absolute;
+                z-index: 99;
+                top:0;
+                right:0;
+
+                display:block;
+
+                padding:2rem 1rem;
+
+                cursor: pointer;
+
+                border:none;
+                background:transparent;
+        
+                text-shadow: 0 0 3px white;
+            }
+        }
+    }
+
+    &.block-type-text {
+        height: auto;
+        min-height:0;
+        padding: 5em 0;
+
+        background: color.adjust(v.$paper, $alpha:-0.6);
+        
+        mix-blend-mode: normal;
+        backdrop-filter: blur(10px);
+
+    
+        & > .content {
+            box-sizing: border-box;
+            width: 75%;
+            max-width: 35rem;
+            margin: auto;
+    
+            transform: skewX(-10deg);
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.25em;
+
+        text-transform: none !important;
+    }
+}

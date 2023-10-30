@@ -1,0 +1,178 @@
+:root {
+  --c-benibana: rgb(255, 153, 161);
+  --c-cobalt: rgb(26, 75, 213);
+  --c-cobalt-light: rgb(115, 180, 219);
+  --c-cinnabar: rgb(184, 43, 43);
+  --c-paper: #F3F2EE;
+  --c-paynes: #424457;
+  --c-mars: #0f0506;
+  --secondary-font-stack: sans-serif;
+}
+
+html, body {
+  background-color: black !important;
+}
+
+body {
+  background-image: url("../crt.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section {
+  position: relative;
+  z-index: 9;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  place-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+  mix-blend-mode: multiply;
+}
+section.block-type-heading, section.block-type-newsletter {
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 5em;
+  text-align: center;
+  color: transparent;
+  text-shadow: 0 0 3px white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 0;
+}
+section.block-type-newsletter form {
+  color: white;
+  text-shadow: none;
+}
+section.block-type-newsletter form .email {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background: black;
+  box-shadow: 0 0 4px 4px white;
+}
+section.block-type-newsletter form .email:hover {
+  transition: 100ms ease;
+  background: white;
+}
+section.block-type-newsletter form .email:hover input {
+  text-shadow: 0 0 3px black;
+}
+section.block-type-newsletter form input {
+  background: transparent;
+}
+section.block-type-newsletter form input[type=email] {
+  font-size: 3.8416rem;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  padding: 2rem 4em 2rem 1rem;
+  transition: 100ms ease;
+  color: transparent;
+  border: 1px solid;
+  text-shadow: 0 0 3px white;
+}
+section.block-type-newsletter form input[type=email]:focus {
+  transition: 100ms ease;
+  background: white;
+  text-shadow: 0 0 3px black;
+}
+section.block-type-newsletter form input[type=email]:focus ~ input {
+  background: white;
+  text-shadow: 0 0 3px black;
+}
+section.block-type-newsletter form input[type=email] + .cursor {
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  width: 3px;
+  content: " ";
+  opacity: 0;
+  border-radius: 3px;
+  background: white;
+}
+section.block-type-newsletter form input[type=email]:-moz-placeholder-shown + .cursor {
+  animation: 0.5s infinite alternate cursor;
+}
+section.block-type-newsletter form input[type=email]:placeholder-shown + .cursor {
+  -webkit-animation: 0.5s infinite alternate cursor;
+          animation: 0.5s infinite alternate cursor;
+}
+@-webkit-keyframes cursor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes cursor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+section.block-type-newsletter form input[type=submit] {
+  font-size: 3.8416rem;
+  font-weight: bold;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  display: block;
+  padding: 2rem 1rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  text-shadow: 0 0 3px white;
+}
+section.block-type-text {
+  height: auto;
+  min-height: 0;
+  padding: 5em 0;
+  background: rgba(243, 242, 238, 0.4);
+  mix-blend-mode: normal;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+section.block-type-text > .content {
+  box-sizing: border-box;
+  width: 75%;
+  max-width: 35rem;
+  margin: auto;
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+}
+section h1, section h2, section h3, section h4, section h5, section h6 {
+  line-height: 1.25em;
+  text-transform: none !important;
+}
+
+/*# sourceMappingURL=home.css.map */

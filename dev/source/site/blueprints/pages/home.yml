@@ -1,4 +1,4 @@
-title: Default Page
+title: Home Page
 
 columns:
   main:
@@ -31,8 +31,17 @@ columns:
                         text:
                           - "no"
                           - "yes"
-                  video:
-                    extends: blocks/video
+                  - video
+              extras:
+                label: Extras
+                type: group
+                open: false
+                fieldsets:
+                  newsletter:
+                    fields:
+                      label:
+                        label: label
+                        type: text
               code:
                 label: Code
                 type: group
