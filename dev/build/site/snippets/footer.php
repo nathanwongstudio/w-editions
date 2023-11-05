@@ -1,8 +1,8 @@
 <?php if(!$page->isHomePage()): ?>
     <footer class="signed-area">
         <section class="edition">1/1</section>
-        <section class="title">Website</section>
-        <section class="signed">Wong Editions</section>
+        <section class="title"><?= $site->title() ?></section>
+        <section class="signed">site by <a href="https://itsallwong.com">nathan</a></section>
     </footer>
 <?php endif; ?>
 </div>
@@ -23,11 +23,13 @@
                 menu.classList.add('is-open');
                 navX.classList.add('is-active');
                 htmlbody.classList.add('nav-active');
+                navX.ariaPressed = "true";
 
             } else {
                 menu.classList.remove('is-open');
                 navX.classList.remove('is-active');
                 htmlbody.classList.remove('nav-active');
+                navX.ariaPressed = "false";
             }
         })
     }
@@ -103,6 +105,5 @@
 }
 
 </style>
-
 <?= $site->customAnalytics() ?>
 </html>

@@ -1,0 +1,28 @@
+@use "nw-type" as t with (
+
+// Font Family
+$font-family: ('roc-grotesk', sans-serif),
+$font-mono: (courier new, courier, mono),
+
+// Base ratios
+$typescale: 1.2,
+
+// Base Font for HTML
+$base-font-size: 18px,
+
+// Paragraph Styles
+$paragraph-size: 1rem,
+$paragraph-line-height: default,
+$paragraph-margin: default,
+
+// hr
+$hr-margin: default,
+
+// Type Misc
+$font-weight-bold: 800,
+
+);
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.125;
+}

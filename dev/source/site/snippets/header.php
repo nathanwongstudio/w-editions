@@ -11,7 +11,11 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php if($page->isHomePage()): ?>
+        <meta content="width=device-width, initial-scale=0.375" name="viewport">
+    <?php else: ?>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php endif; ?>
 
     <?php if($site->favicon()->isNotEmpty()): ?>
         <link rel="shortcut icon" href="<?= $site->favicon()->toFile()->thumb(['width' => 200])->url() ?>" type="image/x-icon">
@@ -19,30 +23,30 @@
     
     <meta name="description" content="<?= $site->siteDescription() ?>">
     <meta name="keywords" content="<?= $site->keywords() ?>">
-    <title><?= ((!$page->isHomePage()) ? $page->title() . '|' : '' ) . $site->title() ?></title>
+    <title><?= ((!$page->isHomePage()) ? $page->title() . ' > ' : '' ) . $site->title() ?></title>
 	<?php
+
+	echo css('assets/css/styles.css');
 
     if(isset($pageTitle)) {
         $pageTitle = $pageTitle;
     } else {
         $pageTitle = false;
     }
-	echo css('assets/styles/nav.css');
 
-    // this checks if a template-specific style exists.
-    // the name of the template must be 'exact-template-name.css'
+	$tagged = false;
+    ?>
 
-    $template = $page->intendedTemplate();
-    $turl = 'assets/styles/'.$template.'.css';
-    $templateStyle = asset($turl);
+    <?=
 
-    if($templateStyle->exists()) {
-        echo css($turl);
-    }
+	css([
+        'assets/css/nav.css',
+        '@auto'
+    ])
 
-	echo css('assets/styles/styles.css');
+    ?>
 
-	$tagged = false; ?>
+    <?=css('assets/css/type-mobile.css', 'screen and (max-width: 50em)') ?>
 
     <script>
         document.documentElement.className = 
@@ -53,7 +57,8 @@
 
 </head>
 <body class="<?= $page->intendedTemplate() ?>">
-<!-- <nav>
-    Wong Editions
-</nav> -->
+
+<?php if(!$page->isHomePage()): ?>
+    <?= snippet('nav') ?>
+<?php endif; ?>
 <div class="wrapper">

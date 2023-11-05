@@ -36,57 +36,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/loop_3.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/assets\/loop_3.mp4",
-      "oF" : 0
-    },
-    "\/source\/assets\/mold.jpg" : {
-      "ft" : 16384,
-      "iS" : 195668,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/assets\/mold.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/source\/assets\/printer.jpg" : {
-      "ft" : 16384,
-      "iS" : 112993,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/assets\/printer.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/source\/assets\/static-gb-1.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/build\/assets\/static-gb-1.mp4",
-      "oF" : 1
-    },
-    "\/source\/assets\/static-gb.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/build\/assets\/static-gb.mp4",
-      "oF" : 1
-    },
-    "\/source\/assets\/styles\/_mixins.scss" : {
+    "\/source\/assets\/css\/_mixins.scss" : {
       "aP" : 1,
       "bl" : 1,
       "co" : 2,
@@ -95,13 +45,13 @@
       "ft" : 4,
       "ma" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/styles\/_mixins.css",
+      "oAP" : "\/build\/assets\/css\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/source\/assets\/styles\/_type.scss" : {
+    "\/source\/assets\/css\/_type.scss" : {
       "aP" : 1,
       "bl" : 1,
       "co" : 2,
@@ -110,13 +60,13 @@
       "ft" : 4,
       "ma" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/styles\/_type.css",
+      "oAP" : "\/build\/assets\/css\/_type.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/source\/assets\/styles\/_variables.scss" : {
+    "\/source\/assets\/css\/_variables.scss" : {
       "aP" : 1,
       "bl" : 1,
       "co" : 2,
@@ -125,13 +75,13 @@
       "ft" : 4,
       "ma" : 1,
       "oA" : 1,
-      "oAP" : "\/build\/assets\/styles\/_variables.css",
+      "oAP" : "\/build\/assets\/css\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/source\/assets\/styles\/home.scss" : {
+    "\/source\/assets\/css\/nav.scss" : {
       "aP" : 1,
       "bl" : 1,
       "co" : 2,
@@ -140,13 +90,13 @@
       "ft" : 4,
       "ma" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/styles\/home.css",
+      "oAP" : "\/build\/assets\/css\/nav.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/source\/assets\/styles\/nav.scss" : {
+    "\/source\/assets\/css\/styles.scss" : {
       "aP" : 1,
       "bl" : 1,
       "co" : 2,
@@ -155,23 +105,38 @@
       "ft" : 4,
       "ma" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/styles\/nav.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/source\/assets\/styles\/styles.scss" : {
-      "aP" : 1,
-      "bl" : 1,
-      "co" : 2,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 1,
-      "oA" : 0,
-      "oAP" : "\/build\/assets\/styles\/styles.css",
+      "oAP" : "\/build\/assets\/css\/styles.css",
       "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/source\/assets\/css\/templates\/home.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/home.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/source\/assets\/css\/type-mobile.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/type-mobile.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -182,6 +147,38 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/accounts\/index.html",
+      "oF" : 0
+    },
+    "\/source\/site\/accounts\/qrGTy6Sa\/.htpasswd" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/accounts\/qrGTy6Sa\/.htpasswd",
+      "oF" : 0
+    },
+    "\/source\/site\/accounts\/qrGTy6Sa\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/accounts\/qrGTy6Sa\/index.php",
+      "oF" : 0
+    },
+    "\/source\/site\/accounts\/qrGTy6Sa\/user.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/accounts\/qrGTy6Sa\/user.txt",
+      "oF" : 0
+    },
+    "\/source\/site\/blueprints\/files\/video.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/files\/video.yml",
       "oF" : 0
     },
     "\/source\/site\/blueprints\/pages\/default.yml" : {
@@ -262,6 +259,14 @@
       "oAP" : "\/build\/site\/snippets\/index.html",
       "oF" : 0
     },
+    "\/source\/site\/snippets\/nav.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/snippets\/nav.php",
+      "oF" : 0
+    },
     "\/source\/site\/templates\/default.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -290,7 +295,8 @@
     "displayValue" : "print-shop",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-punDog",
-    "iconImageWasSetByUser" : 1
+    "iconImageWasSetByUser" : 1,
+    "lastBuiltDate" : 720914341.87661195
   },
   "projectSettings" : {
     "abortBuildOnError" : 0,
@@ -584,14 +590,14 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 1,
+    "buildEnvironment" : 0,
     "buildFolderActive" : 1,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::development"
+      "NODE_ENV:::production"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,

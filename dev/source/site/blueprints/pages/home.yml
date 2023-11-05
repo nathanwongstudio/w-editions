@@ -2,7 +2,7 @@ title: Home Page
 
 columns:
   main:
-    width: 1
+    width: 3/4
     sections:
       fields:
         type: fields
@@ -49,4 +49,16 @@ columns:
                 fieldsets:
                   - code
                   - markdown
+  side:
+    width: 1/4
+    sections:
+      sidebar:
+        type: fields
+        fields:
+          bgvid:
+            type: files
+            label: Background Video
+            multiple: false
+            uploads:
+              template: video
 

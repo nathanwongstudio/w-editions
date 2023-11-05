@@ -2,8 +2,8 @@ $benibana: rgb(255 153 161);
 $cinnabar: rgb(184 43 43);
 $cobalt: rgb(26 75 213);
 $cobalt-light: rgb(115 180 219);
-$paper: #F3F2EE;
-$paynes: #424457;
+$paper: #f6f0e6;
+$paynes: #4e5147;
 $mars: #0f0506;
 
 :root {
@@ -15,7 +15,14 @@ $mars: #0f0506;
 	--c-paper: #{$paper};
 	--c-paynes: #{$paynes};
 	--c-mars: #{$mars};
+	
+	// EXTENDED COLORS
+	--border-color: var(--c-cobalt);
+	--text-color: var(--c-cobalt);
 
     // fonts
-    --secondary-font-stack: sans-serif;
+    --secondary-font-stack: 'matrix-ii', serif;
+
+	// nav
+	--nav-height: calc(var(--base-line-height) * 2);
 }
