@@ -48,3 +48,8 @@ Icon
 # ---------------
 
 /site/config/.license
+
+
+# IGNORE KIRBY (Composer Install)
+
+/kirby
