@@ -5,7 +5,7 @@ $font-family: ('roc-grotesk', sans-serif),
 $font-mono: (courier new, courier, mono),
 
 // Base ratios
-$typescale: 1.2,
+$typescale: 1.25,
 
 // Base Font for HTML
 $base-font-size: 18px,
@@ -19,10 +19,15 @@ $paragraph-margin: default,
 $hr-margin: default,
 
 // Type Misc
-$font-weight-bold: 800,
+$font-weight-bold: 700,
 
 );
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1.125;
+    font-weight: 300;
+    line-height: 1;
+}
+
+html, body {
+    --base-line-height: 28px;
 }

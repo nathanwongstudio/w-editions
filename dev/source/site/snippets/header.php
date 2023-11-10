@@ -48,6 +48,8 @@
 
     <?=css('assets/css/type-mobile.css', 'screen and (max-width: 50em)') ?>
 
+    <?= js('@auto', ['type'=>'module']) ?>
+
     <script>
         document.documentElement.className = 
         document.documentElement.className.replace("no-js","js");

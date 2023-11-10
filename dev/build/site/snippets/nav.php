@@ -8,7 +8,7 @@
         <section class="menu">
             <ul class="menu-items" aria-label="list of pages">
                 <?php foreach($site->pages()->listed() as $page): ?>
-                    <li class="item">
+                    <li class="item <?= ($page->isOpen()) ? 'active' : '' ?>" >
                         <a href="<?=$page->url()?>"><?= $page->title() ?></a>
                     </li>
                 <?php endforeach; ?>

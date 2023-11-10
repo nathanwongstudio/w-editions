@@ -238,6 +238,10 @@ figure {
             }
         }
 
+        .block-type-text {
+            max-width: 40rem;
+        }
+
         .block-type-image {
             &:only-child {
                 align-self: center;

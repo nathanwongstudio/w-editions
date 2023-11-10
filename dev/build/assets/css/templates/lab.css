@@ -1,0 +1,528 @@
+.colors {
+  max-width: 60em;
+  margin: auto;
+  padding: 0;
+}
+
+.chart .row {
+  display: grid;
+  grid-template-columns: 2fr repeat(9, 1fr);
+  height: 3em;
+  margin: 0.25em 0;
+  text-align: center;
+  color: white;
+  grid-gap: 0.25em;
+}
+.chart .row.benibana .color {
+  background-color: var(--c-benibana);
+}
+.chart .row.benibana .color.c-100 {
+  background-color: var(--c-benibana-100);
+}
+.chart .row.benibana .color.c-100::after {
+  display: inline-block;
+  width: 100%;
+  content: "100";
+  text-align: center;
+}
+.chart .row.benibana .color.c-200 {
+  background-color: var(--c-benibana-200);
+}
+.chart .row.benibana .color.c-200::after {
+  display: inline-block;
+  width: 100%;
+  content: "200";
+  text-align: center;
+}
+.chart .row.benibana .color.c-300 {
+  background-color: var(--c-benibana-300);
+}
+.chart .row.benibana .color.c-300::after {
+  display: inline-block;
+  width: 100%;
+  content: "300";
+  text-align: center;
+}
+.chart .row.benibana .color.c-400 {
+  background-color: var(--c-benibana-400);
+}
+.chart .row.benibana .color.c-400::after {
+  display: inline-block;
+  width: 100%;
+  content: "400";
+  text-align: center;
+}
+.chart .row.benibana .color.c-500 {
+  background-color: var(--c-benibana-500);
+}
+.chart .row.benibana .color.c-500::after {
+  display: inline-block;
+  width: 100%;
+  content: "500";
+  text-align: center;
+}
+.chart .row.benibana .color.c-600 {
+  background-color: var(--c-benibana-600);
+}
+.chart .row.benibana .color.c-600::after {
+  display: inline-block;
+  width: 100%;
+  content: "600";
+  text-align: center;
+}
+.chart .row.benibana .color.c-700 {
+  background-color: var(--c-benibana-700);
+}
+.chart .row.benibana .color.c-700::after {
+  display: inline-block;
+  width: 100%;
+  content: "700";
+  text-align: center;
+}
+.chart .row.benibana .color.c-800 {
+  background-color: var(--c-benibana-800);
+}
+.chart .row.benibana .color.c-800::after {
+  display: inline-block;
+  width: 100%;
+  content: "800";
+  text-align: center;
+}
+.chart .row.benibana .color.c-900 {
+  background-color: var(--c-benibana-900);
+}
+.chart .row.benibana .color.c-900::after {
+  display: inline-block;
+  width: 100%;
+  content: "900";
+  text-align: center;
+}
+.chart .row.cinnabar .color {
+  background-color: var(--c-cinnabar);
+}
+.chart .row.cinnabar .color.c-100 {
+  background-color: var(--c-cinnabar-100);
+}
+.chart .row.cinnabar .color.c-100::after {
+  display: inline-block;
+  width: 100%;
+  content: "100";
+  text-align: center;
+}
+.chart .row.cinnabar .color.c-200 {
+  background-color: var(--c-cinnabar-200);
+}
+.chart .row.cinnabar .color.c-200::after {
+  display: inline-block;
+  width: 100%;
+  content: "200";
+  text-align: center;
+}
+.chart .row.cinnabar .color.c-300 {
+  background-color: var(--c-cinnabar-300);
+}
+.chart .row.cinnabar .color.c-300::after {
+  display: inline-block;
+  width: 100%;
+  content: "300";
+  text-align: center;
+}
+.chart .row.cinnabar .color.c-400 {
+  background-color: var(--c-cinnabar-400);
+}
+.chart .row.cinnabar .color.c-400::after {
+  display: inline-block;
+  width: 100%;
+  content: "400";
+  text-align: center;
+}
+.chart .row.cinnabar .color.c-500 {
+  background-color: var(--c-cinnabar-500);
+}
+.chart .row.cinnabar .color.c-500::after {
+  display: inline-block;
+  width: 100%;
+  content: "500";
+  text-align: center;
+}
+.chart .row.cinnabar .color.c-600 {
+  background-color: var(--c-cinnabar-600);
+}
+.chart .row.cinnabar .color.c-600::after {
+  display: inline-block;
+  width: 100%;
+  content: "600";
+  text-align: center;
+}
+.chart .row.cinnabar .color.c-700 {
+  background-color: var(--c-cinnabar-700);
+}
+.chart .row.cinnabar .color.c-700::after {
+  display: inline-block;
+  width: 100%;
+  content: "700";
+  text-align: center;
+}
+.chart .row.cinnabar .color.c-800 {
+  background-color: var(--c-cinnabar-800);
+}
+.chart .row.cinnabar .color.c-800::after {
+  display: inline-block;
+  width: 100%;
+  content: "800";
+  text-align: center;
+}
+.chart .row.cinnabar .color.c-900 {
+  background-color: var(--c-cinnabar-900);
+}
+.chart .row.cinnabar .color.c-900::after {
+  display: inline-block;
+  width: 100%;
+  content: "900";
+  text-align: center;
+}
+.chart .row.cobalt .color {
+  background-color: var(--c-cobalt);
+}
+.chart .row.cobalt .color.c-100 {
+  background-color: var(--c-cobalt-100);
+}
+.chart .row.cobalt .color.c-100::after {
+  display: inline-block;
+  width: 100%;
+  content: "100";
+  text-align: center;
+}
+.chart .row.cobalt .color.c-200 {
+  background-color: var(--c-cobalt-200);
+}
+.chart .row.cobalt .color.c-200::after {
+  display: inline-block;
+  width: 100%;
+  content: "200";
+  text-align: center;
+}
+.chart .row.cobalt .color.c-300 {
+  background-color: var(--c-cobalt-300);
+}
+.chart .row.cobalt .color.c-300::after {
+  display: inline-block;
+  width: 100%;
+  content: "300";
+  text-align: center;
+}
+.chart .row.cobalt .color.c-400 {
+  background-color: var(--c-cobalt-400);
+}
+.chart .row.cobalt .color.c-400::after {
+  display: inline-block;
+  width: 100%;
+  content: "400";
+  text-align: center;
+}
+.chart .row.cobalt .color.c-500 {
+  background-color: var(--c-cobalt-500);
+}
+.chart .row.cobalt .color.c-500::after {
+  display: inline-block;
+  width: 100%;
+  content: "500";
+  text-align: center;
+}
+.chart .row.cobalt .color.c-600 {
+  background-color: var(--c-cobalt-600);
+}
+.chart .row.cobalt .color.c-600::after {
+  display: inline-block;
+  width: 100%;
+  content: "600";
+  text-align: center;
+}
+.chart .row.cobalt .color.c-700 {
+  background-color: var(--c-cobalt-700);
+}
+.chart .row.cobalt .color.c-700::after {
+  display: inline-block;
+  width: 100%;
+  content: "700";
+  text-align: center;
+}
+.chart .row.cobalt .color.c-800 {
+  background-color: var(--c-cobalt-800);
+}
+.chart .row.cobalt .color.c-800::after {
+  display: inline-block;
+  width: 100%;
+  content: "800";
+  text-align: center;
+}
+.chart .row.cobalt .color.c-900 {
+  background-color: var(--c-cobalt-900);
+}
+.chart .row.cobalt .color.c-900::after {
+  display: inline-block;
+  width: 100%;
+  content: "900";
+  text-align: center;
+}
+.chart .row.paper .color {
+  background-color: var(--c-paper);
+}
+.chart .row.paper .color.c-100 {
+  background-color: var(--c-paper-100);
+}
+.chart .row.paper .color.c-100::after {
+  display: inline-block;
+  width: 100%;
+  content: "100";
+  text-align: center;
+}
+.chart .row.paper .color.c-200 {
+  background-color: var(--c-paper-200);
+}
+.chart .row.paper .color.c-200::after {
+  display: inline-block;
+  width: 100%;
+  content: "200";
+  text-align: center;
+}
+.chart .row.paper .color.c-300 {
+  background-color: var(--c-paper-300);
+}
+.chart .row.paper .color.c-300::after {
+  display: inline-block;
+  width: 100%;
+  content: "300";
+  text-align: center;
+}
+.chart .row.paper .color.c-400 {
+  background-color: var(--c-paper-400);
+}
+.chart .row.paper .color.c-400::after {
+  display: inline-block;
+  width: 100%;
+  content: "400";
+  text-align: center;
+}
+.chart .row.paper .color.c-500 {
+  background-color: var(--c-paper-500);
+}
+.chart .row.paper .color.c-500::after {
+  display: inline-block;
+  width: 100%;
+  content: "500";
+  text-align: center;
+}
+.chart .row.paper .color.c-600 {
+  background-color: var(--c-paper-600);
+}
+.chart .row.paper .color.c-600::after {
+  display: inline-block;
+  width: 100%;
+  content: "600";
+  text-align: center;
+}
+.chart .row.paper .color.c-700 {
+  background-color: var(--c-paper-700);
+}
+.chart .row.paper .color.c-700::after {
+  display: inline-block;
+  width: 100%;
+  content: "700";
+  text-align: center;
+}
+.chart .row.paper .color.c-800 {
+  background-color: var(--c-paper-800);
+}
+.chart .row.paper .color.c-800::after {
+  display: inline-block;
+  width: 100%;
+  content: "800";
+  text-align: center;
+}
+.chart .row.paper .color.c-900 {
+  background-color: var(--c-paper-900);
+}
+.chart .row.paper .color.c-900::after {
+  display: inline-block;
+  width: 100%;
+  content: "900";
+  text-align: center;
+}
+.chart .row.paynes .color {
+  background-color: var(--c-paynes);
+}
+.chart .row.paynes .color.c-100 {
+  background-color: var(--c-paynes-100);
+}
+.chart .row.paynes .color.c-100::after {
+  display: inline-block;
+  width: 100%;
+  content: "100";
+  text-align: center;
+}
+.chart .row.paynes .color.c-200 {
+  background-color: var(--c-paynes-200);
+}
+.chart .row.paynes .color.c-200::after {
+  display: inline-block;
+  width: 100%;
+  content: "200";
+  text-align: center;
+}
+.chart .row.paynes .color.c-300 {
+  background-color: var(--c-paynes-300);
+}
+.chart .row.paynes .color.c-300::after {
+  display: inline-block;
+  width: 100%;
+  content: "300";
+  text-align: center;
+}
+.chart .row.paynes .color.c-400 {
+  background-color: var(--c-paynes-400);
+}
+.chart .row.paynes .color.c-400::after {
+  display: inline-block;
+  width: 100%;
+  content: "400";
+  text-align: center;
+}
+.chart .row.paynes .color.c-500 {
+  background-color: var(--c-paynes-500);
+}
+.chart .row.paynes .color.c-500::after {
+  display: inline-block;
+  width: 100%;
+  content: "500";
+  text-align: center;
+}
+.chart .row.paynes .color.c-600 {
+  background-color: var(--c-paynes-600);
+}
+.chart .row.paynes .color.c-600::after {
+  display: inline-block;
+  width: 100%;
+  content: "600";
+  text-align: center;
+}
+.chart .row.paynes .color.c-700 {
+  background-color: var(--c-paynes-700);
+}
+.chart .row.paynes .color.c-700::after {
+  display: inline-block;
+  width: 100%;
+  content: "700";
+  text-align: center;
+}
+.chart .row.paynes .color.c-800 {
+  background-color: var(--c-paynes-800);
+}
+.chart .row.paynes .color.c-800::after {
+  display: inline-block;
+  width: 100%;
+  content: "800";
+  text-align: center;
+}
+.chart .row.paynes .color.c-900 {
+  background-color: var(--c-paynes-900);
+}
+.chart .row.paynes .color.c-900::after {
+  display: inline-block;
+  width: 100%;
+  content: "900";
+  text-align: center;
+}
+.chart .row.violet .color {
+  background-color: var(--c-violet);
+}
+.chart .row.violet .color.c-100 {
+  background-color: var(--c-violet-100);
+}
+.chart .row.violet .color.c-100::after {
+  display: inline-block;
+  width: 100%;
+  content: "100";
+  text-align: center;
+}
+.chart .row.violet .color.c-200 {
+  background-color: var(--c-violet-200);
+}
+.chart .row.violet .color.c-200::after {
+  display: inline-block;
+  width: 100%;
+  content: "200";
+  text-align: center;
+}
+.chart .row.violet .color.c-300 {
+  background-color: var(--c-violet-300);
+}
+.chart .row.violet .color.c-300::after {
+  display: inline-block;
+  width: 100%;
+  content: "300";
+  text-align: center;
+}
+.chart .row.violet .color.c-400 {
+  background-color: var(--c-violet-400);
+}
+.chart .row.violet .color.c-400::after {
+  display: inline-block;
+  width: 100%;
+  content: "400";
+  text-align: center;
+}
+.chart .row.violet .color.c-500 {
+  background-color: var(--c-violet-500);
+}
+.chart .row.violet .color.c-500::after {
+  display: inline-block;
+  width: 100%;
+  content: "500";
+  text-align: center;
+}
+.chart .row.violet .color.c-600 {
+  background-color: var(--c-violet-600);
+}
+.chart .row.violet .color.c-600::after {
+  display: inline-block;
+  width: 100%;
+  content: "600";
+  text-align: center;
+}
+.chart .row.violet .color.c-700 {
+  background-color: var(--c-violet-700);
+}
+.chart .row.violet .color.c-700::after {
+  display: inline-block;
+  width: 100%;
+  content: "700";
+  text-align: center;
+}
+.chart .row.violet .color.c-800 {
+  background-color: var(--c-violet-800);
+}
+.chart .row.violet .color.c-800::after {
+  display: inline-block;
+  width: 100%;
+  content: "800";
+  text-align: center;
+}
+.chart .row.violet .color.c-900 {
+  background-color: var(--c-violet-900);
+}
+.chart .row.violet .color.c-900::after {
+  display: inline-block;
+  width: 100%;
+  content: "900";
+  text-align: center;
+}
+.chart .row .color {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid var(--c-paper);
+  border-radius: 0.25em;
+}
+
+/*# sourceMappingURL=lab.css.map */

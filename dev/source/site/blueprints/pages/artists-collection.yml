@@ -1,0 +1,30 @@
+title: Artists List
+icon: 🎨
+num: zero
+
+tabs:
+  content:
+    icon: edit
+    columns:
+
+      main:
+        width: 1
+        sections:
+          portfolio:
+            type: pages
+            label: Artists
+            layout: list
+            size: small
+            empty: No artwork yet.
+            templates: artists-profile
+            image:
+              query: page.profilepic.toFile
+              back: white
+              ratio: 1/1
+  # security:
+  #   icon: lock
+  #   columns:
+  #     - width: 1/3
+  #       fields:
+  #         pageProtect: fields/locked-pages
+

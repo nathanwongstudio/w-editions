@@ -1,20 +1,76 @@
+@use 'sass:color';
+
 $benibana: rgb(255 153 161);
 $cinnabar: rgb(184 43 43);
 $cobalt: rgb(26 75 213);
 $cobalt-light: rgb(115 180 219);
 $paper: #f6f0e6;
 $paynes: #4e5147;
-$mars: #0f0506;
+$violet: rgb(76 18 168);
 
 :root {
 	// COLORS!
 	--c-benibana: #{$benibana};
+	--c-benibana-100: #{color.adjust($benibana, $lightness: 17%)};
+	--c-benibana-200: #{color.adjust($benibana, $lightness: 15%)};
+	--c-benibana-300: #{color.adjust($benibana, $lightness: 10%)};
+	--c-benibana-400: #{color.adjust($benibana, $lightness: 5%)};
+	--c-benibana-500: #{$benibana};
+	--c-benibana-600: #{color.adjust($benibana, $lightness: -5%)};
+	--c-benibana-700: #{color.adjust($benibana, $lightness: -10%)};
+	--c-benibana-800: #{color.adjust($benibana, $lightness: -15%)};
+	--c-benibana-900: #{color.adjust($benibana, $lightness: -20%)};
 	--c-cobalt: #{$cobalt};
+	--c-cobalt-100: #{color.adjust($cobalt, $lightness: 40%)};
+	--c-cobalt-200: #{color.adjust($cobalt, $lightness: 30%)};
+	--c-cobalt-300: #{color.adjust($cobalt, $lightness: 20%)};
+	--c-cobalt-400: #{color.adjust($cobalt, $lightness: 10%)};
+	--c-cobalt-500: #{$cobalt};
+	--c-cobalt-600: #{color.adjust($cobalt, $lightness: -10%)};
+	--c-cobalt-700: #{color.adjust($cobalt, $lightness: -20%)};
+	--c-cobalt-800: #{color.adjust($cobalt, $lightness: -30%)};
+	--c-cobalt-900: #{color.adjust($cobalt, $lightness: -40%)};
 	--c-cobalt-light: #{$cobalt-light};
 	--c-cinnabar: #{$cinnabar};
+	--c-cinnabar-100: #{color.adjust($cinnabar, $lightness: 40%)};
+	--c-cinnabar-200: #{color.adjust($cinnabar, $lightness: 30%)};
+	--c-cinnabar-300: #{color.adjust($cinnabar, $lightness: 20%)};
+	--c-cinnabar-400: #{color.adjust($cinnabar, $lightness: 10%)};
+	--c-cinnabar-500: #{$cinnabar};
+	--c-cinnabar-600: #{color.adjust($cinnabar, $lightness: -10%)};
+	--c-cinnabar-700: #{color.adjust($cinnabar, $lightness: -20%)};
+	--c-cinnabar-800: #{color.adjust($cinnabar, $lightness: -30%)};
+	--c-cinnabar-900: #{color.adjust($cinnabar, $lightness: -40%)};
 	--c-paper: #{$paper};
+	--c-paper-100: #{color.adjust($paper, $lightness: 4%)};
+	--c-paper-200: #{color.adjust($paper, $lightness: 3%)};
+	--c-paper-300: #{$paper};
+	--c-paper-400: #{color.adjust($paper, $lightness: -4%)};
+	--c-paper-500: #{color.adjust($paper, $lightness: -8%)};
+	--c-paper-600: #{color.adjust($paper, $lightness: -12%)};
+	--c-paper-700: #{color.adjust($paper, $lightness: -16%)};
+	--c-paper-800: #{color.adjust($paper, $lightness: -20%)};
+	--c-paper-900: #{color.adjust($paper, $lightness: -24%)};
 	--c-paynes: #{$paynes};
-	--c-mars: #{$mars};
+	--c-paynes-100: #{color.adjust($paynes, $lightness: 40%)};
+	--c-paynes-200: #{color.adjust($paynes, $lightness: 30%)};
+	--c-paynes-300: #{color.adjust($paynes, $lightness: 20%)};
+	--c-paynes-400: #{color.adjust($paynes, $lightness: 10%)};
+	--c-paynes-500: #{$paynes};
+	--c-paynes-600: #{color.adjust($paynes, $lightness: -10%)};
+	--c-paynes-700: #{color.adjust($paynes, $lightness: -20%)};
+	--c-paynes-800: #{color.adjust($paynes, $lightness: -30%)};
+	--c-paynes-900: #{color.adjust($paynes, $lightness: -40%)};
+	--c-violet: #{$violet};
+	--c-violet-100: #{color.adjust($violet, $lightness: 40%)};
+	--c-violet-200: #{color.adjust($violet, $lightness: 30%)};
+	--c-violet-300: #{color.adjust($violet, $lightness: 20%)};
+	--c-violet-400: #{color.adjust($violet, $lightness: 10%)};
+	--c-violet-500: #{$violet};
+	--c-violet-600: #{color.adjust($violet, $lightness: -10%)};
+	--c-violet-700: #{color.adjust($violet, $lightness: -20%)};
+	--c-violet-800: #{color.adjust($violet, $lightness: -30%)};
+	--c-violet-900: #{color.adjust($violet, $lightness: -40%)};
 	
 	// EXTENDED COLORS
 	--border-color: var(--c-cobalt);

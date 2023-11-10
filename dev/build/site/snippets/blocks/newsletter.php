@@ -2,16 +2,17 @@
     <?= $block->label()?>
 </h3>
 <form
-  action="https://buttondown.email/api/emails/embed-subscribe/nwongeditions"
+  action="https://buttondown.email/api/emails/embed-subscribe/weditions"
   method="post"
   class="embeddable-buttondown-form"
   id="buttondown"
-  onsubmit="formSubmit"
 >
 <div class="email">
+  <fieldset>
   <input type="email" name="email" id="bd-email" placeholder=" " class="empty" />
   <div class="cursor"></div>
   <input type="submit" value="Submit" />
+  </fieldset>
   <div class="bd-error"></div>
 </div>
 </form>

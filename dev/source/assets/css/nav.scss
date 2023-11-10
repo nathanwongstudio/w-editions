@@ -154,6 +154,13 @@ nav {
                 color: transparent;
                 text-shadow: 0 0 3.5px var(--c-paper);
 
+                &.active {
+                    // text-shadow: 0 0 0 var(--c-paper);
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+
                 &::before {
                     display:none;
                     visibility: none;

@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34510",
   "files" : {
+    "\/_notes.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/build\/_notes.txt",
+      "oF" : 0
+    },
     "\/build" : {
       "ft" : 65536,
       "oA" : 1,
@@ -111,6 +119,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/source\/assets\/css\/templates\/artists-collection.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/artists-collection.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/source\/assets\/css\/templates\/artists-profile.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/artists-profile.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/source\/assets\/css\/templates\/home.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -121,6 +159,21 @@
       "ma" : 1,
       "oA" : 0,
       "oAP" : "\/build\/assets\/css\/templates\/home.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/source\/assets\/css\/templates\/lab.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/lab.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -140,6 +193,28 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/source\/assets\/js\/main.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/js\/main.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/source\/assets\/js\/templates\/home.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 2,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/js\/templates\/home.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/source\/site\/accounts\/index.html" : {
       "cB" : 0,
@@ -173,6 +248,30 @@
       "oAP" : "\/build\/site\/accounts\/qrGTy6Sa\/user.txt",
       "oF" : 0
     },
+    "\/source\/site\/blueprints\/fields\/blocks.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/fields\/blocks.yml",
+      "oF" : 0
+    },
+    "\/source\/site\/blueprints\/fields\/fieldsets.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/fields\/fieldsets.yml",
+      "oF" : 0
+    },
+    "\/source\/site\/blueprints\/fields\/layout.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/fields\/layout.yml",
+      "oF" : 0
+    },
     "\/source\/site\/blueprints\/files\/video.yml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -181,12 +280,44 @@
       "oAP" : "\/build\/site\/blueprints\/files\/video.yml",
       "oF" : 0
     },
+    "\/source\/site\/blueprints\/pages\/artists-collection.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/pages\/artists-collection.yml",
+      "oF" : 0
+    },
+    "\/source\/site\/blueprints\/pages\/artists-profile.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/pages\/artists-profile.yml",
+      "oF" : 0
+    },
     "\/source\/site\/blueprints\/pages\/default.yml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/blueprints\/pages\/default.yml",
+      "oF" : 0
+    },
+    "\/source\/site\/blueprints\/pages\/gallery-artwork.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/pages\/gallery-artwork.yml",
+      "oF" : 0
+    },
+    "\/source\/site\/blueprints\/pages\/gallery-collection.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/pages\/gallery-collection.yml",
       "oF" : 0
     },
     "\/source\/site\/blueprints\/pages\/home.yml" : {
@@ -217,6 +348,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/config\/config.php",
+      "oF" : 0
+    },
+    "\/source\/site\/controllers\/artists-collection.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/controllers\/artists-collection.php",
+      "oF" : 0
+    },
+    "\/source\/site\/controllers\/artists-profile.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/controllers\/artists-profile.php",
       "oF" : 0
     },
     "\/source\/site\/sessions\/index.html" : {
@@ -267,6 +414,22 @@
       "oAP" : "\/build\/site\/snippets\/nav.php",
       "oF" : 0
     },
+    "\/source\/site\/templates\/artists-collection.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/artists-collection.php",
+      "oF" : 0
+    },
+    "\/source\/site\/templates\/artists-profile.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/artists-profile.php",
+      "oF" : 0
+    },
     "\/source\/site\/templates\/default.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -275,12 +438,28 @@
       "oAP" : "\/build\/site\/templates\/default.php",
       "oF" : 0
     },
+    "\/source\/site\/templates\/gallery-artwork.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/gallery-artwork.php",
+      "oF" : 0
+    },
     "\/source\/site\/templates\/home.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/templates\/home.php",
+      "oF" : 0
+    },
+    "\/source\/site\/templates\/lab.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/lab.php",
       "oF" : 0
     }
   },
@@ -296,7 +475,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-punDog",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 720914341.87661195
+    "lastBuiltDate" : 720923647.84296501
   },
   "projectSettings" : {
     "abortBuildOnError" : 0,
@@ -590,17 +769,17 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 1,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
-    "esLintECMAVersion" : 7,
+    "esLintECMAVersion" : 13,
     "esLintEnvironmentsMask" : 1,
     "esLintRules" : {
       "accessor-pairs" : {
@@ -1631,7 +1810,7 @@
     },
     "languageDefaultsJS" : {
       "autoOutputAction" : 0,
-      "autoOutputPathFilenamePattern" : "*-min.js",
+      "autoOutputPathFilenamePattern" : "*.js",
       "autoOutputPathRelativePath" : "\/min",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
