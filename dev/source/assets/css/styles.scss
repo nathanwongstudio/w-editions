@@ -62,8 +62,9 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--secondary-font-stack);
-    font-weight: 300;
-    line-height: 1;
+    font-weight: 800;
+
+    // line-height: 1;
 
     color:var(--c-paynes);
 }
@@ -80,12 +81,13 @@ a {
 
 blockquote {
     font-family: var(--secondary-font-stack);
-    line-height: 1;
+
+    line-height: var(--base-line-height);
 
     width: 100%;
     max-width: 18em;
 
-    margin:0 auto;
+    // margin:0 auto;
 
     footer {
         font-family: var(--primary-font-family);
@@ -115,6 +117,7 @@ picture {
     &.is-loading {
         &::after {
             position:absolute;
+            z-index: 1;
             top:0;
             left:0;
 
@@ -132,6 +135,9 @@ picture {
 }
 
 img {
+    position:relative;
+    z-index:2;
+
     width: auto;
     height: auto;
 
@@ -292,32 +298,29 @@ figure {
 .default-content {
     position: relative;
 
-
     section.grid {
-        --grid-width: 60rem;
-
         display: grid;
         grid-template-columns: repeat(12, 1fr);
 
         width:100%;
-        max-width: var(--grid-width);
+        max-width: 60em;
         margin: 0 auto;
 
         .column {
-            --span: 12;
             grid-column: span var(--span);
 
-            padding:var(--base-line-height) 0;
+            padding:var(--base-line-height);
 
             border-right:1px solid var(--border-color);
+
+            --span: 12;
             
             &:last-child {
                 border-right:none;
             }
         }
 
-        /* stylelint-disable-next-line media-feature-range-notation */
-        @media screen and (max-width:60rem) {
+        @media screen and (width <= 60rem) {
             display: block;
 
             .column {
@@ -329,13 +332,9 @@ figure {
 
 
                 margin: var(--base-line-height) 0 0;
-                padding:0  var(--base-line-height);
+                padding:0 var(--base-line-height);
 
                 border-right:0;
-
-                &.col-1-1 {
-                    padding:0;
-                }
 
                 &:last-child {
                     margin-bottom:  var(--base-line-height);
@@ -349,42 +348,24 @@ figure {
     }
 
 
-    .grid.single {
-        max-width: none;
-
-        & .block {
-            max-width: var(--grid-width);
-            margin: auto;
-
-            &.block-type-gallery {
-                max-width: 100%;
-            }
-        }
-    }
-
-
     .blocks {
         display:flex;
-        flex-wrap:wrap;
+        flex-flow: column nowrap;
         align-items: flex-start;
 
         height:100%;
 
         .block {
-            flex: 0 0 100%;
+            flex: 0 0 0%;
 
             box-sizing: border-box;
 
             width:100%;
-
-            padding: 0 var(--base-line-height);
+            max-width: 35rem;
+            margin: 0 auto;
 
             & + .block {
                 margin: var(--base-line-height) auto 0;
-            }
-
-            &.block-type-text, {
-                max-width: 40rem;
             }
     
             &.block-type-gallery {
@@ -395,6 +376,8 @@ figure {
         .block-type-image {
             flex-grow: 1;
             flex-shrink: 0;
+
+            text-align:center;
 
             &:only-child {
                 align-self: center;
@@ -413,34 +396,101 @@ figure {
             }
 
             figure {
+                display: inline-block;
+
+                margin: auto;
+
+                img {
+                    max-height: 80vh;
+                }
+
                 figcaption {
+                    width: 100%;
                     margin: calc(var(--base-line-height) / 4) 0 0;
                     padding:0;
+
+                    text-align:left;
                 }
             }
         }
     }
 
-
     .section-wrapper {
-        &.header {
-            padding-top: calc(var(--base-line-height) * 4);
+        &.layout-gallery {
+            width: 100%;
 
-            text-align:center;
+            section.grid {
+                max-width: none;
+
+                .column {
+                    padding:var(--base-line-height) 0;
+
+                    @media screen and (width <= 60em) {
+                        padding: 0;
+                    }
+                }
+
+                .block {
+                    box-sizing: content-box;
+
+                    @media screen and (width <= 60em) {
+                        box-sizing: border-box;
+                        max-width: none;
+                        padding: 0 var(--base-line-height);
+                    }
+                }
+
+                .block-type-gallery {
+                    max-width:100%;
+                    padding:0;
+                }
+            }
+        }
+
+        &.header {
+            // padding-top: calc(var(--base-line-height) * 4);
+
+            // text-align:center;
+            padding-bottom: calc(var(--base-line-height) * 3);
+
+            section.grid {
+                max-width: 80em;
+            }
+
+            .blocks {
+                width: 100%;
+
+                max-width: none;
+                margin: auto;
+            }
             
             & .block {
-                margin:auto;
+                width: 100%;
+                max-width: none;
+
+                &.block-type-text {
+                    max-width: 40em;
+                    margin-left:0;
+                }
+
+                &.block-type-heading {
+                    text-wrap: balance;
+
+                    h1, h2, h3, h4, h5, h6 {
+                        font-size: 4em;
+                        line-height: 1.125;
+    
+                        color: transparent;
+                        text-shadow: 0 0 0.04em var(--c-paynes-300);
+                    }
+                }
 
                 &.full-image-block {
-                    text-align: center;
+                    // text-align: center;
     
                     figure {
                         max-width: 30em;
                         margin: auto;
-                    }
-    
-                    & + .block-type-heading {
-                        text-align:center;
                     }
                 }
             }
@@ -454,28 +504,25 @@ figure {
             margin:0;
         }
     }
-
-    h1, h2, h3, h4 {
-        &:only-child {
-            margin:0;
-            margin-bottom: var(--base-line-height);
-        }
-    }
-
-    h5, h6 {
-        &:only-child {
-            margin:0;
-        }
-    }
 }
 
 // galleries
+
+.gallery-scroll {
+    overflow: auto hidden;
+
+    max-width: 100%;
+}
 
 .gallery,
 .block-type-gallery {
     --gallery-height: calc(var(--base-line-height) * 15);
     padding:0;
     padding-bottom: calc(var(--base-line-height));
+
+    @media screen and (width <= 50em) {
+        --gallery-height: calc(var(--base-line-height) * 10);
+    }
 
     figure {
         left:0;
@@ -504,7 +551,7 @@ figure {
             padding:0;
 
             padding-bottom:var(--base-line-height);
-            gap: 1em;
+            gap: var(--base-line-height);
 
             li {
                 position:relative;
@@ -561,6 +608,8 @@ figure {
 
 .ticker {
     --duration: 20s;
+    --ticker-font-size: 1.33rem;
+    --ticker-size: 1.75rem;
 
     @keyframes ticker {
       0% {
@@ -586,7 +635,7 @@ figure {
       }
     }
 
-    @media screen and (max-width:60rem) {
+    @media screen and (width <= 60rem) {
         section.grid .column,
         section.grid .column:last-child {
             display:block;
@@ -603,8 +652,6 @@ figure {
         max-width:none;
 
         .column {
-            --ticker-size: var(--up-2);
-
             overflow: hidden;
         
             box-sizing: content-box;
@@ -633,7 +680,7 @@ figure {
 
                 & * {
                     font-family: var(--primary-font-family);
-                    font-size: var(--up-2);
+                    font-size: var(--ticker-font-size);
                     font-weight: bold;
 
                     line-height: var(--ticker-size);
@@ -656,7 +703,7 @@ figure {
                     // margin:0 var(--base-line-height);
 
                     &::after {
-                        font-size: var(--up-3);
+                        font-size: var(--ticker-size);
 
                         margin: 0 var(--base-line-height);
                         margin-top:2px;

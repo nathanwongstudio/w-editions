@@ -5,10 +5,14 @@ $font-family: (aktiv-grotesk, sans-serif),
 $font-mono: (courier new, courier, mono),
 
 // Base ratios
-$typescale: 1.3333,
+$typescale: 1,
 
 // Base Font for HTML
 $base-font-size: 20px,
+$base-line-height: 1.5,
+
+// Header Styles
+$header-line-height: 1.5,
 
 // Paragraph Styles
 $paragraph-size: 1rem,
@@ -29,5 +33,9 @@ $font-weight-bold: 700,
     --base-line-height: 30px;
 
     // fonts
-    --secondary-font-stack: 'matrix-ii', serif;
+    --secondary-font-stack: var(--primary-font-family);
+}
+
+html, body {
+    font-size: var(--base-font-size);
 }

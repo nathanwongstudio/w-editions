@@ -106,7 +106,7 @@
 	transition: none !important;
 	animation: none !important;
 }
-
 </style>
+
 <?= $site->customAnalytics() ?>
 </html>

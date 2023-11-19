@@ -3,6 +3,7 @@
 
 :root {
     --shadow-color:rgb(255 207 249);
+    --base-font-size: 60px;
 }
 
 html,body {
@@ -45,9 +46,18 @@ body {
 
 .home {
     h1, h2, h3, h4, h5, h6 {
-        @extend %white-text;
         font-family: var(--primary-font-stack);
+        font-size: var(--base-font-size);
         font-weight: 900;
+
+        max-width: 70vw;
+        margin: auto;
+
+        @extend %white-text;
+    }
+
+    h1 {
+        font-size: 2em;
     }
 }
 
@@ -85,7 +95,7 @@ section {
         line-height: 1.5em;
 
         margin:0;
-        padding: 5em;
+        padding: 1em;
 
         text-align: center;
 
@@ -97,6 +107,8 @@ section {
         -webkit-text-stroke-width: 0;
 
         a {
+            word-break: break-word;
+
             color: inherit;
 
             &:hover {
@@ -136,7 +148,7 @@ section {
             .email {
                 position:relative;
 
-                width:90%;
+                width:100%;
                 margin:auto;
                 margin-top:2rem;
 
@@ -189,7 +201,7 @@ section {
             }
 
             input[type="email"] {
-                font-size: 3.8416rem;
+                font-size: 1em;
                 font-weight:bold;
 
                 position:relative;
@@ -200,7 +212,7 @@ section {
 
                 width:100%;
                 margin:auto;
-                padding:2rem 4em 2rem 1rem;
+                padding:1em 4em 1em 0.5em;
 
                 transition:100ms ease;
 
@@ -229,9 +241,9 @@ section {
 
                 & + .cursor {
                     position:absolute;
-                    top:1rem;
-                    bottom:1rem;
-                    left:1rem;
+                    top:0.5em;
+                    bottom:0.5em;
+                    left:0.5em;
 
                     width: 3px;
 
@@ -261,7 +273,7 @@ section {
 
             input[type="submit"] {
                 font-family: inherit;
-                font-size: 3.8416rem;
+                font-size: 1em;
                 font-weight: 700;
 
                 position:absolute;
@@ -271,7 +283,7 @@ section {
 
                 display:block;
 
-                padding:2rem 1rem;
+                padding:1em 0.5em;
 
                 cursor: pointer;
 
@@ -286,7 +298,7 @@ section {
     &.block-type-text {
         height: auto;
         min-height:0;
-        padding: 5em 0;
+        padding: 2em 0;
 
         background: color.adjust(v.$paper, $alpha:-0.6);
         

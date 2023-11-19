@@ -67,6 +67,7 @@
 
 :root {
   --shadow-color:rgb(255 207 249);
+  --base-font-size: 60px;
 }
 
 html, body {
@@ -100,7 +101,13 @@ section.block-type-newsletter form input[type=email]:focus ~ input, section.bloc
 
 .home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
   font-family: var(--primary-font-stack);
+  font-size: var(--base-font-size);
   font-weight: 900;
+  max-width: 70vw;
+  margin: auto;
+}
+.home h1 {
+  font-size: 2em;
 }
 
 video {
@@ -130,7 +137,7 @@ section.block-type-heading, section.block-type-newsletter {
   font-weight: bold;
   line-height: 1.5em;
   margin: 0;
-  padding: 5em;
+  padding: 1em;
   text-align: center;
   color: transparent;
   -webkit-text-fill-color: transparent;
@@ -138,6 +145,7 @@ section.block-type-heading, section.block-type-newsletter {
   -webkit-text-stroke-width: 0;
 }
 section.block-type-heading a, section.block-type-newsletter a {
+  word-break: break-word;
   color: inherit;
 }
 section.block-type-heading a:hover, section.block-type-newsletter a:hover {
@@ -166,7 +174,7 @@ section.block-type-newsletter form .message.success {
 }
 section.block-type-newsletter form .email {
   position: relative;
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 2rem;
   background: black;
@@ -198,14 +206,14 @@ section.block-type-newsletter form input {
   background: transparent;
 }
 section.block-type-newsletter form input[type=email] {
-  font-size: 3.8416rem;
+  font-size: 1em;
   font-weight: bold;
   position: relative;
   display: block;
   box-sizing: border-box;
   width: 100%;
   margin: auto;
-  padding: 2rem 4em 2rem 1rem;
+  padding: 1em 4em 1em 0.5em;
   transition: 100ms ease;
   border: 1px solid;
   outline: none;
@@ -229,9 +237,9 @@ section.block-type-newsletter form input[type=email]:focus ~ input, section.bloc
 }
 section.block-type-newsletter form input[type=email] + .cursor {
   position: absolute;
-  top: 1rem;
-  bottom: 1rem;
-  left: 1rem;
+  top: 0.5em;
+  bottom: 0.5em;
+  left: 0.5em;
   width: 3px;
   content: " ";
   opacity: 0;
@@ -264,14 +272,14 @@ section.block-type-newsletter form input[type=email]:placeholder-shown + .cursor
 }
 section.block-type-newsletter form input[type=submit] {
   font-family: inherit;
-  font-size: 3.8416rem;
+  font-size: 1em;
   font-weight: 700;
   position: absolute;
   z-index: 99;
   top: 0;
   right: 0;
   display: block;
-  padding: 2rem 1rem;
+  padding: 1em 0.5em;
   cursor: pointer;
   border: none;
   background: transparent;
@@ -279,7 +287,7 @@ section.block-type-newsletter form input[type=submit] {
 section.block-type-text {
   height: auto;
   min-height: 0;
-  padding: 5em 0;
+  padding: 2em 0;
   background: rgba(246, 240, 230, 0.4);
   mix-blend-mode: normal;
   -webkit-backdrop-filter: blur(10px);
