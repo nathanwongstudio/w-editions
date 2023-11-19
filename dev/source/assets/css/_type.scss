@@ -5,7 +5,7 @@ $font-family: (aktiv-grotesk, sans-serif),
 $font-mono: (courier new, courier, mono),
 
 // Base ratios
-$typescale: 1.4,
+$typescale: 1.3333,
 
 // Base Font for HTML
 $base-font-size: 20px,
@@ -23,3 +23,11 @@ $font-weight-bold: 700,
 
 );
 @forward "nw-type";
+
+:root {
+    --em-line-height: 1.5em;
+    --base-line-height: 30px;
+
+    // fonts
+    --secondary-font-stack: 'matrix-ii', serif;
+}

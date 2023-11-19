@@ -62,7 +62,6 @@
   --c-violet-900: black;
   --border-color: var(--c-cobalt);
   --text-color: var(--c-cobalt);
-  --secondary-font-stack: "matrix-ii", serif;
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
@@ -115,7 +114,7 @@ nav {
   padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
   transition: 250ms ease;
   transition-property: background-color;
-  background: var(--c-paper);
+  background-color: var(--c-paper);
 }
 nav a {
   text-decoration: none;
@@ -144,25 +143,27 @@ nav > .menu {
 }
 nav > .menu::after {
   position: absolute;
-  z-index: 99;
-  top: -2px;
+  z-index: 2;
+  top: var(--nav-top);
   left: 0;
   width: 100%;
-  height: var(--nav-top);
+  height: 2px;
   content: " ";
-  transition: 1ms ease;
-  transition-property: box-shadow;
-  background-color: var(--c-paynes);
-  box-shadow: 0 0 0 var(--c-paynes);
+  transition: 250ms ease;
+  transition-property: box-shadow, background-color;
+  background-color: var(--c-paper);
+  box-shadow: 0 0 0 var(--c-paper);
 }
 nav > .menu ul.menu-items {
   font-size: var(--up-3);
   font-weight: bold;
+  z-index: 1;
   overflow-y: scroll;
   box-sizing: border-box;
   height: calc(100vh - var(--nav-height));
   margin: 0;
-  padding: var(--nav-top) var(--base-line-height);
+  margin-top: var(--nav-top);
+  padding: 0 var(--base-line-height) var(--nav-top);
   text-align: center;
   word-spacing: 1em;
 }
@@ -250,6 +251,8 @@ nav #x:checked::before {
   transition: 250ms ease;
 }
 nav.is-open {
+  transition: 250ms ease;
+  transition-property: background-color;
   color: var(--c-paper);
   background-color: var(--c-paynes);
 }
@@ -299,9 +302,9 @@ nav.is-open > .menu {
   background-color: var(--c-paynes);
 }
 nav.is-open > .menu::after {
-  transition: 2ms ease;
-  transition-delay: 250ms;
-  transition-property: box-shadow;
+  transition: 250ms ease;
+  transition-property: box-shadow, background-color;
+  background-color: var(--c-paynes);
   box-shadow: 0 0 10px 10px var(--c-paynes);
 }
 

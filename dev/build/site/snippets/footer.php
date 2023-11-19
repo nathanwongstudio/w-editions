@@ -97,6 +97,9 @@
 
 </script>
 
+
+<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js" defer></script>
+
 <style>
 
 .resize-animation-stopper * {

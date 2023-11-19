@@ -22,7 +22,7 @@
         a {
             width:100%;
             height: 100%;
-            padding: calc(var(--base-line-height) / 2) calc(var(--base-line-height) * 2);
+            padding: calc(var(--base-line-height) / 2) var(--base-line-height);
 
             text-decoration:none;
 

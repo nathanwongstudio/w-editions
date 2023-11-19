@@ -62,7 +62,6 @@
   --c-violet-900: black;
   --border-color: var(--c-cobalt);
   --text-color: var(--c-cobalt);
-  --secondary-font-stack: "matrix-ii", serif;
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
@@ -83,7 +82,7 @@
 .collection li a {
   width: 100%;
   height: 100%;
-  padding: calc(var(--base-line-height) / 2) calc(var(--base-line-height) * 2);
+  padding: calc(var(--base-line-height) / 2) var(--base-line-height);
   text-decoration: none;
   color: inherit;
 }

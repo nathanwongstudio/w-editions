@@ -46,6 +46,7 @@ body {
 .home {
     h1, h2, h3, h4, h5, h6 {
         @extend %white-text;
+        font-family: var(--primary-font-stack);
         font-weight: 900;
     }
 }

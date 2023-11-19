@@ -28,6 +28,9 @@
 }
 
 .chart {
+    width: 98%;
+    margin:auto;
+
     .row {
         display:grid;
         grid-template-columns: 2fr repeat(9, 1fr);

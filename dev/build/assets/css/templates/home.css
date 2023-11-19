@@ -62,7 +62,6 @@
   --c-violet-900: black;
   --border-color: var(--c-cobalt);
   --text-color: var(--c-cobalt);
-  --secondary-font-stack: "matrix-ii", serif;
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
@@ -100,6 +99,7 @@ section.block-type-newsletter form input[type=email]:focus ~ input, section.bloc
 }
 
 .home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
+  font-family: var(--primary-font-stack);
   font-weight: 900;
 }
 

@@ -62,7 +62,7 @@ nav {
     transition-property: background-color;
 
     // border-bottom:1px solid var(--border-color);
-    background: var(--c-paper);
+    background-color: var(--c-paper);
 
     a {
         text-decoration: none;
@@ -100,25 +100,27 @@ nav {
 
         &::after {
             position:absolute;
-            z-index:99;
-            top:-2px;
+            z-index:2;
+            top:var(--nav-top);
             left:0;
 
             width:100%;
-            height:var(--nav-top);
+            height:2px;
 
             content:' ';
-            transition:1ms ease;
-            transition-property: box-shadow;
+            transition:250ms ease;
+            transition-property: box-shadow, background-color;
 
-            background-color:  var(--c-paynes);
+            background-color:  var(--c-paper);
 
-            box-shadow: 0 0 0  var(--c-paynes);
+            box-shadow: 0 0 0  var(--c-paper);
         }
 
         ul.menu-items {
             font-size: var(--up-3);
             font-weight:bold;
+
+            z-index:1;
 
             overflow-y: scroll;
 
@@ -126,7 +128,8 @@ nav {
 
             height: calc(100vh - var(--nav-height));
             margin:0;
-            padding:var(--nav-top) var(--base-line-height);
+            margin-top: var(--nav-top);
+            padding:0 var(--base-line-height) var(--nav-top);
 
             text-align:center;
 
@@ -251,6 +254,9 @@ nav {
     }
 
     &.is-open {
+        transition: 250ms ease;
+        transition-property: background-color;
+
         color: var(--c-paper);
         background-color: var(--c-paynes);
 
@@ -315,9 +321,10 @@ nav {
             background-color: var(--c-paynes);
 
             &::after {
-                transition:2ms ease;
-                transition-delay:250ms;
-                transition-property: box-shadow;
+                transition:250ms ease;
+                transition-property: box-shadow, background-color;
+
+                background-color:  var(--c-paynes);
 
                 box-shadow: 0 0 10px 10px  var(--c-paynes);
             }

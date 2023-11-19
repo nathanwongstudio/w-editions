@@ -1,14 +1,27 @@
 .default-content h1, .default-content h2, .default-content h3, .default-content h4, .default-content h5, .default-content h6 {
   text-align: center;
 }
-.default-content .artist-name {
-  padding-top: 50vh;
+.default-content .profile {
+  padding-top: calc(3 * var(--base-line-height));
+}
+.default-content .profilepic {
+  width: 100%;
+  height: 66vh;
+  margin-bottom: calc(2 * var(--base-line-height));
+}
+.default-content .profilepic img {
+  display: block;
+  width: auto;
+  height: 100%;
+  margin: auto;
 }
 .default-content section.container {
   padding: var(--base-line-height);
   border-bottom: 1px solid;
 }
 .default-content section.container.gallery {
+  position: relative;
+  height: auto;
   padding-right: 0;
   padding-left: 0;
 }
@@ -22,34 +35,39 @@
   width: 100%;
 }
 .default-content .artworks {
-  display: flex;
-  overflow: auto;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
+  position: relative;
   margin-top: var(--base-line-height);
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
-}
-.default-content .artworks .art {
-  display: flex;
-  flex-shrink: 0;
-  align-items: center;
-  max-width: 15em;
-  margin: 0 calc(var(--base-line-height) / 2);
-}
-.default-content .artworks.empty {
-  justify-content: center;
 }
 .default-content .artworks .nothing {
   font-size: var(--up-2);
-  font-weight: 700;
-  line-height: 1;
-  flex-shrink: 1;
-  align-self: center;
-  padding: var(--base-line-height);
+  margin: var(--base-line-height) 0;
   text-align: center;
-  color: var(--c-paper-500);
+  color: var(--c-paynes-200);
+}
+.default-content .artworks .gallery-items li {
+  --text-area-height:1.5 * var(--base-line-height);
+}
+.default-content .artworks .gallery-items li .art-image {
+  position: relative;
+  height: calc(100% - var(--text-area-height));
+}
+.default-content .artworks .gallery-items li .art-image a {
+  height: 100%;
+}
+.default-content .artworks .gallery-items li .art-title {
+  height: calc(var(--text-area-height));
+  margin-top: calc(var(--text-area-height) - var(--base-line-height));
+}
+.default-content .artworks .gallery-items li .art-title a {
+  font-weight: bold;
+  transition: text-shadow 200ms ease-out;
+  text-decoration: none;
+  color: transparent;
+  text-shadow: 0 0 0 var(--c-cobalt);
+}
+.default-content .artworks .gallery-items li .art-title a:hover {
+  transition: text-shadow 200ms ease-out;
+  text-shadow: 0 0 3px var(--c-cobalt);
 }
 
 /*# sourceMappingURL=artists-profile.css.map */

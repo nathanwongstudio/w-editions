@@ -1,6 +1,13 @@
 <?php snippet('header') ?>
 <div class="default-content">
     <section class="profile">
+        <?php if($page->profilepic()->isNotEmpty()): 
+            $src = $page->profilepic()->toFile();
+            $figure = false; ?>
+            <div class="profilepic">
+                <?= snippet('images', compact('src', 'figure')); ?>
+            </div>
+        <?php endif; ?>
         <h1 class="artist-name"><?= $page->title() ?></h1>
 
         <?php if($page->bio()->isNotEmpty()): ?>
@@ -12,23 +19,33 @@
         <?php endif; ?>
         <section class="container gallery">
             <div class="editions">
-                <h4>w/ <?= $page->title() ?></h4>
                 <?php if($artworks->isNotEmpty()): ?>
-                    <div class="artworks">
-                        <?php foreach($artworks as $art): ?>
-                            <div class="art">
-                                <div class="flex-content">
-                                    <a href="<?=$art->url()?>">
-                                        <?= $art->primaryImg()->toFile() ?>
-                                        <?= $art->title(); ?>
-                                    </a>
-                                </div>
-                            </div>
-                        <?php endforeach ?>
-                    </div>
+                    <figure class="artworks">
+                        <div id="gallery-scroll" data-simplebar data-simplebar-auto-hide="false">
+                            <ul class="gallery-items">
+                                <?php foreach($artworks as $art): 
+                                    $src = $art->primaryImg()->toFile();
+                                    $figure = false;
+                                    ?>
+                                    <li class="gallery-item">
+                                        <div class="art-image">
+                                            <a href="<?= $art->url() ?>" class="image-link">
+                                                <?= snippet('images', compact('src', 'figure')) ?>
+                                            </a>
+                                        </div>
+                                        <div class="art-title">
+                                            <a href="<?= $art->url() ?>">
+                                                <?= $art->title(); ?>
+                                            </a>
+                                        </div>
+                                    </li>
+                                <?php endforeach ?>
+                            </ul>
+                        </div>
+                    </figure>
                 <?php else: ?>
                     <div class="artworks empty">
-                        <p class="nothing">There are no collaborations with <?= $page->title() ?> yet.</p>
+                        <p class="nothing">There are no collaborations yet.</p>
                     </div>
                 <?php endif; ?>
             </div>

@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "getkirby/cms": "3.9.6.1",
-        "stripe/stripe-php": "^10.19"
+        "stripe/stripe-php": "^10.19",
+        "paulmorel/fathom-analytics": "^1.0"
     },
     "license": "UNLICENSED",
     "authors": [
