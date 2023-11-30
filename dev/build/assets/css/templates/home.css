@@ -84,17 +84,17 @@ body {
   image-rendering: pixelated;
 }
 
-section.block-type-newsletter form input[type=submit], section.block-type-heading, section.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
+.block.block-type-newsletter form input[type=submit], .block.block-type-heading, .block.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
 
-section.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input, section.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
+.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
 
-section.block-type-newsletter form input[type=email]:focus ~ input, section.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input, section.block-type-newsletter form input[type=email]:focus, section.block-type-newsletter form input[type=email]:not(:placeholder-shown), section.block-type-newsletter form .email:hover input {
+.block.block-type-newsletter form input[type=email]:focus ~ input, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown), .block.block-type-newsletter form .email:hover input {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
@@ -120,7 +120,35 @@ video {
      object-fit: cover;
 }
 
-section {
+.section-wrapper {
+  position: relative;
+  z-index: 1;
+  border: none;
+  background: black;
+  mix-blend-mode: multiply;
+}
+.section-wrapper.ticker {
+  mix-blend-mode: normal;
+  z-index: 9;
+  box-shadow: 0 0 15px 15px var(--c-cobalt-800);
+}
+.section-wrapper.ticker section {
+  height: auto;
+  min-height: 0;
+}
+.section-wrapper.ticker section.grid .column {
+  color: transparent;
+  background: var(--c-cobalt-800);
+}
+.section-wrapper.ticker section.grid .column .blocks * {
+  font-size: 1rem;
+  text-shadow: 0 0 3px var(--c-paper);
+}
+.section-wrapper.ticker section.grid .column .blocks .block::after {
+  text-shadow: 0 0 8px var(--c-paper);
+}
+
+.block {
   position: relative;
   z-index: 9;
   display: grid;
@@ -130,10 +158,9 @@ section {
   box-sizing: border-box;
   width: 100%;
   min-height: 100vh;
-  background: black;
-  mix-blend-mode: multiply;
+  border: none;
 }
-section.block-type-heading, section.block-type-newsletter {
+.block.block-type-heading, .block.block-type-newsletter {
   font-weight: bold;
   line-height: 1.5em;
   margin: 0;
@@ -144,26 +171,26 @@ section.block-type-heading, section.block-type-newsletter {
   -webkit-text-stroke-color: transparent;
   -webkit-text-stroke-width: 0;
 }
-section.block-type-heading a, section.block-type-newsletter a {
+.block.block-type-heading a, .block.block-type-newsletter a {
   word-break: break-word;
   color: inherit;
 }
-section.block-type-heading a:hover, section.block-type-newsletter a:hover {
+.block.block-type-heading a:hover, .block.block-type-newsletter a:hover {
   color: inherit;
 }
-section.block-type-newsletter form {
+.block.block-type-newsletter form {
   position: relative;
 }
-section.block-type-newsletter form input[type=email].empty:focus + .cursor, section.block-type-newsletter form .email:hover input[type=email].empty + .cursor {
+.block.block-type-newsletter form input[type=email].empty:focus + .cursor, .block.block-type-newsletter form .email:hover input[type=email].empty + .cursor {
   background: black;
   box-shadow: 0 0 3px 3px black;
 }
-section.block-type-newsletter form .message {
+.block.block-type-newsletter form .message {
   font-size: var(--up-2);
   margin-top: var(--base-line-height);
   padding: var(--base-line-height) 0;
 }
-section.block-type-newsletter form .message.success {
+.block.block-type-newsletter form .message .success {
   position: absolute;
   top: 0;
   right: 0;
@@ -172,7 +199,7 @@ section.block-type-newsletter form .message.success {
   place-content: center;
   margin: 0;
 }
-section.block-type-newsletter form .email {
+.block.block-type-newsletter form .email {
   position: relative;
   width: 100%;
   margin: auto;
@@ -180,15 +207,15 @@ section.block-type-newsletter form .email {
   background: black;
   box-shadow: 0 0 0 black;
 }
-section.block-type-newsletter form .email:hover {
+.block.block-type-newsletter form .email:hover {
   transition: 100ms ease;
   background: var(--shadow-color);
 }
-section.block-type-newsletter form .email:hover input[type=email] {
+.block.block-type-newsletter form .email:hover input[type=email] {
   transition: 100ms ease;
   box-shadow: 0 0 20px 20px var(--shadow-color);
 }
-section.block-type-newsletter form fieldset {
+.block.block-type-newsletter form fieldset {
   margin: 0;
   padding: 0;
   transition: opacity 200ms ease-out;
@@ -198,14 +225,14 @@ section.block-type-newsletter form fieldset {
      -moz-appearance: none;
           appearance: none;
 }
-section.block-type-newsletter form fieldset.disabled {
+.block.block-type-newsletter form fieldset.disabled {
   transition: opacity 200ms ease-out;
   opacity: 0;
 }
-section.block-type-newsletter form input {
+.block.block-type-newsletter form input {
   background: transparent;
 }
-section.block-type-newsletter form input[type=email] {
+.block.block-type-newsletter form input[type=email] {
   font-size: 1em;
   font-weight: bold;
   position: relative;
@@ -218,24 +245,24 @@ section.block-type-newsletter form input[type=email] {
   border: 1px solid;
   outline: none;
 }
-section.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
+.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
   -moz-transition: 100ms ease;
   transition: 100ms ease;
   background: var(--shadow-color);
   box-shadow: 0 0 20px 20px var(--shadow-color);
 }
-section.block-type-newsletter form input[type=email]:focus, section.block-type-newsletter form input[type=email]:not(:placeholder-shown) {
+.block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) {
   transition: 100ms ease;
   background: var(--shadow-color);
   box-shadow: 0 0 20px 20px var(--shadow-color);
 }
-section.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input {
+.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input {
   background: var(--shadow-color);
 }
-section.block-type-newsletter form input[type=email]:focus ~ input, section.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input {
+.block.block-type-newsletter form input[type=email]:focus ~ input, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input {
   background: var(--shadow-color);
 }
-section.block-type-newsletter form input[type=email] + .cursor {
+.block.block-type-newsletter form input[type=email] + .cursor {
   position: absolute;
   top: 0.5em;
   bottom: 0.5em;
@@ -247,20 +274,11 @@ section.block-type-newsletter form input[type=email] + .cursor {
   background: var(--shadow-color);
   box-shadow: 0 0 3px 3px var(--shadow-color);
 }
-section.block-type-newsletter form input[type=email]:-moz-placeholder-shown + .cursor {
+.block.block-type-newsletter form input[type=email]:-moz-placeholder-shown + .cursor {
   animation: 0.5s infinite alternate cursor;
 }
-section.block-type-newsletter form input[type=email]:placeholder-shown + .cursor {
-  -webkit-animation: 0.5s infinite alternate cursor;
-          animation: 0.5s infinite alternate cursor;
-}
-@-webkit-keyframes cursor {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.block.block-type-newsletter form input[type=email]:placeholder-shown + .cursor {
+  animation: 0.5s infinite alternate cursor;
 }
 @keyframes cursor {
   from {
@@ -270,7 +288,7 @@ section.block-type-newsletter form input[type=email]:placeholder-shown + .cursor
     opacity: 1;
   }
 }
-section.block-type-newsletter form input[type=submit] {
+.block.block-type-newsletter form input[type=submit] {
   font-family: inherit;
   font-size: 1em;
   font-weight: 700;
@@ -284,24 +302,10 @@ section.block-type-newsletter form input[type=submit] {
   border: none;
   background: transparent;
 }
-section.block-type-text {
-  height: auto;
-  min-height: 0;
-  padding: 2em 0;
-  background: rgba(246, 240, 230, 0.4);
-  mix-blend-mode: normal;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+.block.block-type-text {
+  background: transparent;
 }
-section.block-type-text > .content {
-  box-sizing: border-box;
-  width: 75%;
-  max-width: 35rem;
-  margin: auto;
-  -webkit-transform: skewX(-10deg);
-          transform: skewX(-10deg);
-}
-section h1, section h2, section h3, section h4, section h5, section h6 {
+.block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
   line-height: 1.25em;
   text-transform: none !important;
 }

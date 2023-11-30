@@ -8,6 +8,4 @@ columns:
         type: fields
         fields:
           text:
-            type: layout
-            size: huge
             extends: fields/layout

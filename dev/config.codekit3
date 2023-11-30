@@ -382,6 +382,14 @@
       "oAP" : "\/build\/site\/snippets\/blocks\/gallery.php",
       "oF" : 0
     },
+    "\/source\/site\/snippets\/blocks\/heading.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/snippets\/blocks\/heading.php",
+      "oF" : 0
+    },
     "\/source\/site\/snippets\/blocks\/image.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -396,6 +404,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/snippets\/blocks\/newsletter.php",
+      "oF" : 0
+    },
+    "\/source\/site\/snippets\/blocks\/text.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/snippets\/blocks\/text.php",
       "oF" : 0
     },
     "\/source\/site\/snippets\/footer.php" : {
