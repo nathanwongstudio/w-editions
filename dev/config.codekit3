@@ -127,7 +127,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/build\/assets\/css\/templates\/artists-collection.css",
       "oF" : 0,
       "oS" : 0,
@@ -144,6 +144,36 @@
       "ma" : 1,
       "oA" : 0,
       "oAP" : "\/build\/assets\/css\/templates\/artists-profile.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/source\/assets\/css\/templates\/gallery-artwork.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/gallery-artwork.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/source\/assets\/css\/templates\/gallery-collection.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/gallery-collection.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -174,6 +204,36 @@
       "ma" : 1,
       "oA" : 0,
       "oAP" : "\/build\/assets\/css\/templates\/lab.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/source\/assets\/css\/templates\/locked-pages-login.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/locked-pages-login.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/source\/assets\/css\/templates\/resources.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/resources.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -328,6 +388,14 @@
       "oAP" : "\/build\/site\/blueprints\/pages\/home.yml",
       "oF" : 0
     },
+    "\/source\/site\/blueprints\/pages\/resources.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/blueprints\/pages\/resources.yml",
+      "oF" : 0
+    },
     "\/source\/site\/blueprints\/site.yml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -364,6 +432,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/controllers\/artists-profile.php",
+      "oF" : 0
+    },
+    "\/source\/site\/controllers\/gallery-artwork.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/controllers\/gallery-artwork.php",
       "oF" : 0
     },
     "\/source\/site\/sessions\/index.html" : {
@@ -494,6 +570,14 @@
       "oAP" : "\/build\/site\/templates\/gallery-artwork.php",
       "oF" : 0
     },
+    "\/source\/site\/templates\/gallery-collection.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/gallery-collection.php",
+      "oF" : 0
+    },
     "\/source\/site\/templates\/home.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -508,6 +592,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/templates\/lab.php",
+      "oF" : 0
+    },
+    "\/source\/site\/templates\/locked-pages-login.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/locked-pages-login.php",
+      "oF" : 0
+    },
+    "\/source\/site\/templates\/resources.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/resources.php",
       "oF" : 0
     }
   },

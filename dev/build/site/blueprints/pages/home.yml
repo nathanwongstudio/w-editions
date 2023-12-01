@@ -1,35 +1,30 @@
 title: Home Page
 
-columns:
-  main:
-    width: 3/4
-    sections:
-      fields:
-        type: fields
-        fields:
-          text:
-            extends: fields/layout
-            fieldsets:
-              extras:
-                label: Extras
-                type: group
-                open: false
+tabs:
+  content:
+    columns:
+      main:
+        width: 1
+        sections:
+          fields:
+            type: fields
+            fields:
+              text:
+                extends: fields/layout
                 fieldsets:
-                  newsletter:
-                    fields:
-                      label:
-                        label: label
-                        type: text
-  side:
-    width: 1/4
-    sections:
-      sidebar:
-        type: fields
+                  extras:
+                    label: Extras
+                    type: group
+                    open: false
+                    fieldsets:
+                      newsletter:
+                        fields:
+                          label:
+                            label: label
+                            type: text
+  security:
+    icon: lock
+    columns:
+      - width: 1/3
         fields:
-          bgvid:
-            type: files
-            label: Background Video
-            multiple: false
-            uploads:
-              template: video
-
+          pageProtect: fields/locked-pages

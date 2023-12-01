@@ -37,6 +37,18 @@
     navigation();
 </script>
 <script>
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+    }
+
+    const rotation = getRandomInt(-45, 46);
+
+    var heading = document.querySelector('.header .block-type-heading h1');
+    heading.style.setProperty('--rotation', rotation + 'deg');
+
     document.addEventListener("DOMContentLoaded", function() { // LAZY LOADING JAVASCRIPT
         var lazyImages = document.querySelectorAll('img[loading=lazy]'),
             notLazy = document.querySelectorAll('img:not([loading=lazy])');
