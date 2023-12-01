@@ -521,6 +521,90 @@
   content: "900";
   text-align: center;
 }
+.chart .row.gold .color {
+  background-color: var(--c-gold);
+}
+.chart .row.gold .color.c-100 {
+  background-color: var(--c-gold-100);
+}
+.chart .row.gold .color.c-100::after {
+  display: inline-block;
+  width: 100%;
+  content: "100";
+  text-align: center;
+}
+.chart .row.gold .color.c-200 {
+  background-color: var(--c-gold-200);
+}
+.chart .row.gold .color.c-200::after {
+  display: inline-block;
+  width: 100%;
+  content: "200";
+  text-align: center;
+}
+.chart .row.gold .color.c-300 {
+  background-color: var(--c-gold-300);
+}
+.chart .row.gold .color.c-300::after {
+  display: inline-block;
+  width: 100%;
+  content: "300";
+  text-align: center;
+}
+.chart .row.gold .color.c-400 {
+  background-color: var(--c-gold-400);
+}
+.chart .row.gold .color.c-400::after {
+  display: inline-block;
+  width: 100%;
+  content: "400";
+  text-align: center;
+}
+.chart .row.gold .color.c-500 {
+  background-color: var(--c-gold-500);
+}
+.chart .row.gold .color.c-500::after {
+  display: inline-block;
+  width: 100%;
+  content: "500";
+  text-align: center;
+}
+.chart .row.gold .color.c-600 {
+  background-color: var(--c-gold-600);
+}
+.chart .row.gold .color.c-600::after {
+  display: inline-block;
+  width: 100%;
+  content: "600";
+  text-align: center;
+}
+.chart .row.gold .color.c-700 {
+  background-color: var(--c-gold-700);
+}
+.chart .row.gold .color.c-700::after {
+  display: inline-block;
+  width: 100%;
+  content: "700";
+  text-align: center;
+}
+.chart .row.gold .color.c-800 {
+  background-color: var(--c-gold-800);
+}
+.chart .row.gold .color.c-800::after {
+  display: inline-block;
+  width: 100%;
+  content: "800";
+  text-align: center;
+}
+.chart .row.gold .color.c-900 {
+  background-color: var(--c-gold-900);
+}
+.chart .row.gold .color.c-900::after {
+  display: inline-block;
+  width: 100%;
+  content: "900";
+  text-align: center;
+}
 .chart .row .color {
   display: flex;
   align-items: center;

@@ -1,31 +1,42 @@
+/* stylelint-disable media-feature-range-notation */
 :root {
-  --c-benibana: rgb(255, 153, 161);
+  --c-benibana: #ff99a1;
   --c-benibana-100: #fff0f1;
   --c-benibana-200: #ffe6e8;
   --c-benibana-300: #ffccd0;
   --c-benibana-400: #ffb3b9;
-  --c-benibana-500: rgb(255, 153, 161);
+  --c-benibana-500: #ff99a1;
   --c-benibana-600: #ff808a;
   --c-benibana-700: #ff6672;
   --c-benibana-800: #ff4d5b;
   --c-benibana-900: #ff3343;
-  --c-cobalt: rgb(26, 75, 213);
+  --c-gold: #fcdf39;
+  --c-gold-100: #fded8e;
+  --c-gold-200: #fdeb84;
+  --c-gold-300: #fde76b;
+  --c-gold-400: #fce352;
+  --c-gold-500: #fcdf39;
+  --c-gold-600: #fcdb20;
+  --c-gold-700: #fbd707;
+  --c-gold-800: #e5c303;
+  --c-gold-900: #ccae03;
+  --c-cobalt: #1a4bd5;
   --c-cobalt-100: #c3d1f8;
   --c-cobalt-200: #96aef2;
   --c-cobalt-300: #688bed;
   --c-cobalt-400: #3b68e7;
-  --c-cobalt-500: rgb(26, 75, 213);
+  --c-cobalt-500: #1a4bd5;
   --c-cobalt-600: #143ba8;
   --c-cobalt-700: #0f2b7a;
   --c-cobalt-800: #091b4d;
   --c-cobalt-900: #040b1f;
-  --c-cobalt-light: rgb(115, 180, 219);
-  --c-cinnabar: rgb(184, 43, 43);
+  --c-cobalt-light: #73b4db;
+  --c-cinnabar: #b82b2b;
   --c-cinnabar-100: #f0bfbf;
   --c-cinnabar-200: #e69696;
   --c-cinnabar-300: #dd6c6c;
   --c-cinnabar-400: #d34343;
-  --c-cinnabar-500: rgb(184, 43, 43);
+  --c-cinnabar-500: #b82b2b;
   --c-cinnabar-600: #8f2121;
   --c-cinnabar-700: #651818;
   --c-cinnabar-800: #3c0e0e;
@@ -50,12 +61,12 @@
   --c-paynes-700: #1a1b17;
   --c-paynes-800: black;
   --c-paynes-900: black;
-  --c-violet: rgb(76, 18, 168);
+  --c-violet: #4c12a8;
   --c-violet-100: #b893f3;
   --c-violet-200: #9a65ee;
   --c-violet-300: #7c36ea;
   --c-violet-400: #6117d6;
-  --c-violet-500: rgb(76, 18, 168);
+  --c-violet-500: #4c12a8;
   --c-violet-600: #370d7a;
   --c-violet-700: #22084c;
   --c-violet-800: #0d031e;
@@ -65,29 +76,18 @@
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
-/* stylelint-disable media-feature-range-notation */
-nav #x::after, nav #x::before {
-  position: absolute;
-  display: block;
-  content: " ";
-  background: var(--border-color);
-}
-
 .site-title {
-  font-size: var(--up-1);
+  font-size: 1.2em;
   font-weight: bold;
   line-height: 1;
   position: relative;
   top: 0;
   left: 0;
   display: inline-block;
-  height: var(--up-1);
+  height: 1em;
   transition: 300ms ease;
-  transition-property: top, left, text-shadow, font-size, -webkit-transform;
   transition-property: top, left, text-shadow, transform, font-size;
-  transition-property: top, left, text-shadow, transform, font-size, -webkit-transform;
-  -webkit-transform: translate3d(0%, 0%, 0%);
-          transform: translate3d(0%, 0%, 0%);
+  transform: translate3d(0%, 0%, 0%);
   color: transparent;
   text-shadow: 0 0 2px var(--c-cobalt);
 }
@@ -95,13 +95,14 @@ nav #x::after, nav #x::before {
   transition: text-shadow 250ms ease;
   text-shadow: 0 0 0 var(--c-cobalt);
 }
-@media screen and (hover: none), screen and (max-width: 50em) {
+@media screen and (hover: none), screen and (width <= 50em) {
   .site-title {
     text-shadow: 0 0 2px var(--c-cobalt);
   }
 }
 
 nav {
+  --nav-font-size: 2em;
   line-height: 1;
   position: -webkit-sticky;
   position: sticky;
@@ -114,7 +115,11 @@ nav {
   padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
   transition: 250ms ease;
   transition-property: background-color;
-  background-color: var(--c-paper);
+}
+@media screen and (width <= 50em) {
+  nav {
+    --nav-font-size: 3em;
+  }
 }
 nav a {
   text-decoration: none;
@@ -136,7 +141,7 @@ nav > .menu {
   background-color: var(--c-paper);
   --nav-top: calc(var(--base-line-height) * 3);
 }
-@media screen and (max-width: 50em) {
+@media screen and (width <= 50em) {
   nav > .menu {
     --nav-top: calc(var(--base-line-height) * 5);
   }
@@ -155,7 +160,7 @@ nav > .menu::after {
   box-shadow: 0 0 0 var(--c-paper);
 }
 nav > .menu ul.menu-items {
-  font-size: var(--up-3);
+  font-size: var(--nav-font-size);
   font-weight: bold;
   z-index: 1;
   overflow-y: scroll;
@@ -166,11 +171,6 @@ nav > .menu ul.menu-items {
   padding: 0 var(--base-line-height) var(--nav-top);
   text-align: center;
   word-spacing: 1em;
-}
-@media screen and (max-width: 50em) {
-  nav > .menu ul.menu-items {
-    font-size: var(--up-5);
-  }
 }
 nav > .menu ul.menu-items li {
   line-height: 1;
@@ -192,7 +192,7 @@ nav > .menu ul.menu-items li::before {
   visibility: none;
   content: "";
 }
-@media screen and (hover: none), screen and (max-width: 50em) {
+@media screen and (hover: none), screen and (width <= 50em) {
   nav > .menu ul.menu-items li {
     text-shadow: 0 0 2px var(--c-paper);
   }
@@ -221,30 +221,81 @@ nav #x {
   height: var(--nav-height);
   cursor: pointer;
   transition: 250ms ease;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
 }
 nav #x::before {
+  position: absolute;
   top: 1.875rem;
   left: calc(50% - var(--nav-height) / 2);
+  display: block;
   width: var(--nav-height);
   height: 1px;
+  content: " ";
   transition: 250ms ease;
+  background: var(--border-color);
 }
 nav #x::after {
+  position: absolute;
   top: 0;
   left: calc(50% - 1px);
+  display: block;
   width: 1px;
   height: var(--nav-height);
+  content: " ";
   transition: 250ms ease;
+  background: var(--border-color);
 }
 nav #x:checked {
+  top: var(--base-line-height);
+  left: calc(100vw - var(--base-line-height) - var(--nav-height));
   transition: 250ms ease;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+nav #x:checked::before, nav #x:checked::after {
+  transition: 250ms ease;
+  transition-property: background-color, top;
+  background-color: var(--c-paper);
+  box-shadow: 0 0 3px 3px var(--c-paper);
+}
+nav #x:checked ~ .menu {
+  height: calc(100vh - var(--nav-height));
+  transition: 250ms ease;
+  transition-property: height, background-color;
+  background-color: var(--c-paynes);
+}
+nav #x:checked ~ .menu::after {
+  transition: 250ms ease;
+  transition-property: box-shadow, background-color;
+  background-color: var(--c-paynes);
+  box-shadow: 0 0 10px 10px var(--c-paynes);
+}
+nav #x:checked ~ .site-title {
+  font-size: var(--nav-font-size);
+  z-index: 9999;
+  top: var(--base-line-height);
+  left: 50%;
+  box-sizing: border-box;
+  transition: 300ms ease;
+  transition-property: top, left, text-shadow, transform, font-size;
+  transform: translate3d(-50%, 0, 0);
+  text-align: center;
+  text-shadow: 0 0 3px var(--c-paper);
+}
+@media screen and (hover: none), screen and (width <= 50em) {
+  nav #x:checked ~ .site-title {
+    text-shadow: 0 0 2px var(--c-paper);
+  }
+}
+@media screen and (width <= 50em) {
+  nav #x:checked ~ .site-title {
+    top: calc(var(--nav-height) * 1.5);
+  }
+}
+nav #x:checked ~ .site-title:hover {
+  text-shadow: 0 0 0 var(--c-paper);
 }
 nav #x:checked::before {
   top: calc(var(--nav-height) / 2 + 1px);
@@ -256,56 +307,11 @@ nav.is-open {
   color: var(--c-paper);
   background-color: var(--c-paynes);
 }
-nav.is-open .site-title {
-  font-size: var(--up-3);
-  z-index: 9999;
-  top: var(--base-line-height);
-  left: 50%;
-  box-sizing: border-box;
-  transition: 300ms ease;
-  transition-property: top, left, text-shadow, font-size, -webkit-transform;
-  transition-property: top, left, text-shadow, transform, font-size;
-  transition-property: top, left, text-shadow, transform, font-size, -webkit-transform;
-  -webkit-transform: translate3d(-50%, 0, 0);
-          transform: translate3d(-50%, 0, 0);
-  text-align: center;
-  text-shadow: 0 0 3px var(--c-paper);
-}
-@media screen and (hover: none), screen and (max-width: 50em) {
-  nav.is-open .site-title {
-    text-shadow: 0 0 2px var(--c-paper);
-  }
-}
-@media screen and (max-width: 50em) {
-  nav.is-open .site-title {
-    font-size: var(--up-5);
-    top: calc(var(--nav-height) * 1.5);
-  }
-}
-nav.is-open .site-title:hover {
-  text-shadow: 0 0 0 var(--c-paper);
-}
-nav.is-open #x {
-  top: var(--base-line-height);
-  left: calc(100vw - var(--base-line-height) - var(--nav-height));
-}
-nav.is-open #x::before, nav.is-open #x::after {
+nav:has(#x:checked) {
   transition: 250ms ease;
-  transition-property: background-color, top;
-  background-color: var(--c-paper);
-  box-shadow: 0 0 3px 3px var(--c-paper);
-}
-nav.is-open > .menu {
-  height: calc(100vh - var(--nav-height));
-  transition: 250ms ease;
-  transition-property: height, background-color;
+  transition-property: background-color;
+  color: var(--c-paper);
   background-color: var(--c-paynes);
-}
-nav.is-open > .menu::after {
-  transition: 250ms ease;
-  transition-property: box-shadow, background-color;
-  background-color: var(--c-paynes);
-  box-shadow: 0 0 10px 10px var(--c-paynes);
 }
 
 /*# sourceMappingURL=nav.css.map */

@@ -1,12 +1,13 @@
 @use 'sass:color';
 
-$benibana: rgb(255 153 161);
-$cinnabar: rgb(184 43 43);
-$cobalt: rgb(26 75 213);
-$cobalt-light: rgb(115 180 219);
+$benibana: #ff99a1;
+$cinnabar: #b82b2b;
+$cobalt: #1a4bd5;
+$cobalt-light: #73b4db;
 $paper: #f6f0e6;
 $paynes: #4e5147;
-$violet: rgb(76 18 168);
+$violet: #4c12a8;
+$gold: #fcdf39;
 
 :root {
 	// COLORS!
@@ -20,6 +21,16 @@ $violet: rgb(76 18 168);
 	--c-benibana-700: #{color.adjust($benibana, $lightness: -10%)};
 	--c-benibana-800: #{color.adjust($benibana, $lightness: -15%)};
 	--c-benibana-900: #{color.adjust($benibana, $lightness: -20%)};
+	--c-gold: #{$gold};
+	--c-gold-100: #{color.adjust($gold, $lightness: 17%)};
+	--c-gold-200: #{color.adjust($gold, $lightness: 15%)};
+	--c-gold-300: #{color.adjust($gold, $lightness: 10%)};
+	--c-gold-400: #{color.adjust($gold, $lightness: 5%)};
+	--c-gold-500: #{$gold};
+	--c-gold-600: #{color.adjust($gold, $lightness: -5%)};
+	--c-gold-700: #{color.adjust($gold, $lightness: -10%)};
+	--c-gold-800: #{color.adjust($gold, $lightness: -15%)};
+	--c-gold-900: #{color.adjust($gold, $lightness: -20%)};
 	--c-cobalt: #{$cobalt};
 	--c-cobalt-100: #{color.adjust($cobalt, $lightness: 40%)};
 	--c-cobalt-200: #{color.adjust($cobalt, $lightness: 30%)};

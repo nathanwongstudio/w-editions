@@ -1,23 +1,12 @@
 <?php snippet('header') ?>
-<video playsinline autoplay muted loop poster="<?= $kirby->url('assets') ?>/crt.jpg" id="bgvid">
-  <source src="<?= $page->bgvid()->toFile()->url() ?>" type="<?= $page->bgvid()->toFile()->mime() ?>">
-</video>
-    <?php foreach ($page->text()->toBlocks() as $block): 
-        if ($block->type() == 'image'):
-            if($block->full()): ?>
-                <section id="<?= $block->id() ?>" class="full-width-image block block-type-<?= $block->type() ?>">
-                    <?= $block ?>
-                </section>
-    <?php
-            endif;
-        else: ?>
 
-        <section id="<?= $block->id() ?>" class="block block-type-<?= $block->type() ?>">
-            <div class="content">
-                <?= $block ?>
-            </div>
-        </section>
-    <?php 
-        endif;
-    endforeach ?>
+<div class="iframe-wrapper">
+<iframe src="https://player.vimeo.com/video/890057192?title=0&autoplay=1&loop=1&byline=0&portrait=0&speed=0&badge=0&autopause=0&airplay=0&audio_tracks=0&chapters=0&chromecast=0&closed_captions=0&transcript=0&player_id=0&app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="video-screen-loop"></iframe>
+</div>
+
+
+<?php foreach($page->text()->toLayouts() as $layout): ?>
+    <?= snippet('layouts', compact('layout')); ?>
+<?php endforeach; ?>
+
 <?php snippet('footer') ?>

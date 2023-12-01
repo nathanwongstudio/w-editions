@@ -5,10 +5,11 @@ $font-family: ('roc-grotesk', sans-serif),
 $font-mono: (courier new, courier, mono),
 
 // Base ratios
-$typescale: 1.25,
+$typescale: 1,
 
 // Base Font for HTML
 $base-font-size: 18px,
+$base-line-height: 1.5,
 
 // Paragraph Styles
 $paragraph-size: 1rem,
@@ -23,11 +24,19 @@ $font-weight-bold: 700,
 
 );
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-    line-height: 1;
+:root {
+    --em-line-height: 1.5em;
+    --base-line-height: 27px;
+
+    // fonts
+    --secondary-font-stack: var(--primary-font-family);
 }
 
-html, body {
-    --base-line-height: 28px;
-}
+// h1, h2, h3, h4, h5, h6 {
+//     font-weight: 300;
+//     line-height: 1;
+// }
+
+// html, body {
+//     --base-line-height: 28px;
+// }

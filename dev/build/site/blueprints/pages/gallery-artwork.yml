@@ -35,24 +35,45 @@ tabs:
       right:
         width: 1/2
         fields:
+          artId:
+            type: text
+            label: Art ID
+          year:
+            type: text
+            default: "2023"
+            label: Year
           artist:
             label: Artist
             help: The artist this was produced with.
             type: tags
             icon: false
-            inline: true
             options:
               type: query
               query: site.find('artists').children.listed
+          price:
+            label: Price
+            width: 1/2
+            type: number
+            min: 0
+            before: $
+            help: In USD$
+          available:
+            label: Availability
+            width: 1/2
+            type: toggle
+            text:
+              - "Not Available"
+              - "Available"
           text:
             label: Top text
             help: Wall label stuff such as Title, Year, Size, Materials, etc.
             type: writer
-            inline: true
+            nodes: true
           bottomText:
             label: Bottom Text
             help: Other text you might want to add to the page
             type: writer
+            nodes: true
 
   attached:
     label: Attached Media

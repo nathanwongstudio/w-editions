@@ -1,3 +1,6 @@
+
+type: layout
+size: huge
 layouts:
   - "1/1"
   - "1/2, 1/2"
@@ -14,6 +17,7 @@ settings:
         default: Default
         header: Header
         ticker: Ticker
+        layout-gallery: Gallery
     gapDefault:
       type: gap
       width: 1/2
@@ -26,11 +30,52 @@ settings:
         role: header
     tickerLength:
       type: number
-      label: Time for Ticker
       width: 1/2
+      label: Time for Ticker
       when:
         role: ticker
       after: s
+    tickerColor:
+      type: color
+      width: 1/2
+      label: Ticker Background Color
+      mode: options
+      default: "#1a4bd5"
+      options:
+        "Cobalt": "#1a4bd5"
+        "Benibana": "#ff99a1"
+        "Cinnabar": "#b82b2b"
+        "Paper": "#f6f0e6"
+        "Paynes": "#4e5147"
+        "Violet": "#4c12a8"
+        "Gold": "#fcdf39"
+      when:
+        role: ticker
+    tickerTextColor:
+      type: color
+      label: Ticker Text Color
+      width: 1/2
+      mode: options
+      default: "#f6f0e6"
+      options:
+        "Cobalt": "#1a4bd5"
+        "Benibana": "#ff99a1"
+        "Cinnabar": "#b82b2b"
+        "Paper": "#f6f0e6"
+        "Paynes": "#4e5147"
+        "Violet": "#4c12a8"
+        "Gold": "#fcdf39"
+      when:
+        role: ticker
+    tickerDirection:
+      type: toggle
+      label: Animation Direction
+      width: 1/2
+      text:
+        - "Right to Left"
+        - "Left to Right"
+      when:
+        role: ticker
     class:
       type: text
       width: 1/2

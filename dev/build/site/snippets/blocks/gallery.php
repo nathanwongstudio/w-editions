@@ -5,7 +5,7 @@ $crop    = $block->crop()->isTrue();
 $ratio   = $block->ratio()->or('auto');
 ?>
 <figure <?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?>>
-    <div id="gallery-scroll" data-simplebar data-simplebar-auto-hide="false">
+    <div class="gallery-scroll" data-simplebar data-simplebar-auto-hide="false">
         <ul>
             <?php foreach ($block->images()->toFiles() as $src): 
                 $figure = false; ?>

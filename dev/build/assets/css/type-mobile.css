@@ -314,26 +314,26 @@ br {
 
 :root {
   --primary-font-family: roc-grotesk, sans-serif;
-  --scale: 1.25;
+  --scale: 1;
   --base-font-size: 18px;
-  --base-line-height: 22.5px;
+  --base-line-height: 27px;
   --em-line-height: var(--em-line-height);
-  --up-1: 22.5px;
-  --up-2: 28.125px;
-  --up-3: 35.15625px;
-  --up-4: 43.9453125px;
-  --up-5: 54.931640625px;
-  --up-6: 68.6645507813px;
-  --up-7: 85.8306884766px;
-  --up-8: 107.2883605957px;
-  --down-1: 14.4px;
-  --down-2: 11.52px;
-  --down-3: 9.216px;
-  --down-4: 7.3728px;
-  --down-5: 5.89824px;
-  --down-6: 4.718592px;
-  --down-7: 3.7748736px;
-  --down-8: 3.01989888px;
+  --up-1: 18px;
+  --up-2: 18px;
+  --up-3: 18px;
+  --up-4: 18px;
+  --up-5: 18px;
+  --up-6: 18px;
+  --up-7: 18px;
+  --up-8: 18px;
+  --down-1: 18px;
+  --down-2: 18px;
+  --down-3: 18px;
+  --down-4: 18px;
+  --down-5: 18px;
+  --down-6: 18px;
+  --down-7: 18px;
+  --down-8: 18px;
 }
 
 /* ------------------------------------*\
@@ -343,7 +343,7 @@ html,
 body {
   font-family: "roc-grotesk", sans-serif;
   font-size: 18px;
-  line-height: 1.25;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -358,7 +358,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.5;
   margin-top: var(--base-line-height);
   margin-bottom: var(--base-line-height);
 }
@@ -373,34 +373,34 @@ h6:first-child {
 }
 
 h1 {
-  font-size: 68.6645507813px;
+  font-size: 18px;
 }
 
 h2 {
-  font-size: 54.931640625px;
+  font-size: 18px;
 }
 
 h3 {
-  font-size: 43.9453125px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 35.15625px;
+  font-size: 18px;
 }
 
 h5 {
-  font-size: 28.125px;
+  font-size: 18px;
 }
 
 h6 {
-  font-size: 22.5px;
+  font-size: 18px;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  line-height: 1;
+  line-height: 1.5;
 }
 
 p {
@@ -428,7 +428,7 @@ ul ol,
 ol ul,
 ol ol {
   margin: 0;
-  padding-left: 22.5px;
+  padding-left: 18px;
 }
 
 hr {
@@ -440,9 +440,9 @@ hr {
 }
 
 blockquote {
-  font-size: 28.125px;
+  font-size: 18px;
   font-style: italic;
-  line-height: 1.25;
+  line-height: 1.5;
   width: 70%;
   margin: var(--em-line-height) 0;
   margin: auto;
@@ -450,7 +450,7 @@ blockquote {
 }
 
 cite {
-  font-size: 14.4px;
+  font-size: 18px;
   display: block;
 }
 
@@ -473,8 +473,8 @@ th {
 
 th,
 td {
-  padding: 0.625 em;
-  padding-top: -0.375 em;
+  padding: 0.75 em;
+  padding-top: -0.25 em;
 }
 
 figure {
@@ -488,7 +488,7 @@ figure + p {
 }
 
 figcaption {
-  font-size: 14.4px;
+  font-size: 18px;
   margin: 0 0 var(--em-line-height);
 }
 
@@ -510,7 +510,7 @@ pre code {
 
 code {
   font-family: courier new, courier, mono;
-  font-size: 14.4px;
+  font-size: 18px;
   line-height: 1em;
   position: relative;
   top: -0.1em;
@@ -539,13 +539,10 @@ img {
   margin: var(--em-line-height) 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
-  line-height: 1;
-}
-
-html, body {
-  --base-line-height: 28px;
+:root {
+  --em-line-height: 1.5em;
+  --base-line-height: 27px;
+  --secondary-font-stack: var(--primary-font-family);
 }
 
 /*# sourceMappingURL=type-mobile.css.map */

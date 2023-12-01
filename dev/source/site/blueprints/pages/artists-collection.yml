@@ -1,6 +1,5 @@
 title: Artists List
 icon: 🎨
-num: zero
 
 tabs:
   content:
@@ -21,10 +20,10 @@ tabs:
               query: page.profilepic.toFile
               back: white
               ratio: 1/1
-  # security:
-  #   icon: lock
-  #   columns:
-  #     - width: 1/3
-  #       fields:
-  #         pageProtect: fields/locked-pages
+  security:
+    icon: lock
+    columns:
+      - width: 1/3
+        fields:
+          pageProtect: fields/locked-pages
 

@@ -83,6 +83,19 @@
             <div class="color c-800"></div>
             <div class="color c-900"></div>
         </div>
+        <!-- GOLD -->
+        <DIV class="row gold">
+            <div class="color">--c-gold</div>
+            <div class="color c-100"></div>
+            <div class="color c-200"></div>
+            <div class="color c-300"></div>
+            <div class="color c-400"></div>
+            <div class="color c-500"></div>
+            <div class="color c-600"></div>
+            <div class="color c-700"></div>
+            <div class="color c-800"></div>
+            <div class="color c-900"></div>
+        </div>
     </div>
 </div>
 
