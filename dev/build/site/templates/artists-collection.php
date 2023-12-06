@@ -1,4 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('header');
+
+if($artists->isNotEmpty()): ?>
 <div class="default-content">
     <section class="collection">
         <ul class="exclude artists">
@@ -14,4 +16,8 @@
     </section>
 
 </div>
-<?php snippet('footer') ?>
+<?php 
+else:
+    snippet('no-content');
+endif;
+snippet('footer') ?>

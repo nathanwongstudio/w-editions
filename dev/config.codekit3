@@ -538,6 +538,14 @@
       "oAP" : "\/build\/site\/snippets\/nav.php",
       "oF" : 0
     },
+    "\/source\/site\/snippets\/no-content.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/snippets\/no-content.php",
+      "oF" : 0
+    },
     "\/source\/site\/templates\/artists-collection.php" : {
       "cB" : 0,
       "ft" : 8192,

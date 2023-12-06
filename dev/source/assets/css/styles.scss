@@ -161,7 +161,7 @@ hr {
         line-height: var(--em-line-height);
 
         margin:0;
-        padding-left: 1em;
+        padding-left: 1.4em;
 
         & > ul,
         & > ol {
@@ -179,15 +179,11 @@ ol {
     & > li {
         counter-increment: list;
 
-        & > ul {
-            margin-left: 0.5em;
-        }
-
         &::before {
             // font-weight: bold;
 
             position:absolute;
-            left:-1.5em;
+            left:-0.875em;
 
             width: 2em;
 
@@ -203,32 +199,45 @@ ul {
     @extend %list-shared;
 
     & > li {
-        --marker-height: calc(var(--em-line-height) / 2);
+        --marker-height: calc(var(--base-line-height) / 2);
+
+        border-left: 1px solid transparent;
 
         &::before {
             position:absolute;
             top: 0;
-            left: -0.5em;
+            left: -1px;
 
-            width: 1em;
+            width: var(--marker-height);
             height: var(--marker-height);
 
             content: " ";
 
             border-bottom: 1px solid var(--c-paynes);
+            border-left: 1px solid transparent;
         }
 
-        & > ul {
-            &::after {
-                position:absolute;
-                top:calc((var(--em-line-height) - var(--marker-height)) * -1);
-                left:-0.5em;
+        ul {
+            li {
+                border-left: 1px solid var(--c-paynes);
 
-                height:calc(100% + 1px);
-        
-                content: ' ';
-        
-                border-right: 1px solid var(--c-paynes);
+                &::before {
+                    border-left: 1px solid var(--c-paynes);
+                }
+
+                &:last-child {
+                    border-left: 1px solid transparent;
+                }
+            }
+        }
+
+        ol {
+            & > li {
+                border: none;
+
+                &::before {
+                    border: none;
+                }
             }
         }
     }

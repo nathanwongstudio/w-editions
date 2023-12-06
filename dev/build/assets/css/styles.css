@@ -740,7 +740,7 @@ ul *, ol * {
 ul li, ol li {
   line-height: var(--em-line-height);
   margin: 0;
-  padding-left: 1em;
+  padding-left: 1.4em;
 }
 ul li > ul, ol li > ul, ul li > ol, ol li > ol {
   margin: 0;
@@ -753,12 +753,9 @@ ol {
 ol > li {
   counter-increment: list;
 }
-ol > li > ul {
-  margin-left: 0.5em;
-}
 ol > li::before {
   position: absolute;
-  left: -1.5em;
+  left: -0.875em;
   width: 2em;
   content: counter(list) ".";
   text-align: right;
@@ -766,24 +763,33 @@ ol > li::before {
 }
 
 ul > li {
-  --marker-height: calc(var(--em-line-height) / 2);
+  --marker-height: calc(var(--base-line-height) / 2);
+  border-left: 1px solid transparent;
 }
 ul > li::before {
   position: absolute;
   top: 0;
-  left: -0.5em;
-  width: 1em;
+  left: -1px;
+  width: var(--marker-height);
   height: var(--marker-height);
   content: " ";
   border-bottom: 1px solid var(--c-paynes);
+  border-left: 1px solid transparent;
 }
-ul > li > ul::after {
-  position: absolute;
-  top: calc((var(--em-line-height) - var(--marker-height)) * -1);
-  left: -0.5em;
-  height: calc(100% + 1px);
-  content: " ";
-  border-right: 1px solid var(--c-paynes);
+ul > li ul li {
+  border-left: 1px solid var(--c-paynes);
+}
+ul > li ul li::before {
+  border-left: 1px solid var(--c-paynes);
+}
+ul > li ul li:last-child {
+  border-left: 1px solid transparent;
+}
+ul > li ol > li {
+  border: none;
+}
+ul > li ol > li::before {
+  border: none;
 }
 
 p:first-child {
