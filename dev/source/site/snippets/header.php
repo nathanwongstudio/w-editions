@@ -11,11 +11,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <?php if($page->isHomePage()): ?>
-        <meta content="width=device-width, initial-scale=0.375" name="viewport">
-    <?php else: ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php endif; ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <?php if($site->favicon()->isNotEmpty()): ?>
         <link rel="shortcut icon" href="<?= $site->favicon()->toFile()->thumb(['width' => 200])->url() ?>" type="image/x-icon">
@@ -37,16 +33,11 @@
 	$tagged = false;
     ?>
 
-    <?=
-
-	css([
-        'assets/css/nav.css',
-        '@auto'
-    ])
-
-    ?>
-
     <?=css('assets/css/type-mobile.css', 'screen and (max-width: 50em)') ?>
+
+    <?= css('assets/css/nav.css') ?>
+
+    <?=css('@auto') ?>
 
     <?= js('@auto', ['type'=>'module']) ?>
 

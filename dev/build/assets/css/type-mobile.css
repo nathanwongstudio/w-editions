@@ -545,4 +545,8 @@ img {
   --secondary-font-stack: var(--primary-font-family);
 }
 
+html, body {
+  font-size: var(--base-font-size);
+}
+
 /*# sourceMappingURL=type-mobile.css.map */
