@@ -1,5 +1,6 @@
 /* stylelint-disable media-feature-range-notation */
 :root {
+  --input-radius: 5px;
   --c-benibana: #ff99a1;
   --c-benibana-100: #fff0f1;
   --c-benibana-200: #ffe6e8;

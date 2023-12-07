@@ -2,8 +2,12 @@
 @use "../variables" as v;
 
 :root {
-    --shadow-color:rgb(255 207 249);
+    --shadow-color:rgb(255 255 255 / 90%);
     --base-font-size: 60px;
+
+    @media screen and (width <= 60rem) {
+        --base-font-size: 45px;
+    }
 }
 
 html,body {
@@ -58,17 +62,11 @@ body {
 
     h1 {
         font-size: 2em;
+
+        @media screen and (width<=60em) {
+            font-size: 13vw;
+        }
     }
-}
-
-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
 }
 
 /* Makes a fixed background wrapper
@@ -86,6 +84,8 @@ which the user cannot interact with */
 	height: 100%;
 
 	pointer-events: none;
+
+    background-color: white;
   
 	/* Make the iframe keep an aspect ratio, and
 	position it in the middle of its parent wrapper */
@@ -111,7 +111,7 @@ which the user cannot interact with */
     border:none;
 
     background:black;
-    mix-blend-mode: multiply;
+    mix-blend-mode:hard-light;
 
     &.ticker {
 		font-size: 7vw;
@@ -218,13 +218,17 @@ which the user cannot interact with */
             }
 
             .message {
-                font-size: var(--up-2);
+                font-size: 0.75em;
 
+                position: absolute;
+                top:0;
+
+                width: 100%;
                 margin-top: var(--base-line-height);
 
                 padding: var(--base-line-height) 0;
 
-            .success {
+                .success {
                     position:absolute;
                     top:0;
                     right:0;
@@ -250,15 +254,15 @@ which the user cannot interact with */
                 &:hover {
                     transition:100ms ease;
 
-                    background:var(--shadow-color);
-
                     input {
                         @extend %black-text;
+
+                        background:transparent;
                         
                         &[type="email"] {
                             transition:100ms ease;
 
-                            box-shadow: 0 0 20px 20px var(--shadow-color);
+                            box-shadow: 0 0 3px 3px var(--shadow-color);
 
                             &.empty + .cursor {
                                 @extend %empty-cursor;
@@ -295,6 +299,7 @@ which the user cannot interact with */
             input[type="email"] {
                 font-size: 1em;
                 font-weight:bold;
+                line-height:1;
 
                 position:relative;
 
@@ -311,19 +316,30 @@ which the user cannot interact with */
                 border:1px solid ;
                 outline:none;
 
+                @media screen and (width<=60em) {
+                    font-size: 0.75em;
+
+                    padding: 1em;
+                }
+
                 &:focus,
                 &:not(:placeholder-shown) {
                     transition:100ms ease;
 
                     background: var(--shadow-color);
-                    box-shadow: 0 0 20px 20px var(--shadow-color);
+                    box-shadow: 0 0 3px 3px var(--shadow-color);
 
                     @extend %black-text;
 
                     & ~ input {
-                        background: var(--shadow-color);
+                        background:transparent;
 
                         @extend %black-text;
+
+                        @media screen and (width<=60em) {
+                            background: var(--shadow-color);
+                            box-shadow: 0 0 3px 3px var(--shadow-color);
+                        }
                     }
                 }
 
@@ -333,11 +349,12 @@ which the user cannot interact with */
 
                 & + .cursor {
                     position:absolute;
-                    top:0.5em;
-                    bottom:0.5em;
+                    top: 0.5em;
                     left:0.5em;
 
                     width: 3px;
+
+                    height: 2em;
 
                     content:' ';
 
@@ -346,6 +363,12 @@ which the user cannot interact with */
                     border-radius:1px;
                     background: var(--shadow-color);
                     box-shadow: 0 0 3px 3px var(--shadow-color);
+
+                    @media screen and (width <= 60em) {
+                        top: 0.375em;
+
+                        height: 1.5em;
+                    }
                 }
 
                 &:placeholder-shown + .cursor {
@@ -367,6 +390,7 @@ which the user cannot interact with */
                 font-family: inherit;
                 font-size: 1em;
                 font-weight: 700;
+                line-height: 1;
 
                 position:absolute;
                 z-index: 99;
@@ -383,6 +407,18 @@ which the user cannot interact with */
                 background:transparent;
 
                 @extend %white-text;
+
+                @media screen and (width<=60em) {
+                    font-size: 0.75em;
+
+                    position: relative;
+
+                    width: 100%;
+                    margin-top: 10px;
+                    padding: 0.5em;
+
+                    border-radius: var(--input-radius);
+                }
             }
         }
     }

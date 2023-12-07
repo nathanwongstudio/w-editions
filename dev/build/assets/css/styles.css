@@ -550,6 +550,7 @@ html, body {
 }
 
 :root {
+  --input-radius: 5px;
   --c-benibana: #ff99a1;
   --c-benibana-100: #fff0f1;
   --c-benibana-200: #ffe6e8;
@@ -843,7 +844,7 @@ input[type=url],
 input[type=week] {
   padding: 0.25em 0.375em;
   border: 1px solid var(--border-color);
-  border-radius: 5px;
+  border-radius: var(--input-radius);
   background: var(--c-paper-200);
 }
 

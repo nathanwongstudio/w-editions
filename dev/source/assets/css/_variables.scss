@@ -10,6 +10,8 @@ $violet: #4c12a8;
 $gold: #fcdf39;
 
 :root {
+	--input-radius: 5px;
+
 	// COLORS!
 	--c-benibana: #{$benibana};
 	--c-benibana-100: #{color.adjust($benibana, $lightness: 17%)};
