@@ -631,14 +631,14 @@ html, body {
   height: 0.5em;
   color: transparent;
   background-color: var(--c-benibana);
-  text-shadow: 0 0 0.125em var(--c-paper);
+  text-shadow: 0 0 0.125em var(--c-paynes);
 }
 
 ::selection {
   height: 0.5em;
   color: transparent;
   background-color: var(--c-benibana);
-  text-shadow: 0 0 0.125em var(--c-paper);
+  text-shadow: 0 0 0.125em var(--c-paynes);
 }
 
 html {
@@ -1046,10 +1046,16 @@ button:hover::after {
   position: relative;
   max-width: 90%;
   margin-left: 0;
+  padding: 1rem;
   text-wrap: balance;
+  background: white;
+  mix-blend-mode: multiply;
+  filter: contrast(30);
 }
 .default-content .section-wrapper.header .block.block-type-heading h1 {
   --rotation: -15deg;
+  color: transparent;
+  text-shadow: 0 0 0.06em var(--c-paynes);
 }
 .default-content .section-wrapper.header .block.block-type-heading h1::before {
   position: absolute;
@@ -1077,7 +1083,7 @@ button:hover::after {
   font-size: 4em;
   line-height: 1.125;
   position: relative;
-  letter-spacing: -3px;
+  letter-spacing: -5px;
 }
 @media screen and (width <= 40em) {
   .default-content .section-wrapper.header .block.block-type-heading h1, .default-content .section-wrapper.header .block.block-type-heading h2, .default-content .section-wrapper.header .block.block-type-heading h3, .default-content .section-wrapper.header .block.block-type-heading h4, .default-content .section-wrapper.header .block.block-type-heading h5, .default-content .section-wrapper.header .block.block-type-heading h6 {
@@ -1303,8 +1309,7 @@ button:hover::after {
 }
 
 .signed-area {
-  font-family: "Courier New", Courier, monospace;
-  font-style: italic;
+  font-weight: bold;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1312,7 +1317,9 @@ button:hover::after {
   width: 100%;
   margin: auto auto 10rem;
   padding: var(--base-line-height);
+  color: transparent;
   border-bottom: 1px solid var(--border-color);
+  text-shadow: 0 0 1px var(--c-paper-900);
 }
 .signed-area::after {
   bottom: -10rem;

@@ -9,7 +9,7 @@
 
     color: transparent;
     background-color: var(--c-benibana);
-    text-shadow: 0 0 0.125em var(--c-paper);
+    text-shadow: 0 0 0.125em var(--c-paynes);
 }
 
 // style our html
@@ -586,11 +586,13 @@ button {
 
                     max-width: 90%;
                     margin-left:0;
-
-                    text-wrap: balance;
+                    padding: 1rem;
 
                     h1 {
                         --rotation: -15deg;
+                        color: transparent;
+
+                        text-shadow: 0 0 0.06em var(--c-paynes);
 
                         &::before {
                             position:absolute;
@@ -621,6 +623,12 @@ button {
                         }
                     }
 
+                    text-wrap: balance;
+
+                    background:white;
+                    mix-blend-mode: multiply;
+                    filter: contrast(30);
+
                     
 
                     h1, h2, h3, h4, h5, h6 {
@@ -629,7 +637,7 @@ button {
 
                         position: relative;
 
-                        letter-spacing: -3px;
+                        letter-spacing: -5px;
                         
                         @media screen and (width <= 40em) {
                             font-size: 3em;
@@ -927,8 +935,7 @@ button {
 // FOOTER AREA
 
 .signed-area {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+    font-weight: bold;
 
     position:relative;
 
@@ -942,7 +949,10 @@ button {
 
     padding: var(--base-line-height);
 
+    color: transparent;
+
     border-bottom:1px solid var(--border-color);
+    text-shadow: 0 0 1px var(--c-paper-900);
 
     &::after {
         @extend %shared;

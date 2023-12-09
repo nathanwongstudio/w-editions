@@ -5,6 +5,25 @@ return [
         'siteId' => 'TCMXSOEX',
         'sharePassword' => 'w/editions212'
     ],
+	'wearejust.meta-tags.default' => function ($page, $site) {
+        return [
+            'title' => ((!$page->isHomePage()) ? $page->title() . ' ❀ ' : '' ) . $site->title(),
+            'meta' => [
+                'description' => $site->description()
+            ],
+            'link' => [
+                'canonical' => $page->url()
+            ],
+            'og' => [
+                'title' => $page->isHomePage()
+                    ? $site->title()
+                    : $page->title(),
+                'type' => 'website',
+                'site_name' => $site->title(),
+                'url' => $page->url()
+            ]
+        ];
+	},
 
 	'debug' => true,
 
@@ -15,7 +34,7 @@ return [
 	],
 
 	'thumbs' => [
-	//   'driver' => 'im',
+	  'driver' => 'im',
 	  'interlace' => true,
 	  
 	  'srcsets' => [
@@ -52,10 +71,6 @@ return [
 	],
 
 	'smartypants' => true,
-	
-	// 'panel' => [
-	// 	'css' => 'assets/css/panel.css'
-	// ],
 
 	'auth' => [
 		'methods' => ['password', 'password-reset']

@@ -48,7 +48,7 @@ body {
     text-shadow: 0 0 3px black;
 }
 
-.home {
+.home, .error {
     h1, h2, h3, h4, h5, h6 {
         font-family: var(--primary-font-stack);
         font-size: var(--base-font-size);
@@ -181,6 +181,38 @@ which the user cannot interact with */
 
     border:none;
 
+    .overlay {
+        position: absolute;
+        z-index: -1;
+
+        // top: 50%;
+
+        width: 100%;
+
+        h1, h2, h3, h4, h5, h6, p, div, * {
+            text-shadow: 0 0 20px var(--c-cobalt);
+        }
+
+        form {
+            visibility:hidden;
+
+            height: calc(3em + 2rem);
+
+            pointer-events: none;
+
+            opacity:0;
+            
+            @media screen and (width <= 60em) {
+                height: calc(3.75em + 2rem + 10px);
+            }
+
+            .email {
+                display: none;
+                visibility: hidden;
+            }
+        }
+    }
+
     &.block-type-heading,
     &.block-type-newsletter {
         font-weight: bold;
@@ -214,7 +246,7 @@ which the user cannot interact with */
             position:relative;
             %empty-cursor {
                 background: black;
-                box-shadow: 0 0 3px 3px black;
+                box-shadow: 0 0 3px 3px black,0 0 10px 4px var(--c-cobalt);
             }
 
             .message {
@@ -249,7 +281,7 @@ which the user cannot interact with */
                 margin-top:2rem;
 
                 background: black;
-                box-shadow: 0 0 0 black;
+                box-shadow: 0 0 0 var(--shadow-color);
 
                 &:hover {
                     transition:100ms ease;
@@ -262,7 +294,7 @@ which the user cannot interact with */
                         &[type="email"] {
                             transition:100ms ease;
 
-                            box-shadow: 0 0 3px 3px var(--shadow-color);
+                            box-shadow: 0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);
 
                             &.empty + .cursor {
                                 @extend %empty-cursor;
@@ -327,7 +359,7 @@ which the user cannot interact with */
                     transition:100ms ease;
 
                     background: var(--shadow-color);
-                    box-shadow: 0 0 3px 3px var(--shadow-color);
+                    box-shadow: 0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);
 
                     @extend %black-text;
 
@@ -338,7 +370,7 @@ which the user cannot interact with */
 
                         @media screen and (width<=60em) {
                             background: var(--shadow-color);
-                            box-shadow: 0 0 3px 3px var(--shadow-color);
+                            box-shadow: 0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);
                         }
                     }
                 }
@@ -362,7 +394,7 @@ which the user cannot interact with */
 
                     border-radius:1px;
                     background: var(--shadow-color);
-                    box-shadow: 0 0 3px 3px var(--shadow-color);
+                    box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 10px 4px var(--c-cobalt);
 
                     @media screen and (width <= 60em) {
                         top: 0.375em;

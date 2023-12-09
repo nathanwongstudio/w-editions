@@ -82,6 +82,7 @@
   font-weight: bold;
   line-height: 1;
   position: relative;
+  z-index: 999;
   top: 0;
   left: 0;
   display: inline-block;
@@ -98,12 +99,13 @@
 }
 @media screen and (hover: none), screen and (width <= 50em) {
   .site-title {
-    text-shadow: 0 0 2px var(--c-cobalt);
+    text-shadow: 0 0 1px var(--c-cobalt);
   }
 }
 
 nav {
-  --nav-font-size: 2em;
+  --text-shadow-menu:0 0 0.06em var(--c-paper);
+  --nav-font-size: 6vw;
   line-height: 1;
   position: -webkit-sticky;
   position: sticky;
@@ -112,14 +114,14 @@ nav {
   left: 0;
   box-sizing: border-box;
   width: 100%;
-  height: var(--nav-height);
-  padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
   transition: 250ms ease;
   transition-property: background-color;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--c-paper);
 }
 @media screen and (width <= 50em) {
   nav {
-    --nav-font-size: 3em;
+    --nav-font-size: 12vw;
   }
 }
 nav a {
@@ -129,38 +131,50 @@ nav a {
 nav a:hover {
   color: transparent;
 }
-nav > .menu {
+nav .wrapper-nav {
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-height: var(--nav-height);
+  padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
+  transition: max-height 250ms ease;
+  background-color: white;
+  filter: contrast(60);
+  mix-blend-mode: multiply;
+}
+nav .wrapper-nav .underlay {
+  font-style: italic;
   position: absolute;
-  top: var(--nav-height);
+  z-index: -1;
+  left: 0;
+  transition: text-shadow 250ms ease;
+  text-shadow: 0 0 0.1em var(--c-cinnabar);
+}
+nav .wrapper-nav a:hover .underlay {
+  transition: text-shadow 250ms ease;
+  text-shadow: 0 0 0.2em var(--c-cinnabar);
+}
+nav .menu {
+  position: absolute;
+  top: 0;
   left: 0;
   overflow: hidden;
   width: 100vw;
-  height: 0;
+  height: 100vh;
+  max-height: 0;
   transition: 250ms ease;
-  transition-property: height, background-color;
-  border-bottom: 1px solid var(--border-color);
-  background-color: var(--c-paper);
+  transition-property: max-height;
+  background-color: var(--c-cobalt-400);
   --nav-top: calc(var(--base-line-height) * 3);
+  --menu-item-pad: calc(var(--nav-font-size) * 1.5);
 }
 @media screen and (width <= 50em) {
-  nav > .menu {
+  nav .menu {
     --nav-top: calc(var(--base-line-height) * 5);
   }
 }
-nav > .menu::after {
-  position: absolute;
-  z-index: 2;
-  top: var(--nav-top);
-  left: 0;
-  width: 100%;
-  height: 2px;
-  content: " ";
-  transition: 250ms ease;
-  transition-property: box-shadow, background-color;
-  background-color: var(--c-paper);
-  box-shadow: 0 0 0 var(--c-paper);
-}
-nav > .menu ul.menu-items {
+nav .menu ul.menu-items {
   font-size: var(--nav-font-size);
   font-weight: bold;
   z-index: 1;
@@ -168,12 +182,12 @@ nav > .menu ul.menu-items {
   box-sizing: border-box;
   height: calc(100vh - var(--nav-height));
   margin: 0;
-  margin-top: var(--nav-top);
-  padding: 0 var(--base-line-height) var(--nav-top);
+  margin-top: var(--menu-item-pad);
+  padding: 0 var(--base-line-height) 1em;
   text-align: center;
   word-spacing: 1em;
 }
-nav > .menu ul.menu-items li {
+nav .menu ul.menu-items li {
   line-height: 1;
   display: inline-block;
   margin: 0 !important;
@@ -183,34 +197,29 @@ nav > .menu ul.menu-items li {
   transition-property: color, text-shadow;
   word-spacing: normal;
   color: transparent;
-  text-shadow: 0 0 3.5px var(--c-paper);
+  text-shadow: var(--text-shadow-menu);
 }
-nav > .menu ul.menu-items li.active a {
+nav .menu ul.menu-items li.active a {
   text-decoration: underline;
 }
-nav > .menu ul.menu-items li::before {
+nav .menu ul.menu-items li::before {
   display: none;
   visibility: none;
   content: "";
 }
-@media screen and (hover: none), screen and (width <= 50em) {
-  nav > .menu ul.menu-items li {
-    text-shadow: 0 0 2px var(--c-paper);
-  }
-}
-nav > .menu ul.menu-items li a {
+nav .menu ul.menu-items li a {
   position: relative;
   display: block;
   padding: var(--base-line-height) 0;
   text-decoration: none;
   color: inherit;
 }
-nav > .menu ul.menu-items li:hover {
+nav .menu ul.menu-items li:hover {
   transition: 250ms ease;
   transition-property: color, text-shadow;
   text-shadow: 0 0 0 var(--c-paper);
 }
-nav > .menu ul.menu-items li:first-child {
+nav .menu ul.menu-items li:first-child {
   padding-left: 0;
 }
 nav #x {
@@ -250,8 +259,10 @@ nav #x::after {
   background: var(--border-color);
 }
 nav #x:checked {
-  top: var(--base-line-height);
-  left: calc(100vw - var(--base-line-height) - var(--nav-height));
+  top: calc(var(--nav-font-size) / 4);
+  left: calc(100% - var(--nav-font-size) * 1.25);
+  width: var(--nav-font-size);
+  height: var(--nav-font-size);
   transition: 250ms ease;
   transform: rotate(45deg);
 }
@@ -262,38 +273,21 @@ nav #x:checked::before, nav #x:checked::after {
   box-shadow: 0 0 3px 3px var(--c-paper);
 }
 nav #x:checked ~ .menu {
-  height: calc(100vh - var(--nav-height));
+  max-height: 100vh;
   transition: 250ms ease;
-  transition-property: height, background-color;
-  background-color: var(--c-paynes);
-}
-nav #x:checked ~ .menu::after {
-  transition: 250ms ease;
-  transition-property: box-shadow, background-color;
-  background-color: var(--c-paynes);
-  box-shadow: 0 0 10px 10px var(--c-paynes);
+  transition-property: max-height;
 }
 nav #x:checked ~ .site-title {
   font-size: var(--nav-font-size);
   z-index: 9999;
-  top: var(--base-line-height);
+  top: 0;
   left: 50%;
   box-sizing: border-box;
   transition: 300ms ease;
   transition-property: top, left, text-shadow, transform, font-size;
   transform: translate3d(-50%, 0, 0);
   text-align: center;
-  text-shadow: 0 0 3px var(--c-paper);
-}
-@media screen and (hover: none), screen and (width <= 50em) {
-  nav #x:checked ~ .site-title {
-    text-shadow: 0 0 2px var(--c-paper);
-  }
-}
-@media screen and (width <= 50em) {
-  nav #x:checked ~ .site-title {
-    top: calc(var(--nav-height) * 1.5);
-  }
+  text-shadow: var(--text-shadow-menu);
 }
 nav #x:checked ~ .site-title:hover {
   text-shadow: 0 0 0 var(--c-paper);
@@ -306,13 +300,18 @@ nav.is-open {
   transition: 250ms ease;
   transition-property: background-color;
   color: var(--c-paper);
-  background-color: var(--c-paynes);
+  background-color: var(--c-paper);
+}
+nav.is-open .wrapper-nav {
+  height: 100vh;
+  max-height: 100vh;
+  transition: max-height 250ms ease;
 }
 nav:has(#x:checked) {
   transition: 250ms ease;
   transition-property: background-color;
   color: var(--c-paper);
-  background-color: var(--c-paynes);
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=nav.css.map */
