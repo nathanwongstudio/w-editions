@@ -1,8 +1,12 @@
-<?php if(!$page->isHomePage()): ?>
+
+<?php
+if(!isset($foot)) { $foot = true; }
+
+if($foot): ?>
     <footer class="signed-area">
         <section class="edition">1/1</section>
-        <section class="title"><?= $site->title() ?></section>
-        <section class="signed">site by <a href="https://itsallwong.com">nathan</a></section>
+        <section class="title"></section>
+        <section class="signed">w</section>
     </footer>
 <?php endif; ?>
 </div>

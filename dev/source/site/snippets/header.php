@@ -17,9 +17,8 @@
         <link rel="shortcut icon" href="<?= $site->favicon()->toFile()->thumb(['width' => 200])->url() ?>" type="image/x-icon">
     <?php endif;?>
     
-    <meta name="description" content="<?= $site->siteDescription() ?>">
-    <meta name="keywords" content="<?= $site->keywords() ?>">
-    <title><?= ((!$page->isHomePage()) ? $page->title() . ' > ' : '' ) . $site->title() ?></title>
+    <?php echo $page->metaTags() ?>
+    
 	<?php
 
 	echo css('assets/css/styles.css');
@@ -93,7 +92,8 @@
 </head>
 <body class="<?= $page->intendedTemplate() ?>">
 
-<?php if(!$page->isHomePage()): ?>
-    <?= snippet('nav') ?>
-<?php endif; ?>
+    <?php if(!isset($nav)) {$nav = true;} ?>
+
+    <?= ($nav) ? snippet('nav') : '' ?>
+
 <div class="wrapper">

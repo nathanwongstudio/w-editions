@@ -8,6 +8,7 @@
     line-height:1;
 
     position:relative;
+    z-index: 999;
 
     top:0;
     left:0;
@@ -31,15 +32,16 @@
 
     @media screen and (hover: none),
     screen and (width <=50em) {
-        text-shadow: 0 0 2px  var(--c-cobalt);
+        text-shadow: 0 0 1px  var(--c-cobalt);
     }
 }
 
 nav {
-    --nav-font-size: 2em;
+    --text-shadow-menu:0 0 0.06em var(--c-paper);
+    --nav-font-size: 6vw;
 
     @media screen and (width <=50em) {
-        --nav-font-size: 3em;
+        --nav-font-size: 12vw;
     }
 
     line-height:1;
@@ -51,11 +53,13 @@ nav {
 
     box-sizing: border-box;
     width:100%;
-    height:  var(--nav-height);
-    padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
 
     transition: 250ms ease;
     transition-property: background-color;
+
+    border-bottom:1px solid var(--border-color);
+
+    background-color: var(--c-paper);
 
     a {
         text-decoration: none;
@@ -67,46 +71,64 @@ nav {
         }
     }
 
-    & > .menu {
+    .wrapper-nav {
+        position: relative;
+        z-index: 99;
+
+        overflow:hidden;
+
+        box-sizing: border-box;
+
+        max-height:  var(--nav-height);
+        padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
+
+        transition: max-height 250ms ease;
+
+        background-color: white;
+        filter: contrast(60);
+        mix-blend-mode: multiply;
+
+        .underlay {
+            font-style: italic;
+
+            position:absolute;
+            z-index:-1;
+            left:0;
+
+            transition: text-shadow 250ms ease;
+
+            text-shadow: 0 0 0.1em var(--c-cinnabar);
+        }
+
+        a:hover .underlay {
+            transition: text-shadow 250ms ease;
+
+            text-shadow: 0 0 0.2em var(--c-cinnabar);
+        }
+    }
+
+    .menu {
         position: absolute;
-        top: var(--nav-height);
+        top:0;
         left:0;
 
         overflow: hidden;
 
         width:100vw;
+        height:100vh;
 
-        height:0;
+        max-height:0;
 
         transition: 250ms ease;
-        transition-property: height, background-color;
+        transition-property: max-height;
 
-        border-bottom:1px solid var(--border-color);
-
-        background-color: var(--c-paper);
+        background-color: var(--c-cobalt-400);
 
         --nav-top: calc(var(--base-line-height) * 3);
+        --menu-item-pad: calc(var(--nav-font-size) * 1.5);
 
         @media screen and (width <= 50em) {
             --nav-top:  calc(var(--base-line-height) * 5);
-        }
-
-        &::after {
-            position:absolute;
-            z-index:2;
-            top:var(--nav-top);
-            left:0;
-
-            width:100%;
-            height:2px;
-
-            content:' ';
-            transition:250ms ease;
-            transition-property: box-shadow, background-color;
-
-            background-color:  var(--c-paper);
-
-            box-shadow: 0 0 0  var(--c-paper);
         }
 
         ul.menu-items {
@@ -121,8 +143,8 @@ nav {
 
             height: calc(100vh - var(--nav-height));
             margin:0;
-            margin-top: var(--nav-top);
-            padding:0 var(--base-line-height) var(--nav-top);
+            margin-top: var(--menu-item-pad);
+            padding:0 var(--base-line-height) 1em;
 
             text-align:center;
 
@@ -144,7 +166,7 @@ nav {
                 word-spacing: normal;
                 
                 color: transparent;
-                text-shadow: 0 0 3.5px var(--c-paper);
+                text-shadow: var(--text-shadow-menu);
 
                 &.active {
                     // text-shadow: 0 0 0 var(--c-paper);
@@ -158,11 +180,6 @@ nav {
                     visibility: none;
 
                     content:'';
-                }
-
-                @media screen and (hover: none),
-                screen and (width <=50em) {
-                    text-shadow: 0 0 2px var(--c-paper);
                 }
 
                 a {
@@ -244,11 +261,14 @@ nav {
         }
 
         &:checked {
-            top: var(--base-line-height);
-            left: calc(100vw - var(--base-line-height) - var(--nav-height));
+            top:calc(var(--nav-font-size) / 4);
+            left: calc(100% - (var(--nav-font-size) * 1.25));
+    
+            width: var(--nav-font-size);
+            height:var(--nav-font-size);
 
             transition: 250ms ease;
-            transform: rotate(45deg);
+            transform:rotate(45deg);
 
             &::before, &::after {
                 transition: 250ms ease;
@@ -259,21 +279,10 @@ nav {
             }
 
             & ~ .menu {
-                height: calc(100vh - var(--nav-height));
+                max-height:100vh;
 
-                transition:250ms ease;
-                transition-property: height, background-color;
-                
-                background-color: var(--c-paynes);
-
-                &::after {
-                    transition:250ms ease;
-                    transition-property: box-shadow, background-color;
-
-                    background-color:  var(--c-paynes);
-
-                    box-shadow: 0 0 10px 10px  var(--c-paynes);
-                }
+                transition: 250ms ease;
+                transition-property:max-height;
             }
 
             & ~ .site-title {
@@ -282,7 +291,7 @@ nav {
                 // position:absolute;
 
                 z-index:9999;
-                top:var(--base-line-height);
+                top:0;
                 left:50%;
 
                 box-sizing: border-box;
@@ -294,16 +303,7 @@ nav {
 
                 text-align:center;
 
-                text-shadow:0 0 3px var(--c-paper);
-
-                @media screen and (hover: none),
-                screen and (width <= 50em) {
-                    text-shadow: 0 0 2px var(--c-paper);
-                }
-
-                @media screen and (width <= 50em) {
-                    top: calc(var(--nav-height) * 1.5);
-                }
+                text-shadow:var(--text-shadow-menu);
 
                 &:hover {
                     text-shadow: 0 0 0 var(--c-paper);
@@ -324,7 +324,15 @@ nav {
         transition-property: background-color;
 
         color: var(--c-paper);
-        background-color: var(--c-paynes);
+        background-color: var(--c-paper);
+
+        .wrapper-nav {
+            height: 100vh;
+            max-height: 100vh;
+
+            transition: max-height 250ms ease;
+        }
+
     }
 
     &:has(#x:checked) {
@@ -332,6 +340,6 @@ nav {
         transition-property: background-color;
 
         color: var(--c-paper);
-        background-color: var(--c-paynes);
+        background-color: transparent;
     }
 }

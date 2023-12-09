@@ -175,6 +175,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/source\/assets\/css\/templates\/error.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/templates\/error.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/source\/assets\/css\/templates\/gallery-artwork.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -213,7 +228,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/build\/assets\/css\/templates\/home.css",
       "oF" : 0,
       "oS" : 0,
@@ -594,6 +609,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/templates\/default.php",
+      "oF" : 0
+    },
+    "\/source\/site\/templates\/error.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/error.php",
       "oF" : 0
     },
     "\/source\/site\/templates\/gallery-artwork.php" : {
