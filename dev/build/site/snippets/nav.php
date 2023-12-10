@@ -1,6 +1,6 @@
 <nav id="main-nav" role="navigation" aria-label="Main site links">
     <div class="wrapper-nav">
-        <input type="checkbox" id="x" aria-label="click to toggle the menu" role="button" aria-pressed="false" aria-haspopup="menu"></input>
+        <input type="checkbox" id="x" class="menu-toggle" aria-label="click to toggle the menu" role="button" aria-pressed="false" aria-haspopup="menu"></input>
         <section class="site-title">
             <a href="<?= $site->url()?>" aria-label="click to go to the home page">
                 <?= $site->title(); ?>

@@ -394,6 +394,49 @@ button {
     width:100%;
 
     border-bottom:1px solid var(--border-color);
+
+    &.feature {
+        --features-bg: var(--c-paynes);
+
+        box-sizing: border-box;
+        width: 100%;
+        padding: var(--base-line-height) 0;
+
+        section.grid {
+            overflow: auto;
+
+            box-sizing: border-box;
+
+            box-shadow: 0 0 2px 3px var(--features-bg);
+
+            @media screen and (width <= 60em) {
+                padding: var(--base-line-height);
+
+                background: var(--features-bg);
+            }
+
+            .column {
+                margin:0;
+
+                border-right:0;
+                background: var(--features-bg);
+
+                @media screen and (width <= 60em) {
+                    margin-bottom: var(--base-line-height);
+                    padding:0;
+
+                    &:last-child {
+                        margin:0;
+                    }
+                }
+            }
+
+            h1, h2, h3, h4, h5, h6,
+            p, * {
+                color: var(--c-paper);
+            }
+        }
+    }
 }
 
 %shared {
@@ -473,10 +516,10 @@ button {
 
             width:100%;
             max-width: 35rem;
-            margin: 0 auto;
+            margin: 0;
 
             & + .block {
-                margin: var(--base-line-height) auto 0;
+                margin: var(--base-line-height) 0 0;
             }
     
             &.block-type-gallery {
@@ -548,12 +591,28 @@ button {
                         box-sizing: border-box;
                         max-width: none;
                         padding: 0 var(--base-line-height);
+    
+                        &.block-type-gallery {
+                            padding:0;
+                        }
+                    }
+                }
+                
+                .block-type-heading,
+                .block-type-text {
+                    box-sizing: border-box;
+                    max-width: 60em;
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding: 0 var(--base-line-height);
+
+                    p {
+                        max-width: 35em;
                     }
                 }
 
                 .block-type-gallery {
                     max-width:100%;
-                    padding:0;
                 }
             }
         }
@@ -813,9 +872,12 @@ button {
     --duration: 20s;
     --ticker-font-size: 1.33rem;
     --ticker-size: 1.75rem;
-    --background: var(--c-cobalt);
+    --background: var(--c-paper);
     --ticker-text: var(--c-paper);
+    
     border-bottom:0;
+
+    filter: contrast(10);
 
     @keyframes ticker {
       0% {
@@ -970,5 +1032,10 @@ button {
     .signed {
         text-align:right;
     }
+}
+
+.underlay {
+    user-select: none;
+    pointer-events:none;
 }
 

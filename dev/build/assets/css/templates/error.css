@@ -215,6 +215,9 @@ which the user cannot interact with */
   position: absolute;
   z-index: -1;
   width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .block .overlay h1, .block .overlay h2, .block .overlay h3, .block .overlay h4, .block .overlay h5, .block .overlay h6, .block .overlay p, .block .overlay div, .block .overlay * {
   text-shadow: 0 0 20px var(--c-cobalt);

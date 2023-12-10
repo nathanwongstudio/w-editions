@@ -112,10 +112,12 @@ nav {
   z-index: 9999;
   top: 0;
   left: 0;
+  overflow: hidden;
   box-sizing: border-box;
   width: 100%;
-  transition: 250ms ease;
-  transition-property: background-color;
+  max-height: var(--nav-height);
+  transition: 400ms ease;
+  transition-property: max-height;
   border-bottom: 1px solid var(--border-color);
   background-color: var(--c-paper);
 }
@@ -134,11 +136,9 @@ nav a:hover {
 nav .wrapper-nav {
   position: relative;
   z-index: 99;
-  overflow: hidden;
   box-sizing: border-box;
-  max-height: var(--nav-height);
+  height: 100vh;
   padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
-  transition: max-height 250ms ease;
   background-color: white;
   filter: contrast(60);
   mix-blend-mode: multiply;
@@ -162,9 +162,8 @@ nav .menu {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  max-height: 0;
-  transition: 250ms ease;
-  transition-property: max-height;
+  transition: opacity 1s ease;
+  opacity: 0;
   background-color: var(--c-cobalt-400);
   --nav-top: calc(var(--base-line-height) * 3);
   --menu-item-pad: calc(var(--nav-font-size) * 1.5);
@@ -273,9 +272,8 @@ nav #x:checked::before, nav #x:checked::after {
   box-shadow: 0 0 3px 3px var(--c-paper);
 }
 nav #x:checked ~ .menu {
-  max-height: 100vh;
-  transition: 250ms ease;
-  transition-property: max-height;
+  transition: opacity 1s ease;
+  opacity: 1;
 }
 nav #x:checked ~ .site-title {
   font-size: var(--nav-font-size);
@@ -297,21 +295,16 @@ nav #x:checked::before {
   transition: 250ms ease;
 }
 nav.is-open {
-  transition: 250ms ease;
-  transition-property: background-color;
-  color: var(--c-paper);
-  background-color: var(--c-paper);
-}
-nav.is-open .wrapper-nav {
-  height: 100vh;
   max-height: 100vh;
-  transition: max-height 250ms ease;
+  transition: 400ms ease;
+  transition-property: background-color, max-height;
 }
 nav:has(#x:checked) {
-  transition: 250ms ease;
-  transition-property: background-color;
+  max-height: 100vh;
+  transition: 400ms ease;
+  transition-property: background-color, max-height;
   color: var(--c-paper);
-  background-color: transparent;
+  background-color: var(--c-paper);
 }
 
 /*# sourceMappingURL=nav.css.map */

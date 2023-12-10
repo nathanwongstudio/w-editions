@@ -51,11 +51,14 @@ nav {
     top:0;
     left:0;
 
+    overflow:hidden;
+
     box-sizing: border-box;
     width:100%;
+    max-height: var(--nav-height);
 
-    transition: 250ms ease;
-    transition-property: background-color;
+    transition:400ms ease;
+    transition-property:  max-height;
 
     border-bottom:1px solid var(--border-color);
 
@@ -75,14 +78,10 @@ nav {
         position: relative;
         z-index: 99;
 
-        overflow:hidden;
-
         box-sizing: border-box;
+        height:100vh;
 
-        max-height:  var(--nav-height);
         padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
-
-        transition: max-height 250ms ease;
 
         background-color: white;
         filter: contrast(60);
@@ -117,10 +116,9 @@ nav {
         width:100vw;
         height:100vh;
 
-        max-height:0;
+        transition: opacity 1s ease;
 
-        transition: 250ms ease;
-        transition-property: max-height;
+        opacity: 0;
 
         background-color: var(--c-cobalt-400);
 
@@ -279,10 +277,9 @@ nav {
             }
 
             & ~ .menu {
-                max-height:100vh;
+                transition: opacity 1s ease;
 
-                transition: 250ms ease;
-                transition-property:max-height;
+                opacity:1;
             }
 
             & ~ .site-title {
@@ -320,26 +317,19 @@ nav {
     }
 
     &.is-open {
-        transition: 250ms ease;
-        transition-property: background-color;
+        max-height: 100vh;
 
-        color: var(--c-paper);
-        background-color: var(--c-paper);
-
-        .wrapper-nav {
-            height: 100vh;
-            max-height: 100vh;
-
-            transition: max-height 250ms ease;
-        }
-
+        transition: 400ms ease;
+        transition-property: background-color, max-height;
     }
 
     &:has(#x:checked) {
-        transition: 250ms ease;
-        transition-property: background-color;
+        max-height: 100vh;
+
+        transition: 400ms ease;
+        transition-property: background-color, max-height;
 
         color: var(--c-paper);
-        background-color: transparent;
+        background-color: var(--c-paper);
     }
 }

@@ -189,6 +189,8 @@ which the user cannot interact with */
 
         width: 100%;
 
+        user-select: none;
+
         h1, h2, h3, h4, h5, h6, p, div, * {
             text-shadow: 0 0 20px var(--c-cobalt);
         }
