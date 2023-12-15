@@ -293,9 +293,10 @@ which the user cannot interact with */
 
                         background:transparent;
                         
-                        &[type="email"] {
+                        &[type="email"], &[type="submit"] {
                             transition:100ms ease;
 
+                            background: var(--shadow-color);
                             box-shadow: 0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);
 
                             &.empty + .cursor {
@@ -421,6 +422,8 @@ which the user cannot interact with */
             }
 
             input[type="submit"] {
+                @extend %white-text;
+
                 font-family: inherit;
                 font-size: 1em;
                 font-weight: 700;
@@ -433,14 +436,16 @@ which the user cannot interact with */
 
                 display:block;
 
+                margin:0;
+
                 padding:1em 0.5em;
 
                 cursor: pointer;
 
                 border:none;
+                border-radius: var(--input-radius);
                 background:transparent;
-
-                @extend %white-text;
+                box-shadow: none;
 
                 @media screen and (width<=60em) {
                     font-size: 0.75em;

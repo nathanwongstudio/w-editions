@@ -162,7 +162,8 @@ nav .menu {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  transition: opacity 1s ease;
+  transition: opacity 1ms ease;
+  transition-delay: 400ms;
   opacity: 0;
   background-color: var(--c-cobalt-400);
   --nav-top: calc(var(--base-line-height) * 3);
@@ -221,6 +222,10 @@ nav .menu ul.menu-items li:hover {
 nav .menu ul.menu-items li:first-child {
   padding-left: 0;
 }
+nav input {
+  margin: 0;
+  padding: 0;
+}
 nav #x {
   position: absolute;
   z-index: 9999;
@@ -272,7 +277,8 @@ nav #x:checked::before, nav #x:checked::after {
   box-shadow: 0 0 3px 3px var(--c-paper);
 }
 nav #x:checked ~ .menu {
-  transition: opacity 1s ease;
+  transition: opacity 1ms ease;
+  transition-delay: 0;
   opacity: 1;
 }
 nav #x:checked ~ .site-title {

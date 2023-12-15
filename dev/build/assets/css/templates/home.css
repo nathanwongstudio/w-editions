@@ -215,6 +215,9 @@ which the user cannot interact with */
   position: absolute;
   z-index: -1;
   width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .block .overlay h1, .block .overlay h2, .block .overlay h3, .block .overlay h4, .block .overlay h5, .block .overlay h6, .block .overlay p, .block .overlay div, .block .overlay * {
   text-shadow: 0 0 20px var(--c-cobalt);
@@ -255,7 +258,7 @@ which the user cannot interact with */
 .block.block-type-newsletter form {
   position: relative;
 }
-.block.block-type-newsletter form input[type=email].empty:focus + .cursor, .block.block-type-newsletter form .email:hover input[type=email].empty + .cursor {
+.block.block-type-newsletter form input[type=email].empty:focus + .cursor, .block.block-type-newsletter form .email:hover input[type=email].empty + .cursor, .block.block-type-newsletter form .email:hover input[type=submit].empty + .cursor {
   background: black;
   box-shadow: 0 0 3px 3px black, 0 0 10px 4px var(--c-cobalt);
 }
@@ -290,8 +293,9 @@ which the user cannot interact with */
 .block.block-type-newsletter form .email:hover input {
   background: transparent;
 }
-.block.block-type-newsletter form .email:hover input[type=email] {
+.block.block-type-newsletter form .email:hover input[type=email], .block.block-type-newsletter form .email:hover input[type=submit] {
   transition: 100ms ease;
+  background: var(--shadow-color);
   box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
 }
 .block.block-type-newsletter form fieldset {
@@ -400,10 +404,13 @@ which the user cannot interact with */
   top: 0;
   right: 0;
   display: block;
+  margin: 0;
   padding: 1em 0.5em;
   cursor: pointer;
   border: none;
+  border-radius: var(--input-radius);
   background: transparent;
+  box-shadow: none;
 }
 @media screen and (width <= 60em) {
   .block.block-type-newsletter form input[type=submit] {

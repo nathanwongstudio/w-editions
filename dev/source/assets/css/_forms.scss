@@ -1,0 +1,85 @@
+@use 'variables';
+@use 'mixins';
+
+label {
+    display:inline-block;
+
+    width: 100%;
+
+    margin-top: calc(var(--base-line-height) / 2);
+
+    & + input {
+        margin-top:0;
+    }
+}
+
+input {
+    display: inline-block;
+
+    box-sizing: border-box;
+
+    width: 100%;
+    margin: calc(var(--base-line-height) / 2) 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input[type="datetime"] {
+    padding: 0.3em 0.375em;
+
+    border: 0;
+    border-radius: var(--input-radius);
+    background: var(--c-paper-200);
+    box-shadow:0 0 2px 1px var(--c-paynes-100);
+}
+
+
+a.button,
+button,
+input[type="submit"],
+input[type="button"] {
+    font-weight: 800;
+
+    position: relative;
+    z-index:9;
+
+    display: block;
+
+    width: auto;
+
+    margin: calc(var(--base-line-height) / 2) auto;
+    padding: 0.5em 1em;
+
+    cursor: pointer;
+    transition: 200ms ease;
+
+    text-decoration: none;
+
+    color: var(--c-paper);
+    border: 0;
+
+    border-radius: 50%;
+
+    outline: 0;
+    background: none;
+    background: var(--c-cobalt);
+    box-shadow: 0 0 1px 1px var(--c-cobalt), 0 0 3px 3px var(--c-benibana);
+    appearance: none;
+
+    &:hover {
+        transition: 200ms ease;
+
+        color: var(--c-cobalt-300);
+        box-shadow: 0 0 1px 1px var(--c-cobalt), 0 0 4px 6px var(--c-benibana);
+    }
+}

@@ -1,5 +1,26 @@
 title: Site
 
-sections:
+tabs:
   pages:
-    type: pages
+    columns:
+      - width: 1/2
+        sections:
+          published:
+            type: pages
+            status: listed
+      - width: 1/2
+        sections:
+          unlisted:
+            type: pages
+            status: unlisted
+          draft:
+            type: pages
+            status: draft
+
+
+  settings:
+    fields:
+      description:
+        label: SEO Description
+        type: textarea
+        buttons: false

@@ -116,7 +116,8 @@ nav {
         width:100vw;
         height:100vh;
 
-        transition: opacity 1s ease;
+        transition: opacity 1ms ease;
+        transition-delay: 400ms;
 
         opacity: 0;
 
@@ -207,6 +208,11 @@ nav {
         }
     }
 
+    input {
+        margin:0;
+        padding:0;
+    }
+
     #x { // nav-open button
 
         position:absolute;
@@ -277,7 +283,8 @@ nav {
             }
 
             & ~ .menu {
-                transition: opacity 1s ease;
+                transition: opacity 1ms ease;
+                transition-delay: 0;
 
                 opacity:1;
             }

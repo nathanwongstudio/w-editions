@@ -70,6 +70,21 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/source\/assets\/css\/_forms.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/assets\/css\/_forms.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/source\/assets\/css\/_mixins.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -153,9 +168,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/build\/assets\/css\/templates\/artists-collection.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -228,9 +243,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/build\/assets\/css\/templates\/home.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
