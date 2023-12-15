@@ -303,6 +303,14 @@ which the user cannot interact with */
                                 @extend %empty-cursor;
                             }
                         }
+
+                        @media screen and (width >= 60em) {
+                            &[type="submit"] {
+                                background:transparent;
+                                box-shadow:none;
+                            }
+                        }
+
                         
                     }
                     

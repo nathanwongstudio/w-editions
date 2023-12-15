@@ -298,6 +298,12 @@ which the user cannot interact with */
   background: var(--shadow-color);
   box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
 }
+@media screen and (width >= 60em) {
+  .block.block-type-newsletter form .email:hover input[type=submit] {
+    background: transparent;
+    box-shadow: none;
+  }
+}
 .block.block-type-newsletter form fieldset {
   margin: 0;
   padding: 0;
