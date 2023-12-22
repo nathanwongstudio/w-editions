@@ -60,8 +60,6 @@ nav {
     transition:400ms ease;
     transition-property:  max-height;
 
-    border-bottom:1px solid var(--border-color);
-
     background-color: var(--c-paper);
 
     a {
@@ -232,7 +230,7 @@ nav {
         // CROSS AND BAR REGISTRATION DESIGN
         &::before { // HORIZONTAL LINE
             position:absolute;
-            top: 1.875rem;
+            top: 50%;
             left: calc(50% - (var(--nav-height) / 2));
         
             display:block;

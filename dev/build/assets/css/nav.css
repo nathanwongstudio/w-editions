@@ -118,7 +118,6 @@ nav {
   max-height: var(--nav-height);
   transition: 400ms ease;
   transition-property: max-height;
-  border-bottom: 1px solid var(--border-color);
   background-color: var(--c-paper);
 }
 @media screen and (width <= 50em) {
@@ -242,7 +241,7 @@ nav #x {
 }
 nav #x::before {
   position: absolute;
-  top: 1.875rem;
+  top: 50%;
   left: calc(50% - var(--nav-height) / 2);
   display: block;
   width: var(--nav-height);

@@ -697,6 +697,10 @@ input[type=button]:hover {
   box-shadow: 0 0 1px 1px var(--c-cobalt), 0 0 4px 6px var(--c-benibana);
 }
 
+:root {
+  --max-content-width: 60rem;
+}
+
 ::-moz-selection {
   height: 0.5em;
   color: transparent;
@@ -915,18 +919,17 @@ figure:first-child {
 
 .section-wrapper {
   width: 100%;
-  border-bottom: 1px solid var(--border-color);
 }
 .section-wrapper.feature {
   --features-bg: var(--c-paynes);
   box-sizing: border-box;
   width: 100%;
-  padding: var(--base-line-height) 0;
+  padding: calc(var(--base-line-height) / 2) 0;
 }
 .section-wrapper.feature section.grid {
   overflow: auto;
   box-sizing: border-box;
-  box-shadow: 0 0 2px 3px var(--features-bg);
+  max-width: calc(var(--max-content-width) - var(--base-line-height) * 2);
 }
 @media screen and (width <= 60em) {
   .section-wrapper.feature section.grid {
@@ -936,6 +939,7 @@ figure:first-child {
 }
 .section-wrapper.feature section.grid .column {
   margin: 0;
+  padding: var(--base-line-height);
   border-right: 0;
   background: var(--features-bg);
 }
@@ -967,17 +971,13 @@ figure:first-child {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   width: 100%;
-  max-width: 60em;
+  max-width: var(--max-content-width);
   margin: 0 auto;
 }
 .default-content section.grid .column {
   grid-column: span var(--span);
-  padding: var(--base-line-height);
-  border-right: 1px solid var(--border-color);
+  padding: 0 var(--base-line-height);
   --span: 12;
-}
-.default-content section.grid .column:last-child {
-  border-right: none;
 }
 @media screen and (width <= 60rem) {
   .default-content section.grid {
@@ -1002,6 +1002,7 @@ figure:first-child {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
+  box-sizing: border-box;
   height: 100%;
 }
 .default-content .blocks .block {
@@ -1016,6 +1017,14 @@ figure:first-child {
 }
 .default-content .blocks .block.block-type-gallery {
   padding: 0;
+}
+.default-content .blocks .block.block-type-line {
+  max-width: var(--max-content-width);
+}
+.default-content .blocks .block.block-type-line hr {
+  height: 2px;
+  margin: 0;
+  background-color: var(--border-color);
 }
 .default-content .blocks .block-type-image {
   flex-grow: 1;
@@ -1046,6 +1055,9 @@ figure:first-child {
   padding: 0;
   text-align: left;
 }
+.default-content .section-wrapper {
+  margin: var(--base-line-height) 0;
+}
 .default-content .section-wrapper.layout-gallery {
   width: 100%;
 }
@@ -1053,7 +1065,7 @@ figure:first-child {
   max-width: none;
 }
 .default-content .section-wrapper.layout-gallery section.grid .column {
-  padding: var(--base-line-height) 0;
+  padding: 0;
 }
 @media screen and (width <= 60em) {
   .default-content .section-wrapper.layout-gallery section.grid .column {
@@ -1076,7 +1088,7 @@ figure:first-child {
 .default-content .section-wrapper.layout-gallery section.grid .block-type-heading,
 .default-content .section-wrapper.layout-gallery section.grid .block-type-text {
   box-sizing: border-box;
-  max-width: 60em;
+  max-width: var(--max-content-width);
   margin-right: auto;
   margin-left: auto;
   padding: 0 var(--base-line-height);
@@ -1089,19 +1101,22 @@ figure:first-child {
   max-width: 100%;
 }
 .default-content .section-wrapper.header {
-  padding: calc(var(--base-line-height) * 3) 0;
+  padding: 0;
 }
 .default-content .section-wrapper.header section.grid {
-  max-width: 80em;
+  max-width: var(--max-content-width);
 }
 .default-content .section-wrapper.header .blocks {
   width: 100%;
   max-width: none;
   margin: auto;
+  padding: var(--base-line-height) 0;
+  border-bottom: 2px solid var(--border-color);
 }
 .default-content .section-wrapper.header .block {
   width: 100%;
   max-width: none;
+  padding: 1rem;
 }
 .default-content .section-wrapper.header .block.block-type-text {
   max-width: 40em;
@@ -1111,7 +1126,6 @@ figure:first-child {
   position: relative;
   max-width: 90%;
   margin-left: 0;
-  padding: 1rem;
   text-wrap: balance;
   background: white;
   mix-blend-mode: multiply;
@@ -1384,7 +1398,6 @@ figure:first-child {
   margin: auto auto 10rem;
   padding: var(--base-line-height);
   color: transparent;
-  border-bottom: 1px solid var(--border-color);
   text-shadow: 0 0 1px var(--c-paper-900);
 }
 .signed-area::after {
