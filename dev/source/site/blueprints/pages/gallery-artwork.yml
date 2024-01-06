@@ -39,7 +39,6 @@ tabs:
             type: date
             default: today
             label: Date Published
-            display: MM/DD/YYYY
           artId:
             type: text
             label: Art ID
