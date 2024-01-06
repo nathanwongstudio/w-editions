@@ -82,13 +82,19 @@
 }
 @media screen and (width <= 60rem) {
   :root {
-    --base-font-size: 45px;
+    --base-font-size: 7vw;
   }
 }
 
 html, body {
   overflow-x: hidden;
   background-color: black !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
 }
 
 body {
@@ -104,6 +110,11 @@ body {
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
+@media screen and (width <= 60rem) {
+  .block.block-type-newsletter form input[type=submit], .block.block-type-heading, .block.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+    text-shadow: 0 0 2px var(--shadow-color);
+  }
+}
 
 .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
   color: transparent;
@@ -114,6 +125,18 @@ body {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
+@media screen and (width <= 60rem) {
+  .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
+    text-shadow: 0 0 2px black;
+  }
+  .block.block-type-newsletter form input[type=email]:focus ~ input, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown), .block.block-type-newsletter form .email:hover input {
+    text-shadow: 0 0 2px black;
+  }
+}
+
+.wrapper, .layouts, body {
+  display: contents;
+}
 
 .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
   font-family: var(--primary-font-stack);
@@ -121,6 +144,11 @@ body {
   font-weight: 900;
   max-width: 70vw;
   margin: auto;
+}
+@media screen and (width <= 60rem) {
+  .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+    max-width: 95vw;
+  }
 }
 .home h1, .error h1 {
   font-size: 2em;
@@ -163,6 +191,7 @@ which the user cannot interact with */
   border: none;
   background: black;
   mix-blend-mode: hard-light;
+  scroll-snap-align: start;
 }
 .section-wrapper.ticker {
   font-size: 7vw;
@@ -183,6 +212,9 @@ which the user cannot interact with */
 }
 .section-wrapper.ticker section.grid .column .blocks {
   font-weight: bold;
+}
+.section-wrapper.ticker section.grid .column .blocks .block {
+  scroll-snap-align: start;
 }
 .section-wrapper.ticker section.grid .column .blocks * {
   font-size: 1em;
@@ -219,9 +251,6 @@ which the user cannot interact with */
      -moz-user-select: none;
           user-select: none;
 }
-.block .overlay h1, .block .overlay h2, .block .overlay h3, .block .overlay h4, .block .overlay h5, .block .overlay h6, .block .overlay p, .block .overlay div, .block .overlay * {
-  text-shadow: 0 0 20px var(--c-cobalt);
-}
 .block .overlay form {
   visibility: hidden;
   height: calc(3em + 2rem);
@@ -237,6 +266,20 @@ which the user cannot interact with */
   display: none;
   visibility: hidden;
 }
+.block h1, .block h2, .block h3, .block h4, .block h5, .block h6, .block p, .block div, .block * {
+  position: relative;
+}
+.block h1::after, .block h2::after, .block h3::after, .block h4::after, .block h5::after, .block h6::after, .block p::after, .block div::after, .block *::after {
+  font-style: normal;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: attr(data-text);
+  word-break: break-word;
+  text-shadow: 0 0 0.3em var(--c-cobalt);
+}
 .block.block-type-heading, .block.block-type-newsletter {
   font-weight: bold;
   line-height: 1.5em;
@@ -244,9 +287,6 @@ which the user cannot interact with */
   padding: 1em;
   text-align: center;
   color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke-width: 0;
 }
 .block.block-type-heading a, .block.block-type-newsletter a {
   word-break: break-word;
@@ -254,6 +294,9 @@ which the user cannot interact with */
 }
 .block.block-type-heading a:hover, .block.block-type-newsletter a:hover {
   color: inherit;
+}
+.block.block-type-newsletter fieldset {
+  display: block;
 }
 .block.block-type-newsletter form {
   position: relative;

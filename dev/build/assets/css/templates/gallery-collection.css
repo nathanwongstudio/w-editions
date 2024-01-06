@@ -127,7 +127,7 @@
   padding: 0;
   counter-increment: list -1;
   mix-blend-mode: multiply;
-  border-bottom: 2px solid var(--c-paper-400);
+  border-bottom: 3px solid var(--c-paper-300);
 }
 .collection li:hover {
   background: var(--c-cobalt);
@@ -230,15 +230,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 2em;
+  height: 100%;
   content: counter(list);
   transform: translateY(-50%);
   text-align: center;
-  color: var(--c-cobalt);
+  color: var(--c-paynes-200);
   border-right: 1px solid;
-}
-.collection li:last-child {
-  border-bottom: 0;
 }
 
 .image-box {

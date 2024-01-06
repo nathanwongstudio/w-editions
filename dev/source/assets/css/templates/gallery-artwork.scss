@@ -48,37 +48,74 @@ h1.title {
     top: var(--nav-height);
     right: 0;
 
-    width: 11em;
-    height: auto;
-
-    padding: 3em 2em 1em;
-
     mix-blend-mode: multiply;
 
     .sticker-wrapper.contrast-text {
         font-size: 1em;
+
+        height: auto;
+
+        padding:1em;
+
+        @media screen and (width <= 50em) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            box-sizing: border-box;
+
+            width: 100%;
+        }
+
+    }
+
+    @media screen and (width <= 50em) {
+        width: 100%;
     }
 }
 
 .sticker {
     --contrast-text-color: var(--c-cinnabar);
     font-size: 1.75em;
+    line-height: 1;
 
     position:relative;
+
     top:0;
     right:0;
-    left: auto;
 
     width: auto;
     height: auto;
-    margin-bottom: 0.5em;
+    margin: 0 auto;
+    margin-bottom: 1em;
 
-    // transform:none;
+    word-break: keep-all;
+
+    // margin-left: auto;
 
     color: transparent;
+    
+    @media screen and (width <= 60em) {
+        // font-size: 1.5em;
+
+        letter-spacing: -1px;
+    }
+
+    &.sold {
+        width: auto;
+    }
 
     &.push {
         --tag-background-color: var(--c-cobalt-400);
+        animation: button 0.75s linear;
+
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: both;
+
+        @media screen and (width <= 60em) {
+            animation: none;
+        }
     }
 
     &:hover {
@@ -96,10 +133,22 @@ h1.title {
     }
 }
 
+@keyframes button {
+    from {
+        transform: scale(100%) skewX(-15deg) rotate(-15deg);
+    }
+
+    to {
+        transform: scale(115%) skewX(-15deg) rotate(-15deg);
+    }
+}
+
 .availability {
     &.sold {
         --background: var(--c-cinnabar);
         --contrast-text-color: var(--c-gold);
+        margin-right:0;
+        margin-left: auto;
     }
 
     &.new {
@@ -109,6 +158,10 @@ h1.title {
 }
 
 .artwork {
+    @media screen and (width <= 50em) {
+        padding-top: 4em;
+    }
+
     .description {
         position: sticky;
         z-index:9;

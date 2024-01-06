@@ -78,8 +78,8 @@ tabs:
             type: writer
             nodes: true
 
-  attached:
-    label: Attached Media
+  media:
+    label: Media
     icon: images
     sections:
       files:

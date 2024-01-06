@@ -20,6 +20,10 @@ tabs:
               query: page.primaryImg.toFile
               back: white
               ratio: 1/1
+  media:
+    sections:
+      files:
+        type: files
   security:
     icon: lock
     columns:

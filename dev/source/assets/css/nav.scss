@@ -67,8 +67,33 @@ nav {
 
         color: transparent;
 
+        &::after {
+            font-style: italic;
+
+            position:absolute;
+            z-index: -1;
+            left:0;
+
+            width: 100%;
+
+            content: attr(data-text);
+            transition: 250ms ease;
+            transition-property: text-shadow;
+            word-break: break-word;
+
+            text-shadow: 0 0 0.1em var(--c-cinnabar);
+            
+        }
+
         &:hover {
             color:transparent;
+
+            &::after {
+                transition: 250ms ease;
+                transition-property: text-shadow;
+
+                text-shadow: 0 0 0.2em var(--c-cinnabar);
+            }
         }
     }
 
@@ -84,24 +109,6 @@ nav {
         background-color: white;
         filter: contrast(60);
         mix-blend-mode: multiply;
-
-        .underlay {
-            font-style: italic;
-
-            position:absolute;
-            z-index:-1;
-            left:0;
-
-            transition: text-shadow 250ms ease;
-
-            text-shadow: 0 0 0.1em var(--c-cinnabar);
-        }
-
-        a:hover .underlay {
-            transition: text-shadow 250ms ease;
-
-            text-shadow: 0 0 0.2em var(--c-cinnabar);
-        }
     }
 
     .menu {

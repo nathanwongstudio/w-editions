@@ -22,6 +22,10 @@ tabs:
                           label:
                             label: label
                             type: text
+  media:
+    sections:
+      files:
+        type: files
   security:
     icon: lock
     columns:

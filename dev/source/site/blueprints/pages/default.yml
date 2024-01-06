@@ -11,6 +11,10 @@ tabs:
             fields:
               text:
                 extends: fields/layout
+  media:
+    sections:
+      files:
+        type: files
   
   security:
     icon: lock

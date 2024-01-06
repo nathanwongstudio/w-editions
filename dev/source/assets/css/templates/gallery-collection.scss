@@ -22,7 +22,7 @@
 
         mix-blend-mode:multiply;
 
-        border-bottom: 2px solid var(--c-paper-400);
+        border-bottom: 3px solid var(--c-paper-300);
 
 
         &:hover {
@@ -171,7 +171,7 @@
             align-items: center;
             justify-content: center;
 
-            height: 2em;
+            height: 100%;
 
             content: counter(list);
 
@@ -179,13 +179,9 @@
 
             text-align: center;
 
-            color: var(--c-cobalt);
+            color: var(--c-paynes-200);
 
             border-right: 1px solid;
-        }
-
-        &:last-child {
-            border-bottom:0;
         }
     }
 }

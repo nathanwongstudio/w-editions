@@ -21,7 +21,7 @@
             <div class="editions">
                 <?php if($artworks->isNotEmpty()): ?>
                     <figure class="artworks">
-                        <div id="gallery-scroll" data-simplebar data-simplebar-auto-hide="false">
+                        <div class="gallery-scroll" data-simplebar data-simplebar-auto-hide="false">
                             <ul class="gallery-items">
                                 <?php foreach($artworks as $art): 
                                     $src = $art->primaryImg()->toFile();

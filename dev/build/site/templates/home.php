@@ -24,9 +24,6 @@ snippet('header', compact('nav')); ?>
                             <?php foreach($column->blocks() as $block): ?>
                                 <div class="block block-type-<?=$block->type() ?> <?= ($block->full()->toBool() ? 'full-image-block' : ' ' ) ?>">
                                     <?= $block ?>
-                                    <div class="overlay" aria-hidden="true">
-                                        <?= $block ?>
-                                    </div>
                                 </div>
                             <?php endforeach ?>
                         </div>

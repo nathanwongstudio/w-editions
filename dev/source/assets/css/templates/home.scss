@@ -6,7 +6,7 @@
     --base-font-size: 60px;
 
     @media screen and (width <= 60rem) {
-        --base-font-size: 45px;
+        --base-font-size: 7vw;
     }
 }
 
@@ -16,19 +16,14 @@ html,body {
     background-color:black!important;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+
+    height: 100vh;
+}
+
 body {
-    // margin-bottom:-45vh;
-    // padding-bottom:45vh;
-
-    // background: rgb(255 255 255);
-    // background: linear-gradient(
-    //     180deg,
-    //     rgb(255 255 255 / 100%) 0%,
-    //     rgb(211 211 224 / 100%) 60%,
-    //     rgb(229 222 242 / 100%) 70%, 
-    //     rgb(236 243 251 / 72.5%) 80%, 
-    //     rgb(239 252 255 / 0%) 100%);
-
     background-image: url("../crt.jpg");
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -41,11 +36,23 @@ body {
     color: transparent;
 
     text-shadow: 0 0 3px var(--shadow-color);
+
+    @media screen and (width <= 60rem) {
+        text-shadow: 0 0 2px var(--shadow-color);
+    }
 }
 %black-text {
     color: transparent;
 
     text-shadow: 0 0 3px black;
+
+    @media screen and (width <= 60rem) {
+        text-shadow: 0 0 2px black;
+    }
+}
+
+.wrapper, .layouts, body {
+    display: contents;
 }
 
 .home, .error {
@@ -58,6 +65,11 @@ body {
         margin: auto;
 
         @extend %white-text;
+
+
+        @media screen and (width <= 60rem) {
+            max-width: 95vw;
+        }
     }
 
     h1 {
@@ -113,6 +125,8 @@ which the user cannot interact with */
     background:black;
     mix-blend-mode:hard-light;
 
+    scroll-snap-align: start;
+
     &.ticker {
 		font-size: 7vw;
 
@@ -137,6 +151,10 @@ which the user cannot interact with */
 
                 .blocks {
 					font-weight: bold;
+
+                    .block {
+                        scroll-snap-align: start;
+                    }
 
                     * {
 						font-size: 1em;
@@ -191,10 +209,6 @@ which the user cannot interact with */
 
         user-select: none;
 
-        h1, h2, h3, h4, h5, h6, p, div, * {
-            text-shadow: 0 0 20px var(--c-cobalt);
-        }
-
         form {
             visibility:hidden;
 
@@ -215,6 +229,27 @@ which the user cannot interact with */
         }
     }
 
+
+    h1, h2, h3, h4, h5, h6, p, div, * {
+        position:relative;
+
+        &::after {
+            font-style: normal;
+
+            position:absolute;
+            z-index: -1;
+            top:0;
+            left:0;
+
+            width: 100%;
+
+            content: attr(data-text);
+            word-break: break-word;
+
+            text-shadow: 0 0 0.3em var(--c-cobalt);
+        }
+    }
+
     &.block-type-heading,
     &.block-type-newsletter {
         font-weight: bold;
@@ -228,9 +263,6 @@ which the user cannot interact with */
         color:transparent;
 
         @extend %white-text;
-        -webkit-text-fill-color: transparent;
-        -webkit-text-stroke-color: transparent;
-        -webkit-text-stroke-width: 0;
 
         a {
             word-break: break-word;
@@ -244,6 +276,10 @@ which the user cannot interact with */
     }
 
     &.block-type-newsletter {
+        fieldset {
+            display: block;
+        }
+
         form {
             position:relative;
             %empty-cursor {

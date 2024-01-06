@@ -1,4 +1,4 @@
-<h3 class="newsletter-header">
+<h3 class="newsletter-header" data-text="<?= $block->label() ?>">
     <?= $block->label()?>
 </h3>
 <form
@@ -13,7 +13,7 @@
   <?php if($page->isHomePage()): ?>
   <div class="cursor"></div>
   <?php endif; ?>
-  <input type="submit" value="Submit" />
+  <input type="submit" value="Submit" data-text="Submit" />
   </fieldset>
   <div class="bd-error"></div>
 </div>

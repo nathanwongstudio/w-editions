@@ -36,6 +36,10 @@ tabs:
               mediums:
                 type: tags
                 label: Primary Mediums
+  media:
+    sections:
+      files:
+        type: files
   security:
     icon: lock
     columns:

@@ -110,29 +110,61 @@ h1.title {
   z-index: 99;
   top: var(--nav-height);
   right: 0;
-  width: 11em;
-  height: auto;
-  padding: 3em 2em 1em;
   mix-blend-mode: multiply;
 }
 .sticker-box .sticker-wrapper.contrast-text {
   font-size: 1em;
+  height: auto;
+  padding: 1em;
+}
+@media screen and (width <= 50em) {
+  .sticker-box .sticker-wrapper.contrast-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+@media screen and (width <= 50em) {
+  .sticker-box {
+    width: 100%;
+  }
 }
 
 .sticker {
   --contrast-text-color: var(--c-cinnabar);
   font-size: 1.75em;
+  line-height: 1;
   position: relative;
   top: 0;
   right: 0;
-  left: auto;
   width: auto;
   height: auto;
-  margin-bottom: 0.5em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  word-break: keep-all;
   color: transparent;
+}
+@media screen and (width <= 60em) {
+  .sticker {
+    letter-spacing: -1px;
+  }
+}
+.sticker.sold {
+  width: auto;
 }
 .sticker.push {
   --tag-background-color: var(--c-cobalt-400);
+  animation: button 0.75s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+@media screen and (width <= 60em) {
+  .sticker.push {
+    animation: none;
+  }
 }
 .sticker a {
   font-weight: bold;
@@ -141,14 +173,29 @@ h1.title {
   color: transparent;
 }
 
+@keyframes button {
+  from {
+    transform: scale(100%) skewX(-15deg) rotate(-15deg);
+  }
+  to {
+    transform: scale(115%) skewX(-15deg) rotate(-15deg);
+  }
+}
 .availability.sold {
   --background: var(--c-cinnabar);
   --contrast-text-color: var(--c-gold);
+  margin-right: 0;
+  margin-left: auto;
 }
 .availability.new {
   --background: var(--c-gold);
 }
 
+@media screen and (width <= 50em) {
+  .artwork {
+    padding-top: 4em;
+  }
+}
 .artwork .description {
   position: -webkit-sticky;
   position: sticky;

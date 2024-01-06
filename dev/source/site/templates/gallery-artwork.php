@@ -18,17 +18,20 @@
             <h1 class="title">
                 <span class="text-wrap"><?=$page->title() ?>  <span class="year">(<?= $page->year() ?>)</span></span>
             </h1>
-            <p class="price">
-                $<?= $page->price() ?>
-            </p>
+            <div class="price">
+                <span class="text-wrap">$<?= $page->price() ?></span>
+            </div>
         </div>
 
         <div class="sticker-box">
             <div class="sticker-wrapper contrast-text">
-                    <div class="sticker availability tag <?= ($page->available()->toBool()) ? 'new' : 'sold' ?>">
-                        <?= ($page->available()->toBool()) ? 'Available' : 'Sold Out' ?>
-                    </div>
 
+            <!-- AVAILABILITY STICKER -->
+                <div class="sticker availability tag <?= ($page->available()->toBool()) ? 'new' : 'sold' ?>">
+                    <?= ($page->available()->toBool()) ? 'Available' : 'Sold Out' ?>
+                </div>
+
+            <!-- INQUIRE STICKER -->
                 <?php if($page->available()->toBool()) : ?>
                     <div class="tag push sticker">
                         <a href="mailto:hey@w-editions.com?subject=I want to buy '<?= $page->title() ?>' (<?= $page->artId() ?>)." title="Inquire about this piece.">

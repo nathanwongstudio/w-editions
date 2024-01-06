@@ -24,6 +24,7 @@ html {
 }
 
 // style our simple scroll bar js
+
 .simplebar-track {
 
     %shared-scrollbar {
@@ -690,6 +691,15 @@ figure {
     overflow: auto hidden;
 
     max-width: 100%;
+
+
+    &.simplebar-scrollable-x .simplebar-content-wrapper {
+        scroll-snap-type: x mandatory;
+    }
+
+    &.simplebar-scrollable-y .simplebar-content-wrapper {
+        scroll-snap-type: y mandatory;
+    }
 }
 
 .gallery,
@@ -745,6 +755,8 @@ figure {
             height:100%;
             margin:0;
             padding:0;
+
+            scroll-snap-align: center;
 
             picture {
                 display:inline;
@@ -991,25 +1003,33 @@ figure {
     --tag-background-color: var(--c-gold);
     font-size: 1.75rem;
     font-style: normal;
-    line-height: 1.25;
+    line-height: 1.25!important;
 
     position: absolute;
     top:50%;
     right: 4em;
 
+    display: table;
+
     width: 3em;
     height: 1.25em;
 
-    transform:skewX(-25deg) rotate(-15deg) translateY(-50%) scaleY(125%);
+    transform:skewX(-15deg) rotate(-15deg);
     text-align: center;
 
-    letter-spacing: -3px;
+    vertical-align: middle;
+
+    letter-spacing: -0.07em;
     text-transform: uppercase;
 
     border-radius: 50%;
     background: var(--tag-background-color);
 
     text-shadow: 0 0 3px var(--contrast-text-color);
+
+    &::after {
+        display: none;
+    }
 
 
     &.new {
@@ -1031,6 +1051,6 @@ figure {
         height: auto;
         inset: auto;
 
-        border: 3px solid var(--c-cinnabar);
+        border: 6px solid var(--c-gold-900);
     }
 }

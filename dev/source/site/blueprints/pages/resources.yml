@@ -20,6 +20,10 @@ tabs:
             layout: list
             empty: No resources available
             templates: default
+  media:
+    sections:
+      files:
+        type: files
   security:
     icon: lock
     columns:
