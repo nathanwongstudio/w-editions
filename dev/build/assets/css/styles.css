@@ -882,9 +882,7 @@ figure:first-child {
   height: 20vh;
   content: " ";
   transition: transform 200ms ease;
-  transform: translate(-50%, -50%) rotate(0deg) scale(0);
-  animation: scaleup 800ms ease;
-  animation-fill-mode: forwards;
+  transform: translate(-50%, -50%) rotate(var(--rotation));
   border: 1px solid var(--c-benibana);
   border-radius: 100%;
   background-color: var(--c-benibana);
@@ -906,14 +904,6 @@ figure:first-child {
   margin: 0;
 }
 
-@keyframes scaleup {
-  from {
-    transform: translate(-50%, -50%) rotate(0) scale(0);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(var(--rotation)) scale(1);
-  }
-}
 .artid {
   font-size: 0.7em;
   color: var(--c-paynes-300);

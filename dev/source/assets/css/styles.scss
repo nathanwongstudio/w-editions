@@ -626,10 +626,7 @@ figure {
     
                             content: ' ';
                             transition: transform 200ms ease;
-                            transform:translate(-50%, -50%) rotate(0deg) scale(0);
-
-                            animation: scaleup 800ms ease;
-                            animation-fill-mode: forwards;
+                            transform:translate(-50%, -50%) rotate(var(--rotation));
     
                             border:1px solid var(--c-benibana);
     
@@ -664,16 +661,6 @@ figure {
         &:only-child {
             margin:0;
         }
-    }
-}
-
-@keyframes scaleup {
-    from {
-        transform:translate(-50%, -50%) rotate(0) scale(0);
-    }
-
-    to {
-        transform:translate(-50%, -50%) rotate(var(--rotation)) scale(1);
     }
 }
 
