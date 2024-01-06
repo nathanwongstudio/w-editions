@@ -1,0 +1,53 @@
+%contrast-text { // THIS IS FOR A PARENT CONTAINER OF WHATEVER TEXT YOU WANT CONTRASTED
+    --contrast-text-color: var(--text-color);
+    --contrast-shadow-color: var(--c-benibana);
+
+    text-wrap: balance;
+
+    background:var(--c-paper);
+    mix-blend-mode: multiply;
+    filter: contrast(30);
+
+    & > * {
+        font-size: 4em;
+        font-weight: bold;
+        font-style:italic;
+        line-height: 1.125;
+
+        position: relative;
+
+        width: 100%;
+
+        letter-spacing: -5px;
+
+        color: transparent;
+
+        text-shadow: 0 0 0.06em var(--contrast-text-color);
+        
+        @media screen and (width <= 40em) {
+            font-size: 3em;
+
+            letter-spacing: -3px;
+        }
+
+        &::after {
+            font-style: normal;
+
+            position:absolute;
+            z-index: -1;
+            top:0;
+            left:0;
+
+            width: 100%;
+
+            content: attr(data-text);
+
+            text-shadow: 0 0 0.06em var(--contrast-shadow-color);
+            
+        }
+    }
+}
+
+.contrast-text {
+    @extend %contrast-text;
+}

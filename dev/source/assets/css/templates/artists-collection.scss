@@ -1,10 +1,6 @@
 @use '../variables';
 @use '../mixins';
 
-.default-content {
-    border-bottom:1px solid;
-}
-
 .collection {
     ul {
         margin:0;
@@ -17,9 +13,9 @@
         margin:0;
         padding:0;
 
-        border-bottom: 1px solid;
-
-        a {
+        a, 
+        &.header {
+            @extend %contrast-text;
             width:100%;
             height: 100%;
             padding: calc(var(--base-line-height) / 2) var(--base-line-height);
@@ -27,6 +23,18 @@
             text-decoration:none;
 
             color: inherit;
+        }
+
+        &.header span {
+            text-decoration: underline;
+        }
+
+        &.artist {
+            span {
+                display:inline-block;
+
+                width: 100%;
+            }
         }
 
         &:hover {

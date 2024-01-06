@@ -4,11 +4,20 @@ if($artists->isNotEmpty()): ?>
 <div class="default-content">
     <section class="collection">
         <ul class="exclude artists">
+            <li class="artist header">
+                    <span class="artist-name" data-text="Artists">
+                        Artists <small>(alphabetical)</small>
+                    </span>
+            </li>
             <?php 
             foreach ($artists as $artist): ?>
 
             <li class="artist">
-                <a href="<?=$artist->url()?>"><?=$artist->title()?></a>
+                <a href="<?=$artist->url()?>">
+                    <span class="artist-name" data-text="<?=$artist->title()?>">
+                        <?=$artist->title()?>
+                    </span>
+                </a>
             </li>
                     
             <?php endforeach; ?>

@@ -92,6 +92,12 @@ fieldsets:
       - list
       - line
       - quote
+      newsletter:
+        fields:
+          label:
+            type: text
+          placeholder:
+            type: text
   media:
     label: Media
     type: group

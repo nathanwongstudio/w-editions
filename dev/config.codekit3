@@ -145,6 +145,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/source\/assets\/css\/normal.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/css\/normal.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/source\/assets\/css\/styles.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -317,17 +332,6 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/build\/assets\/js\/main.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/source\/assets\/js\/templates\/home.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 2,
-      "oA" : 0,
-      "oAP" : "\/build\/assets\/js\/templates\/home.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

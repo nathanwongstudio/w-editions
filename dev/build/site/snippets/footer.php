@@ -4,9 +4,9 @@ if(!isset($foot)) { $foot = true; }
 
 if($foot): ?>
     <footer class="signed-area">
-        <section class="edition">1/1</section>
+        <!-- <section class="edition">1/1</section>
         <section class="title"></section>
-        <section class="signed">w</section>
+        <section class="signed">w</section> -->
     </footer>
 <?php endif; ?>
 </div>
@@ -48,10 +48,13 @@ if($foot): ?>
         return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
     }
 
-    const rotation = getRandomInt(-45, 46);
+    const rotation = getRandomInt(-180, 180);
 
     var heading = document.querySelector('.header .block-type-heading h1');
-    heading.style.setProperty('--rotation', rotation + 'deg');
+
+    if(heading!==null) {
+        heading.style.setProperty('--rotation', rotation + 'deg');
+    }
 
     document.addEventListener("DOMContentLoaded", function() { // LAZY LOADING JAVASCRIPT
         var lazyImages = document.querySelectorAll('img[loading=lazy]'),

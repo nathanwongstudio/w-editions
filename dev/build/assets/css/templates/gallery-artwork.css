@@ -76,10 +76,6 @@
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
-.default-content {
-  border-bottom: 1px solid var(--border-color);
-}
-
 .artists {
   font-weight: normal;
   margin: 0;
@@ -109,59 +105,55 @@ h1.title {
   color: var(--c-paynes-400);
 }
 
-.availability {
-  margin: var(--base-line-height) 0;
+.sticker-box {
+  position: fixed;
+  z-index: 99;
+  top: var(--nav-height);
+  right: 0;
+  width: 11em;
+  height: auto;
+  padding: 3em 2em 1em;
+  mix-blend-mode: multiply;
 }
-.availability span {
-  position: relative;
-  display: inline-block;
-}
-.availability span::before {
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  display: block;
-  width: 100%;
-  height: 1em;
-  content: " ";
-  transform: translateY(-50%);
-  border-radius: 100%;
-  background: var(--background);
-  box-shadow: 0 0 4px 6px var(--background);
-}
-.availability span::after {
-  font-weight: 700;
-  color: var(--c-paper);
-}
-.availability .no {
-  --background: var(--c-cinnabar);
-}
-.availability .no::after {
-  content: "Not Available";
-}
-.availability .yes {
-  --background: var(--c-gold);
-}
-.availability .yes::after {
-  content: "Available";
-  color: var(--c-cobalt);
+.sticker-box .sticker-wrapper.contrast-text {
+  font-size: 1em;
 }
 
-.artwork {
-  --height: calc(100vh - var(--nav-height));
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: var(--height);
-  margin: auto;
+.sticker {
+  --contrast-text-color: var(--c-cinnabar);
+  font-size: 1.75em;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 0.5em;
+  color: transparent;
 }
-@media screen and (width <= 60em) {
-  .artwork {
-    grid-template-areas: "a" "b";
-    grid-template-columns: 1fr;
-    --height: auto;
-  }
+.sticker.push {
+  --tag-background-color: var(--c-cobalt-400);
 }
+.sticker a {
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  color: transparent;
+}
+
+.availability.sold {
+  --background: var(--c-cinnabar);
+  --contrast-text-color: var(--c-gold);
+}
+.availability.new {
+  --background: var(--c-gold);
+}
+
 .artwork .description {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 9;
+  top: var(--nav-height);
   display: block;
   overflow: scroll;
   box-sizing: border-box;
@@ -169,53 +161,66 @@ h1.title {
   max-width: 30em;
   height: 100%;
   padding: var(--base-line-height);
-  border-right: 1px solid var(--border-color);
-  place-self: start end;
 }
 @media screen and (width <= 60em) {
   .artwork .description {
-    grid-area: b;
-    margin: auto;
-    border: 0;
-    place-self: stretch;
+    position: relative;
   }
 }
-.artwork .image-gallery {
-  display: block;
-  overflow-y: scroll;
-  box-sizing: border-box;
-  height: 100%;
-  padding: 2em;
+.artwork .description span.text-wrap {
+  background: var(--c-paper);
 }
-@media screen and (width <= 60em) {
-  .artwork .image-gallery {
-    grid-area: a;
-    width: 100%;
-    margin: auto;
-    padding: 1em;
-    border: 0;
-    place-self: stretch;
-  }
-  .artwork .image-gallery ul {
-    --height: 60vh;
-    --gallery-direction: row;
-    width: 100%;
-  }
+.artwork .text-block + .text-block {
+  margin-top: var(--base-line-height);
 }
-.artwork .image-gallery ul {
-  --gallery-height: var(--height);
+.artwork .text-block span {
+  background: var(--c-paper);
 }
-.artwork .image-gallery ul li {
+
+.title-card {
+  position: fixed;
+  z-index: 99;
+  right: var(--base-line-height);
+  bottom: var(--base-line-height);
+  text-align: right;
+}
+
+.image-gallery {
+  z-index: 0;
+  top: 0;
+}
+.image-gallery ul {
+  list-style-type: none;
+}
+.image-gallery ul li {
   width: 100%;
-  margin: 0;
-  padding: 0;
+  padding: 4em;
   text-align: center;
 }
-@media screen and (width <= 60em) {
-  .artwork .image-gallery ul li {
-    align-self: center;
-    width: auto;
-  }
+.image-gallery ul li img {
+  display: inline-block;
+  width: auto;
+  max-height: 90vh;
+}
+.image-gallery ul li::before {
+  display: none;
+}
+
+.primary-image {
+  box-sizing: border-box;
+  width: 100%;
+  padding: var(--base-line-height);
+  text-align: center;
+}
+.primary-image img {
+  display: inline-block;
+  width: auto;
+  max-height: 85vh;
+  margin: auto;
+}
+
+span.text-wrap {
+  background: var(--c-paper);
 }
 
 /*# sourceMappingURL=gallery-artwork.css.map */

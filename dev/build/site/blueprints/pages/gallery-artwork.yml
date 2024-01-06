@@ -35,12 +35,16 @@ tabs:
       right:
         width: 1/2
         fields:
+          publishdate:
+            type: date
+            default: today
+            label: Date Published
+            display: MM/DD/YYYY
           artId:
             type: text
             label: Art ID
           year:
             type: text
-            default: "2023"
             label: Year
           artist:
             label: Artist

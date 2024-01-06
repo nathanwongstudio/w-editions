@@ -5,7 +5,9 @@ $link = $src->link();
 $title = $src->title()->smartypants();
 $alt = $src->alt();
 $aspect = $src->height() / $src->width();
-
+if(!isset($class)) {
+    $class='';
+}
 
 if(isset($width)) {
     $height = round($width * $aspect);
@@ -59,7 +61,7 @@ if(isset($imgMinWidth)) {
 
 
 <?php if($figure == true): ?>
-<figure class="image <?= ($fullscreen ? 'fullscreen' : '') ?>">
+<figure class="image <?= ($fullscreen ? 'fullscreen' : '') ?> <?= $class ?? '' ?>">
 <?php endif; ?>
 
     <picture class="is-loading" style="--aspect-ratio: <?= $src->width() ?>/<?= $src->height() ?>">
@@ -80,16 +82,24 @@ if(isset($imgMinWidth)) {
 
         <?php else: // NORMAL IMAGE (JPG/PNG) ?>
 
-            <source
-                srcset="<?= $src->srcset('avif'); ?>"
-                sizes="<?= $sizes; ?>"
-                type="image/avif"
-            >
+            <?php if($src->srcset('avif')): ?>
+
+                <source
+                    srcset="<?= $src->srcset('avif'); ?>"
+                    sizes="<?= $sizes; ?>"
+                    type="image/avif"
+                >
+
+            <?php endif; ?>
+            <?php if($src->srcset('webp')): ?>
+
             <source
                 srcset="<?= $src->srcset('webp'); ?>"
                 sizes="<?= $sizes; ?>"
                 type="image/webp"
             >
+            <?php endif; ?>
+            
             <source
                 srcset="<?= $src->srcset(); ?>"
                 sizes="<?= $sizes; ?>"
@@ -100,7 +110,7 @@ if(isset($imgMinWidth)) {
 
                 title="<?= $title ?? '' ?>"
                 alt="<?= $alt ?? 'this image has no alt text' ?>"
-                class="image <?= $class ?? '' ?>"
+                class="image <?= $class && $figure ?? '' ?>"
 
                 <?php if(isset($index) && $index > 2): ?>
                     loading="lazy"

@@ -1,48 +1,59 @@
 <?php snippet('header') ?>
 <div class="default-content">
     <div class="artwork">
-        <div class="description" data-simplebar data-simplebar-auto-hide="false">
-
+        <div class="primary-image">
+                <?= $page->primaryImg()->toFile() ?>
+        </div>
+        <div class="title-card">
             <h2 class="artists">
                 <?php foreach ($page->artist()->split() as $artist): 
                     if($pages->find($artist)):
                     ?>
-                        <span class="artist"><a href="<?= $pages->find($artist)->url() ?>"><?= $pages->find($artist)->title(); ?></a></span>
+                        <span class="artist text-wrap"><a href="<?= $pages->find($artist)->url() ?>"><?= $pages->find($artist)->title(); ?></a></span>
                     <?php else: ?>
-                        <span class="artist"><?= $artist ?></span>
+                        <span class="artist text-wrap"><?= $artist ?></span>
                     <?php endif; ?>
                 <?php endforeach;?>
             </h2>
             <h1 class="title">
-                <?=$page->title() ?>  <span class="year">(<?= $page->year() ?>)</span>
+                <span class="text-wrap"><?=$page->title() ?>  <span class="year">(<?= $page->year() ?>)</span></span>
             </h1>
-            <div class="availability">
-                <span class="<?= ($page->available()->toBool()) ? 'yes' : 'no' ?>">
-                </span>
-            </div>
             <p class="price">
                 $<?= $page->price() ?>
             </p>
-            <?php if($page->available()->toBool()) : ?>
-                <a href="mailto:hey@w-editions.com" title="Inquire about this piece." class="button">
-                    Inquire
-                </a>
-            <?php else: ?>
-            <?php endif; ?>
-            <p class="top">
-                <?= $page->text()->widont(); ?>
-            </p>
-            <p class="bottom">
-                <?= $page->bottomText()->widont(); ?>
-            </p>
-
-            <p class="artid"><?= $page->artId() ?></p>
         </div>
-        <div class="image-gallery gallery gallery-scroll" data-simplebar data-simplebar-auto-hide="false">
-            <ul class="gallery-items vertical">
-                <li class="primary-image">
-                    <?= $page->primaryImg()->toFile() ?>
-                </li>
+
+        <div class="sticker-box">
+            <div class="sticker-wrapper contrast-text">
+                    <div class="sticker availability tag <?= ($page->available()->toBool()) ? 'new' : 'sold' ?>">
+                        <?= ($page->available()->toBool()) ? 'Available' : 'Sold Out' ?>
+                    </div>
+
+                <?php if($page->available()->toBool()) : ?>
+                    <div class="tag push sticker">
+                        <a href="mailto:hey@w-editions.com?subject=I want to buy '<?= $page->title() ?>' (<?= $page->artId() ?>)." title="Inquire about this piece.">
+                            Inquire
+                        </a>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+
+        
+        <div class="description">
+            <div class="text-block top">
+                <?= $page->text()->widont(); ?>
+            </div>
+            <div class="text-block bottom">
+                <?= $page->bottomText()->widont(); ?>
+            </div>
+
+            <p class="artid">
+                <?= $page->artId() ?>
+            </p>
+        </div>
+        <div class="image-gallery">
+            <ul class="gallery-items">
                 <?php
                     foreach($page->details()->toFiles() as $art): 
                     $src = $art;
@@ -58,4 +69,22 @@
         </div>
     </div>
 </div>
+
+<script>
+
+    var textBlock = document.querySelectorAll('.text-block p');
+
+    textBlock.forEach(element => {
+
+        var html = element.innerHTML,
+            firstNode = element.firstChild,
+            span = document.createElement('span');
+        
+            span.innerHTML = html;
+
+            element.replaceChild(span, firstNode);
+    });
+        
+
+</script>
 <?php snippet('footer') ?>

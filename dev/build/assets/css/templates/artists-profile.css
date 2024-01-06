@@ -17,7 +17,6 @@
 }
 .default-content section.container {
   padding: var(--base-line-height);
-  border-bottom: 1px solid;
 }
 .default-content section.container.gallery {
   position: relative;

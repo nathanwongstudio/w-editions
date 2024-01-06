@@ -1,5 +1,4 @@
 @use "sass:color";
-@use "normalize";
 @use "mixins";
 @use "type" as t;
 @use "variables" as v;
@@ -98,10 +97,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
     transition: color 0.2s ease;
 
-    color: var(--c-cinnabar);
+    color: var(--text-color);
 
     &:hover {
-        color: color.adjust(v.$cinnabar, $lightness: -20%);
+        color: color.adjust(v.$cobalt, $lightness: 20%);
     }
 }
 
@@ -600,22 +599,18 @@ figure {
                 }
 
                 &.block-type-heading {
+                    --contrast-text-color: var(--c-paynes);
+
+                    @extend %contrast-text;
                     position:relative;
 
                     max-width: 90%;
                     margin-left:0;
 
-                    text-wrap: balance;
-
-                    background:white;
-                    mix-blend-mode: multiply;
-                    filter: contrast(30);
-
                     h1 {
-                        --rotation: -15deg;
-                        color: transparent;
+                        --rotation: 0deg;
 
-                        text-shadow: 0 0 0.06em var(--c-paynes);
+                        color: transparent;
 
                         &::before {
                             position:absolute;
@@ -630,7 +625,10 @@ figure {
     
                             content: ' ';
                             transition: transform 200ms ease;
-                            transform:translate(-50%, -50%) rotate(var(--rotation));
+                            transform:translate(-50%, -50%) rotate(0deg) scale(0);
+
+                            animation: scaleup 800ms ease;
+                            animation-fill-mode: forwards;
     
                             border:1px solid var(--c-benibana);
     
@@ -643,23 +641,6 @@ figure {
                                 width: 50vh;
                                 height: 2vh;
                             }
-                        }
-                    }
-
-                    
-
-                    h1, h2, h3, h4, h5, h6 {
-                        font-size: 4em;
-                        line-height: 1.125;
-
-                        position: relative;
-
-                        letter-spacing: -5px;
-                        
-                        @media screen and (width <= 40em) {
-                            font-size: 3em;
-
-                            letter-spacing: -1px;
                         }
                     }
                 }
@@ -682,6 +663,16 @@ figure {
         &:only-child {
             margin:0;
         }
+    }
+}
+
+@keyframes scaleup {
+    from {
+        transform:translate(-50%, -50%) rotate(0) scale(0);
+    }
+
+    to {
+        transform:translate(-50%, -50%) rotate(var(--rotation)) scale(1);
     }
 }
 
@@ -996,3 +987,50 @@ figure {
     pointer-events:none;
 }
 
+.tag {
+    --tag-background-color: var(--c-gold);
+    font-size: 1.75rem;
+    font-style: normal;
+    line-height: 1.25;
+
+    position: absolute;
+    top:50%;
+    right: 4em;
+
+    width: 3em;
+    height: 1.25em;
+
+    transform:skewX(-25deg) rotate(-15deg) translateY(-50%) scaleY(125%);
+    text-align: center;
+
+    letter-spacing: -3px;
+    text-transform: uppercase;
+
+    border-radius: 50%;
+    background: var(--tag-background-color);
+
+    text-shadow: 0 0 3px var(--contrast-text-color);
+
+
+    &.new {
+        --tag-background-color: var(--c-gold);
+    }
+
+    &.sold {
+        --tag-background-color: var(--c-cinnabar);
+
+        width: 4.5em;
+    }
+
+    &.push {
+        --tag-background-color: var(--c-cobalt-300);
+
+        position: relative;
+
+        width: auto;
+        height: auto;
+        inset: auto;
+
+        border: 3px solid var(--c-cinnabar);
+    }
+}

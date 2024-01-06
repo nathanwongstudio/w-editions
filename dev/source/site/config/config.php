@@ -27,11 +27,11 @@ return [
 
 	'debug' => true,
 
-	'cache' => [
-		'pages' => [
-			'active' => false,
-		]
-	],
+	// 'cache' => [
+	// 	'pages' => [
+	// 		'active' => false,
+	// 	]
+	// ],
 
 	'thumbs' => [
 	  'driver' => 'im',

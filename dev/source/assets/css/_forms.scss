@@ -83,3 +83,22 @@ input[type="button"] {
         box-shadow: 0 0 1px 1px var(--c-cobalt), 0 0 4px 6px var(--c-benibana);
     }
 }
+
+fieldset {
+    padding: calc(var(--base-line-height) / 2) 0;
+
+    border: 0;
+}
+
+.email {
+    fieldset {
+        display: grid;
+        grid-template-columns: 1fr 6.5em;
+    }
+}
+
+.message {
+    &.error {
+        color: var(--c-cinnabar);
+    }
+}

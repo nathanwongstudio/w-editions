@@ -76,8 +76,40 @@
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
-.default-content {
-  border-bottom: 1px solid;
+.collection li a, .collection li.header, .contrast-text {
+  --contrast-text-color: var(--text-color);
+  --contrast-shadow-color: var(--c-benibana);
+  text-wrap: balance;
+  background: var(--c-paper);
+  mix-blend-mode: multiply;
+  filter: contrast(30);
+}
+.collection li a > *, .collection li.header > *, .contrast-text > * {
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.125;
+  position: relative;
+  width: 100%;
+  letter-spacing: -5px;
+  color: transparent;
+  text-shadow: 0 0 0.06em var(--contrast-text-color);
+}
+@media screen and (width <= 40em) {
+  .collection li a > *, .collection li.header > *, .contrast-text > * {
+    font-size: 3em;
+    letter-spacing: -3px;
+  }
+}
+.collection li a > *::after, .collection li.header > *::after, .contrast-text > *::after {
+  font-style: normal;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: attr(data-text);
+  text-shadow: 0 0 0.06em var(--contrast-shadow-color);
 }
 
 .collection ul {
@@ -88,14 +120,20 @@
   display: grid;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid;
 }
-.collection li a {
+.collection li a, .collection li.header {
   width: 100%;
   height: 100%;
   padding: calc(var(--base-line-height) / 2) var(--base-line-height);
   text-decoration: none;
   color: inherit;
+}
+.collection li.header span {
+  text-decoration: underline;
+}
+.collection li.artist span {
+  display: inline-block;
+  width: 100%;
 }
 .collection li:hover {
   background: var(--c-paper-200);

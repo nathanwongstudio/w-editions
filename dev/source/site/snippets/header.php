@@ -21,7 +21,7 @@
     
 	<?php
 
-	echo css('assets/css/styles.css');
+	echo css(['assets/css/normal.css', 'assets/css/styles.css']);
 
     if(isset($pageTitle)) {
         $pageTitle = $pageTitle;
