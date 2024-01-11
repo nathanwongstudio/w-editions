@@ -2,12 +2,13 @@
 
 $benibana: #ff99a1;
 $cinnabar: #b82b2b;
-$cobalt: #1a4bd5;
+$cobalt: blue;
 $cobalt-light: #73b4db;
-$paper: #f6f0e6;
+$paper: #e5e1de;
 $paynes: #4e5147;
 $violet: #4c12a8;
 $gold: #fcdf39;
+$vert: green;
 
 :root {
 	--input-radius: 5px;
@@ -84,6 +85,16 @@ $gold: #fcdf39;
 	--c-violet-700: #{color.adjust($violet, $lightness: -20%)};
 	--c-violet-800: #{color.adjust($violet, $lightness: -30%)};
 	--c-violet-900: #{color.adjust($violet, $lightness: -40%)};
+	--c-vert: #{$vert};
+	--c-vert-100: #{color.adjust($vert, $lightness: 17%)};
+	--c-vert-200: #{color.adjust($vert, $lightness: 15%)};
+	--c-vert-300: #{color.adjust($vert, $lightness: 10%)};
+	--c-vert-400: #{color.adjust($vert, $lightness: 5%)};
+	--c-vert-500: #{$vert};
+	--c-vert-600: #{color.adjust($vert, $lightness: -5%)};
+	--c-vert-700: #{color.adjust($vert, $lightness: -10%)};
+	--c-vert-800: #{color.adjust($vert, $lightness: -15%)};
+	--c-vert-900: #{color.adjust($vert, $lightness: -20%)};
 	
 	// EXTENDED COLORS
 	--border-color: var(--c-cobalt);

@@ -1,6 +1,6 @@
 %contrast-text { // THIS IS FOR A PARENT CONTAINER OF WHATEVER TEXT YOU WANT CONTRASTED
-    --contrast-text-color: var(--text-color);
-    --contrast-shadow-color: var(--c-benibana);
+    --contrast-text-color: var(--c-vert-600);
+    --contrast-shadow-color: var(--c-benibana-600);
 
     text-wrap: balance;
 
@@ -42,7 +42,7 @@
 
             content: attr(data-text);
 
-            text-shadow: 0 0 0.06em var(--contrast-shadow-color);
+            text-shadow: 0 0 0.08em var(--contrast-shadow-color);
             
         }
     }

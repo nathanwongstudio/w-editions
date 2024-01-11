@@ -600,9 +600,11 @@ figure {
                 }
 
                 &.block-type-heading {
-                    --contrast-text-color: var(--c-paynes);
-
                     @extend %contrast-text;
+
+                    --contrast-text-color: var(--c-vert-600);
+                    --contrast-shadow-color: var(--c-cobalt-200);
+
                     position:relative;
 
                     max-width: 90%;

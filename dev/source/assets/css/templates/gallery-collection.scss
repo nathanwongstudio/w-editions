@@ -47,6 +47,9 @@
         }
 
         .left-side {
+            // --contrast-text-color: var(--c-cobalt);
+            // --contrast-shadow-color: var(--c-benibana);
+
             @extend %contrast-text;
 
             mix-blend-mode: normal;
@@ -117,6 +120,11 @@
             width: 5em;
 
             letter-spacing: -2px;
+
+            &.sold {
+                --contrast-text-color: var(--c-gold);
+                --contrast-shadow-color: var(--c-benibana);
+            }
 
             & ~ .tag {
                 right: 5.5em;

@@ -7,7 +7,8 @@
         "stripe/stripe-php": "^10.19",
         "paulmorel/fathom-analytics": "^1.0",
         "wearejust/kirby-meta-tags": "^3.0",
-        "johannschopplich/kirby-locked-pages": "^2.1"
+        "johannschopplich/kirby-locked-pages": "^2.1",
+        "thathoff/kirby-git-content": "^5.2"
     },
     "license": "UNLICENSED",
     "authors": [
