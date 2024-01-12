@@ -15,7 +15,7 @@
   width: 100%;
   letter-spacing: -5px;
   color: transparent;
-  text-shadow: 0 0 0.06em var(--contrast-text-color);
+  text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
 @media screen and (width <= 40em) {
   .default-content .section-wrapper.header .block.block-type-heading > *, .contrast-text > * {
@@ -645,13 +645,18 @@ img {
   position: relative;
   z-index: 2;
   width: auto;
+  max-width: 100%;
   height: auto;
+  max-height: 100%;
   outline: none;
   background-color: transparent;
 }
 
 figure {
   position: relative;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
 }
 figure figcaption {
   position: relative;
@@ -873,8 +878,6 @@ figure:first-child {
   margin-left: 0;
 }
 .default-content .section-wrapper.header .block.block-type-heading {
-  --contrast-text-color: var(--c-vert-600);
-  --contrast-shadow-color: var(--c-cobalt-200);
   position: relative;
   max-width: 90%;
   margin-left: 0;

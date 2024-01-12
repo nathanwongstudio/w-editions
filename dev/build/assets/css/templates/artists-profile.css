@@ -1,70 +1,106 @@
-.default-content h1, .default-content h2, .default-content h3, .default-content h4, .default-content h5, .default-content h6 {
+h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
-.default-content .profile {
-  padding-top: calc(3 * var(--base-line-height));
+
+.profile {
+  padding-top: calc(2 * var(--base-line-height));
 }
-.default-content .profilepic {
+
+.profilepic {
+  display: flex;
+  place-content: center;
   width: 100%;
-  height: 66vh;
   margin-bottom: calc(2 * var(--base-line-height));
 }
-.default-content .profilepic img {
-  display: block;
-  width: auto;
-  height: 100%;
-  margin: auto;
+.profilepic .pic-wrapper {
+  position: relative;
+  display: inline;
+  flex: 0 0 content;
+  max-height: 66vh;
 }
-.default-content section.container {
+.profilepic .pic-wrapper img {
+  margin: 0 auto;
+}
+
+section.container {
   padding: var(--base-line-height);
 }
-.default-content section.container.gallery {
+section.container.gallery {
   position: relative;
   height: auto;
   padding-right: 0;
   padding-left: 0;
 }
-.default-content .bio {
+
+.bio {
   max-width: 45rem;
   margin: auto;
   text-align: center;
 }
-.default-content .editions {
+
+.editions {
   display: block;
   width: 100%;
 }
-.default-content .artworks {
+
+.gallery.no-scroll .gallery-items {
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+}
+.gallery.no-scroll .gallery-items li.gallery-item {
+  height: var(--gallery-height);
+}
+@media screen and (width <= 50em) {
+  .gallery.no-scroll .gallery-items li.gallery-item {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .gallery.no-scroll .gallery-items li.gallery-item img {
+    margin: auto;
+  }
+}
+.gallery.no-scroll .gallery-items li.gallery-item img {
+  margin: auto;
+}
+.gallery.no-scroll .gallery-items li.gallery-item:first-of-type {
+  margin-left: 0;
+}
+
+.artworks {
   position: relative;
   margin-top: var(--base-line-height);
 }
-.default-content .artworks .nothing {
+.artworks .nothing {
   font-size: var(--up-2);
   margin: var(--base-line-height) 0;
   text-align: center;
   color: var(--c-paynes-200);
 }
-.default-content .artworks .gallery-items li {
+.artworks .gallery-items li {
   --text-area-height:1.5 * var(--base-line-height);
 }
-.default-content .artworks .gallery-items li .art-image {
+.artworks .gallery-items li .art-image {
   position: relative;
   height: calc(100% - var(--text-area-height));
 }
-.default-content .artworks .gallery-items li .art-image a {
+.artworks .gallery-items li .art-image a {
   height: 100%;
 }
-.default-content .artworks .gallery-items li .art-title {
+.artworks .gallery-items li .art-title {
   height: calc(var(--text-area-height));
   margin-top: calc(var(--text-area-height) - var(--base-line-height));
 }
-.default-content .artworks .gallery-items li .art-title a {
+.artworks .gallery-items li .art-title a {
   font-weight: bold;
   transition: text-shadow 200ms ease-out;
   text-decoration: none;
   color: transparent;
   text-shadow: 0 0 0 var(--c-cobalt);
 }
-.default-content .artworks .gallery-items li .art-title a:hover {
+.artworks .gallery-items li .art-title a:hover {
   transition: text-shadow 200ms ease-out;
   text-shadow: 0 0 3px var(--c-cobalt);
 }

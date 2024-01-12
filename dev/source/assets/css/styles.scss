@@ -270,6 +270,8 @@ p:first-child {
 
 picture {
     &.is-loading {
+        // position: relative;
+        
         &::after {
             position:absolute;
             z-index: 1;
@@ -294,7 +296,9 @@ img {
     z-index:2;
 
     width: auto;
+    max-width: 100%;
     height: auto;
+    max-height: 100%;
 
     outline:none;
     background-color:transparent;
@@ -302,6 +306,11 @@ img {
 
 figure {
     position:relative;
+
+    display: inline-block;
+
+    max-width: 100%;
+    max-height: 100%;
 
     figcaption {
         position: relative;
@@ -601,9 +610,6 @@ figure {
 
                 &.block-type-heading {
                     @extend %contrast-text;
-
-                    --contrast-text-color: var(--c-vert-600);
-                    --contrast-shadow-color: var(--c-cobalt-200);
 
                     position:relative;
 

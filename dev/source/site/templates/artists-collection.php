@@ -5,8 +5,8 @@ if($artists->isNotEmpty()): ?>
     <section class="collection">
         <ul class="exclude artists">
             <li class="artist header">
-                    <span class="artist-name" data-text="Artists">
-                        Artists <small>(alphabetical)</small>
+                    <span class="artist-name" data-text="Artists (A-Z)">
+                        Artists (A-Z)
                     </span>
             </li>
             <?php 

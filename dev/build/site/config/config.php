@@ -24,17 +24,19 @@ return [
             ]
         ];
 	},
+	
+	'thathoff.git-content.displayErrors' => true,
 
 	'debug' => true,
 
-	// 'cache' => [
-	// 	'pages' => [
-	// 		'active' => false,
-	// 	]
-	// ],
+	'cache' => [
+		'pages' => [
+			'active' => true,
+		]
+	],
 
 	'thumbs' => [
-	  'driver' => 'im',
+	//   'driver' => 'im',
 	  'interlace' => true,
 	  
 	  'srcsets' => [

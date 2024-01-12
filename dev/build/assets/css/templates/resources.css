@@ -103,7 +103,7 @@
   width: 100%;
   letter-spacing: -5px;
   color: transparent;
-  text-shadow: 0 0 0.06em var(--contrast-text-color);
+  text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
 @media screen and (width <= 40em) {
   .collection li a > *, .collection li.header > *, .contrast-text > * {
