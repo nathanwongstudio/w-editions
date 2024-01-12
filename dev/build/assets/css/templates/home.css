@@ -198,6 +198,12 @@ which the user cannot interact with */
 .section-wrapper {
   position: relative;
   z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  place-content: center;
+  width: 100%;
+  min-height: 100vh;
   border: none;
   background: black;
   mix-blend-mode: hard-light;
@@ -244,13 +250,7 @@ which the user cannot interact with */
 .block {
   position: relative;
   z-index: 9;
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  place-content: center;
   box-sizing: border-box;
-  width: 100%;
-  min-height: 100vh;
   border: none;
 }
 .block .overlay {
@@ -304,6 +304,10 @@ which the user cannot interact with */
 }
 .block.block-type-heading a:hover, .block.block-type-newsletter a:hover {
   color: inherit;
+}
+.block.block-type-heading + .block.block-type-heading {
+  width: 100%;
+  padding: 0 1em;
 }
 .block.block-type-newsletter fieldset {
   display: block;

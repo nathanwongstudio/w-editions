@@ -53,3 +53,7 @@ Icon
 # IGNORE KIRBY (Composer Install)
 
 /kirby
+
+#ignore plugins (composer)
+
+**/site/plugins/

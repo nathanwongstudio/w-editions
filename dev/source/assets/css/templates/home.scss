@@ -120,6 +120,14 @@ which the user cannot interact with */
     position:relative;
     z-index:1;
 
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    place-content: center;
+
+    width: 100%;
+    min-height:100vh;
+
     border:none;
 
     background:black;
@@ -187,15 +195,7 @@ which the user cannot interact with */
     position: relative;
     z-index:9;
 
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    place-content: center;
-
     box-sizing: border-box;
-
-    width: 100%;
-    min-height:100vh;
 
     border:none;
 
@@ -272,6 +272,13 @@ which the user cannot interact with */
             &:hover {
                 color:inherit;
             }
+        }
+    }
+
+    &.block-type-heading {
+        & + & {
+            width: 100%;
+            padding: 0 1em;
         }
     }
 
