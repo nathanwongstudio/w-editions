@@ -56,4 +56,4 @@ Icon
 
 #ignore plugins (composer)
 
-**/site/plugins/
+**/plugins
