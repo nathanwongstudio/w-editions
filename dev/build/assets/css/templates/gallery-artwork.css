@@ -123,7 +123,7 @@ h1.title {
   mix-blend-mode: multiply;
 }
 .sticker-box .sticker-wrapper.contrast-text {
-  font-size: 1em;
+  font-size: 1.75rem;
   height: auto;
   padding: 1em;
 }
@@ -144,7 +144,6 @@ h1.title {
 
 .sticker {
   --contrast-text-color: var(--c-cinnabar);
-  font-size: 1.75em;
   line-height: 1;
   position: relative;
   top: 0;
@@ -155,14 +154,16 @@ h1.title {
   margin-bottom: 1em;
   word-break: keep-all;
   color: transparent;
+  /* stylelint-disable-next-line selector-class-pattern */
 }
 @media screen and (width <= 60em) {
   .sticker {
     letter-spacing: -1px;
   }
 }
-.sticker.sold {
+.sticker.sold, .sticker.push.shopify-buy__btn-disabled {
   width: auto;
+  animation: none;
 }
 .sticker.push {
   --tag-background-color: var(--c-cobalt-400);
@@ -234,12 +235,29 @@ h1.title {
   background: var(--c-paper);
 }
 
+.title-card-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - var(--nav-height));
+}
+
 .title-card {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   z-index: 99;
-  right: var(--base-line-height);
-  bottom: var(--base-line-height);
-  text-align: right;
+  top: var(--nav-height);
+  left: 0;
+  padding: var(--base-line-height);
+  text-align: left;
+}
+@media screen and (width <= 50em) {
+  .title-card {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+  }
 }
 
 .image-gallery {
@@ -247,17 +265,20 @@ h1.title {
   top: 0;
 }
 .image-gallery ul {
+  margin: 0;
   list-style-type: none;
 }
 .image-gallery ul li {
   width: 100%;
-  padding: 4em;
+  margin: 4em 0;
+  padding: 0;
   text-align: center;
+  border: 0;
 }
 .image-gallery ul li img {
   display: inline-block;
   width: auto;
-  max-height: 90vh;
+  max-height: 85vh;
 }
 .image-gallery ul li::before {
   display: none;

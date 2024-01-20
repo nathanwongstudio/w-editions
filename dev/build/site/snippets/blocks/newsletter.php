@@ -1,6 +1,8 @@
-<h3 class="newsletter-header" data-text="<?= $block->label() ?>">
-    <?= $block->label()?>
-</h3>
+<?php if($block->label()->isNotEmpty()): ?>
+	<h3 class="newsletter-header" data-text="<?= $block->label() ?>">
+		<?= $block->label()?>
+	</h3>
+<?php endif; ?>
 <form
   action="https://buttondown.email/api/emails/embed-subscribe/weditions"
   method="post"

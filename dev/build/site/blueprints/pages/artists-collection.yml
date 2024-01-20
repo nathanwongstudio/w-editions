@@ -20,6 +20,7 @@ tabs:
               query: page.profilepic.toFile
               back: white
               ratio: 1/1
+            info: '{{ page.slug }}'
   media:
     sections:
       files:

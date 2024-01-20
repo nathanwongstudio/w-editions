@@ -9,17 +9,37 @@ tabs:
       main:
         width: 1
         sections:
+          field:
+            type: fields
+            fields:
+              counter:
+                label: Artworks Counter
+                type: number
+                width: 1/4
+                disabled: true
+                default: 0
           portfolio:
             type: pages
             label: Gallery
-            layout: cards
-            size: small
+            layout: table
+            size: large
             empty: No artwork yet.
             templates: gallery-artwork
             image:
               query: page.primaryImg.toFile
               back: white
               ratio: 1/1
+              cover: false
+            search: true
+            columns:
+              artId:
+                label: Art ID
+              year: 
+                label: Year Published
+              artist:
+                label: Artist
+                type: tags
+                value: '{{ page.artist.text }}'
   media:
     sections:
       files:

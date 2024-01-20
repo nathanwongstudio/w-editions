@@ -94,24 +94,13 @@
   mix-blend-mode: multiply;
   filter: contrast(30);
 }
-.collection li a > *, .collection li.header > *, .contrast-text > * {
-  font-size: 4em;
-  font-weight: bold;
-  font-style: italic;
-  line-height: 1.125;
+.collection li a *, .collection li.header *, .contrast-text * {
   position: relative;
-  width: 100%;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   color: transparent;
   text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
-@media screen and (width <= 40em) {
-  .collection li a > *, .collection li.header > *, .contrast-text > * {
-    font-size: 3em;
-    letter-spacing: -3px;
-  }
-}
-.collection li a > *::after, .collection li.header > *::after, .contrast-text > *::after {
+.collection li a *[data-text]::after, .collection li.header *[data-text]::after, .contrast-text *[data-text]::after {
   font-style: normal;
   position: absolute;
   z-index: -1;
@@ -120,6 +109,20 @@
   width: 100%;
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
+}
+@media screen and (width <= 40em) {
+  .collection li a *, .collection li.header *, .contrast-text * {
+    font-size: 3em;
+    letter-spacing: -3px;
+  }
+}
+.collection li a > *, .collection li.header > *, .contrast-text > * {
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.125;
+  position: relative;
+  width: 100%;
 }
 
 .collection ul {

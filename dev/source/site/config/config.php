@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'debug' => true,
 	'paulmorel.fathom-analytics' => [
         'siteId' => 'TCMXSOEX',
         'sharePassword' => 'w/editions212'
@@ -25,52 +26,7 @@ return [
         ];
 	},
 	
-	'thathoff.git-content.displayErrors' => true,
-
-	'debug' => true,
-
-	'cache' => [
-		'pages' => [
-			'active' => true,
-		]
-	],
-
-	'thumbs' => [
-	//   'driver' => 'im',
-	  'interlace' => true,
-	  
-	  'srcsets' => [
-		'default' => [
-		  '250w' => ['width' => 250, 'quality' => 90],
-		  '500w' => ['width' => 500, 'quality' => 90],
-		  '600w' => ['width' => 600, 'quality' => 90],
-		  '800w' => ['width' => 800, 'quality' => 90],
-		  '1024w' => ['width' => 1024, 'quality' => 90],
-		  '1440w' => ['width' => 1440, 'quality' => 90],
-		  '2048w' => ['width' => 2048, 'quality' => 90]
-		],
-  
-		// 'avif' => [
-		//   '250w' => ['width' => 250, 'quality' => 90, 'format' => 'avif'],
-		//   '500w' => ['width' => 500, 'quality' => 90, 'format' => 'avif'],
-		//   '600w' => ['width' => 600, 'quality' => 90, 'format' => 'avif'],
-		//   '800w' => ['width' => 800, 'quality' => 90, 'format' => 'avif'],
-		//   '1024w' => ['width' => 1024, 'quality' => 90, 'format' => 'avif'],
-		//   '1440w' => ['width' => 1440, 'quality' => 90, 'format' => 'avif'],
-		//   '2048w' => ['width' => 2048, 'quality' => 90, 'format' => 'avif']
-		// ],
-  
-		// 'webp' => [
-		//   '250w' => ['width' => 250, 'quality' => 90, 'format' => 'webp'],
-		//   '500w' => ['width' => 500, 'quality' => 90, 'format' => 'webp'],
-		//   '600w' => ['width' => 600, 'quality' => 90, 'format' => 'webp'],
-		//   '800w' => ['width' => 800, 'quality' => 90, 'format' => 'webp'],
-		//   '1024w' => ['width' => 1024, 'quality' => 90, 'format' => 'webp'],
-		//   '1440w' => ['width' => 1440, 'quality' => 90, 'format' => 'webp'],
-		//   '2048w' => ['width' => 2048, 'quality' => 90, 'format' => 'webp']
-		// ]
-	  ]
-	],
+	'thathoff.git-content.displayErrors' => false,
 
 	'smartypants' => true,
 
@@ -80,47 +36,22 @@ return [
 
 	'sitemap.ignore' => ['error'],
 
-	'routes' => [
-		[
-			'pattern' => 'logout',
-			'action'  => function() {
+	'routes' => require_once 'routes.php',
 
-				if ($user = kirby()->user()) {
-					$user->logout();
-				}
+    'hooks' => [
+        'page.create:after' => function (Kirby\Cms\Page $page) {
+            if($page->parent() == 'editions') {
+                $count = $page->parent()->counter()->toInt();
+                $count++;
+                $page->parent()->update(['counter'=>$count]);
+                $page->update([
+                    'artId' => (strtoupper($page->artist()->first()) ?? '') . '-' . date("Y") . '.' . sprintf('%03d', $count),
+                    'year' => date("Y")
+                ]);
+            }
+        }
+    ]
 
-				go('/');
-
-			}
-		],
-		[
-			'pattern' => 'sitemap.xml',
-			'action'  => function() {
-				$pages = site()->pages()->index()->listed();
-	  
-				// fetch the pages to ignore from the config settings,
-				// if nothing is set, we ignore the error page
-				$ignore = kirby()->option('sitemap.ignore', ['error']);
-	  
-				$content = snippet('sitemap', compact('pages', 'ignore'), true);
-	  
-				// return response with correct header type
-				return new Kirby\Cms\Response($content, 'application/xml');
-			}
-		],
-		[
-			'pattern' => 'sitemap',
-			'action'  => function() {
-				return go('sitemap.xml', 301);
-			}
-		],
-		[
-			'pattern' => 'index',
-			'action' => function() {
-				return go('home', 301);
-			}
-		]
-	]
 ];
 
 ?>

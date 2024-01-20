@@ -121,10 +121,36 @@ if($foot): ?>
 
 <style>
 
-.resize-animation-stopper * {
-	transition: none !important;
-	animation: none !important;
-}
+    .resize-animation-stopper * {
+        transition: none !important;
+        animation: none !important;
+    }
+    .shopify-buy-frame--product {
+        display: inline;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .shopify-buy-frame--toggle.is-sticky {
+        z-index:9999;
+        top: 0;
+        right: 0;
+        transform: none;
+        mix-blend-mode: multiply;
+    }
+
+    .shopify-buy__cart-toggle.is-sticky {
+        padding: 1em;
+        width: 6rem;
+    }
+
+    .shopify-buy__btn-wrapper button {
+        padding:0;
+        margin:0;
+        color: transparent;
+        outline:0;
+        box-shadow: none;
+    }
 </style>
 
 <?= $site->customAnalytics() ?>

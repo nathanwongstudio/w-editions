@@ -1,25 +1,31 @@
 <?php snippet('header') ?>
 <div class="default-content">
+    <div <?= ($page->shopifyProductLink()->isNotEmpty()) ? 'data-product="'.$page->shopifyProductLink()->toPage()->shopifyID().'"' : '' ?>></div>
     <div class="artwork">
         <div class="primary-image">
                 <?= $page->primaryImg()->toFile() ?>
         </div>
-        <div class="title-card">
-            <h2 class="artists">
-                <?php foreach ($page->artist()->split() as $artist): 
-                    if($pages->find($artist)):
-                    ?>
-                        <span class="artist text-wrap"><a href="<?= $pages->find($artist)->url() ?>"><?= $pages->find($artist)->title(); ?></a></span>
-                    <?php else: ?>
-                        <span class="artist text-wrap"><?= $artist ?></span>
-                    <?php endif; ?>
-                <?php endforeach;?>
-            </h2>
-            <h1 class="title">
-                <span class="text-wrap"><?=$page->title() ?>  <span class="year">(<?= $page->year() ?>)</span></span>
-            </h1>
-            <div class="price">
-                <span class="text-wrap">$<?= $page->price() ?></span>
+
+        <div class="title-card-wrapper">
+            <div class="title-card">
+                <h2 class="artists">
+                    <?php foreach ($page->artist()->split() as $artist):
+                        if($artistPage = $pages->find('artists/'.$artist)):
+                        ?>
+                            <span class="artist text-wrap"><a href="<?= $artistPage->url() ?>"><?= $artistPage->title(); ?></a></span>
+                        <?php else: ?>
+                            <span class="artist text-wrap"><?= $artist ?></span>
+                        <?php endif; ?>
+                    <?php endforeach;?>
+                </h2>
+                <h1 class="title">
+                    <span class="text-wrap"><?=$page->title() ?>  <span class="year">(<?= $page->year() ?>)</span></span>
+                </h1>
+                <div class="price">
+                    <span class="text-wrap">
+                        $<?= ($page->shopifyProduct()->toBool()) ? $page->shopifyProductLink()->toPage()->shopifyPrice() : $page->price() ?>
+                    </span>
+                </div>
             </div>
         </div>
 
@@ -27,17 +33,47 @@
             <div class="sticker-wrapper contrast-text">
 
             <!-- AVAILABILITY STICKER -->
+                <?php if($page->shopifyProduct()->toBool()) {
+
+                    if($page->shopifyProductLink()->toPage()->shopifyVariants()->toStructure()->first()->inventory_quantity()->toInt() == 0) {
+                        $kirby = kirby();
+                        $result = $kirby->impersonate('kirby', function () use($page) {
+                            $page->update([
+                                'available' => false
+                            ]);
+                            return false;
+                        });
+                    } elseif($page->shopifyProductLink()->toPage()->shopifyVariants()->toStructure()->first()->inventory_quantity()->toInt() >= 1) {
+                        $kirby = kirby();
+                        $result = $kirby->impersonate('kirby', function () use($page) {
+                            $page->update([
+                                'available' => true
+                            ]);
+                            return false;
+                        });
+                    } 
+
+                }
+                ?>
+                <?php if( ($page->available()->toBool() && $page->shopifyProduct()->toBool()) || !($page->shopifyProduct()->toBool()) ): ?>
                 <div class="sticker availability tag <?= ($page->available()->toBool()) ? 'new' : 'sold' ?>">
                     <?= ($page->available()->toBool()) ? 'Available' : 'Sold Out' ?>
                 </div>
+                <?php endif; ?>
 
-            <!-- INQUIRE STICKER -->
-                <?php if($page->available()->toBool()) : ?>
-                    <div class="tag push sticker">
-                        <a href="mailto:hey@w-editions.com?subject=I want to buy '<?= $page->title() ?>' (<?= $page->artId() ?>)." title="Inquire about this piece.">
-                            Inquire
-                        </a>
+                <!-- INQUIRE STICKER -->
+                <?php if($page->shopifyProduct()->toBool()): ?>
+                    <div id="product-component-<?= $page->shopifyProductLink()->toPage()->shopifyID() ?>">
+                        
                     </div>
+                <?php else: ?>
+                        <?php if($page->available()->toBool()) : ?>
+                            <div id="inquire" class="tag push sticker">
+                                <a href="mailto:hey@w-editions.com?subject=I want to buy '<?= $page->title() ?>' (<?= $page->artId() ?>)." title="Inquire about this piece.">
+                                    Inquire
+                                </a>
+                            </div>
+                        <?php endif; ?>
                 <?php endif; ?>
             </div>
         </div>
@@ -90,4 +126,5 @@
         
 
 </script>
+
 <?php snippet('footer') ?>

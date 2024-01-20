@@ -94,24 +94,13 @@
   mix-blend-mode: multiply;
   filter: contrast(30);
 }
-.collection li .left-side > *, .collection li .artwork-id > *, .collection li a > *, .contrast-text > * {
-  font-size: 4em;
-  font-weight: bold;
-  font-style: italic;
-  line-height: 1.125;
+.collection li .left-side *, .collection li .artwork-id *, .collection li a *, .contrast-text * {
   position: relative;
-  width: 100%;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   color: transparent;
   text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
-@media screen and (width <= 40em) {
-  .collection li .left-side > *, .collection li .artwork-id > *, .collection li a > *, .contrast-text > * {
-    font-size: 3em;
-    letter-spacing: -3px;
-  }
-}
-.collection li .left-side > *::after, .collection li .artwork-id > *::after, .collection li a > *::after, .contrast-text > *::after {
+.collection li .left-side *[data-text]::after, .collection li .artwork-id *[data-text]::after, .collection li a *[data-text]::after, .contrast-text *[data-text]::after {
   font-style: normal;
   position: absolute;
   z-index: -1;
@@ -121,6 +110,20 @@
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
 }
+@media screen and (width <= 40em) {
+  .collection li .left-side *, .collection li .artwork-id *, .collection li a *, .contrast-text * {
+    font-size: 3em;
+    letter-spacing: -3px;
+  }
+}
+.collection li .left-side > *, .collection li .artwork-id > *, .collection li a > *, .contrast-text > * {
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.125;
+  position: relative;
+  width: 100%;
+}
 
 .collection {
   position: relative;
@@ -128,16 +131,29 @@
 .collection ol {
   margin: 0;
   padding: 0;
-  counter-reset: list calc(var(--count) + 1);
 }
 .collection li {
   position: relative;
   z-index: 99;
   margin: 0;
   padding: 0;
-  counter-increment: list -1;
   mix-blend-mode: multiply;
   border-bottom: 3px solid var(--c-paper-300);
+}
+.collection li::before {
+  font-weight: bold;
+  z-index: 999;
+  top: 50%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  content: var(--index);
+  transform: translateY(-50%);
+  text-align: center;
+  color: var(--c-paynes-200);
+  border-right: 1px solid;
 }
 .collection li:hover {
   background: var(--c-cobalt);
@@ -159,8 +175,10 @@
   flex-direction: column;
 }
 .collection li .artwork-artist {
-  font-size: 1.5em;
+  font-size: 1.75em;
   margin-bottom: 0;
+}
+.collection li .artwork-artist * {
   letter-spacing: -1px;
 }
 .collection li .artwork-artist .artist {
@@ -201,6 +219,7 @@
   bottom: 0;
   width: 5em;
   letter-spacing: -2px;
+  /* stylelint-disable-next-line selector-class-pattern */
 }
 .collection li .tag.sold {
   --contrast-text-color: var(--c-gold);
@@ -235,21 +254,6 @@
   .collection li a {
     grid-template-columns: 1fr;
   }
-}
-.collection li::before {
-  font-weight: bold;
-  z-index: 999;
-  top: 50%;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  content: counter(list);
-  transform: translateY(-50%);
-  text-align: center;
-  color: var(--c-paynes-200);
-  border-right: 1px solid;
 }
 
 .image-box {

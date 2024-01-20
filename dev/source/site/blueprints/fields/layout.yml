@@ -18,6 +18,7 @@ settings:
         header: Header
         ticker: Ticker
         layout-gallery: Gallery
+        feature: Feature
     gapDefault:
       type: gap
       width: 1/2

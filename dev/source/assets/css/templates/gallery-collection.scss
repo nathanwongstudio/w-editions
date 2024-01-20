@@ -7,8 +7,6 @@
     ol {
         margin:0;
         padding:0;
-
-        counter-reset: list calc(var(--count) + 1);
     }
 
     li {
@@ -18,11 +16,34 @@
         margin:0;
         padding:0;
 
-        counter-increment: list -1;
-
         mix-blend-mode:multiply;
 
         border-bottom: 3px solid var(--c-paper-300);
+
+        &::before {
+            font-weight: bold;
+
+            z-index:999;
+
+            top:50%;
+            left:0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 100%;
+
+            content: var(--index);
+
+            transform: translateY(-50%);
+
+            text-align: center;
+
+            color: var(--c-paynes-200);
+
+            border-right: 1px solid;
+        }
 
 
         &:hover {
@@ -61,11 +82,13 @@
         }
 
         .artwork-artist {
-            font-size: 1.5em;
+            & * {
+                letter-spacing: -1px;
+            }
+
+            font-size: 1.75em;
 
             margin-bottom:0;
-
-            letter-spacing: -1px;
 
             .artist {
                 margin-right: 0.5em;
@@ -121,7 +144,8 @@
 
             letter-spacing: -2px;
 
-            &.sold {
+            /* stylelint-disable-next-line selector-class-pattern */
+            &.sold  {
                 --contrast-text-color: var(--c-gold);
                 --contrast-shadow-color: var(--c-benibana);
             }
@@ -165,31 +189,6 @@
             @media screen and (width <=60em) {
                 grid-template-columns: 1fr;
             }
-        }
-
-        &::before {
-            font-weight: bold;
-
-            z-index:999;
-
-            top:50%;
-            left:0;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            height: 100%;
-
-            content: counter(list);
-
-            transform: translateY(-50%);
-
-            text-align: center;
-
-            color: var(--c-paynes-200);
-
-            border-right: 1px solid;
         }
     }
 }

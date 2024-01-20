@@ -1,5 +1,4 @@
 <?php snippet('header');
-$artworks = $page->children()->listed();
 
 if($artworks->isNotEmpty()): ?>
 
@@ -11,16 +10,16 @@ if($artworks->isNotEmpty()): ?>
 
                         $src = $artwork->primaryImg()->toFile();
                 ?>
-                    <li class="artwork">
+                    <li class="artwork" style="--index: '<?= $artwork->num() ?>'">
                         <a href="<?=$artwork->url()?>" data-id="<?= $artwork->uid() ?>">
                             <div class="left-side">
                                 <span class="artwork-artist">
                                     <?php foreach ($artwork->artist()->split() as $artist): 
-                                        if($pages->find($artist)):
+                                        if($artistPage = $pages->find('artists/'.$artist)):
                                         ?>
-                                            <span class="artist text-wrap"><?= $pages->find($artist)->title(); ?></span>
+                                            <span class="artist text-wrap" data-text="<?= $artistPage->title(); ?>"><?= $artistPage->title(); ?></span>
                                         <?php else: ?>
-                                            <span class="artist text-wrap"><?= $artist ?></span>
+                                            <span class="artist text-wrap" data-text="<?= $artist ?>"><?= $artist ?></span>
                                         <?php endif; ?>
                                     <?php endforeach;?>
                                 </span>

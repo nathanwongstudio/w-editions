@@ -1,10 +1,29 @@
 title: Artwork
 icon: 🖼
 
+create:
+  fields:
+    - artist
+
 tabs:
   content:
     icon: edit
     columns:
+      top:
+        width: 1
+        fields:
+          shopifyProduct:
+            type: toggle
+            label: Link to Shopify?
+            width: 1/4
+          shopifyProductLink:
+            width: 3/4
+            type: pages
+            multiple: false
+            label: Shopify Product
+            query: site.index.findBy("intendedTemplate", "shopify.products") 
+            when:
+              shopifyProduct: true
       left:
         width: 1/2
         fields:
@@ -48,6 +67,8 @@ tabs:
             options:
               type: query
               query: site.find('artists').children.listed
+              text: "{{ page.title }} ({{ page.slug }})"
+              value: "{{ page.slug }}"
           price:
             label: Price
             width: 1/2
@@ -55,6 +76,9 @@ tabs:
             min: 0
             before: $
             help: In USD$
+            when:
+              shopifyProduct: false
+
           available:
             label: Availability
             width: 1/2

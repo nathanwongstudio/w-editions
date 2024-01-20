@@ -8,8 +8,42 @@
     mix-blend-mode: multiply;
     filter: contrast(30);
 
+    & * {
+        position: relative;
+
+        letter-spacing: -3px;
+
+        color: transparent;
+
+        text-shadow: 0 0 0.07em var(--contrast-text-color);
+
+        &[data-text] {
+            &::after {
+                font-style: normal;
+    
+                position:absolute;
+                z-index: -1;
+                top:0;
+                left:0;
+    
+                width: 100%;
+    
+                content: attr(data-text);
+    
+                text-shadow: 0 0 0.08em var(--contrast-shadow-color);
+                
+            }
+        }
+        
+        @media screen and (width <= 40em) {
+            font-size: 3em;
+
+            letter-spacing: -3px;
+        }
+    }
+
     & > * {
-        font-size: 4em;
+        font-size: 4rem;
         font-weight: bold;
         font-style:italic;
         line-height: 1.125;
@@ -17,34 +51,6 @@
         position: relative;
 
         width: 100%;
-
-        letter-spacing: -5px;
-
-        color: transparent;
-
-        text-shadow: 0 0 0.07em var(--contrast-text-color);
-        
-        @media screen and (width <= 40em) {
-            font-size: 3em;
-
-            letter-spacing: -3px;
-        }
-
-        &::after {
-            font-style: normal;
-
-            position:absolute;
-            z-index: -1;
-            top:0;
-            left:0;
-
-            width: 100%;
-
-            content: attr(data-text);
-
-            text-shadow: 0 0 0.08em var(--contrast-shadow-color);
-            
-        }
     }
 }
 

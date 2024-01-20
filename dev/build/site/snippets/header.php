@@ -40,9 +40,16 @@
 
     <?= js('@auto', ['type'=>'module']) ?>
 
+    <?= js('assets/js/shop.js', ['type'=>'module', 'async']) ?>
+
     <script>
         document.documentElement.className = 
         document.documentElement.className.replace("no-js","js");
+    </script>
+
+    <script type="module">
+        import Shop from '../assets/js/shop.js';
+        Shop.init();
     </script>
 
     <link rel="stylesheet" href="https://use.typekit.net/inc5dxe.css">
@@ -89,6 +96,8 @@
             }
         </style>
     </noscript>
+
+    <script defer src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
 </head>
 <body class="<?= $page->intendedTemplate() ?>">
 
