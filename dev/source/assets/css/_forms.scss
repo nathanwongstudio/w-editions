@@ -13,6 +13,11 @@ label {
     }
 }
 
+.web-honey {
+    position: absolute;
+    left: -9999px;
+}
+
 input {
     display: inline-block;
 
@@ -20,6 +25,21 @@ input {
 
     width: 100%;
     margin: calc(var(--base-line-height) / 2) 0;
+}
+
+abbr[title="required"] {
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: var(--c-cinnabar);
+    border:none;
+    outline: none;
+}
+
+textarea {
+    width:100%;
+    height: auto;
 }
 
 input[type="text"],
@@ -34,13 +54,13 @@ input[type="tel"],
 input[type="time"],
 input[type="url"],
 input[type="week"],
-input[type="datetime"] {
+input[type="datetime"],
+textarea {
+    box-sizing: border-box;
     padding: 0.3em 0.375em;
 
-    border: 0;
-    border-radius: var(--input-radius);
-    background: var(--c-paper-200);
-    box-shadow:0 0 2px 1px var(--c-paynes-100);
+    border: 2px solid var(--c-paper-400);
+    background: white;
 }
 
 
@@ -97,8 +117,22 @@ fieldset {
     }
 }
 
-.message {
+.message, .alert {
+    width: 75%;
+    margin: var(--base-line-height) auto;
+    padding: 1em;
+
+    color: var(--c-paper-100);
+
+    // text-align: center;
+    border:2px solid var(--c-vert-100);
+    border-radius: var(--input-radius);
+
+    &.success {
+        background: var(--c-vert-300);
+    }
+
     &.error {
-        color: var(--c-cinnabar);
+        background: var(--c-cinnabar);
     }
 }

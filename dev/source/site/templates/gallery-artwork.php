@@ -55,7 +55,7 @@
 
                 }
                 ?>
-                <?php if( ($page->available()->toBool() && $page->shopifyProduct()->toBool()) || !($page->shopifyProduct()->toBool()) ): ?>
+                <?php if(($page->available()->toBool() && $page->shopifyProduct()->toBool()) || !($page->shopifyProduct()->toBool()) ): ?>
                 <div class="sticker availability tag <?= ($page->available()->toBool()) ? 'new' : 'sold' ?>">
                     <?= ($page->available()->toBool()) ? 'Available' : 'Sold Out' ?>
                 </div>
@@ -69,9 +69,7 @@
                 <?php else: ?>
                         <?php if($page->available()->toBool()) : ?>
                             <div id="inquire" class="tag push sticker">
-                                <a href="mailto:hey@w-editions.com?subject=I want to buy '<?= $page->title() ?>' (<?= $page->artId() ?>)." title="Inquire about this piece.">
-                                    Inquire
-                                </a>
+                                Inquire
                             </div>
                         <?php endif; ?>
                 <?php endif; ?>
@@ -108,6 +106,8 @@
         </div>
     </div>
 </div>
+
+<?= ($page->available()->toBool() && !($page->shopifyProduct()->toBool())) ? snippet('inquire-form') : '' ?>
 
 <script>
 

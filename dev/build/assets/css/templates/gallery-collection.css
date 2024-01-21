@@ -89,6 +89,8 @@
 .collection li .left-side, .collection li .artwork-id, .collection li a, .contrast-text {
   --contrast-text-color: var(--c-vert-600);
   --contrast-shadow-color: var(--c-benibana-600);
+  margin-left: -0.2em;
+  padding-left: 0.2em;
   text-wrap: balance;
   background: var(--c-paper);
   mix-blend-mode: multiply;
@@ -101,11 +103,11 @@
   text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
 .collection li .left-side *[data-text]::after, .collection li .artwork-id *[data-text]::after, .collection li a *[data-text]::after, .contrast-text *[data-text]::after {
-  font-style: normal;
   position: absolute;
   z-index: -1;
   top: 0;
-  left: 0;
+  left: -0.1em;
+  box-sizing: border-box;
   width: 100%;
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
@@ -126,6 +128,7 @@
 }
 
 .collection {
+  --id-size: 10em;
   position: relative;
 }
 .collection ol {
@@ -185,14 +188,16 @@
   margin-right: 0.5em;
 }
 @media screen and (width <= 60em) {
-  .collection li .artwork-artist {
-    font-size: 1em;
+  .collection li .artwork-artist * {
     letter-spacing: 0;
   }
 }
 .collection li .artwork-item {
   font-size: 4em;
   width: 100%;
+  padding: 0 2rem 0.5rem 0;
+}
+.collection li .artwork-item::after {
   padding: 0 2rem 0.5rem 0;
 }
 @media screen and (width <= 60em) {
@@ -203,7 +208,7 @@
 .collection li .artwork-id {
   mix-blend-mode: normal;
   font-size: 1em;
-  width: 8em;
+  width: var(--id-size);
   text-align: right;
   letter-spacing: normal;
 }
@@ -242,7 +247,7 @@
   position: relative;
   z-index: 99;
   display: grid;
-  grid-template-columns: 1fr 8em;
+  grid-template-columns: 1fr var(--id-size);
   width: 100%;
   height: 100%;
   padding: calc(var(--base-line-height) / 2) var(--base-line-height);
@@ -253,6 +258,9 @@
 @media screen and (width <= 60em) {
   .collection li a {
     grid-template-columns: 1fr;
+  }
+  .collection li a .artist {
+    font-size: 1.5rem;
   }
 }
 

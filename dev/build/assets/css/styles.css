@@ -1,6 +1,8 @@
 .section-wrapper.feature section.grid .block-type-heading, .default-content .section-wrapper.header .block.block-type-heading, .shopify-buy__cart-toggle, .contrast-text {
   --contrast-text-color: var(--c-vert-600);
   --contrast-shadow-color: var(--c-benibana-600);
+  margin-left: -0.2em;
+  padding-left: 0.2em;
   text-wrap: balance;
   background: var(--c-paper);
   mix-blend-mode: multiply;
@@ -13,11 +15,11 @@
   text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
 .section-wrapper.feature section.grid .block-type-heading *[data-text]::after, .default-content .section-wrapper.header .block.block-type-heading *[data-text]::after, .shopify-buy__cart-toggle *[data-text]::after, .contrast-text *[data-text]::after {
-  font-style: normal;
   position: absolute;
   z-index: -1;
   top: 0;
-  left: 0;
+  left: -0.1em;
+  box-sizing: border-box;
   width: 100%;
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
@@ -375,11 +377,29 @@ label + input {
   margin-top: 0;
 }
 
+.web-honey {
+  position: absolute;
+  left: -9999px;
+}
+
 input {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
   margin: calc(var(--base-line-height) / 2) 0;
+}
+
+abbr[title=required] {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--c-cinnabar);
+  border: none;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  height: auto;
 }
 
 input[type=text],
@@ -394,12 +414,12 @@ input[type=tel],
 input[type=time],
 input[type=url],
 input[type=week],
-input[type=datetime] {
+input[type=datetime],
+textarea {
+  box-sizing: border-box;
   padding: 0.3em 0.375em;
-  border: 0;
-  border-radius: var(--input-radius);
-  background: var(--c-paper-200);
-  box-shadow: 0 0 2px 1px var(--c-paynes-100);
+  border: 2px solid var(--c-paper-400);
+  background: white;
 }
 
 a.button,
@@ -446,8 +466,19 @@ fieldset {
   grid-template-columns: 1fr 6.5em;
 }
 
-.message.error {
-  color: var(--c-cinnabar);
+.message, .alert {
+  width: 75%;
+  margin: var(--base-line-height) auto;
+  padding: 1em;
+  color: var(--c-paper-100);
+  border: 2px solid var(--c-vert-100);
+  border-radius: var(--input-radius);
+}
+.message.success, .alert.success {
+  background: var(--c-vert-300);
+}
+.message.error, .alert.error {
+  background: var(--c-cinnabar);
 }
 
 :root {
@@ -471,6 +502,11 @@ fieldset {
 html {
   color: var(--text-color);
   background-color: var(--c-paper);
+}
+
+body > * {
+  max-width: 100vw;
+  transition: max-width 250ms ease;
 }
 
 .simplebar-track.simplebar-horizontal .simplebar-scrollbar::before, .simplebar-track.simplebar-vertical .simplebar-scrollbar::before {

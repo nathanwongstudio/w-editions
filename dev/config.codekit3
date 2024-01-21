@@ -545,6 +545,14 @@
       "oAP" : "\/build\/site\/config\/config.www.w-editions.com.php",
       "oF" : 0
     },
+    "\/source\/site\/config\/email.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/config\/email.php",
+      "oF" : 0
+    },
     "\/source\/site\/config\/routes.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1567,6 +1575,14 @@
       "oAP" : "\/build\/site\/snippets\/index.html",
       "oF" : 0
     },
+    "\/source\/site\/snippets\/inquire-form.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/snippets\/inquire-form.php",
+      "oF" : 0
+    },
     "\/source\/site\/snippets\/layouts.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1613,6 +1629,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/site\/templates\/default.php",
+      "oF" : 0
+    },
+    "\/source\/site\/templates\/emails\/email.html.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/emails\/email.html.php",
+      "oF" : 0
+    },
+    "\/source\/site\/templates\/emails\/inquiry.html.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/site\/templates\/emails\/inquiry.html.php",
       "oF" : 0
     },
     "\/source\/site\/templates\/error.php" : {

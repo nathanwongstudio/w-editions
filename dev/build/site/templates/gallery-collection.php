@@ -27,7 +27,7 @@ if($artworks->isNotEmpty()): ?>
                                     <?=$artwork->title()?>
                                 </span>
                             </div>
-                            <span class="artwork-id">
+                            <span class="artwork-id" data-text="<?= $artwork->artId() ?>">
                                 <?= $artwork->artId() ?>
                             </span>
 

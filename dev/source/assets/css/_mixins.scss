@@ -1,6 +1,9 @@
 %contrast-text { // THIS IS FOR A PARENT CONTAINER OF WHATEVER TEXT YOU WANT CONTRASTED
     --contrast-text-color: var(--c-vert-600);
     --contrast-shadow-color: var(--c-benibana-600);
+    margin-left:-0.2em;
+    
+    padding-left: 0.2em;
 
     text-wrap: balance;
 
@@ -19,12 +22,12 @@
 
         &[data-text] {
             &::after {
-                font-style: normal;
-    
                 position:absolute;
                 z-index: -1;
                 top:0;
-                left:0;
+                left:-0.1em;
+
+                box-sizing: border-box;
     
                 width: 100%;
     

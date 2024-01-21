@@ -38,14 +38,32 @@ return [
 
 	'routes' => require_once 'routes.php',
 
+    'email' => require_once 'email.php',
+
+
     'hooks' => [
         'page.create:after' => function (Kirby\Cms\Page $page) {
             if($page->parent() == 'editions') {
                 $count = $page->parent()->counter()->toInt();
                 $count++;
                 $page->parent()->update(['counter'=>$count]);
+
+                if($page->artist()->isNotEmpty()) {
+                    if($artist = $this->site()->pages()->find('artists/'. $page->artist()->first())) {
+                        $string = $artist->title();
+                    } else {
+                        $string = $page->artist()->first();
+                    }
+
+                    preg_match_all('/\b\w/', $string, $matches);
+                    $artistName = implode('', $matches[0]);
+
+                } else {
+                    $artistName = '[na]';
+                }
+
                 $page->update([
-                    'artId' => (strtoupper($page->artist()->first()) ?? '') . '-' . date("Y") . '.' . sprintf('%03d', $count),
+                    'artId' => $artistName . date("y") . '.' . sprintf('%03d', $count),
                     'year' => date("Y")
                 ]);
             }
