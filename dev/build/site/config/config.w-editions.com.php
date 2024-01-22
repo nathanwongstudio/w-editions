@@ -7,6 +7,9 @@ return [
 	'cache' => [
 		'pages' => [
 			'active' => true,
+			'ignore' => function ($page) {
+				return $page->indendedTemplate()->value() === 'gallery-artwork';
+			}
 		]
 	],
 	

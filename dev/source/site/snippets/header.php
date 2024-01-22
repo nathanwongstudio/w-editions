@@ -38,10 +38,6 @@
 
     <?=css('@auto') ?>
 
-    <?= js('@auto', ['type'=>'module']) ?>
-
-    <?= js('assets/js/shop.js', ['type'=>'module', 'async']) ?>
-
     <script>
         document.documentElement.className = 
         document.documentElement.className.replace("no-js","js");

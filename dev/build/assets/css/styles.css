@@ -399,7 +399,9 @@ abbr[title=required] {
 
 textarea {
   width: 100%;
+  max-width: 100%;
   height: auto;
+  min-height: calc(var(--base-line-height) * 4);
 }
 
 input[type=text],
@@ -418,8 +420,43 @@ input[type=datetime],
 textarea {
   box-sizing: border-box;
   padding: 0.3em 0.375em;
+  transition: 200ms ease;
   border: 2px solid var(--c-paper-400);
   background: white;
+}
+input[type=text].error,
+input[type=password].error,
+input[type=date].error,
+input[type=datetime-local].error,
+input[type=email].error,
+input[type=month].error,
+input[type=number].error,
+input[type=search].error,
+input[type=tel].error,
+input[type=time].error,
+input[type=url].error,
+input[type=week].error,
+input[type=datetime].error,
+textarea.error {
+  transition: 200ms ease;
+  background: var(--c-benibana-200);
+}
+input[type=text]:disabled,
+input[type=password]:disabled,
+input[type=date]:disabled,
+input[type=datetime-local]:disabled,
+input[type=email]:disabled,
+input[type=month]:disabled,
+input[type=number]:disabled,
+input[type=search]:disabled,
+input[type=tel]:disabled,
+input[type=time]:disabled,
+input[type=url]:disabled,
+input[type=week]:disabled,
+input[type=datetime]:disabled,
+textarea:disabled {
+  transition: 200ms ease;
+  background: var(--c-paper-500);
 }
 
 a.button,
@@ -447,6 +484,22 @@ input[type=button] {
      -moz-appearance: none;
           appearance: none;
 }
+a.button:disabled,
+button:disabled,
+input[type=submit]:disabled,
+input[type=button]:disabled {
+  background: var(--c-paper-500);
+  box-shadow: none;
+}
+a.button:disabled:hover,
+button:disabled:hover,
+input[type=submit]:disabled:hover,
+input[type=button]:disabled:hover {
+  pointer-events: none;
+  color: var(--c-paper);
+  border: none;
+  box-shadow: inherit;
+}
 a.button:hover,
 button:hover,
 input[type=submit]:hover,
@@ -467,18 +520,47 @@ fieldset {
 }
 
 .message, .alert {
-  width: 75%;
+  position: relative;
+  z-index: 9;
+  box-sizing: border-box;
+  width: 100%;
+  height: 0;
   margin: var(--base-line-height) auto;
-  padding: 1em;
+  padding: 0.5em 1em;
+  transition: 300ms ease;
   color: var(--c-paper-100);
-  border: 2px solid var(--c-vert-100);
+  border: 2px solid transparent;
   border-radius: var(--input-radius);
 }
 .message.success, .alert.success {
+  height: auto;
+  transition: 300ms ease;
+  border: 2px solid var(--c-vert-100);
   background: var(--c-vert-300);
 }
 .message.error, .alert.error {
+  height: auto;
+  transition: 300ms ease;
+  border: 2px solid var(--c-cinnabar-300);
   background: var(--c-cinnabar);
+}
+
+.submitted {
+  height: 0;
+  transition: 300ms ease;
+  opacity: 0;
+}
+
+form {
+  position: relative;
+  transition: opacity 300ms ease;
+  opacity: 1;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.uniform__potty {
+  position: absolute;
+  left: -9999px;
 }
 
 :root {

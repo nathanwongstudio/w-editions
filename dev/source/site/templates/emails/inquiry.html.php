@@ -1,6 +1,16 @@
-<h1>New Inquiry from <?= $sender ?></h1>
-<p>Email: <?= $email ?></p>
-<p>Artwork ID: <?= $id ?></p>
+<h1>New Inquiry from <?= $name ?></h1>
+<h3><em><?= $title ?></em></h3>
+<p>by <?= $artist ?></p>
+<p><strong>Artwork ID</strong>
+<br>
+<?= $artId ?></p>
 <hr>
-<p>Message:</p>
-<p><?= $text ?></p>
+<p><strong>Name</strong>
+<br>
+<?= $name ?></p>
+<p><strong>Email</strong>
+<br>
+<?= $email ?></p>
+<hr>
+<p><strong>Message</strong></p>
+<p><?= nl2br($message) ?></p>

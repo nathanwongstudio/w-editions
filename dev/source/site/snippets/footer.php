@@ -10,7 +10,11 @@ if($foot): ?>
     </footer>
 <?php endif; ?>
 </div>
-</body>
+
+
+<?= js('@auto', ['type'=>'module']) ?>
+
+<?= js('assets/js/shop.js', ['type'=>'module', 'async']) ?>
 
 <script>
 
@@ -154,4 +158,6 @@ if($foot): ?>
 </style>
 
 <?= $site->customAnalytics() ?>
+
+</body>
 </html>

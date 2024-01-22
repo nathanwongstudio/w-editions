@@ -297,7 +297,18 @@ span.text-wrap {
 
     transition: right 250ms ease;
 
-    background: var(--c-paper-100);
+    border-left: 2px solid var(--c-paper-500);
+
+    background: var(--c-paper-300);
+
+    .card {
+        margin-top: var(--base-line-height);
+        padding: var(--base-line-height);
+
+        color: var(--c-paynes);
+        border: 2px solid var(--c-paper-500);
+        background: var(--c-paper-100);
+    }
 
     @media screen and (width <= 50em) {
         top: var(--nav-height);
