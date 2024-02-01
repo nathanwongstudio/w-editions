@@ -92,7 +92,7 @@
 }
 @media screen and (width <= 500px) {
   :root {
-    --base-font-size: 13vw;
+    --base-font-size: 11vw;
   }
 }
 @media screen and (height <= 400px) {
@@ -187,7 +187,7 @@ body {
 }
 @media screen and (width <= 60em) {
   .home h1, .error h1 {
-    font-size: 16vw;
+    font-size: 14vw;
   }
 }
 

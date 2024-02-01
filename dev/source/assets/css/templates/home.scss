@@ -6,7 +6,7 @@
     --base-font-size: 60px;
 
     @media screen and (width <= 500px) {
-        --base-font-size: 13vw;
+        --base-font-size: 11vw;
     }
 
     @media screen and (height <= 400px) {
@@ -103,7 +103,7 @@ body {
         letter-spacing:-1px;
 
         @media screen and (width<=60em) {
-            font-size: 16vw;
+            font-size: 14vw;
         }
     }
 }
