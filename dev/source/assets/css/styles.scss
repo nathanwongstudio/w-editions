@@ -95,7 +95,7 @@ body {
 // TYPOGRAPHY
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--secondary-font-stack);
+    font-family: var(--primary-font-stack);
     font-weight: 800;
 
     // line-height: 1;
@@ -1016,7 +1016,12 @@ figure {
     pointer-events:none;
 }
 
+.stickers {
+    @extend %contrast-text;
+}
+
 .tag {
+    --contrast-text-color: var(--c-vert-800);
     --tag-background-color: var(--c-gold);
     font-size: 1.75rem;
     font-style: normal;
@@ -1036,7 +1041,7 @@ figure {
 
     vertical-align: middle;
 
-    letter-spacing: -0.07em;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
 
     border-radius: 50%;

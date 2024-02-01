@@ -2,11 +2,15 @@
 @use "../variables" as v;
 
 :root {
-    --shadow-color:rgb(255 255 255 / 90%);
+    --shadow-color:rgb(239 239 216 / 90%);
     --base-font-size: 60px;
 
-    @media screen and (width <= 60rem) {
-        --base-font-size: 7vw;
+    @media screen and (width <= 500px) {
+        --base-font-size: 13vw;
+    }
+
+    @media screen and (height <= 400px) {
+        --base-font-size: 6vw;
     }
 }
 
@@ -56,10 +60,30 @@ body {
 }
 
 .home, .error {
+    .button {
+        width: auto;
+
+        color: transparent;
+
+        border-radius: 0;
+
+        background: var(--shadow-color);
+        box-shadow: 0 0 3px 3px var(--shadow-color);
+        text-shadow: 0 0 4px black;
+
+        &:hover {
+            color: transparent;
+            border:0;
+            box-shadow: 0 0 6px 6px var(--shadow-color);
+            text-shadow: 0 0 4px blue;
+        }
+    }
+
     h1, h2, h3, h4, h5, h6 {
-        font-family: var(--primary-font-stack);
+        font-family: var(--secondary-font-stack);
         font-size: var(--base-font-size);
         font-weight: 900;
+        line-height: 1;
 
         max-width: 70vw;
         margin: auto;
@@ -75,8 +99,11 @@ body {
     h1 {
         font-size: 2em;
 
+        transform: scale(90%, 300%);
+        letter-spacing:-1px;
+
         @media screen and (width<=60em) {
-            font-size: 13vw;
+            font-size: 16vw;
         }
     }
 }
@@ -109,7 +136,7 @@ which the user cannot interact with */
 
         content: ' ';
 
-        background: repeating-linear-gradient(0deg, black, black 1px, transparent 1px, transparent 3px);
+        background: repeating-linear-gradient(0deg, black, transparent 1px, black 2px);
     }
   
 	/* Make the iframe keep an aspect ratio, and
@@ -176,28 +203,6 @@ which the user cannot interact with */
                     .block {
                         scroll-snap-align: start;
                     }
-
-                    * {
-						font-size: 1em;
-
-						letter-spacing: 5px;
-
-						text-transform: uppercase;
-
-                        text-shadow: 0 0 3px var(--c-cobalt-800), 0 0 4px var(--c-paper);
-                    }
-
-					a {
-						text-decoration: none;
-
-						text-shadow: 0 0 3px var(--c-paper);
-					}
-
-                    .block::after {
-						font-size: 1.5em;
-
-                        text-shadow: 0 0 10px var(--c-cobalt);
-                    }
                 }
             }
         }
@@ -263,17 +268,26 @@ which the user cannot interact with */
         }
     }
 
+    &.block-type-markdown {
+        padding: 2em;
+    }
+
     &.block-type-heading,
     &.block-type-newsletter {
         font-weight: bold;
-        line-height: 1.5em;
 
         margin:0;
         padding: 1em;
 
         text-align: center;
 
+        hyphens: auto;
+
         color:transparent;
+
+        @media screen and (width <= 60rem) {
+            padding: 16px;
+        }
 
         @extend %white-text;
 
@@ -531,8 +545,8 @@ which the user cannot interact with */
     }
 
     h1, h2, h3, h4, h5, h6 {
-        line-height: 1.25em;
+        line-height: 1;
 
-        text-transform: none !important;
+        text-transform: uppercase;
     }
 }

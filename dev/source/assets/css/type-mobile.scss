@@ -1,7 +1,7 @@
 @use "nw-type" as t with (
 
 // Font Family
-$font-family: ('roc-grotesk', sans-serif),
+$font-family: (cofo-gothic-variable, sans-serif),
 $font-mono: (courier new, courier, mono),
 
 // Base ratios
@@ -20,7 +20,7 @@ $paragraph-margin: default,
 $hr-margin: default,
 
 // Type Misc
-$font-weight-bold: 700,
+$font-weight-bold: 800,
 
 );
 

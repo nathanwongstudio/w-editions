@@ -3,7 +3,7 @@ br {
 }
 
 :root {
-  --primary-font-family: roc-grotesk, sans-serif;
+  --primary-font-family: cofo-gothic-variable, sans-serif;
   --scale: 1;
   --base-font-size: 18px;
   --base-line-height: 27px;
@@ -31,7 +31,7 @@ br {
 \*------------------------------------ */
 html,
 body {
-  font-family: "roc-grotesk", sans-serif;
+  font-family: cofo-gothic-variable, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -158,7 +158,7 @@ th {
 }
 
 th {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 th,
@@ -220,7 +220,7 @@ i,
 strong,
 b,
 .bold {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 img {

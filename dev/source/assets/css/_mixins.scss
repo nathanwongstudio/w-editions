@@ -1,9 +1,6 @@
 %contrast-text { // THIS IS FOR A PARENT CONTAINER OF WHATEVER TEXT YOU WANT CONTRASTED
     --contrast-text-color: var(--c-vert-600);
     --contrast-shadow-color: var(--c-benibana-600);
-    margin-left:-0.2em;
-    
-    padding-left: 0.2em;
 
     text-wrap: balance;
 
@@ -14,7 +11,7 @@
     & * {
         position: relative;
 
-        letter-spacing: -3px;
+        letter-spacing: -1px;
 
         color: transparent;
 
@@ -25,7 +22,7 @@
                 position:absolute;
                 z-index: -1;
                 top:0;
-                left:-0.1em;
+                left:0.1em;
 
                 box-sizing: border-box;
     
@@ -41,13 +38,13 @@
         @media screen and (width <= 40em) {
             font-size: 3em;
 
-            letter-spacing: -3px;
+            letter-spacing: 0;
         }
     }
 
     & > * {
         font-size: 4rem;
-        font-weight: bold;
+        font-weight: 700;
         font-style:italic;
         line-height: 1.125;
 

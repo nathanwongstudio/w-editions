@@ -1,38 +1,36 @@
-.section-wrapper.feature section.grid .block-type-heading, .default-content .section-wrapper.header .block.block-type-heading, .shopify-buy__cart-toggle, .contrast-text {
+.section-wrapper.feature section.grid .block-type-heading, .default-content .section-wrapper.header .block.block-type-heading, .stickers, .shopify-buy__cart-toggle, .contrast-text {
   --contrast-text-color: var(--c-vert-600);
   --contrast-shadow-color: var(--c-benibana-600);
-  margin-left: -0.2em;
-  padding-left: 0.2em;
   text-wrap: balance;
   background: var(--c-paper);
   mix-blend-mode: multiply;
   filter: contrast(30);
 }
-.section-wrapper.feature section.grid .block-type-heading *, .default-content .section-wrapper.header .block.block-type-heading *, .shopify-buy__cart-toggle *, .contrast-text * {
+.section-wrapper.feature section.grid .block-type-heading *, .default-content .section-wrapper.header .block.block-type-heading *, .stickers *, .shopify-buy__cart-toggle *, .contrast-text * {
   position: relative;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   color: transparent;
   text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
-.section-wrapper.feature section.grid .block-type-heading *[data-text]::after, .default-content .section-wrapper.header .block.block-type-heading *[data-text]::after, .shopify-buy__cart-toggle *[data-text]::after, .contrast-text *[data-text]::after {
+.section-wrapper.feature section.grid .block-type-heading *[data-text]::after, .default-content .section-wrapper.header .block.block-type-heading *[data-text]::after, .stickers *[data-text]::after, .shopify-buy__cart-toggle *[data-text]::after, .contrast-text *[data-text]::after {
   position: absolute;
   z-index: -1;
   top: 0;
-  left: -0.1em;
+  left: 0.1em;
   box-sizing: border-box;
   width: 100%;
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
 }
 @media screen and (width <= 40em) {
-  .section-wrapper.feature section.grid .block-type-heading *, .default-content .section-wrapper.header .block.block-type-heading *, .shopify-buy__cart-toggle *, .contrast-text * {
+  .section-wrapper.feature section.grid .block-type-heading *, .default-content .section-wrapper.header .block.block-type-heading *, .stickers *, .shopify-buy__cart-toggle *, .contrast-text * {
     font-size: 3em;
-    letter-spacing: -3px;
+    letter-spacing: 0;
   }
 }
-.section-wrapper.feature section.grid .block-type-heading > *, .default-content .section-wrapper.header .block.block-type-heading > *, .shopify-buy__cart-toggle > *, .contrast-text > * {
+.section-wrapper.feature section.grid .block-type-heading > *, .default-content .section-wrapper.header .block.block-type-heading > *, .stickers > *, .shopify-buy__cart-toggle > *, .contrast-text > * {
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
   line-height: 1.125;
   position: relative;
@@ -44,7 +42,7 @@ br {
 }
 
 :root {
-  --primary-font-family: aktiv-grotesk, sans-serif;
+  --primary-font-family: neue-haas-grotesk-text, sans-serif;
   --scale: 1;
   --base-font-size: 20px;
   --base-line-height: 30px;
@@ -72,7 +70,7 @@ br {
 \*------------------------------------ */
 html,
 body {
-  font-family: aktiv-grotesk, sans-serif;
+  font-family: "neue-haas-grotesk-text", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -273,7 +271,7 @@ img {
 :root {
   --em-line-height: 1.5em;
   --base-line-height: 30px;
-  --secondary-font-stack: var(--primary-font-family);
+  --secondary-font-stack:"neue-haas-grotesk-display", sans-serif;
 }
 
 html, body {
@@ -627,7 +625,7 @@ body > * {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--secondary-font-stack);
+  font-family: var(--primary-font-stack);
   font-weight: 800;
   color: var(--c-paynes);
 }
@@ -1297,6 +1295,7 @@ figure:first-child {
 }
 
 .tag {
+  --contrast-text-color: var(--c-vert-800);
   --tag-background-color: var(--c-gold);
   font-size: 1.75rem;
   font-style: normal;
@@ -1310,7 +1309,7 @@ figure:first-child {
   transform: skewX(-15deg) rotate(-15deg);
   text-align: center;
   vertical-align: middle;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
   border-radius: 50%;
   background: var(--tag-background-color);

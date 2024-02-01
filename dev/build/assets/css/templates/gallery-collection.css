@@ -86,41 +86,39 @@
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
-.collection li .left-side, .collection li .artwork-id, .collection li a, .contrast-text {
+.collection li .artwork-title-wrapper, .contrast-text {
   --contrast-text-color: var(--c-vert-600);
   --contrast-shadow-color: var(--c-benibana-600);
-  margin-left: -0.2em;
-  padding-left: 0.2em;
   text-wrap: balance;
   background: var(--c-paper);
   mix-blend-mode: multiply;
   filter: contrast(30);
 }
-.collection li .left-side *, .collection li .artwork-id *, .collection li a *, .contrast-text * {
+.collection li .artwork-title-wrapper *, .contrast-text * {
   position: relative;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   color: transparent;
   text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
-.collection li .left-side *[data-text]::after, .collection li .artwork-id *[data-text]::after, .collection li a *[data-text]::after, .contrast-text *[data-text]::after {
+.collection li .artwork-title-wrapper *[data-text]::after, .contrast-text *[data-text]::after {
   position: absolute;
   z-index: -1;
   top: 0;
-  left: -0.1em;
+  left: 0.1em;
   box-sizing: border-box;
   width: 100%;
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
 }
 @media screen and (width <= 40em) {
-  .collection li .left-side *, .collection li .artwork-id *, .collection li a *, .contrast-text * {
+  .collection li .artwork-title-wrapper *, .contrast-text * {
     font-size: 3em;
-    letter-spacing: -3px;
+    letter-spacing: 0;
   }
 }
-.collection li .left-side > *, .collection li .artwork-id > *, .collection li a > *, .contrast-text > * {
+.collection li .artwork-title-wrapper > *, .contrast-text > * {
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
   line-height: 1.125;
   position: relative;
@@ -140,8 +138,14 @@
   z-index: 99;
   margin: 0;
   padding: 0;
-  mix-blend-mode: multiply;
   border-bottom: 3px solid var(--c-paper-300);
+  mix-blend-mode: multiply;
+}
+@media screen and (width <= 50em) {
+  .collection li {
+    --list-height: 8em;
+    min-height: var(--list-height);
+  }
 }
 .collection li::before {
   font-weight: bold;
@@ -157,9 +161,6 @@
   text-align: center;
   color: var(--c-paynes-200);
   border-right: 1px solid;
-}
-.collection li:hover {
-  background: var(--c-cobalt);
 }
 .collection li:hover::before {
   color: red;
@@ -178,43 +179,68 @@
   flex-direction: column;
 }
 .collection li .artwork-artist {
-  font-size: 1.75em;
+  font-size: 1em;
   margin-bottom: 0;
-}
-.collection li .artwork-artist * {
-  letter-spacing: -1px;
+  color: var(--c-paynes);
 }
 .collection li .artwork-artist .artist {
   margin-right: 0.5em;
 }
 @media screen and (width <= 60em) {
+  .collection li .artwork-artist {
+    font-size: 1rem;
+  }
   .collection li .artwork-artist * {
     letter-spacing: 0;
   }
 }
-.collection li .artwork-item {
+.collection li .artwork-title {
   font-size: 4em;
+  display: inline-block;
   width: 100%;
   padding: 0 2rem 0.5rem 0;
 }
-.collection li .artwork-item::after {
+.collection li .artwork-title::after {
   padding: 0 2rem 0.5rem 0;
 }
 @media screen and (width <= 60em) {
-  .collection li .artwork-item {
+  .collection li .artwork-title {
     font-size: 2.5em;
+    letter-spacing: 0;
   }
 }
 .collection li .artwork-id {
   mix-blend-mode: normal;
-  font-size: 1em;
-  width: var(--id-size);
+  font-size: 0.8rem;
+  width: 100%;
   text-align: right;
-  letter-spacing: normal;
+  letter-spacing: 0;
+  color: var(--c-paynes-300);
 }
 @media screen and (width <= 60em) {
   .collection li .artwork-id {
     text-align: left;
+  }
+}
+.collection li .stickers {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  right: 0;
+  box-sizing: border-box;
+}
+@media screen and (width <= 50em) {
+  .collection li .stickers {
+    top: 0;
+    right: 0;
+    width: var(--list-height);
+    transform: rotate(-90deg) translateY(-100%);
+    transform-origin: top right;
+  }
+  .collection li .stickers .tag {
+    font-weight: 900;
+    width: 100%;
+    letter-spacing: 0;
   }
 }
 .collection li .tag {
@@ -223,7 +249,7 @@
   right: 1em;
   bottom: 0;
   width: 5em;
-  letter-spacing: -2px;
+  letter-spacing: 0;
   /* stylelint-disable-next-line selector-class-pattern */
 }
 .collection li .tag.sold {
@@ -233,13 +259,16 @@
 .collection li .tag ~ .tag {
   right: 5.5em;
 }
-@media screen and (width <= 60em) {
+@media screen and (width <= 50em) {
   .collection li .tag {
     font-size: 1.25em;
-    right: 0.5em;
+    position: relative;
+    inset: 0;
+    transform: none;
+    border-radius: 0;
   }
   .collection li .tag ~ .tag {
-    right: 4em;
+    right: 0;
   }
 }
 .collection li a {
@@ -258,9 +287,6 @@
 @media screen and (width <= 60em) {
   .collection li a {
     grid-template-columns: 1fr;
-  }
-  .collection li a .artist {
-    font-size: 1.5rem;
   }
 }
 

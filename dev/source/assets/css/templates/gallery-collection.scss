@@ -18,9 +18,15 @@
         margin:0;
         padding:0;
 
+        border-bottom: 3px solid var(--c-paper-300);
+
         mix-blend-mode:multiply;
 
-        border-bottom: 3px solid var(--c-paper-300);
+
+        @media screen and (width <= 50em) {
+            --list-height: 8em;
+            min-height:var(--list-height);
+        }
 
         &::before {
             font-weight: bold;
@@ -49,8 +55,6 @@
 
 
         &:hover {
-            background: var(--c-cobalt);
-
             &::before {
                 color: red;
             }
@@ -73,8 +77,6 @@
             // --contrast-text-color: var(--c-cobalt);
             // --contrast-shadow-color: var(--c-benibana);
 
-            @extend %contrast-text;
-
             mix-blend-mode: normal;
 
             font-size: var(--base-font-size);
@@ -84,13 +86,13 @@
         }
 
         .artwork-artist {
-            & * {
-                letter-spacing: -1px;
-            }
+            font-size: 1em;
 
-            font-size: 1.75em;
+            // font-weight: bold;
 
             margin-bottom:0;
+
+            color: var(--c-paynes);
 
             .artist {
                 margin-right: 0.5em;
@@ -100,11 +102,19 @@
                 & * {
                     letter-spacing:0;
                 }
+
+                font-size: 1rem;
             }
         }
 
-        .artwork-item {
+        .artwork-title-wrapper {
+            @extend %contrast-text;
+        }
+
+        .artwork-title {
             font-size: 4em;
+
+            display:inline-block;
 
             width: 100%;
             
@@ -116,25 +126,56 @@
 
             @media screen and (width <=60em) {
                 font-size: 2.5em;
+
+                letter-spacing:0;
             }
         }
 
         .artwork-id {
-            @extend %contrast-text;
+            // @extend %contrast-text;
 
             mix-blend-mode: normal;
 
-            font-size: 1em;
+            font-size: 0.8rem;
 
             // --contrast-text-color: var(--c-paynes-500);
-            width: var(--id-size);
+            width: 100%;
 
             text-align:right;
 
-            letter-spacing: normal;
+            letter-spacing: 0;
+
+            color: var(--c-paynes-300);
 
             @media screen and (width <=60em) {
                 text-align:left;
+            }
+        }
+
+        .stickers {
+            position:absolute;
+            z-index: 99;
+            top: 50%;
+            right:0;
+
+            box-sizing:border-box;
+
+            @media screen and (width<=50em) {
+                top:0;
+                right: 0;
+
+                width: var(--list-height);
+
+                transform: rotate(-90deg) translateY(-100%);
+                transform-origin: top right;
+
+                .tag {
+                    font-weight:900;
+
+                    width:100%;
+
+                    letter-spacing:0;
+                }
             }
         }
 
@@ -148,7 +189,7 @@
 
             width: 5em;
 
-            letter-spacing: -2px;
+            letter-spacing: 0;
 
             /* stylelint-disable-next-line selector-class-pattern */
             &.sold  {
@@ -160,19 +201,25 @@
                 right: 5.5em;
             }
 
-            @media screen and (width <=60em) {
+            @media screen and (width <=50em) {
                 font-size: 1.25em;
 
-                right: 0.5em;
+                position: relative;
+
+                inset:0;
+
+                transform:none;
+
+                border-radius: 0;
 
                 & ~ .tag {
-                    right: 4em;
+                    right: 0
                 }
             }
         }
 
         a {
-            @extend %contrast-text;
+            // @extend %contrast-text;
 
             mix-blend-mode: normal;
 
@@ -194,10 +241,6 @@
 
             @media screen and (width <=60em) {
                 grid-template-columns: 1fr;
-
-                .artist {
-                    font-size:1.5rem;
-                }
             }
         }
     }

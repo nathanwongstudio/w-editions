@@ -13,7 +13,12 @@ if($artworks->isNotEmpty()): ?>
                     <li class="artwork" style="--index: '<?= $artwork->num() ?>'">
                         <a href="<?=$artwork->url()?>" data-id="<?= $artwork->uid() ?>">
                             <div class="left-side">
-                                <span class="artwork-artist">
+                                <div class="artwork-title-wrapper">
+                                    <span class="artwork-title" data-text="<?=$artwork->title()?>">
+                                        <?=$artwork->title()?>
+                                    </span>
+                                </div>
+                                <div class="artwork-artist">
                                     <?php foreach ($artwork->artist()->split() as $artist): 
                                         if($artistPage = $pages->find('artists/'.$artist)):
                                         ?>
@@ -22,15 +27,13 @@ if($artworks->isNotEmpty()): ?>
                                             <span class="artist text-wrap" data-text="<?= $artist ?>"><?= $artist ?></span>
                                         <?php endif; ?>
                                     <?php endforeach;?>
-                                </span>
-                                <span class="artwork-item" data-text="<?=$artwork->title()?>">
-                                    <?=$artwork->title()?>
-                                </span>
+                                </div>
                             </div>
                             <span class="artwork-id" data-text="<?= $artwork->artId() ?>">
                                 <?= $artwork->artId() ?>
                             </span>
-
+                        </a>
+                        <div class="stickers">
                             <?php
                                 if($artwork->publishdate()->isNotEmpty()) {
                                     $today = new Datetime(date('Y-m-d'));
@@ -45,7 +48,7 @@ if($artworks->isNotEmpty()): ?>
                                 <?php if(!$artwork->available()->toBool()): ?>
                                     <span class="tag sold">Sold Out</span>
                                 <?php endif; ?>
-                        </a>
+                        </div>
                     </li>
                 <?php endforeach ?>
             </ol>
