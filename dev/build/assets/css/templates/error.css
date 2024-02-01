@@ -184,6 +184,14 @@ which the user cannot interact with */
   /* Make the iframe keep an aspect ratio, and
   position it in the middle of its parent wrapper */
 }
+.iframe-wrapper::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: repeating-linear-gradient(0deg, black, black 1px, transparent 1px, transparent 3px);
+}
 .iframe-wrapper iframe {
   position: absolute;
   top: 50%;
