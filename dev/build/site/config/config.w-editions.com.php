@@ -1,6 +1,8 @@
 <?php
 
 return [
+    // set environment variable
+    'environment' => 'production',
 
 	'debug' => false,
 

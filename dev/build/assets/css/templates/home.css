@@ -154,12 +154,20 @@ body {
 }
 
 .home .button, .error .button {
+  line-height: 1;
   width: auto;
+  margin: 0;
   color: transparent;
   border-radius: 0;
   background: var(--shadow-color);
   box-shadow: 0 0 3px 3px var(--shadow-color);
   text-shadow: 0 0 4px black;
+}
+@media screen and (width <= 50em) {
+  .home .button, .error .button {
+    font-size: 0.8em;
+    padding: 0.25em 0.5em;
+  }
 }
 .home .button:hover, .error .button:hover {
   color: transparent;
@@ -178,16 +186,6 @@ body {
 @media screen and (width <= 60rem) {
   .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
     max-width: 95vw;
-  }
-}
-.home h1, .error h1 {
-  font-size: 2em;
-  transform: scale(90%, 300%);
-  letter-spacing: -1px;
-}
-@media screen and (width <= 60em) {
-  .home h1, .error h1 {
-    font-size: 14vw;
   }
 }
 
@@ -309,18 +307,23 @@ which the user cannot interact with */
 .block.block-type-markdown {
   padding: 2em;
 }
+@media screen and (width <= 50em) {
+  .block.block-type-markdown {
+    padding: 1em;
+  }
+}
 .block.block-type-heading, .block.block-type-newsletter {
   font-weight: bold;
   margin: 0;
   padding: 1em;
   text-align: center;
-  -webkit-hyphens: auto;
-          hyphens: auto;
   color: transparent;
 }
 @media screen and (width <= 60rem) {
   .block.block-type-heading, .block.block-type-newsletter {
     padding: 16px;
+    -webkit-hyphens: auto;
+            hyphens: auto;
   }
 }
 .block.block-type-heading a, .block.block-type-newsletter a {
@@ -516,6 +519,40 @@ which the user cannot interact with */
 .block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
   line-height: 1;
   text-transform: uppercase;
+}
+
+.header {
+  font-size: 0;
+  text-align: center;
+}
+.header h1, .header h2 {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  transform: scale(55%, 100%);
+  transform-origin: right;
+  letter-spacing: -1px;
+  word-spacing: 0;
+  text-shadow: 0 0 6px var(--shadow-color);
+}
+@media screen and (width <= 60em) {
+  .header h1, .header h2 {
+    font-size: 14vw;
+    text-shadow: 0 0 4px var(--shadow-color);
+  }
+}
+.header h1 {
+  z-index: 99;
+  transform: scale(255%, 105%);
+  transform-origin: left;
+  letter-spacing: -3px;
+}
+.header .blocks {
+  display: contents;
+}
+.header .block.block-type-heading {
+  display: contents;
 }
 
 /*# sourceMappingURL=home.css.map */

@@ -457,7 +457,7 @@ figure {
 
 
                 margin: var(--base-line-height) 0 0;
-                padding:0 var(--base-line-height);
+                padding:0 1rem;
 
                 border-right:0;
 
@@ -1059,13 +1059,17 @@ figure {
     }
 
     /* stylelint-disable-next-line selector-class-pattern */
-    &.sold, &.push.shopify-buy__btn-disabled {
+    &.push.shopify-buy__btn-disabled,
+    &.sold,
+    &.sold:disabled {
         --tag-background-color: var(--c-cinnabar);
         --contrast-text-color: var(--c-gold);
 
         width: 4.5em;
 
         border:none;
+
+        background: var(--tag-background-color);
     }
 
     &.push {
@@ -1090,5 +1094,25 @@ figure {
         font-size: 1.5rem!important;
 
         letter-spacing:-1px;
+    }
+}
+
+.mobile-only {
+    display:none;
+    visibility: hidden;
+
+    @media screen and (width <= 50em) {
+        display:inherit;
+        visibility:visible;
+    }
+}
+
+.desktop-only {
+    display:inherit;
+    visibility: visible;
+
+    @media screen and (width <= 50em) {
+        display:none;
+        visibility:hidden;
     }
 }

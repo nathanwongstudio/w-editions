@@ -325,6 +325,45 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/source\/assets\/images\/icons\/favicon64.png" : {
+      "ft" : 32768,
+      "iS" : 1249,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/images\/icons\/favicon64.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/source\/assets\/images\/icons\/favicon120.png" : {
+      "ft" : 32768,
+      "iS" : 2447,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/images\/icons\/favicon120.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/source\/assets\/images\/icons\/favicon250.png" : {
+      "ft" : 32768,
+      "iS" : 6067,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/images\/icons\/favicon250.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/source\/assets\/js\/main.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -503,14 +542,6 @@
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/build\/site\/cache",
-      "oF" : 0
-    },
-    "\/source\/site\/config\/config.charsiubao.local.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/site\/config\/config.charsiubao.local.php",
       "oF" : 0
     },
     "\/source\/site\/config\/config.localhost.php" : {
@@ -1716,7 +1747,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-punDog",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 726772797.95700395
+    "lastBuiltDate" : 730096333.96082699
   },
   "projectSettings" : {
     "abortBuildOnError" : 0,

@@ -110,12 +110,6 @@
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
 }
-@media screen and (width <= 40em) {
-  .collection li .artwork-title-wrapper *, .contrast-text * {
-    font-size: 3em;
-    letter-spacing: 0;
-  }
-}
 .collection li .artwork-title-wrapper > *, .contrast-text > * {
   font-size: 4rem;
   font-weight: 700;
@@ -123,6 +117,14 @@
   line-height: 1.125;
   position: relative;
   width: 100%;
+}
+@media screen and (width <= 40em) {
+  .collection li .artwork-title-wrapper > *, .contrast-text > * {
+    font-size: 2.5em;
+    letter-spacing: 0;
+    -webkit-hyphens: none;
+            hyphens: none;
+  }
 }
 
 .collection {
@@ -171,6 +173,21 @@
 .collection li:hover * .tag.new, .collection li:hover * .tag.sold {
   --contrast-text-color: var(--c-paper);
   background: var(--c-cinnabar);
+}
+.collection li .artwork-image {
+  width: auto;
+  margin-left: 2em;
+  padding: calc(var(--base-line-height) / 2) var(--base-line-height);
+  text-align: center;
+  background: white;
+  mix-blend-mode: normal;
+}
+.collection li .artwork-image img {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 50vh;
 }
 .collection li .left-side {
   mix-blend-mode: normal;
@@ -231,15 +248,19 @@
 }
 @media screen and (width <= 50em) {
   .collection li .stickers {
+    font-size: 0;
     top: 0;
     right: 0;
-    width: var(--list-height);
-    transform: rotate(-90deg) translateY(-100%);
-    transform-origin: top right;
+    width: calc(100% - 2rem);
+    text-align: right;
+    word-spacing: 0;
   }
   .collection li .stickers .tag {
+    font-size: 1.5rem;
     font-weight: 900;
-    width: 100%;
+    display: inline-block;
+    width: auto;
+    padding: 0 0.5em;
     letter-spacing: 0;
   }
 }
@@ -248,8 +269,8 @@
   position: absolute;
   right: 1em;
   bottom: 0;
-  width: 5em;
-  letter-spacing: 0;
+  width: 6em;
+  letter-spacing: -1px;
   /* stylelint-disable-next-line selector-class-pattern */
 }
 .collection li .tag.sold {

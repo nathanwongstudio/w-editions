@@ -8,6 +8,9 @@ $aspect = $src->height() / $src->width();
 if(!isset($class)) {
     $class='';
 }
+if(!isset($lazy)) {
+    $lazy=true;
+}
 
 if(isset($width)) {
     $height = round($width * $aspect);
@@ -112,9 +115,9 @@ if(isset($imgMinWidth)) {
                 alt="<?= $alt ?? 'this image has no alt text' ?>"
                 class="image <?= $class && $figure ?? '' ?>"
 
-                <?php if(isset($index) && $index > 2): ?>
+                <?php if($lazy && isset($index) && $index > 2): ?>
                     loading="lazy"
-                <?php elseif(!isset($index)): ?>
+                <?php elseif($lazy && !isset($index)): ?>
                     loading="lazy"
                 <?php endif; ?>
 

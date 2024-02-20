@@ -3,8 +3,11 @@
 @use "variables" as v;
 
 .site-title {
-    font-size: 1.2em;
-    font-weight:bold;
+    --nav-text-color: var(--c-cobalt);
+
+    font-family: var(--secondary-font-stack);
+    font-size: 1.8em;
+    font-weight:900;
     line-height:1;
 
     position:relative;
@@ -13,28 +16,52 @@
     top:0;
     left:0;
 
-    display:inline-block;
+    display: flex;
 
-    width: 6em;
+    flex-flow: column nowrap;
+    justify-content: center;
 
-    height: 1em;
+    width: 100%;
+    height: var(--nav-height);
 
-    transition: 300ms ease;
-    transition-property: top, left, text-shadow, transform, font-size;
-    transform:translate3d(0%, 0%, 0%);
+    text-align:left;
 
-    color:transparent;
-    text-shadow: 0 0 2px var(--c-cobalt);
+    color: transparent;
 
-    &:hover {
+    a {
+        position:relative;
+        z-index:0;
+
         transition: text-shadow 250ms ease;
 
-        text-shadow: 0 0 0 var(--c-cobalt);
-    }
+        // text-shadow: 0 0 0 transparent;
 
-    @media screen and (hover: none),
-    screen and (width <=50em) {
-        text-shadow: 0 0 1px  var(--c-cobalt);
+        span {
+            display:inline-block;
+
+            background: repeating-linear-gradient(0deg, var(--nav-text-color),var(--nav-text-color) 1px, transparent 1px,transparent 2px);
+            
+            background-clip: text;
+
+            &:first-of-type {
+                transform: scaleX(240%);
+                transform-origin: left;
+            }
+    
+            &:last-of-type {
+                position:absolute;
+                right:0;
+
+                transform: scaleX(60%);
+                transform-origin: right;
+            }
+        }
+
+        &:hover {
+            transition: text-shadow 250ms ease;
+    
+            text-shadow: 0 0 3px var(--c-cobalt);
+        }
     }
 }
 
@@ -106,7 +133,7 @@ nav {
         box-sizing: border-box;
         height:100vh;
 
-        padding: calc((var(--nav-height) - var(--up-1)) / 2) var(--base-line-height);
+        padding: 0 var(--base-line-height);
 
         background-color: white;
         filter: contrast(60);
@@ -147,19 +174,18 @@ nav {
 
             box-sizing: border-box;
 
-            height: calc(100vh - var(--nav-height));
+            height: 100vh;
             margin:0;
-            margin-top: var(--menu-item-pad);
-            padding:0 var(--base-line-height) 1em;
+            padding:var(--menu-item-pad) var(--base-line-height) 1em;
 
-            text-align:center;
+            text-align:left;
 
             word-spacing: 1em;
 
             li {
                 line-height: 1;
 
-                display: inline-block;
+                display: block;
 
                 margin:0!important;
                 padding:0!important;
@@ -203,6 +229,8 @@ nav {
                 &:hover {
                     transition: 250ms ease;
                     transition-property: color, text-shadow;
+
+                    text-decoration: underline;
 
                     text-shadow: 0 0 0 var(--c-paper);
                 }
@@ -297,27 +325,41 @@ nav {
             }
 
             & ~ .site-title {
+                --nav-text-color: var(--c-paper);
+
                 font-size: var(--nav-font-size);
+                line-height:0.7;
 
                 // position:absolute;
 
                 z-index:9999;
                 top:0;
-                left:50%;
+                left:calc(var(--base-line-height) * -1.5);
+
+                align-items: start;
+                justify-content: start;
 
                 box-sizing: border-box;
+                width: 100%;
+                padding:0;
 
                 transition: 300ms ease;
-                transition-property: top, left, text-shadow, transform, font-size;
+                transition-property: top, left, text-shadow, transform;
 
-                transform: translate3d(-50%, 0, 0);
+                text-align:left;
 
-                text-align:center;
 
-                text-shadow:var(--text-shadow-menu);
+                a {
+                    span {
+                        position:relative;
 
-                &:hover {
-                    text-shadow: 0 0 0 var(--c-paper);
+                        padding-bottom:0.125em;
+                    }
+
+                    &:hover {
+                        text-shadow: 0 0 0 var(--c-paper);
+                    }
+
                 }
 
             }

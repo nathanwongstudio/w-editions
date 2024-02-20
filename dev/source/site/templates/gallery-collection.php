@@ -11,6 +11,9 @@ if($artworks->isNotEmpty()): ?>
                         $src = $artwork->primaryImg()->toFile();
                 ?>
                     <li class="artwork" style="--index: '<?= $artwork->num() ?>'">
+                        <div class="artwork-image mobile-only">
+                            <?= snippet('images', compact('src')) ?>
+                        </div>
                         <a href="<?=$artwork->url()?>" data-id="<?= $artwork->uid() ?>">
                             <div class="left-side">
                                 <div class="artwork-title-wrapper">
@@ -52,14 +55,15 @@ if($artworks->isNotEmpty()): ?>
                     </li>
                 <?php endforeach ?>
             </ol>
-            <div class="image-box">
+            <div class="image-box desktop-only">
                 <?php
                     foreach($artworks as $artwork):
 
                         $src = $artwork->primaryImg()->toFile();
                         $class = $artwork->uid();
+                        $lazy = false;
                 ?>
-                    <?= snippet('images', compact('src', 'class')) ?>
+                    <?= snippet('images', compact('src', 'class', 'lazy')) ?>
                 <?php endforeach ?>
             </div>
         </div>
@@ -74,6 +78,8 @@ if($artworks->isNotEmpty()): ?>
             document.querySelector('figure.shown')?.classList.remove('shown');
             
             img.classList.add('shown');
+            
+            console.log(id + ' was moused over');
        }
        elements[e].onmouseleave = function(t) {
             document.querySelector('figure.shown')?.classList.remove('shown');

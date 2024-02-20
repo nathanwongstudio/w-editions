@@ -8,12 +8,17 @@ return [
     ],
 	'wearejust.meta-tags.default' => function ($page, $site) {
         return [
-            'title' => ((!$page->isHomePage()) ? $page->title() . ' ❀ ' : '' ) . $site->title(),
+            'title' => ((!$page->isHomePage()) ? $page->title() . ' /// ' : '' ) . $site->title(),
             'meta' => [
                 'description' => $site->description()
             ],
             'link' => [
-                'canonical' => $page->url()
+                'canonical' => $page->url(),
+                'icon' => [
+                  ['href' => url('assets/images/icons/favicon64.png'), 'sizes' => '64x64', 'type' =>'image/png'],
+                  ['href' => url('assets/images/icons/favicon120.png'), 'sizes' => '120x120', 'type' =>'image/png'],
+                  ['href' => url('assets/images/icons/favicon250.png'), 'sizes' => '250x250', 'type' =>'image/png'],
+                ]
             ],
             'og' => [
                 'title' => $page->isHomePage()
@@ -25,8 +30,6 @@ return [
             ]
         ];
 	},
-	
-	'thathoff.git-content.displayErrors' => false,
 
 	'smartypants' => true,
 

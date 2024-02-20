@@ -34,12 +34,6 @@
                 
             }
         }
-        
-        @media screen and (width <= 40em) {
-            font-size: 3em;
-
-            letter-spacing: 0;
-        }
     }
 
     & > * {
@@ -51,6 +45,14 @@
         position: relative;
 
         width: 100%;
+        
+        @media screen and (width <= 40em) {
+            font-size: 2.5em;
+
+            letter-spacing: 0;
+
+            hyphens:none;
+        }
     }
 }
 

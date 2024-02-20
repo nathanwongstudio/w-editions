@@ -2,8 +2,8 @@
     <div class="wrapper-nav">
         <input type="checkbox" id="x" class="menu-toggle" aria-label="click to toggle the menu" role="button" aria-pressed="false" aria-haspopup="menu"></input>
         <section class="site-title">
-            <a href="<?= $site->url()?>" aria-label="click to go to the home page" data-text="<?= $site->title() ?>">
-                <?= $site->title(); ?>
+            <a href="<?= $site->url()?>" aria-label="click to go to the home page">
+               <span data-text="w/">W/</span><span data-text="EDITIONS">EDITIONS</span>
             </a>
         </section>
         <section class="menu">

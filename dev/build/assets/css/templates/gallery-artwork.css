@@ -319,10 +319,42 @@ span.text-wrap {
 }
 #inquire-form .card {
   margin-top: var(--base-line-height);
-  padding: var(--base-line-height);
+  padding: 1em;
   color: var(--c-paynes);
   border: 2px solid var(--c-paper-500);
   background: var(--c-paper-100);
+}
+#inquire-form .card .card-image {
+  width: 100%;
+  text-align: center;
+}
+#inquire-form .card .card-image figure {
+  display: inline-block;
+}
+#inquire-form .card .card-image img {
+  width: auto;
+  height: auto;
+  max-height: 50vh;
+}
+@media screen and (width <= 50em) and (width >= 35em) {
+  #inquire-form .card {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+  #inquire-form .card .card-image {
+    flex-grow: 0;
+    flex-shrink: 1;
+    width: auto;
+  }
+  #inquire-form .card .card-image figure {
+    margin-bottom: 0;
+  }
+  #inquire-form .card .card-info {
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-width: 50%;
+  }
 }
 @media screen and (width <= 50em) {
   #inquire-form {

@@ -303,11 +303,51 @@ span.text-wrap {
 
     .card {
         margin-top: var(--base-line-height);
-        padding: var(--base-line-height);
+        padding: 1em;
 
         color: var(--c-paynes);
         border: 2px solid var(--c-paper-500);
         background: var(--c-paper-100);
+
+        .card-image {
+            width: 100%;
+
+            text-align: center;
+
+            figure {
+                display: inline-block;
+            }
+
+            img {
+                width: auto;
+                height: auto;
+                max-height: 50vh;
+            }
+        }
+
+        @media screen and (width <= 50em) and (width >= 35em) {
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+
+            .card-image {
+                flex-grow:0;
+                flex-shrink:1;
+
+                width: auto;
+
+                figure {
+                    margin-bottom:0;
+                }
+            }
+
+            .card-info {
+                flex-grow: 1;
+                flex-shrink:0;
+
+                min-width: 50%;
+            }
+        }
     }
 
     @media screen and (width <= 50em) {

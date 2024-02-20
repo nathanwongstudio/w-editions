@@ -22,12 +22,6 @@
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
 }
-@media screen and (width <= 40em) {
-  .section-wrapper.feature section.grid .block-type-heading *, .default-content .section-wrapper.header .block.block-type-heading *, .stickers *, .shopify-buy__cart-toggle *, .contrast-text * {
-    font-size: 3em;
-    letter-spacing: 0;
-  }
-}
 .section-wrapper.feature section.grid .block-type-heading > *, .default-content .section-wrapper.header .block.block-type-heading > *, .stickers > *, .shopify-buy__cart-toggle > *, .contrast-text > * {
   font-size: 4rem;
   font-weight: 700;
@@ -35,6 +29,14 @@
   line-height: 1.125;
   position: relative;
   width: 100%;
+}
+@media screen and (width <= 40em) {
+  .section-wrapper.feature section.grid .block-type-heading > *, .default-content .section-wrapper.header .block.block-type-heading > *, .stickers > *, .shopify-buy__cart-toggle > *, .contrast-text > * {
+    font-size: 2.5em;
+    letter-spacing: 0;
+    -webkit-hyphens: none;
+            hyphens: none;
+  }
 }
 
 br {
@@ -872,7 +874,7 @@ figure:first-child {
     box-sizing: border-box;
     width: 100%;
     margin: var(--base-line-height) 0 0;
-    padding: 0 var(--base-line-height);
+    padding: 0 1rem;
     border-right: 0;
   }
   .default-content section.grid .column:last-child {
@@ -1322,11 +1324,12 @@ figure:first-child {
 .tag.new {
   --tag-background-color: var(--c-gold);
 }
-.tag.sold, .tag.push.shopify-buy__btn-disabled {
+.tag.push.shopify-buy__btn-disabled, .tag.sold, .tag.sold:disabled {
   --tag-background-color: var(--c-cinnabar);
   --contrast-text-color: var(--c-gold);
   width: 4.5em;
   border: none;
+  background: var(--tag-background-color);
 }
 .tag.push {
   --tag-background-color: var(--c-cobalt-300);
@@ -1344,6 +1347,28 @@ figure:first-child {
 .shopify-buy__cart-toggle * {
   font-size: 1.5rem !important;
   letter-spacing: -1px;
+}
+
+.mobile-only {
+  display: none;
+  visibility: hidden;
+}
+@media screen and (width <= 50em) {
+  .mobile-only {
+    display: inherit;
+    visibility: visible;
+  }
+}
+
+.desktop-only {
+  display: inherit;
+  visibility: visible;
+}
+@media screen and (width <= 50em) {
+  .desktop-only {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

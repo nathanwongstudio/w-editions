@@ -8,12 +8,17 @@
 
     <h2>Artwork Inquiry</h2>
     <div class="card">
-        <p>
-        <em><?= $page->title() ?></em> <?= $page->year()->isNotEmpty() ? '(' . $page->year() . ')' : '' ?>
-        <br><?= $artists ?>
-        <br><?= $page->artId() ?>
-        </p>
-        <p>$<?= $page->price() ?></p>
+        <div class="card-image mobile-only">
+            <?= snippet('images', ['src' => $page->primaryImg()->toFile()]); ?>
+        </div>
+        <div class="card-info">
+            <p>
+            <strong><em><?= $page->title() ?></em> <?= $page->year()->isNotEmpty() ? '(' . $page->year() . ')' : '' ?></em></strong>
+            <br><?= $artists ?>
+            <br><?= $page->artId() ?>
+            </p>
+            <p>$<?= $page->price() ?></p>
+        </div>
     </div>
     <span class="close" id="close-inquire"></span>
 
