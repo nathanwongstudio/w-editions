@@ -27,6 +27,24 @@ return [
                 'type' => 'website',
                 'site_name' => $site->title(),
                 'url' => $page->url()
+            ],
+            'twitter' => [
+                'card' => 'summary',
+                'site' => $site->twitter(),
+                'title' => $page->title(),
+                'namespace:image' => function ($page, $site) {
+                    if($page->primaryImg()->isNotEmpty()){
+                        $image = $page->primaryImg()->toFile();
+                    }
+                    else {
+                        $image = $site->logo()->toFile();
+                    }
+
+                    return [
+                        'image' => $image->url(),
+                        'alt' => $image->alt()
+                    ];
+                }
             ]
         ];
 	},

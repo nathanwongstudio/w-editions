@@ -24,6 +24,8 @@
     width: 100%;
     height: var(--nav-height);
 
+    transition: 300ms ease;
+
     text-align:left;
 
     color: transparent;
@@ -38,6 +40,8 @@
 
         span {
             display:inline-block;
+
+            transition: 300ms ease;
 
             background: repeating-linear-gradient(0deg, var(--nav-text-color),var(--nav-text-color) 1px, transparent 1px,transparent 2px);
             
@@ -151,7 +155,6 @@ nav {
         height:100vh;
 
         transition: opacity 1ms ease;
-        transition-delay: 400ms;
 
         opacity: 0;
 

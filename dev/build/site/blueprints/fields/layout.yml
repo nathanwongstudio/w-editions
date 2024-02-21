@@ -97,8 +97,10 @@ fieldsets:
         fields:
           label:
             type: text
+            label: Label
           placeholder:
             type: text
+            label: Placeholder
   media:
     label: Media
     type: group

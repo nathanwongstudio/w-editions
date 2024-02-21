@@ -415,7 +415,7 @@ which the user cannot interact with */
   box-sizing: border-box;
   width: 100%;
   margin: auto;
-  padding: 1em 4em 1em 0.5em;
+  padding: 1em 2.5em 1em 0.5em;
   transition: 100ms ease;
   border: 1px solid;
   outline: none;
@@ -455,11 +455,12 @@ which the user cannot interact with */
 }
 .block.block-type-newsletter form input[type=email] + .cursor {
   position: absolute;
-  top: 0.5em;
+  top: 50%;
   left: 0.5em;
   width: 3px;
   height: 2em;
   content: " ";
+  transform: translateY(-50%);
   opacity: 0;
   border-radius: 1px;
   background: var(--shadow-color);
@@ -495,9 +496,13 @@ which the user cannot interact with */
   top: 0;
   right: 0;
   display: block;
+  height: 100%;
   margin: 0;
   padding: 1em 0.5em;
   cursor: pointer;
+  transform: scaleX(50%);
+  transform-origin: right;
+  text-transform: uppercase;
   border: none;
   border-radius: var(--input-radius);
   background: transparent;

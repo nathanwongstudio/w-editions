@@ -20,6 +20,11 @@ tabs:
 
   settings:
     fields:
+      logo:
+        label: Logo for Default Social Cards
+        type: files
+        multiple: false
+        layout: cards
       description:
         label: SEO Description
         type: textarea

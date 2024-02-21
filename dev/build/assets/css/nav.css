@@ -102,6 +102,7 @@
   justify-content: center;
   width: 100%;
   height: var(--nav-height);
+  transition: 300ms ease;
   text-align: left;
   color: transparent;
 }
@@ -112,6 +113,7 @@
 }
 .site-title a span {
   display: inline-block;
+  transition: 300ms ease;
   background: repeating-linear-gradient(0deg, var(--nav-text-color), var(--nav-text-color) 1px, transparent 1px, transparent 2px);
   -webkit-background-clip: text;
           background-clip: text;
@@ -195,7 +197,6 @@ nav .menu {
   width: 100vw;
   height: 100vh;
   transition: opacity 1ms ease;
-  transition-delay: 400ms;
   opacity: 0;
   background-color: var(--c-cobalt-400);
   --nav-top: calc(var(--base-line-height) * 3);

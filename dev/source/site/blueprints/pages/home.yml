@@ -11,17 +11,6 @@ tabs:
             fields:
               text:
                 extends: fields/layout
-                fieldsets:
-                  extras:
-                    label: Extras
-                    type: group
-                    open: false
-                    fieldsets:
-                      newsletter:
-                        fields:
-                          label:
-                            label: label
-                            type: text
   media:
     sections:
       files:

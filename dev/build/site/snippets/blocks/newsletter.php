@@ -15,7 +15,7 @@
   <?php if($page->isHomePage()): ?>
   <div class="cursor"></div>
   <?php endif; ?>
-  <input type="submit" value="Submit" data-text="Submit" />
+  <input type="submit" value="Sign Up" data-text="Submit" />
   </fieldset>
   <div class="bd-error"></div>
 </div>
