@@ -25,6 +25,10 @@ html {
     scroll-snap-type: y mandatory;
 
     height: 100vh;
+
+    &.input-focused {
+        scroll-snap-type: none;
+    }
 }
 
 body {
@@ -482,9 +486,11 @@ which the user cannot interact with */
                     box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 10px 4px var(--c-cobalt);
 
                     @media screen and (width <= 60em) {
-                        top: 0.375em;
+                        top:0.5em;
 
                         height: 1.5em;
+
+                        transform:none;
                     }
                 }
 
@@ -541,9 +547,12 @@ which the user cannot interact with */
 
                     position: relative;
 
-                    width: 100%;
+                    width: 50%;
                     margin-top: 10px;
                     padding: 0.5em;
+
+                    transform: scale(200%, 75%);
+                    transform-origin: top left;
 
                     border-radius: var(--input-radius);
                 }

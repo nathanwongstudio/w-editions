@@ -111,6 +111,9 @@ html {
   scroll-snap-type: y mandatory;
   height: 100vh;
 }
+html.input-focused {
+  scroll-snap-type: none;
+}
 
 body {
   background-image: url("../crt.jpg");
@@ -468,8 +471,9 @@ which the user cannot interact with */
 }
 @media screen and (width <= 60em) {
   .block.block-type-newsletter form input[type=email] + .cursor {
-    top: 0.375em;
+    top: 0.5em;
     height: 1.5em;
+    transform: none;
   }
 }
 .block.block-type-newsletter form input[type=email]:-moz-placeholder-shown + .cursor {
@@ -512,9 +516,11 @@ which the user cannot interact with */
   .block.block-type-newsletter form input[type=submit] {
     font-size: 0.75em;
     position: relative;
-    width: 100%;
+    width: 50%;
     margin-top: 10px;
     padding: 0.5em;
+    transform: scale(200%, 75%);
+    transform-origin: top left;
     border-radius: var(--input-radius);
   }
 }

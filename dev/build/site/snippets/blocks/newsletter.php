@@ -136,5 +136,12 @@ formElement.addEventListener("submit", event => {
 	submitNewsletter();
 });
 
+emailInput.addEventListener("focus", (event) => {
+	document.documentElement.classList.add('input-focused');
+});
+emailInput.addEventListener("blur", (event) => {
+	document.documentElement.classList.remove('input-focused');
+});
+
 
 </script>

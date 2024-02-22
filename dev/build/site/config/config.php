@@ -1,7 +1,6 @@
 <?php
 
 return [
-    'debug' => true,
 	'paulmorel.fathom-analytics' => [
         'siteId' => 'TCMXSOEX',
         'sharePassword' => 'w/editions212'
@@ -29,7 +28,7 @@ return [
                 'url' => $page->url()
             ],
             'twitter' => [
-                'card' => 'summary',
+                'card' => 'summary_large_image',
                 'site' => $site->twitter(),
                 'title' => $page->title(),
                 'namespace:image' => function ($page, $site) {

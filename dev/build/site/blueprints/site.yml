@@ -25,6 +25,7 @@ tabs:
         type: files
         multiple: false
         layout: cards
+        cover: true
       description:
         label: SEO Description
         type: textarea
