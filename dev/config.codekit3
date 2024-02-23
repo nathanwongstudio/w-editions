@@ -332,7 +332,7 @@
       "oAP" : "\/build\/assets\/images\/icons\/favicon64.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -345,7 +345,7 @@
       "oAP" : "\/build\/assets\/images\/icons\/favicon120.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -358,7 +358,7 @@
       "oAP" : "\/build\/assets\/images\/icons\/favicon250.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -1739,7 +1739,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-punDog",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 730096333.96082699
+    "lastBuiltDate" : 730339460.147241
   },
   "projectSettings" : {
     "abortBuildOnError" : 0,
