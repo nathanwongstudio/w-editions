@@ -536,33 +536,42 @@ which the user cannot interact with */
   font-size: 0;
   text-align: center;
 }
-.header h1, .header h2 {
+.header h1 {
   font-size: 2rem;
-  display: inline-block;
+  display: block;
+  width: 100%;
+  max-width: none;
   margin: 0;
   padding: 0;
-  transform: scale(55%, 100%);
-  transform-origin: right;
+  text-align: center;
   letter-spacing: -1px;
   word-spacing: 0;
   text-shadow: 0 0 6px var(--shadow-color);
 }
-@media screen and (width <= 60em) {
-  .header h1, .header h2 {
-    font-size: 14vw;
-    text-shadow: 0 0 4px var(--shadow-color);
-  }
+.header h1::after {
+  display: none;
+  content: "";
 }
-.header h1 {
+.header h1 span {
+  display: inline-block;
+}
+.header h1 span:first-child {
   z-index: 99;
   transform: scale(255%, 105%);
   transform-origin: left;
   letter-spacing: -3px;
 }
-.header .blocks {
-  display: contents;
+.header h1 span:last-child {
+  transform: scale(55%, 100%);
+  transform-origin: right;
 }
-.header .block.block-type-heading {
+@media screen and (width <= 60em) {
+  .header h1 {
+    font-size: 14vw;
+    text-shadow: 0 0 4px var(--shadow-color);
+  }
+}
+.header .blocks {
   display: contents;
 }
 

@@ -576,21 +576,56 @@ which the user cannot interact with */
 
     text-align:center;
 
-    h1, h2 {
+    h1 {
         font-size: 2rem;
 
-        display: inline-block;
+        display:block;
+
+        width:100%;
+        max-width:none;
 
         margin:0;
         padding:0;
 
-        transform: scale(55%, 100%);
-        transform-origin: right;
+        text-align:center;
+
         letter-spacing:-1px;
 
         word-spacing:0;
 
         text-shadow: 0 0 6px var(--shadow-color);
+
+        &::after {
+            display:none;
+    
+            content:'';
+        }
+        
+        span {
+            display:inline-block;
+
+            &:first-child {
+                z-index:99;
+        
+                // font-size: 2rem;
+        
+                transform: scale(255%, 105%);
+                transform-origin: left;
+                letter-spacing: -3px;
+        
+                // text-shadow: 0 0 5px var(--shadow-color);
+        
+                @media screen and (width<=60em) {
+                    // text-shadow: 0 0 0.8vw var(--shadow-color);
+                }
+        
+            }
+
+            &:last-child {
+                transform: scale(55%, 100%);
+                transform-origin: right;
+            }
+        }
 
         @media screen and (width<=60em) {
             font-size: 14vw;
@@ -599,28 +634,9 @@ which the user cannot interact with */
         }
     }
 
-    h1 {
-        z-index:99;
-
-        // font-size: 2rem;
-
-        transform: scale(255%, 105%);
-        transform-origin: left;
-        letter-spacing: -3px;
-
-        // text-shadow: 0 0 5px var(--shadow-color);
-
-        @media screen and (width<=60em) {
-            // text-shadow: 0 0 0.8vw var(--shadow-color);
-        }
-
-    }
+    
 
     .blocks {
-        display: contents;
-    }
-
-    .block.block-type-heading {
         display: contents;
     }
 }
