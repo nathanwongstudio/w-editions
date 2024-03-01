@@ -325,6 +325,19 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/source\/assets\/images\/backgrounds\/paper-transparent.png" : {
+      "ft" : 32768,
+      "iS" : 10719,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/images\/backgrounds\/paper-transparent.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/source\/assets\/images\/icons\/favicon64.png" : {
       "ft" : 32768,
       "iS" : 1249,

@@ -2,6 +2,8 @@
     --contrast-text-color: var(--c-vert-600);
     --contrast-shadow-color: var(--c-benibana-600);
 
+    font-family: var(--secondary-font-stack);
+
     text-wrap: balance;
 
     background:var(--c-paper);
@@ -11,10 +13,11 @@
     & * {
         position: relative;
 
-        letter-spacing: -1px;
+        box-sizing: border-box;
+
+        padding-left:0.25rem;
 
         color: transparent;
-
         text-shadow: 0 0 0.07em var(--contrast-text-color);
 
         &[data-text] {
@@ -27,18 +30,19 @@
                 box-sizing: border-box;
     
                 width: 100%;
+                padding-left:0.25rem;
     
                 content: attr(data-text);
     
                 text-shadow: 0 0 0.08em var(--contrast-shadow-color);
-                
+
             }
         }
     }
 
     & > * {
         font-size: 4rem;
-        font-weight: 700;
+        font-weight:700;
         font-style:italic;
         line-height: 1.125;
 

@@ -367,12 +367,12 @@ span.text-wrap {
 
 .inquire-wrapper {
   position: relative;
-  padding: var(--base-line-height);
+  padding: calc(var(--base-line-height) / 2) var(--base-line-height) var(--base-line-height);
 }
 
 #close-inquire {
   position: absolute;
-  top: var(--base-line-height);
+  top: calc(var(--base-line-height) / 2);
   right: var(--base-line-height);
   display: block;
   width: var(--base-line-height);

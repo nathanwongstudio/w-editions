@@ -11,30 +11,47 @@
 >
 <div class="email">
   <fieldset>
-  <input type="email" name="email" id="bd-email" placeholder="<?= ($block->placeholder()->isNotEmpty()) ? $block->placeholder() : '' ?>" class="empty" />
-  <?php if($page->isHomePage()): ?>
-  <div class="cursor"></div>
-  <?php endif; ?>
-  <input type="submit" value="Sign Up" data-text="Submit" />
+	<div class="field name-input is-empty">
+  		<input type="text" name="full_name" id="bd-full-name" placeholder="Full Name" class="is-empty" />
+	</div>
+	<div class="field email-input is-empty">
+  		<input type="email" name="email" id="bd-email" placeholder="<?= ($block->placeholder()->isNotEmpty()) ? $block->placeholder() : '' ?>" class="is-empty" />
+	</div>
+	<div class="field submit">
+  		<input type="submit" value="Sign Up" data-text="Sign Up" />
+	</div>
   </fieldset>
   <div class="bd-error"></div>
 </div>
 </form>
 
 <script>
-    var input = document.getElementById('bd-email');
+    var input = document.getElementsByTagName('input');
 
-    input.addEventListener('mouseover', function() {
-        input.focus();
-    });
+	for(var i = 0; i < input.length; i++) {
 
-    input.addEventListener('change', function() {
-      if(input.value == "") {
-        input.classList.add('empty');
-      } else {
-        input.classList.remove('empty');
-      }
-    });
+		input[i].onmouseover = function() {
+			this.focus();
+		};
+
+		input[i].onfocus = function() {
+			this.parentElement.classList.add('is-focused');
+		};
+
+		input[i].onblur = function() {
+			this.parentElement.classList.remove('is-focused');
+		};
+
+		input[i].onchange = function() {
+			if(this.value == "") {
+				this.classList.add('is-empty');
+				this.parentElement.classList.add('is-empty');
+			} else {
+				this.classList.remove('is-empty');
+				this.parentElement.classList.remove('is-empty');
+			}
+		};
+ 	}
 
     async function submitNewsletter() {
 	const fieldsetElement = formElement.querySelector("fieldset");
@@ -92,11 +109,11 @@
 			})
 		);
 	
-	// Log outcome
-	fetch("log-list-subscription-attempt?" + new URLSearchParams({
-		emailAddress: emailInput.value,
-		responseCode: outcome.statusCode
-	}));
+	// Log outcome -- won't do this.
+	// fetch("log-list-subscription-attempt?" + new URLSearchParams({
+	// 	emailAddress: emailInput.value,
+	// 	responseCode: outcome.statusCode
+	// }));
 	
 	// Update view
 	if (outcome.success) {

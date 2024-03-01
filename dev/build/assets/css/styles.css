@@ -1,6 +1,7 @@
 .section-wrapper.feature section.grid .block-type-heading, .default-content .section-wrapper.header .block.block-type-heading, .stickers, .shopify-buy__cart-toggle, .contrast-text {
   --contrast-text-color: var(--c-vert-600);
   --contrast-shadow-color: var(--c-benibana-600);
+  font-family: var(--secondary-font-stack);
   text-wrap: balance;
   background: var(--c-paper);
   mix-blend-mode: multiply;
@@ -8,7 +9,8 @@
 }
 .section-wrapper.feature section.grid .block-type-heading *, .default-content .section-wrapper.header .block.block-type-heading *, .stickers *, .shopify-buy__cart-toggle *, .contrast-text * {
   position: relative;
-  letter-spacing: -1px;
+  box-sizing: border-box;
+  padding-left: 0.25rem;
   color: transparent;
   text-shadow: 0 0 0.07em var(--contrast-text-color);
 }
@@ -19,6 +21,7 @@
   left: 0.1em;
   box-sizing: border-box;
   width: 100%;
+  padding-left: 0.25rem;
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
 }
@@ -1308,6 +1311,7 @@ figure:first-child {
   display: table;
   width: 3em;
   height: 1.25em;
+  padding: 0.25em;
   transform: skewX(-15deg) rotate(-15deg);
   text-align: center;
   vertical-align: middle;
@@ -1317,9 +1321,21 @@ figure:first-child {
   background: var(--tag-background-color);
   text-shadow: 0 0 3px var(--contrast-text-color);
   /* stylelint-disable-next-line selector-class-pattern */
+  /* stylelint-disable-next-line selector-class-pattern */
 }
 .tag::after {
   display: none;
+}
+.tag::before {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: block;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  content: " ";
+  border: 2.5px dotted var(--contrast-text-color);
+  border-radius: 50%;
 }
 .tag.new {
   --tag-background-color: var(--c-gold);
@@ -1330,6 +1346,10 @@ figure:first-child {
   width: 4.5em;
   border: none;
   background: var(--tag-background-color);
+}
+.tag.push.shopify-buy__btn-disabled::before, .tag.availability::before, .tag.sold::before {
+  display: none;
+  content: "";
 }
 .tag.push {
   --tag-background-color: var(--c-cobalt-300);

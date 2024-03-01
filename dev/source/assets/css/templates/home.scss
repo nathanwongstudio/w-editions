@@ -316,10 +316,6 @@ which the user cannot interact with */
     }
 
     &.block-type-newsletter {
-        fieldset {
-            display: block;
-        }
-
         form {
             position:relative;
             %empty-cursor {
@@ -338,7 +334,11 @@ which the user cannot interact with */
 
                 padding: var(--base-line-height) 0;
 
-                .success {
+                color: transparent;
+
+                text-shadow: 0 0 3px var(--shadow-color);
+
+                &.success {
                     position:absolute;
                     top:0;
                     right:0;
@@ -346,8 +346,30 @@ which the user cannot interact with */
 
                     display:grid;
                     place-content: center;
-                    
+
                     margin:0;
+
+                    border:none;
+
+                    background:transparent;
+                }
+
+                &.error {
+                    top:100%;
+                }
+            }
+
+            %input-hover {
+                @extend %black-text;
+                transition:100ms ease;
+    
+                background:transparent;
+
+                background: var(--shadow-color);
+                box-shadow: 0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);
+
+                &::placeholder {
+                    @extend %black-text;
                 }
             }
 
@@ -365,35 +387,25 @@ which the user cannot interact with */
                     transition:100ms ease;
 
                     input {
-                        @extend %black-text;
+                        @extend %input-hover;
+                    }
 
-                        background:transparent;
-                        
-                        &[type="email"], &[type="submit"] {
-                            transition:100ms ease;
-
-                            background: var(--shadow-color);
-                            box-shadow: 0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);
-
-                            &.empty + .cursor {
-                                @extend %empty-cursor;
-                            }
+                    .field {
+                        &.is-empty::after {
+                            @extend %empty-cursor;
                         }
-
-                        @media screen and (width >= 60em) {
-                            &[type="submit"] {
-                                background:transparent;
-                                box-shadow:none;
-                            }
-                        }
-
-                        
                     }
                     
                 }
             }
 
             fieldset {
+                display: grid;
+
+                grid-template-areas:
+                    "a a a c c"
+                    "b b b c c";
+
                 margin:0;
                 padding:0;
 
@@ -403,11 +415,85 @@ which the user cannot interact with */
 
                 border:none;
                 appearance: none;
+                
 
                 &.disabled {
                     transition: opacity 200ms ease-out;
     
                     opacity: 0;
+                }
+
+                .field {
+                    min-width:0;
+                    min-height:0;
+
+                    &.name-input {
+                        grid-area: a;
+                    }
+
+                    &.email-input {
+                        grid-area: b;
+                    }
+
+                    &.submit {
+                        grid-area:c;
+                    }
+
+                    &::after {
+                        position:absolute;
+                        z-index:1;
+                        top: 50%;
+                        left:0.5em;
+    
+                        width: 3px;
+    
+                        height: 1em;
+    
+                        content:' ';
+    
+                        transform:translateY(-50%);
+    
+                        opacity:0;
+    
+                        border-radius:1px;
+                        background: var(--shadow-color);
+                        box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 10px 4px var(--c-cobalt);
+    
+                        @media screen and (width <= 60em) {
+                            top:0.5em;
+    
+                            height: 1.5em;
+    
+                            transform:none;
+                        }
+                    }
+    
+                    &.is-empty {
+                        &::after {
+                            animation:0.5s infinite alternate cursor;
+                        }
+
+                        &.is-focused::after {
+                            @extend %empty-cursor;
+                        }
+
+                    }
+
+                    &.is-focused {
+                        & ~ .submit input {
+                            @extend %input-hover;
+                        }
+                    }
+    
+                    @keyframes cursor {
+                        from {
+                            opacity:0;
+                        }
+    
+                        to {
+                            opacity:1;
+                        }
+                    }
                 }
             }
 
@@ -415,7 +501,8 @@ which the user cannot interact with */
                 background:transparent;
             }
 
-            input[type="email"] {
+            input[type="email"],
+            input[type="text"] {
                 font-size: 1em;
                 font-weight:bold;
                 line-height:1;
@@ -426,19 +513,24 @@ which the user cannot interact with */
 
                 box-sizing: border-box;
 
-                width:100%;
-                margin:auto;
-                padding:1em 2.5em 1em 0.5em;
+                // width:100%;
+                margin:0;
+                padding:0.5em;
 
                 transition:100ms ease;
 
-                border:1px solid ;
+                border: none;
+
                 outline:none;
 
                 @media screen and (width<=60em) {
                     font-size: 0.75em;
 
                     padding: 1em;
+                }
+
+                &::placeholder {
+                    @extend %white-text;
                 }
 
                 &:focus,
@@ -449,62 +541,9 @@ which the user cannot interact with */
                     box-shadow: 0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);
 
                     @extend %black-text;
-
-                    & ~ input {
-                        background:transparent;
-
+                    
+                    &::placeholder {
                         @extend %black-text;
-
-                        @media screen and (width<=60em) {
-                            background: var(--shadow-color);
-                            box-shadow: 0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);
-                        }
-                    }
-                }
-
-                &.empty:focus + .cursor {
-                    @extend %empty-cursor;
-                }
-
-                & + .cursor {
-                    position:absolute;
-                    top: 50%;
-                    left:0.5em;
-
-                    width: 3px;
-
-                    height: 2em;
-
-                    content:' ';
-
-                    transform:translateY(-50%);
-
-                    opacity:0;
-
-                    border-radius:1px;
-                    background: var(--shadow-color);
-                    box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 10px 4px var(--c-cobalt);
-
-                    @media screen and (width <= 60em) {
-                        top:0.5em;
-
-                        height: 1.5em;
-
-                        transform:none;
-                    }
-                }
-
-                &:placeholder-shown + .cursor {
-                    animation:0.5s infinite alternate cursor;
-                }
-
-                @keyframes cursor {
-                    from {
-                        opacity:0;
-                    }
-
-                    to {
-                        opacity:1;
                     }
                 }
             }
@@ -523,6 +562,7 @@ which the user cannot interact with */
                 right:0;
 
                 display:block;
+                grid-area:c;
 
                 height:100%;
 

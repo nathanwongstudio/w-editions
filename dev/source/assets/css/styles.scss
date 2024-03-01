@@ -1035,6 +1035,7 @@ figure {
 
     width: 3em;
     height: 1.25em;
+    padding:0.25em;
 
     transform:skewX(-15deg) rotate(-15deg);
     text-align: center;
@@ -1051,6 +1052,22 @@ figure {
 
     &::after {
         display: none;
+    }
+
+    &::before {
+        position: absolute;
+        top:4px;
+        left:4px;
+
+        display: block;
+
+        width:calc(100% - 12px);
+        height:calc(100% - 12px);
+
+        content: ' ';
+
+        border:2.5px dotted var(--contrast-text-color);
+        border-radius: 50%;
     }
 
 
@@ -1070,6 +1087,17 @@ figure {
         border:none;
 
         background: var(--tag-background-color);
+    }
+
+    /* stylelint-disable-next-line selector-class-pattern */
+    &.push.shopify-buy__btn-disabled,
+    &.availability,
+    &.sold {
+        &::before {
+            display:none;
+
+            content: '';
+        }
     }
 
     &.push {

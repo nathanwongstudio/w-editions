@@ -124,30 +124,56 @@ body {
   image-rendering: pixelated;
 }
 
-.block.block-type-newsletter form input[type=submit], .block.block-type-heading, .block.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+.block.block-type-newsletter form input[type=email]::-moz-placeholder, .block.block-type-newsletter form input[type=text]::-moz-placeholder {
+  color: transparent;
+  text-shadow: 0 0 3px var(--shadow-color);
+}
+
+.block.block-type-newsletter form input[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
+.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-newsletter form input[type=submit], .block.block-type-heading, .block.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+  .block.block-type-newsletter form input[type=email]::-moz-placeholder, .block.block-type-newsletter form input[type=text]::-moz-placeholder {
+    text-shadow: 0 0 2px var(--shadow-color);
+  }
+  .block.block-type-newsletter form input[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
+  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
     text-shadow: 0 0 2px var(--shadow-color);
   }
 }
 
-.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
+.block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
 
-.block.block-type-newsletter form input[type=email]:focus ~ input, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown), .block.block-type-newsletter form .email:hover input {
+.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
+  color: transparent;
+  text-shadow: 0 0 3px black;
+}
+
+.block.block-type-newsletter form input[type=email]:focus::placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
+.block.block-type-newsletter form input[type=text]:focus::placeholder,
+.block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+.block.block-type-newsletter form input[type=text]:focus,
+.block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
+  .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder {
     text-shadow: 0 0 2px black;
   }
-  .block.block-type-newsletter form input[type=email]:focus ~ input, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown), .block.block-type-newsletter form .email:hover input {
+  .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
+    text-shadow: 0 0 2px black;
+  }
+  .block.block-type-newsletter form input[type=email]:focus::placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
+  .block.block-type-newsletter form input[type=text]:focus::placeholder,
+  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+  .block.block-type-newsletter form input[type=text]:focus,
+  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input {
     text-shadow: 0 0 2px black;
   }
 }
@@ -340,13 +366,10 @@ which the user cannot interact with */
   width: 100%;
   padding: 0 1em;
 }
-.block.block-type-newsletter fieldset {
-  display: block;
-}
 .block.block-type-newsletter form {
   position: relative;
 }
-.block.block-type-newsletter form input[type=email].empty:focus + .cursor, .block.block-type-newsletter form .email:hover input[type=email].empty + .cursor, .block.block-type-newsletter form .email:hover input[type=submit].empty + .cursor {
+.block.block-type-newsletter form fieldset .field.is-empty.is-focused::after, .block.block-type-newsletter form .email:hover .field.is-empty::after {
   background: black;
   box-shadow: 0 0 3px 3px black, 0 0 10px 4px var(--c-cobalt);
 }
@@ -357,8 +380,10 @@ which the user cannot interact with */
   width: 100%;
   margin-top: var(--base-line-height);
   padding: var(--base-line-height) 0;
+  color: transparent;
+  text-shadow: 0 0 3px var(--shadow-color);
 }
-.block.block-type-newsletter form .message .success {
+.block.block-type-newsletter form .message.success {
   position: absolute;
   top: 0;
   right: 0;
@@ -366,6 +391,17 @@ which the user cannot interact with */
   display: grid;
   place-content: center;
   margin: 0;
+  border: none;
+  background: transparent;
+}
+.block.block-type-newsletter form .message.error {
+  top: 100%;
+}
+.block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input {
+  transition: 100ms ease;
+  background: transparent;
+  background: var(--shadow-color);
+  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
 }
 .block.block-type-newsletter form .email {
   position: relative;
@@ -378,21 +414,9 @@ which the user cannot interact with */
 .block.block-type-newsletter form .email:hover {
   transition: 100ms ease;
 }
-.block.block-type-newsletter form .email:hover input {
-  background: transparent;
-}
-.block.block-type-newsletter form .email:hover input[type=email], .block.block-type-newsletter form .email:hover input[type=submit] {
-  transition: 100ms ease;
-  background: var(--shadow-color);
-  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
-}
-@media screen and (width >= 60em) {
-  .block.block-type-newsletter form .email:hover input[type=submit] {
-    background: transparent;
-    box-shadow: none;
-  }
-}
 .block.block-type-newsletter form fieldset {
+  display: grid;
+  grid-template-areas: "a a a c c" "b b b c c";
   margin: 0;
   padding: 0;
   transition: opacity 200ms ease-out;
@@ -406,62 +430,26 @@ which the user cannot interact with */
   transition: opacity 200ms ease-out;
   opacity: 0;
 }
-.block.block-type-newsletter form input {
-  background: transparent;
+.block.block-type-newsletter form fieldset .field {
+  min-width: 0;
+  min-height: 0;
 }
-.block.block-type-newsletter form input[type=email] {
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 1;
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  margin: auto;
-  padding: 1em 2.5em 1em 0.5em;
-  transition: 100ms ease;
-  border: 1px solid;
-  outline: none;
+.block.block-type-newsletter form fieldset .field.name-input {
+  grid-area: a;
 }
-@media screen and (width <= 60em) {
-  .block.block-type-newsletter form input[type=email] {
-    font-size: 0.75em;
-    padding: 1em;
-  }
+.block.block-type-newsletter form fieldset .field.email-input {
+  grid-area: b;
 }
-.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) {
-  -moz-transition: 100ms ease;
-  transition: 100ms ease;
-  background: var(--shadow-color);
-  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
+.block.block-type-newsletter form fieldset .field.submit {
+  grid-area: c;
 }
-.block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) {
-  transition: 100ms ease;
-  background: var(--shadow-color);
-  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
-}
-.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input {
-  background: transparent;
-}
-.block.block-type-newsletter form input[type=email]:focus ~ input, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input {
-  background: transparent;
-}
-@media screen and (width <= 60em) {
-  .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown) ~ input {
-    background: var(--shadow-color);
-    box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
-  }
-  .block.block-type-newsletter form input[type=email]:focus ~ input, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown) ~ input {
-    background: var(--shadow-color);
-    box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
-  }
-}
-.block.block-type-newsletter form input[type=email] + .cursor {
+.block.block-type-newsletter form fieldset .field::after {
   position: absolute;
+  z-index: 1;
   top: 50%;
   left: 0.5em;
   width: 3px;
-  height: 2em;
+  height: 1em;
   content: " ";
   transform: translateY(-50%);
   opacity: 0;
@@ -470,16 +458,13 @@ which the user cannot interact with */
   box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 10px 4px var(--c-cobalt);
 }
 @media screen and (width <= 60em) {
-  .block.block-type-newsletter form input[type=email] + .cursor {
+  .block.block-type-newsletter form fieldset .field::after {
     top: 0.5em;
     height: 1.5em;
     transform: none;
   }
 }
-.block.block-type-newsletter form input[type=email]:-moz-placeholder-shown + .cursor {
-  animation: 0.5s infinite alternate cursor;
-}
-.block.block-type-newsletter form input[type=email]:placeholder-shown + .cursor {
+.block.block-type-newsletter form fieldset .field.is-empty::after {
   animation: 0.5s infinite alternate cursor;
 }
 @keyframes cursor {
@@ -489,6 +474,43 @@ which the user cannot interact with */
   to {
     opacity: 1;
   }
+}
+.block.block-type-newsletter form input {
+  background: transparent;
+}
+.block.block-type-newsletter form input[type=email],
+.block.block-type-newsletter form input[type=text] {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.5em;
+  transition: 100ms ease;
+  border: none;
+  outline: none;
+}
+@media screen and (width <= 60em) {
+  .block.block-type-newsletter form input[type=email],
+  .block.block-type-newsletter form input[type=text] {
+    font-size: 0.75em;
+    padding: 1em;
+  }
+}
+.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
+  -moz-transition: 100ms ease;
+  transition: 100ms ease;
+  background: var(--shadow-color);
+  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
+}
+.block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+.block.block-type-newsletter form input[type=text]:focus,
+.block.block-type-newsletter form input[type=text]:not(:placeholder-shown) {
+  transition: 100ms ease;
+  background: var(--shadow-color);
+  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
 }
 .block.block-type-newsletter form input[type=submit] {
   font-family: inherit;
@@ -500,6 +522,7 @@ which the user cannot interact with */
   top: 0;
   right: 0;
   display: block;
+  grid-area: c;
   height: 100%;
   margin: 0;
   padding: 1em 0.5em;
