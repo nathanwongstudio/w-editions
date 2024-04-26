@@ -377,7 +377,7 @@ which the user cannot interact with */
   box-shadow: 0 0 15px 20px var(--c-gold);
 }
 .block.block-type-text p {
-  font-size: 0.75em;
+  font-size: 36px;
   line-height: 1 !important;
   margin-top: 1.5em;
 }

@@ -104,7 +104,7 @@ input[type="button"] {
     color: var(--c-paper);
     border: 0;
 
-    border-radius: 50%;
+    border-radius: 5px;
 
     outline: 0;
     background: none;
@@ -142,7 +142,21 @@ fieldset {
 .email {
     fieldset {
         display: grid;
-        grid-template-columns: 1fr 6.5em;
+        grid-template-columns: 1fr;
+
+        input[type="text"],
+        input[type="email"] {
+            margin:0;
+        }
+    }
+}
+
+.home {
+    .email {
+        fieldset {
+            display: grid;
+            grid-template-columns: 1fr 6.5em;
+        }
     }
 }
 
