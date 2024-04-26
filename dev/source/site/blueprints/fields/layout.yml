@@ -94,13 +94,17 @@ fieldsets:
       - line
       - quote
       newsletter:
+        preview: fields
         fields:
           label:
             type: text
             label: Label
-          placeholder:
+          emailPlaceholder:
             type: text
-            label: Placeholder
+            label: Email Placeholder
+          namePlaceholder:
+            type: text
+            label: Name Placeholder
   media:
     label: Media
     type: group

@@ -87,17 +87,18 @@
 }
 
 :root {
-  --shadow-color:rgb(239 239 216 / 90%);
+  --shadow-color:rgba(239 239 216 / 90%);
   --base-font-size: 60px;
+  --accent-shadow: rgba(255 255 0 / 90%);
 }
 @media screen and (width <= 500px) {
   :root {
-    --base-font-size: 11vw;
+    --base-font-size: 10vw;
   }
 }
 @media screen and (height <= 400px) {
   :root {
-    --base-font-size: 6vw;
+    --base-font-size: 5vw;
   }
 }
 
@@ -130,7 +131,7 @@ body {
 }
 
 .block.block-type-newsletter form input[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
@@ -139,7 +140,7 @@ body {
     text-shadow: 0 0 2px var(--shadow-color);
   }
   .block.block-type-newsletter form input[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
     text-shadow: 0 0 2px var(--shadow-color);
   }
 }
@@ -158,7 +159,7 @@ body {
 .block.block-type-newsletter form input[type=text]:focus::placeholder,
 .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
 .block.block-type-newsletter form input[type=text]:focus,
-.block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input {
+.block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-text a[target=_blank] {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
@@ -173,7 +174,7 @@ body {
   .block.block-type-newsletter form input[type=text]:focus::placeholder,
   .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
   .block.block-type-newsletter form input[type=text]:focus,
-  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input {
+  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-text a[target=_blank] {
     text-shadow: 0 0 2px black;
   }
 }
@@ -188,21 +189,20 @@ body {
   margin: 0;
   color: transparent;
   border-radius: 0;
-  background: var(--shadow-color);
-  box-shadow: 0 0 3px 3px var(--shadow-color);
+  background: var(--accent-shadow);
+  box-shadow: 0 0 3px 3px var(--accent-shadow);
   text-shadow: 0 0 4px black;
 }
 @media screen and (width <= 50em) {
   .home .button, .error .button {
-    font-size: 0.8em;
     padding: 0.25em 0.5em;
   }
 }
 .home .button:hover, .error .button:hover {
   color: transparent;
   border: 0;
-  box-shadow: 0 0 6px 6px var(--shadow-color);
-  text-shadow: 0 0 4px blue;
+  box-shadow: 0 0 100vh 30vh var(--accent-shadow);
+  text-shadow: 0 0 4px black;
 }
 .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
   font-family: var(--secondary-font-stack);
@@ -341,7 +341,7 @@ which the user cannot interact with */
     padding: 1em;
   }
 }
-.block.block-type-heading, .block.block-type-newsletter {
+.block.block-type-heading, .block.block-type-newsletter, .block.block-type-text {
   font-weight: bold;
   margin: 0;
   padding: 1em;
@@ -349,18 +349,37 @@ which the user cannot interact with */
   color: transparent;
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-heading, .block.block-type-newsletter {
+  .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text {
     padding: 16px;
     -webkit-hyphens: auto;
             hyphens: auto;
   }
 }
-.block.block-type-heading a, .block.block-type-newsletter a {
+.block.block-type-heading a, .block.block-type-newsletter a, .block.block-type-text a {
   word-break: break-word;
   color: inherit;
 }
-.block.block-type-heading a:hover, .block.block-type-newsletter a:hover {
+.block.block-type-heading a:hover, .block.block-type-newsletter a:hover, .block.block-type-text a:hover {
   color: inherit;
+}
+.block.block-type-text a[target=_blank] {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0.25em 0.75em;
+  transition: box-shadow 300ms ease;
+  text-decoration: none;
+  border-radius: 5px;
+  background: var(--c-gold);
+  box-shadow: 0 0 5px 5px var(--c-gold);
+}
+.block.block-type-text a[target=_blank]:hover {
+  transition: box-shadow 300ms ease;
+  box-shadow: 0 0 15px 20px var(--c-gold);
+}
+.block.block-type-text p {
+  font-size: 0.75em;
+  line-height: 1 !important;
+  margin-top: 1.5em;
 }
 .block.block-type-heading + .block.block-type-heading {
   width: 100%;
@@ -416,7 +435,9 @@ which the user cannot interact with */
 }
 .block.block-type-newsletter form fieldset {
   display: grid;
-  grid-template-areas: "a a a c c" "b b b c c";
+  grid-template-areas: "a c" "b c";
+  grid-template-columns: 6fr 1fr;
+  grid-gap: 6px;
   margin: 0;
   padding: 0;
   transition: opacity 200ms ease-out;
@@ -425,6 +446,12 @@ which the user cannot interact with */
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+@media screen and (width <= 60rem) {
+  .block.block-type-newsletter form fieldset {
+    font-size: 40px;
+    grid-template-areas: "a a" "b b" "c c";
+  }
 }
 .block.block-type-newsletter form fieldset.disabled {
   transition: opacity 200ms ease-out;
@@ -490,6 +517,7 @@ which the user cannot interact with */
   padding: 0.5em;
   transition: 100ms ease;
   border: none;
+  border-radius: 0;
   outline: none;
 }
 @media screen and (width <= 60em) {
@@ -522,7 +550,7 @@ which the user cannot interact with */
   top: 0;
   right: 0;
   display: block;
-  grid-area: c;
+  width: 200%;
   height: 100%;
   margin: 0;
   padding: 1em 0.5em;
@@ -531,7 +559,7 @@ which the user cannot interact with */
   transform-origin: right;
   text-transform: uppercase;
   border: none;
-  border-radius: var(--input-radius);
+  border-radius: 0;
   background: transparent;
   box-shadow: none;
 }
@@ -544,11 +572,7 @@ which the user cannot interact with */
     padding: 0.5em;
     transform: scale(200%, 75%);
     transform-origin: top left;
-    border-radius: var(--input-radius);
   }
-}
-.block.block-type-text {
-  background: transparent;
 }
 .block h1, .block h2, .block h3, .block h4, .block h5, .block h6 {
   line-height: 1;

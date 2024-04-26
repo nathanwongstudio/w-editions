@@ -1,0 +1,1 @@
+    <a class="button" href="<?= $block->linkto()->toUrl() ?>"><?= $block->blockText() ?></a>

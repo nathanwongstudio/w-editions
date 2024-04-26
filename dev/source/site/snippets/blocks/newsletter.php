@@ -10,12 +10,13 @@
   id="buttondown"
 >
 <div class="email">
+  		<input type="hidden" name="tag" value="website" />
   <fieldset>
 	<div class="field name-input is-empty">
-  		<input type="text" name="full_name" id="bd-full-name" placeholder="Full Name" class="is-empty" />
+  		<input type="text" name="metadata__full_name" id="full_name" placeholder="<?= ($block->namePlaceholder()->isNotEmpty()) ? $block->namePlaceholder() : 'First Name' ?>" class="is-empty" />
 	</div>
 	<div class="field email-input is-empty">
-  		<input type="email" name="email" id="bd-email" placeholder="<?= ($block->placeholder()->isNotEmpty()) ? $block->placeholder() : '' ?>" class="is-empty" />
+  		<input type="email" name="email" id="bd-email" placeholder="<?= ($block->emailPlaceholder()->isNotEmpty()) ? $block->emailPlaceholder() : 'Email' ?>" class="is-empty" />
 	</div>
 	<div class="field submit">
   		<input type="submit" value="Sign Up" data-text="Sign Up" />
@@ -36,10 +37,12 @@
 
 		input[i].onfocus = function() {
 			this.parentElement.classList.add('is-focused');
+			document.documentElement.classList.add('input-focused');
 		};
 
 		input[i].onblur = function() {
 			this.parentElement.classList.remove('is-focused');
+			document.documentElement.classList.remove('input-focused');
 		};
 
 		input[i].onchange = function() {
@@ -151,13 +154,6 @@ let formErrorMessageElement = null;
 formElement.addEventListener("submit", event => {
 	event.preventDefault();
 	submitNewsletter();
-});
-
-emailInput.addEventListener("focus", (event) => {
-	document.documentElement.classList.add('input-focused');
-});
-emailInput.addEventListener("blur", (event) => {
-	document.documentElement.classList.remove('input-focused');
 });
 
 

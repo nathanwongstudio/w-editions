@@ -4,7 +4,7 @@ $foot = false;
 snippet('header', compact('nav')); ?>
 
 <div class="iframe-wrapper">
-<!-- <iframe src="https://player.vimeo.com/video/890057192?background=1" width="1920" height="1080" frameborder="0" allow="autoplay" title="video-screen-loop"></iframe> -->
+<iframe src="https://player.vimeo.com/video/890057192?background=1" width="1920" height="1080" frameborder="0" allow="autoplay" title="video-screen-loop"></iframe>
 </div>
 
 <section class="layouts">

@@ -2,15 +2,16 @@
 @use "../variables" as v;
 
 :root {
-    --shadow-color:rgb(239 239 216 / 90%);
+    --shadow-color:rgba(239 239 216 / 90%);
     --base-font-size: 60px;
+    --accent-shadow: rgba(255 255 0 / 90%);
 
     @media screen and (width <= 500px) {
-        --base-font-size: 11vw;
+        --base-font-size: 10vw;
     }
 
     @media screen and (height <= 400px) {
-        --base-font-size: 6vw;
+        --base-font-size: 5vw;
     }
 }
 
@@ -74,12 +75,12 @@ body {
 
         border-radius: 0;
 
-        background: var(--shadow-color);
-        box-shadow: 0 0 3px 3px var(--shadow-color);
+        background: var(--accent-shadow);
+        box-shadow: 0 0 3px 3px var(--accent-shadow);
         text-shadow: 0 0 4px black;
 
         @media screen and (width <= 50em) {
-            font-size: 0.8em;
+            // font-size: 0.8em;
 
             padding: 0.25em 0.5em;
         }
@@ -87,8 +88,8 @@ body {
         &:hover {
             color: transparent;
             border:0;
-            box-shadow: 0 0 6px 6px var(--shadow-color);
-            text-shadow: 0 0 4px blue;
+            box-shadow: 0 0 100vh 30vh var(--accent-shadow);
+            text-shadow: 0 0 4px black;
         }
     }
 
@@ -279,7 +280,8 @@ which the user cannot interact with */
     }
 
     &.block-type-heading,
-    &.block-type-newsletter {
+    &.block-type-newsletter,
+    &.block-type-text {
         font-weight: bold;
 
         margin:0;
@@ -305,6 +307,40 @@ which the user cannot interact with */
             &:hover {
                 color:inherit;
             }
+        }
+    }
+
+    &.block-type-text {
+        a[target="_blank"] {
+            @extend %black-text;
+
+            font-size: 1.25em;
+            
+            font-weight: bold;
+
+            padding: 0.25em 0.75em;
+
+            transition: box-shadow 300ms ease;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+            background: var(--c-gold);
+            box-shadow: 0 0 5px 5px var(--c-gold);
+
+            &:hover {
+                transition: box-shadow 300ms ease;
+
+                box-shadow: 0 0 15px 20px var(--c-gold);
+            }
+        }
+        
+        p {
+            font-size: 0.75em;
+            line-height: 1!important;
+
+            margin-top:1.5em;
         }
     }
 
@@ -382,7 +418,7 @@ which the user cannot interact with */
 
                 background: black;
                 box-shadow: 0 0 0 var(--shadow-color);
-
+                
                 &:hover {
                     transition:100ms ease;
 
@@ -403,8 +439,10 @@ which the user cannot interact with */
                 display: grid;
 
                 grid-template-areas:
-                    "a a a c c"
-                    "b b b c c";
+                    "a c"
+                    "b c";
+                grid-template-columns: 6fr 1fr;
+                grid-gap:6px;
 
                 margin:0;
                 padding:0;
@@ -415,6 +453,17 @@ which the user cannot interact with */
 
                 border:none;
                 appearance: none;
+
+
+                @media screen and (width <= 60rem) {
+                    font-size:40px;
+
+                    grid-template-areas:
+                        "a a"
+                        "b b"
+                        "c c";
+
+                }
                 
 
                 &.disabled {
@@ -520,6 +569,7 @@ which the user cannot interact with */
                 transition:100ms ease;
 
                 border: none;
+                border-radius:0;
 
                 outline:none;
 
@@ -562,7 +612,8 @@ which the user cannot interact with */
                 right:0;
 
                 display:block;
-                grid-area:c;
+
+                width:200%;
 
                 height:100%;
 
@@ -578,7 +629,7 @@ which the user cannot interact with */
                 text-transform: uppercase;
 
                 border:none;
-                border-radius: var(--input-radius);
+                border-radius:0;
                 background:transparent;
                 box-shadow: none;
 
@@ -593,15 +644,9 @@ which the user cannot interact with */
 
                     transform: scale(200%, 75%);
                     transform-origin: top left;
-
-                    border-radius: var(--input-radius);
                 }
             }
         }
-    }
-
-    &.block-type-text {
-        background: transparent;
     }
 
     h1, h2, h3, h4, h5, h6 {

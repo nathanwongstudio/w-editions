@@ -11,6 +11,19 @@ tabs:
             fields:
               text:
                 extends: fields/layout
+                fieldsets:
+                  text:
+                    fieldsets:
+                      button:
+                        preview: fields
+                        icon: url
+                        fields:
+                          blockText:
+                            type: text
+                            label: Text
+                          linkto:
+                            type: link
+
   media:
     sections:
       files:
