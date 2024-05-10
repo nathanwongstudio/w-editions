@@ -1,12 +1,13 @@
 <div class="section-wrapper 
             <?= $layout->class() ?> 
-            <?= $layout->role() ?>" 
+            <?= $layout->role() ?>"
+    id="<?= $layout->layoutId() ?>"
     style="
             <?=($layout->tickerLength()->isNotEmpty()) ? '--duration:' . $layout->tickerLength() . 's;' : '' ?>
             <?= ($layout->tickerColor()->isNotEmpty()) ? '--background:' . $layout->tickerColor() . ';' : '' ?>
             <?= ($layout->tickerTextColor()->isNotEmpty()) ? '--ticker-text:' . $layout->tickerTextColor() . ';' : '' ?>
     ">
-    <section class="grid <?= (count($layout->columns()) == 1) ? 'single' : '' ?>" id="layout-<?=$layout->id()?>">
+    <section    class="grid <?= (count($layout->columns()) == 1) ? 'single' : '' ?>">
         <?php foreach ($layout->columns() as $column): ?>
             <div class="column col-<?= Str::replace($column->width(), '/', '-') ?>" style="--span:<?= $column->span() ?>">
                 <div class="blocks" style="<?= ($layout->tickerDirection()->toBool()) ? 'animation-direction: reverse;' : '' ?>">

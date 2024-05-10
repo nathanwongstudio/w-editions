@@ -80,7 +80,7 @@ settings:
     class:
       type: text
       width: 1/2
-    id:
+    layoutId:
       type: text
       width: 1/2
 fieldsets:
