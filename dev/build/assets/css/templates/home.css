@@ -381,6 +381,13 @@ which the user cannot interact with */
   line-height: 1 !important;
   margin-top: 1.5em;
 }
+@media screen and (width <= 60em) {
+  .block.block-type-text p {
+    font-size: 20px;
+    line-height: 1.15 !important;
+    text-shadow: 0 0 1px var(--shadow-color);
+  }
+}
 .block.block-type-heading + .block.block-type-heading {
   width: 100%;
   padding: 0 1em;
