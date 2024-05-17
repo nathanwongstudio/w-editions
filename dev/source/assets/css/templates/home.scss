@@ -64,7 +64,9 @@ body {
     display: contents;
 }
 
-.home, .error {
+.home, .error {         
+    text-wrap: pretty;
+    
     .button {
         line-height: 1;
 
@@ -345,6 +347,9 @@ which the user cannot interact with */
             @media screen and (width <= 60em) {
                 font-size: 20px;
                 line-height: 1.15!important;
+
+                word-break: normal;
+                hyphens: none;
 
                 text-shadow: 0 0 1px var(--shadow-color);
             }
