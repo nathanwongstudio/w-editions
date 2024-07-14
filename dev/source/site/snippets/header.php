@@ -95,7 +95,7 @@
 
     <script defer src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
 </head>
-<body class="<?= $page->intendedTemplate() ?>">
+<body class="<?= $page->intendedTemplate() ?> <?= (option('environment') == 'development' ? 'dev' : '' ) ?>">
 
     <?php if(!isset($nav)) {$nav = true;} ?>
 

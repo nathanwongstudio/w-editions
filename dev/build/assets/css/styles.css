@@ -1430,4 +1430,9 @@ figure:first-child {
   }
 }
 
+.home.dev iframe.bg-vid {
+  display: none;
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=styles.css.map */
