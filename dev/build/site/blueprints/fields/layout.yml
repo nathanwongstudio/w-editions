@@ -93,6 +93,14 @@ fieldsets:
       - list
       - line
       - quote
+      button:
+        preview: fields
+        fields:
+          buttonText:
+            type: text
+            label: Button Text
+          buttonLink:
+            type: link
       newsletter:
         preview: fields
         fields:

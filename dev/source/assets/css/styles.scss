@@ -401,8 +401,21 @@ figure {
             .block-type-heading {
                 @extend %contrast-text;
                 box-sizing: content-box;
+                max-width: none;
                 margin-left:-10px;
                 padding-left:10px;
+
+                h2 {
+                    font-size: 3rem;
+                }
+
+                h3 {
+                    font-size: 2.75rem;
+                }
+
+                h4, h5, h6 {
+                    font-size: 2.5rem;
+                }
             }
 
             form input {

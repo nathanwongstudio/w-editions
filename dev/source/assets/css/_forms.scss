@@ -90,6 +90,7 @@ input[type="button"] {
     z-index:9;
 
     display: block;
+    overflow: hidden;
 
     width: auto;
 
@@ -97,20 +98,33 @@ input[type="button"] {
     padding: 0.5em 1em;
 
     cursor: pointer;
-    transition: 200ms ease;
+    transition: 500ms ease;
 
     text-decoration: none;
 
     color: var(--c-paper);
-    border: 0;
+    border: 1px solid transparent;
 
     border-radius: 5px;
 
     outline: 0;
-    background: none;
-    background: var(--c-cobalt);
-    box-shadow: 0 0 1px 1px var(--c-cobalt), 0 0 3px 3px var(--c-benibana);
     appearance: none;
+
+    &::before {
+        position: absolute;
+        z-index: -1;
+        top:0;
+        left:0;
+
+        width: 300%;
+        height:100%;
+
+        content: ' ';
+        transition: 400ms ease-in;
+
+        background: linear-gradient(90deg, var(--c-cobalt) 0, var(--c-cobalt) 40%, var(--c-benibana) 60%);
+
+    }
 
     &:disabled {
         background: var(--c-paper-500);
@@ -126,10 +140,18 @@ input[type="button"] {
     }
 
     &:hover {
-        transition: 200ms ease;
+        transition: 500ms ease;
 
-        color: var(--c-cobalt-300);
-        box-shadow: 0 0 1px 1px var(--c-cobalt), 0 0 4px 6px var(--c-benibana);
+        color: var(--c-cobalt);
+        border: 1px solid var(--c-benibana-400);
+
+        box-shadow: 0 4px 10px 2px var(--c-paper-900);
+
+        &::before {
+            left: -200%;
+
+            transition: 300ms ease-out;
+        }
     }
 }
 

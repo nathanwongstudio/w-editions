@@ -81,6 +81,10 @@ body {
         box-shadow: 0 0 3px 3px var(--accent-shadow);
         text-shadow: 0 0 4px black;
 
+        &::before {
+            display:none;
+        }
+
         @media screen and (width <= 50em) {
             // font-size: 0.8em;
 
@@ -434,7 +438,7 @@ which the user cannot interact with */
                 &:hover {
                     transition:100ms ease;
 
-                    input {
+                    input, button {
                         @extend %input-hover;
                     }
 
@@ -610,7 +614,7 @@ which the user cannot interact with */
                 }
             }
 
-            input[type="submit"] {
+            button[type="submit"] {
                 @extend %white-text;
 
                 font-family: inherit;
@@ -644,6 +648,10 @@ which the user cannot interact with */
                 border-radius:0;
                 background:transparent;
                 box-shadow: none;
+
+                &::before {
+                    display:none;
+                }
 
                 @media screen and (width<=60em) {
                     font-size: 0.75em;

@@ -470,22 +470,34 @@ input[type=button] {
   position: relative;
   z-index: 9;
   display: block;
+  overflow: hidden;
   width: auto;
   margin: calc(var(--base-line-height) / 2) auto;
   padding: 0.5em 1em;
   cursor: pointer;
-  transition: 200ms ease;
+  transition: 500ms ease;
   text-decoration: none;
   color: var(--c-paper);
-  border: 0;
+  border: 1px solid transparent;
   border-radius: 5px;
   outline: 0;
-  background: none;
-  background: var(--c-cobalt);
-  box-shadow: 0 0 1px 1px var(--c-cobalt), 0 0 3px 3px var(--c-benibana);
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+a.button::before,
+button::before,
+input[type=submit]::before,
+input[type=button]::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 100%;
+  content: " ";
+  transition: 400ms ease-in;
+  background: linear-gradient(90deg, var(--c-cobalt) 0, var(--c-cobalt) 40%, var(--c-benibana) 60%);
 }
 a.button:disabled,
 button:disabled,
@@ -507,9 +519,17 @@ a.button:hover,
 button:hover,
 input[type=submit]:hover,
 input[type=button]:hover {
-  transition: 200ms ease;
-  color: var(--c-cobalt-300);
-  box-shadow: 0 0 1px 1px var(--c-cobalt), 0 0 4px 6px var(--c-benibana);
+  transition: 500ms ease;
+  color: var(--c-cobalt);
+  border: 1px solid var(--c-benibana-400);
+  box-shadow: 0 4px 10px 2px var(--c-paper-900);
+}
+a.button:hover::before,
+button:hover::before,
+input[type=submit]:hover::before,
+input[type=button]:hover::before {
+  left: -200%;
+  transition: 300ms ease-out;
 }
 
 fieldset {
@@ -845,8 +865,18 @@ figure:first-child {
 }
 .section-wrapper.feature section.grid .block-type-heading {
   box-sizing: content-box;
+  max-width: none;
   margin-left: -10px;
   padding-left: 10px;
+}
+.section-wrapper.feature section.grid .block-type-heading h2 {
+  font-size: 3rem;
+}
+.section-wrapper.feature section.grid .block-type-heading h3 {
+  font-size: 2.75rem;
+}
+.section-wrapper.feature section.grid .block-type-heading h4, .section-wrapper.feature section.grid .block-type-heading h5, .section-wrapper.feature section.grid .block-type-heading h6 {
+  font-size: 2.5rem;
 }
 .section-wrapper.feature section.grid form input {
   color: var(--c-cobalt);

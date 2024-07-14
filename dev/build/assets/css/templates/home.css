@@ -130,7 +130,7 @@ body {
   text-shadow: 0 0 3px var(--shadow-color);
 }
 
-.block.block-type-newsletter form input[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
+.block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
 .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
@@ -139,13 +139,13 @@ body {
   .block.block-type-newsletter form input[type=email]::-moz-placeholder, .block.block-type-newsletter form input[type=text]::-moz-placeholder {
     text-shadow: 0 0 2px var(--shadow-color);
   }
-  .block.block-type-newsletter form input[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
+  .block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
   .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
     text-shadow: 0 0 2px var(--shadow-color);
   }
 }
 
-.block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder {
+.block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder, .block.block-type-newsletter form .email:hover button::-moz-placeholder {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
@@ -159,12 +159,12 @@ body {
 .block.block-type-newsletter form input[type=text]:focus::placeholder,
 .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
 .block.block-type-newsletter form input[type=text]:focus,
-.block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-text a[target=_blank] {
+.block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-newsletter form .email:hover button, .block.block-type-text a[target=_blank] {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder {
+  .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder, .block.block-type-newsletter form .email:hover button::-moz-placeholder {
     text-shadow: 0 0 2px black;
   }
   .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
@@ -174,7 +174,7 @@ body {
   .block.block-type-newsletter form input[type=text]:focus::placeholder,
   .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
   .block.block-type-newsletter form input[type=text]:focus,
-  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-text a[target=_blank] {
+  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-newsletter form .email:hover button, .block.block-type-text a[target=_blank] {
     text-shadow: 0 0 2px black;
   }
 }
@@ -195,6 +195,9 @@ body {
   background: var(--accent-shadow);
   box-shadow: 0 0 3px 3px var(--accent-shadow);
   text-shadow: 0 0 4px black;
+}
+.home .button::before, .error .button::before {
+  display: none;
 }
 @media screen and (width <= 50em) {
   .home .button, .error .button {
@@ -429,7 +432,7 @@ which the user cannot interact with */
 .block.block-type-newsletter form .message.error {
   top: 100%;
 }
-.block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input {
+.block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-newsletter form .email:hover button {
   transition: 100ms ease;
   background: transparent;
   background: var(--shadow-color);
@@ -553,7 +556,7 @@ which the user cannot interact with */
   background: var(--shadow-color);
   box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
 }
-.block.block-type-newsletter form input[type=submit] {
+.block.block-type-newsletter form button[type=submit] {
   font-family: inherit;
   font-size: 1em;
   font-weight: 700;
@@ -576,8 +579,11 @@ which the user cannot interact with */
   background: transparent;
   box-shadow: none;
 }
+.block.block-type-newsletter form button[type=submit]::before {
+  display: none;
+}
 @media screen and (width <= 60em) {
-  .block.block-type-newsletter form input[type=submit] {
+  .block.block-type-newsletter form button[type=submit] {
     font-size: 0.75em;
     position: relative;
     width: 50%;

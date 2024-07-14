@@ -6,6 +6,7 @@ fieldsets:
       - heading
       - text
       - list
+      - button
   media:
     label: Media
     type: group

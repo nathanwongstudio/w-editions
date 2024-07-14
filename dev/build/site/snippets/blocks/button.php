@@ -1,1 +1,1 @@
-    <a class="button" href="<?= $block->linkto()->toUrl() ?>"><?= $block->blockText() ?></a>
+    <a class="button" href="<?= $block->buttonLink()->toUrl() ?>"><?= $block->buttonText() ?></a>

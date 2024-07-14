@@ -19,7 +19,7 @@
   		<input type="email" name="email" id="bd-email" placeholder="<?= ($block->emailPlaceholder()->isNotEmpty()) ? $block->emailPlaceholder() : 'Email' ?>" class="is-empty" />
 	</div>
 	<div class="field submit">
-  		<input type="submit" value="Sign Up" data-text="Sign Up" />
+  		<button type="submit" value="Sign Up">Sign up</button>
 	</div>
   </fieldset>
   <div class="bd-error"></div>
