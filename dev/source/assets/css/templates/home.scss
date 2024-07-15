@@ -85,6 +85,18 @@ body {
             display:none;
         }
 
+        &::after {
+            right: 0.5em;
+            left: auto;
+
+            display: block;
+
+            width: auto;
+
+            color: transparent;
+            text-shadow: 0 0 4px black;
+        }
+
         @media screen and (width <= 50em) {
             // font-size: 0.8em;
 
@@ -183,6 +195,24 @@ which the user cannot interact with */
     mix-blend-mode:hard-light;
 
     scroll-snap-align: start;
+
+    &:first-child {
+        &::after {
+            @extend %white-text;
+            /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+            font-family: microns;
+            font-size:1rem;
+
+            position: absolute;
+            z-index: 999;
+            right:0;
+            bottom: 0.25rem;
+            left:0;
+
+            content: '\e707';
+            text-align: center;
+        }
+    }
 
     &.ticker {
 		font-size: 7vw;

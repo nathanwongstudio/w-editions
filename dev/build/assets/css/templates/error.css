@@ -131,7 +131,7 @@ body {
 }
 
 .block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .section-wrapper:first-child::after, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
@@ -140,7 +140,7 @@ body {
     text-shadow: 0 0 2px var(--shadow-color);
   }
   .block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .section-wrapper:first-child::after, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
     text-shadow: 0 0 2px var(--shadow-color);
   }
 }
@@ -198,6 +198,14 @@ body {
 }
 .home .button::before, .error .button::before {
   display: none;
+}
+.home .button::after, .error .button::after {
+  right: 0.5em;
+  left: auto;
+  display: block;
+  width: auto;
+  color: transparent;
+  text-shadow: 0 0 4px black;
 }
 @media screen and (width <= 50em) {
   .home .button, .error .button {
@@ -271,6 +279,18 @@ which the user cannot interact with */
   background: black;
   mix-blend-mode: hard-light;
   scroll-snap-align: start;
+}
+.section-wrapper:first-child::after {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: microns;
+  font-size: 1rem;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  bottom: 0.25rem;
+  left: 0;
+  content: "\e707";
+  text-align: center;
 }
 .section-wrapper.ticker {
   font-size: 7vw;

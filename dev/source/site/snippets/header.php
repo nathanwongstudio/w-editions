@@ -31,6 +31,7 @@
 
 	$tagged = false;
     ?>
+    <?= css('assets/css/microns-min.css') ?>
 
     <?=css('assets/css/type-mobile.css', 'screen and (max-width: 50em)') ?>
 

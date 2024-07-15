@@ -95,7 +95,7 @@ input[type="button"] {
     width: auto;
 
     margin: calc(var(--base-line-height) / 2) auto;
-    padding: 0.5em 1em;
+    padding: 0.5em 2em 0.5em 1em;
 
     cursor: pointer;
     transition: 500ms ease;
@@ -124,6 +124,20 @@ input[type="button"] {
 
         background: linear-gradient(-90deg, var(--c-cobalt) 0, var(--c-cobalt) 40%, var(--c-benibana) 60%);
 
+    }
+
+    &::after {
+        /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+        font-family:microns;
+        font-size: 1em;
+
+        position: absolute;
+        top:50%;
+        right:0.5em;
+
+        content:'\e701';
+
+        transform: translateY(-50%);
     }
 
     &:disabled {
