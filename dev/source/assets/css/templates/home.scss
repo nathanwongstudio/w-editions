@@ -317,7 +317,8 @@ which the user cannot interact with */
 
     &.block-type-heading,
     &.block-type-newsletter,
-    &.block-type-text {
+    &.block-type-text,
+    &.block-type-markdown {
         font-weight: bold;
 
         margin:0;
@@ -347,14 +348,16 @@ which the user cannot interact with */
     }
 
     &.block-type-text {
-        a[target="_blank"] {
+        a {
             @extend %black-text;
 
-            font-size: 1.25em;
+            // font-size: 1.25em;
             
             font-weight: bold;
 
             padding: 0.25em 0.75em;
+
+            padding-right: 2em;
 
             transition: box-shadow 300ms ease;
 
@@ -370,6 +373,33 @@ which the user cannot interact with */
 
                 box-shadow: 0 0 15px 20px var(--c-gold);
             }
+
+            &::after {
+                font-family: microns;
+
+                position: absolute;
+
+                z-index:99;
+                right:0;
+                left: auto;
+
+                width: 1em;
+                padding: 0.375em 0.25em 0.375em 0;
+
+                content: '\e701';
+                text-align: right;
+
+                @extend %black-text;
+            }
+        }
+
+        a[href^="#"] {
+            position: relative;
+
+            &::after {
+                content: '\e713';
+            }
+            
         }
         
         p {

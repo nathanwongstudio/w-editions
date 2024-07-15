@@ -131,7 +131,7 @@ body {
 }
 
 .block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .section-wrapper:first-child::after, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown, .section-wrapper:first-child::after, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
@@ -140,7 +140,7 @@ body {
     text-shadow: 0 0 2px var(--shadow-color);
   }
   .block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .section-wrapper:first-child::after, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown, .section-wrapper:first-child::after, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
     text-shadow: 0 0 2px var(--shadow-color);
   }
 }
@@ -159,7 +159,7 @@ body {
 .block.block-type-newsletter form input[type=text]:focus::placeholder,
 .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
 .block.block-type-newsletter form input[type=text]:focus,
-.block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-newsletter form .email:hover button, .block.block-type-text a[target=_blank] {
+.block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-newsletter form .email:hover button, .block.block-type-text a::after, .block.block-type-text a {
   color: transparent;
   text-shadow: 0 0 3px black;
 }
@@ -174,7 +174,7 @@ body {
   .block.block-type-newsletter form input[type=text]:focus::placeholder,
   .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
   .block.block-type-newsletter form input[type=text]:focus,
-  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-newsletter form .email:hover button, .block.block-type-text a[target=_blank] {
+  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder, .block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input, .block.block-type-newsletter form .email:hover button, .block.block-type-text a::after, .block.block-type-text a {
     text-shadow: 0 0 2px black;
   }
 }
@@ -367,7 +367,7 @@ which the user cannot interact with */
     padding: 1em;
   }
 }
-.block.block-type-heading, .block.block-type-newsletter, .block.block-type-text {
+.block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown {
   font-weight: bold;
   margin: 0;
   padding: 1em;
@@ -375,32 +375,49 @@ which the user cannot interact with */
   color: transparent;
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text {
+  .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown {
     padding: 16px;
     -webkit-hyphens: auto;
             hyphens: auto;
   }
 }
-.block.block-type-heading a, .block.block-type-newsletter a, .block.block-type-text a {
+.block.block-type-heading a, .block.block-type-newsletter a, .block.block-type-text a, .block.block-type-markdown a {
   word-break: break-word;
   color: inherit;
 }
-.block.block-type-heading a:hover, .block.block-type-newsletter a:hover, .block.block-type-text a:hover {
+.block.block-type-heading a:hover, .block.block-type-newsletter a:hover, .block.block-type-text a:hover, .block.block-type-markdown a:hover {
   color: inherit;
 }
-.block.block-type-text a[target=_blank] {
-  font-size: 1.25em;
+.block.block-type-text a {
   font-weight: bold;
   padding: 0.25em 0.75em;
+  padding-right: 2em;
   transition: box-shadow 300ms ease;
   text-decoration: none;
   border-radius: 5px;
   background: var(--c-gold);
   box-shadow: 0 0 5px 5px var(--c-gold);
 }
-.block.block-type-text a[target=_blank]:hover {
+.block.block-type-text a:hover {
   transition: box-shadow 300ms ease;
   box-shadow: 0 0 15px 20px var(--c-gold);
+}
+.block.block-type-text a::after {
+  font-family: microns;
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  left: auto;
+  width: 1em;
+  padding: 0.375em 0.25em 0.375em 0;
+  content: "\e701";
+  text-align: right;
+}
+.block.block-type-text a[href^="#"] {
+  position: relative;
+}
+.block.block-type-text a[href^="#"]::after {
+  content: "\e713";
 }
 .block.block-type-text p {
   font-size: 36px;
