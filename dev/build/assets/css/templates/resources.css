@@ -107,9 +107,10 @@
   z-index: -1;
   top: 0;
   left: 0.1em;
+  display: inline;
   box-sizing: border-box;
   width: 100%;
-  padding-left: 0.25rem;
+  padding-left: 0.125rem;
   content: attr(data-text);
   text-shadow: 0 0 0.08em var(--contrast-shadow-color);
 }

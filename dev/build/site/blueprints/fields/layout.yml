@@ -101,6 +101,12 @@ fieldsets:
             label: Button Text
           buttonLink:
             type: link
+          blockText:
+            type: text
+            label: Text--old do not use this field.
+          linkto:
+            type: link
+            label: Link -- old do not use this field.
       newsletter:
         preview: fields
         fields:
