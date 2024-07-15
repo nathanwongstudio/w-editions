@@ -375,6 +375,7 @@ which the user cannot interact with */
             }
 
             &::after {
+                /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
                 font-family: microns;
 
                 position: absolute;

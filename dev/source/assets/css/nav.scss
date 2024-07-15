@@ -100,11 +100,23 @@ nav {
 
         color: transparent;
 
+        &::before {
+            font-family: microns;
+
+            position: absolute;
+            left:-1.25em;
+
+            content: '\e701';
+
+            opacity: 0;
+        }
+
         &::after {
             font-style: italic;
 
             position:absolute;
             z-index: -1;
+            top: var(--base-line-height);
             left:0;
 
             width: 100%;
@@ -126,6 +138,10 @@ nav {
                 transition-property: text-shadow;
 
                 text-shadow: 0 0 0.2em var(--c-cinnabar);
+            }
+
+            &::before {
+                opacity: 1;
             }
         }
     }
@@ -179,7 +195,7 @@ nav {
 
             height: 100vh;
             margin:0;
-            padding:var(--menu-item-pad) var(--base-line-height) 1em;
+            padding:var(--menu-item-pad) var(--base-line-height) 1em 1.5em;
 
             text-align:left;
 
@@ -206,7 +222,9 @@ nav {
                 &.active {
                     // text-shadow: 0 0 0 var(--c-paper);
                     a {
-                        text-decoration: underline;
+                        &::before {
+                            opacity:1;
+                        }
                     }
                 }
 

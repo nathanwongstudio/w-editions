@@ -159,10 +159,18 @@ nav a {
   text-decoration: none;
   color: transparent;
 }
+nav a::before {
+  font-family: microns;
+  position: absolute;
+  left: -1.25em;
+  content: "\e701";
+  opacity: 0;
+}
 nav a::after {
   font-style: italic;
   position: absolute;
   z-index: -1;
+  top: var(--base-line-height);
   left: 0;
   width: 100%;
   content: attr(data-text);
@@ -178,6 +186,9 @@ nav a:hover::after {
   transition: 250ms ease;
   transition-property: text-shadow;
   text-shadow: 0 0 0.2em var(--c-cinnabar);
+}
+nav a:hover::before {
+  opacity: 1;
 }
 nav .wrapper-nav {
   position: relative;
@@ -215,7 +226,7 @@ nav .menu ul.menu-items {
   box-sizing: border-box;
   height: 100vh;
   margin: 0;
-  padding: var(--menu-item-pad) var(--base-line-height) 1em;
+  padding: var(--menu-item-pad) var(--base-line-height) 1em 1.5em;
   text-align: left;
   word-spacing: 1em;
 }
@@ -231,8 +242,8 @@ nav .menu ul.menu-items li {
   color: transparent;
   text-shadow: var(--text-shadow-menu);
 }
-nav .menu ul.menu-items li.active a {
-  text-decoration: underline;
+nav .menu ul.menu-items li.active a::before {
+  opacity: 1;
 }
 nav .menu ul.menu-items li::before {
   display: none;

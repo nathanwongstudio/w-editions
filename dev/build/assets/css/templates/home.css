@@ -403,6 +403,7 @@ which the user cannot interact with */
   box-shadow: 0 0 15px 20px var(--c-gold);
 }
 .block.block-type-text a::after {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   position: absolute;
   z-index: 99;
