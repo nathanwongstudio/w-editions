@@ -1,19 +1,12 @@
-$microns-font-name: "microns" !default;
-$microns-font-file: "microns" !default;
-
+@charset "UTF-8";
 @font-face {
-  font-family: $microns-font-name;
+  font-family: "microns";
   font-style: normal;
   font-weight: normal;
-  src: url("#{$microns-font-file}.woff2") format("woff2"),
-       url("#{$microns-font-file}.woff") format("woff"),
-       url("#{$microns-font-file}.otf") format("opentype"),
-       url("#{$microns-font-file}.ttf") format("truetype"),
-       url("#{$microns-font-file}.svg") format("svg");
+  src: url("microns.woff2") format("woff2"), url("microns.woff") format("woff"), url("microns.otf") format("opentype"), url("microns.ttf") format("truetype"), url("microns.svg") format("svg");
 }
-
 .mu:before {
-  font-family: $microns-font-name;
+  font-family: "microns";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -23,9 +16,10 @@ $microns-font-file: "microns" !default;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
-
 
 .mu-arrow-left:before {
   content: "\e700";
@@ -536,7 +530,7 @@ $microns-font-file: "microns" !default;
 }
 
 .mu-paragraph:before {
-  content: "\b6";
+  content: "¶";
 }
 
 .mu-sub:before {
@@ -548,11 +542,11 @@ $microns-font-file: "microns" !default;
 }
 
 .mu-at:before {
-  content: "\40";
+  content: "@";
 }
 
 .mu-hash:before {
-  content: "\23";
+  content: "#";
 }
 
 .mu-align-left:before {
@@ -682,3 +676,5 @@ $microns-font-file: "microns" !default;
 .mu-unite:before {
   content: "\e79a";
 }
+
+/*# sourceMappingURL=microns.css.map */

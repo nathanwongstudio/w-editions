@@ -1,0 +1,26 @@
+{
+    "name": "itsallwong/kirby-dev-starter",
+    "description": "Development starter set for Kirby-based sites",
+    "type": "project",
+    "require": {
+        "getkirby/cms": "^4",
+        "stripe/stripe-php": "^10.19",
+        "paulmorel/fathom-analytics": "^1.0",
+        "wearejust/kirby-meta-tags": "^3.0",
+        "johannschopplich/kirby-locked-pages": "^2.1",
+        "mzur/kirby-uniform": "^5.5",
+        "tristantbg/kirby-shopify": "^1.3"
+    },
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Nathan",
+            "email": "nathan@itsallwong.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    }
+}
