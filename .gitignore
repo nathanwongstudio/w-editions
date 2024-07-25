@@ -19,5 +19,5 @@ live
 .htpasswd
 
 shopify-kirby.env
-**/site/config/email.php
-site/config/email.php
+dev/_build/site/config/email.php
+dev/site/config/email.php
