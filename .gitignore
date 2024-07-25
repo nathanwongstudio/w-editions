@@ -20,3 +20,4 @@ live
 
 shopify-kirby.env
 **/site/config/email.php
+site/config/email.php
