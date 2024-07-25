@@ -7,7 +7,7 @@
       "uuidString" : "ECA65EDF-6333-4E46-9838-033F9AF6FC07"
     }
   ],
-  "creatorBuild" : "34564",
+  "creatorBuild" : "34576",
   "files" : {
     "\/_build" : {
       "ft" : 65536,
@@ -344,7 +344,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/_build\/assets\/css\/templates\/artists-collection.css",
       "oF" : 0,
       "oS" : 0,
@@ -419,7 +419,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/_build\/assets\/css\/templates\/home.css",
       "oF" : 0,
       "oS" : 0,
@@ -3006,7 +3006,7 @@
       "ft" : 65536,
       "oA" : 2,
       "oAP" : "\/_build\/kirby\/src\/Cache",
-      "oF" : 1
+      "oF" : 0
     },
     "\/kirby\/src\/Cms\/Api.php" : {
       "cB" : 0,
@@ -10420,7 +10420,7 @@
       "ft" : 65536,
       "oA" : 2,
       "oAP" : "\/_build\/vendor\/psr\/log",
-      "oF" : 1
+      "oF" : 0
     },
     "\/vendor\/stripe\/stripe-php\/.gitignore" : {
       "cB" : 0,
