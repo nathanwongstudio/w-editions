@@ -1,6 +1,9 @@
 <?php
 
 return [
+    // activate debug mode
+    'debug' => true,
+    
 	'paulmorel.fathom-analytics' => [
         'siteId' => 'TCMXSOEX',
         'sharePassword' => 'w/editions212'

@@ -344,9 +344,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/_build\/assets\/css\/templates\/artists-collection.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -419,9 +419,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/_build\/assets\/css\/templates\/home.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -489,7 +489,7 @@
     "\/composer.json" : {
       "ft" : 524288,
       "oA" : 2,
-      "oAP" : "\/_build\/build\/composer.json",
+      "oAP" : "\/_build\/composer.json",
       "oF" : 3,
       "oO" : 1,
       "oS" : 1
@@ -5590,14 +5590,6 @@
       "oAP" : "\/_build\/site\/cache",
       "oF" : 0
     },
-    "\/site\/config\/config.ddev.site.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/config\/config.ddev.site.php",
-      "oF" : 0
-    },
     "\/site\/config\/config.localhost.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5636,6 +5628,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_build\/site\/config\/routes.php",
+      "oF" : 0
+    },
+    "\/site\/config\/turnstile.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/config\/turnstile.php",
       "oF" : 0
     },
     "\/site\/controllers\/artists-collection.php" : {
@@ -6290,204 +6290,6 @@
       "oA" : 2,
       "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/src\/Tags.php",
       "oF" : 1
-    },
-    "\/site\/plugins\/kirby-shopify\/.editorconfig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/.editorconfig",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/.env.example" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/.env.example",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/.gitattributes" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/.gitattributes",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/.gitignore",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/composer-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/kirby-shopify\/composer.lock" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/composer.lock",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/example\/content\/collections\/shopify.collections.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/example\/content\/collections\/shopify.collections.txt",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/example\/content\/products\/shopify.products.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/example\/content\/products\/shopify.products.txt",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/index.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/LICENSE.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/LICENSE.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/blueprints\/shopify.collection.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/blueprints\/shopify.collection.yml",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/blueprints\/shopify.collections.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/blueprints\/shopify.collections.yml",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/blueprints\/shopify.product.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/blueprints\/shopify.product.yml",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/blueprints\/shopify.products.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/blueprints\/shopify.products.yml",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/helpers.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/helpers.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/KirbyShopify.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/KirbyShopify.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/models\/shopify.collection.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/models\/shopify.collection.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/models\/shopify.collections.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/models\/shopify.collections.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/models\/shopify.product.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/models\/shopify.product.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/models\/shopify.products.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/models\/shopify.products.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby-shopify\/src\/snippets\/product.structured-data.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby-shopify\/src\/snippets\/product.structured-data.php",
-      "oF" : 0
     },
     "\/site\/plugins\/kirby-uniform\/.editorconfig" : {
       "cB" : 0,
@@ -7428,6 +7230,89 @@
       "oA" : 2,
       "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/TestCase.php",
       "oF" : 1
+    },
+    "\/site\/plugins\/uniform-turnstile\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/.gitignore",
+      "oF" : 0
+    },
+    "\/site\/plugins\/uniform-turnstile\/composer.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/composer-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/site\/plugins\/uniform-turnstile\/i18n\/de.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/i18n\/de.php",
+      "oF" : 0
+    },
+    "\/site\/plugins\/uniform-turnstile\/i18n\/en.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/i18n\/en.php",
+      "oF" : 0
+    },
+    "\/site\/plugins\/uniform-turnstile\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/index.php",
+      "oF" : 0
+    },
+    "\/site\/plugins\/uniform-turnstile\/LICENSE" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/LICENSE",
+      "oF" : 0
+    },
+    "\/site\/plugins\/uniform-turnstile\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/site\/plugins\/uniform-turnstile\/src\/Guards\/TurnstileGuard.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/src\/Guards\/TurnstileGuard.php",
+      "oF" : 0
+    },
+    "\/site\/plugins\/uniform-turnstile\/src\/helpers.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/src\/helpers.php",
+      "oF" : 0
     },
     "\/site\/sessions\/index.html" : {
       "cB" : 0,
@@ -8893,945 +8778,6 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/_build\/vendor\/michelf\/php-smartypants\/Readme.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/.gitignore",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/.travis.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/.travis.yml",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/composer-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/composer.lock" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/composer.lock",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/AbandonedCheckout.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/AbandonedCheckout.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/AccessScope.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/AccessScope.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ApiDeprecations.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ApiDeprecations.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ApplicationCharge.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ApplicationCharge.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Article.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Article.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Asset.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Asset.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/AssignedFulfillmentOrder.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/AssignedFulfillmentOrder.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/AuthHelper.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/AuthHelper.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Balance.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Balance.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Batch.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Batch.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Blog.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Blog.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/CarrierService.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/CarrierService.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Cart.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Cart.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Collect.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Collect.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Collection.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Collection.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Comment.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Comment.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Country.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Country.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/CurlRequest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/CurlRequest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/CurlResponse.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/CurlResponse.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Currency.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Currency.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/CustomCollection.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/CustomCollection.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Customer.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Customer.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/CustomerAddress.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/CustomerAddress.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/CustomerSavedSearch.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/CustomerSavedSearch.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Discount.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Discount.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/DiscountCode.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/DiscountCode.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Dispute.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Dispute.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/DraftOrder.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/DraftOrder.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Event.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Event.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Exception\/ApiException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Exception\/ApiException.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Exception\/CurlException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Exception\/CurlException.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Exception\/ResourceRateLimitException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Exception\/ResourceRateLimitException.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Exception\/SdkException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Exception\/SdkException.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Fulfillment.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Fulfillment.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/FulfillmentEvent.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/FulfillmentEvent.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/FulfillmentOrder.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/FulfillmentOrder.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/FulfillmentRequest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/FulfillmentRequest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/FulfillmentService.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/FulfillmentService.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/GiftCard.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/GiftCard.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/GiftCardAdjustment.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/GiftCardAdjustment.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/GraphQL.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/GraphQL.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/HttpRequestGraphQL.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/HttpRequestGraphQL.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/HttpRequestJson.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/HttpRequestJson.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/InventoryItem.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/InventoryItem.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/InventoryLevel.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/InventoryLevel.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Location.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Location.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Metafield.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Metafield.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Multipass.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Multipass.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Order.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Order.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/OrderRisk.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/OrderRisk.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Page.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Page.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Payouts.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Payouts.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Policy.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Policy.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/PriceRule.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/PriceRule.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Product.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Product.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ProductImage.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ProductImage.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ProductListing.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ProductListing.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ProductVariant.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ProductVariant.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Province.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Province.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/RecurringApplicationCharge.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/RecurringApplicationCharge.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Redirect.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Redirect.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Refund.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Refund.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Report.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Report.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ScriptTag.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ScriptTag.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ShippingZone.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ShippingZone.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Shop.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Shop.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ShopifyPayment.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ShopifyPayment.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ShopifyResource.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ShopifyResource.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/ShopifySDK.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/ShopifySDK.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/SmartCollection.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/SmartCollection.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/TenderTransaction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/TenderTransaction.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Theme.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Theme.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Transaction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Transaction.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Transactions.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Transactions.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/UsageCharge.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/UsageCharge.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/User.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/User.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/lib\/Webhook.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/lib\/Webhook.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/LICENSE" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/LICENSE",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/phpunit.xml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/phpunit.xml",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/README.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/AbandonedCheckoutTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/AbandonedCheckoutTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/ApplicationChargeTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/ApplicationChargeTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/BlogTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/BlogTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CarrierServiceTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CarrierServiceTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CollectionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CollectionTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CollectTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CollectTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CommentTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CommentTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CountryTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CountryTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CurrencyTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CurrencyTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CustomCollectionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CustomCollectionTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CustomerSavedSearchTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CustomerSavedSearchTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/CustomerTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/CustomerTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/FulfillmentServiceTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/FulfillmentServiceTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/GraphQLTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/GraphQLTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/LocationTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/LocationTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/MetafieldTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/MetafieldTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/OrderTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/OrderTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/PageTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/PageTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/PolicyTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/PolicyTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/ProductListingTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/ProductListingTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/ProductTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/ProductTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/RecurringApplicationChargeTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/RecurringApplicationChargeTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/RedirectTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/RedirectTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/ReportTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/ReportTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/ScriptTagTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/ScriptTagTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/ShippingZoneTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/ShippingZoneTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/ShopTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/ShopTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/SmartCollectionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/SmartCollectionTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/TestResource.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/TestResource.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/TestSimpleResource.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/TestSimpleResource.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/ThemeTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/ThemeTest.php",
-      "oF" : 1
-    },
-    "\/vendor\/phpclassic\/php-shopify\/tests\/WebhookTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/phpclassic\/php-shopify\/tests\/WebhookTest.php",
       "oF" : 1
     },
     "\/vendor\/phpmailer\/phpmailer\/.editorconfig" : {
@@ -13363,94 +12309,6 @@
       "oA" : 2,
       "oAP" : "\/_build\/vendor\/symfony\/yaml\/Yaml.php",
       "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/composer-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/LICENSE.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/LICENSE.txt",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Dotenv.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Dotenv.php",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Exception\/ExceptionInterface.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Exception\/ExceptionInterface.php",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Exception\/InvalidCallbackException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Exception\/InvalidCallbackException.php",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Exception\/InvalidFileException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Exception\/InvalidFileException.php",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Exception\/InvalidPathException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Exception\/InvalidPathException.php",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Exception\/ValidationException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Exception\/ValidationException.php",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Loader.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Loader.php",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Parser.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Parser.php",
-      "oF" : 1
-    },
-    "\/vendor\/vlucas\/phpdotenv\/src\/Validator.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/vendor\/vlucas\/phpdotenv\/src\/Validator.php",
-      "oF" : 1
     }
   },
   "hooks" : [
@@ -13465,7 +12323,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "meme-punDog",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 743640513.65826201
+    "lastBuiltDate" : 743641934.72625697
   },
   "projectSettings" : {
     "abortBuildOnError" : 0,
@@ -13762,7 +12620,7 @@
     "buildEnvironment" : 1,
     "buildFolderActive" : 1,
     "buildFolderName" : "_build",
-    "cleanBuild" : 1,
+    "cleanBuild" : 0,
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
@@ -14727,7 +13585,7 @@
       }
     },
     "esLintSourceType" : 0,
-    "externalServerAddress" : "http:\/\/localhost:8888\/w-editions",
+    "externalServerAddress" : "https:\/\/w-editions.ddev.site\/",
     "gitIgnoreBuildFolder" : 0,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",

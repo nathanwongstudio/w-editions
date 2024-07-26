@@ -390,6 +390,7 @@ which the user cannot interact with */
 }
 .block.block-type-text a {
   font-weight: bold;
+  display: inline-block;
   padding: 0.25em 0.75em;
   padding-right: 2em;
   transition: box-shadow 300ms ease;
@@ -416,9 +417,10 @@ which the user cannot interact with */
 }
 .block.block-type-text a[href^="#"] {
   position: relative;
+  padding: 0.25em;
 }
 .block.block-type-text a[href^="#"]::after {
-  content: "\e713";
+  display: none;
 }
 .block.block-type-text p {
   font-size: 36px;

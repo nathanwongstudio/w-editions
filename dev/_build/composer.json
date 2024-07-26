@@ -8,8 +8,7 @@
         "paulmorel/fathom-analytics": "^1.0",
         "wearejust/kirby-meta-tags": "^3.0",
         "johannschopplich/kirby-locked-pages": "^2.1",
-        "mzur/kirby-uniform": "^5.5",
-        "anselmh/kirby-uniform-turnstile": "^1.0"
+        "mzur/kirby-uniform": "^5.5"
     },
     "license": "UNLICENSED",
     "authors": [
