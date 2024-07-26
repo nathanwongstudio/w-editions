@@ -9,9 +9,7 @@ return [
 	'cache' => [
 		'pages' => [
 			'active' => true,
-			'ignore' => function ($page) {
-				return $page->indendedTemplate()->value() === 'gallery-artwork';
-			}
+			'ignore' => fn ($page) => $page->indendedTemplate()->value() === 'gallery-artwork'
 		]
 	],
 	

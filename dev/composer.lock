@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd57131fc71d8467f9c581f2b1e859a2",
+    "content-hash": "4914e547d1be3a77b231eb97e059efcc",
     "packages": [
         {
             "name": "anselmh/kirby-uniform-turnstile",
@@ -467,6 +467,41 @@
                 }
             ],
             "time": "2020-12-28T12:54:39+00:00"
+        },
+        {
+            "name": "hashandsalt/kirby3-snipcart",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HashandSalt/kirby3-snipcart.git",
+                "reference": "d44f1cb1f5d9086b0261a03d440a7b1f7e566582"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HashandSalt/kirby3-snipcart/zipball/d44f1cb1f5d9086b0261a03d440a7b1f7e566582",
+                "reference": "d44f1cb1f5d9086b0261a03d440a7b1f7e566582",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Steel",
+                    "email": "hello@hashandsalt.com"
+                }
+            ],
+            "description": "Snipcart Panel Plugin",
+            "support": {
+                "issues": "https://github.com/HashandSalt/kirby3-snipcart/issues",
+                "source": "https://github.com/HashandSalt/kirby3-snipcart"
+            },
+            "time": "2023-01-02T18:25:38+00:00"
         },
         {
             "name": "johannschopplich/kirby-locked-pages",

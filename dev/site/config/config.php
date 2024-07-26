@@ -1,13 +1,13 @@
 <?php
 
 return [
-    // activate debug mode
-    'debug' => true,
 
 	'paulmorel.fathom-analytics' => [
         'siteId' => 'TCMXSOEX',
         'sharePassword' => 'w/editions212'
     ],
+
+    'hashandsalt.kirby-snipcart' => require_once 'snipcart.php',
 
 	'wearejust.meta-tags.default' => function ($page, $site) {
         return [

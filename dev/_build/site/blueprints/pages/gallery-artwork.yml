@@ -96,7 +96,14 @@ tabs:
             help: Other text you might want to add to the page
             type: writer
             nodes: true
-
+  e-commerce:
+    label: E-Commerce
+    icon: cart
+    sections:
+      productdata:
+        type: fields
+        fields:
+          productinfo: cart/product
   media:
     label: Media
     icon: images
