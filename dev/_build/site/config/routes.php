@@ -73,7 +73,8 @@ return [
             // Perform validation and execute guards.
             $form->withoutFlashing()
                 ->withoutRedirect()
-                ->guard();
+                ->guard()
+                ->turnstileGuard();
     
             if (!$form->success()) {
                 // Return validation errors.

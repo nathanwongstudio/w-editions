@@ -386,6 +386,13 @@ label + input {
   left: -9999px;
 }
 
+.turnstile {
+  display: grid;
+  grid-template: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
 input {
   display: inline-block;
   box-sizing: border-box;
@@ -796,6 +803,9 @@ p:first-child {
   padding-top: 0;
 }
 
+picture.is-loading {
+  position: relative;
+}
 picture.is-loading::after {
   position: absolute;
   z-index: 1;
@@ -805,7 +815,11 @@ picture.is-loading::after {
   width: 100%;
   height: 100%;
   content: " ";
+  opacity: 0.5;
   background-color: var(--c-paper-200);
+}
+picture.is-empty::after {
+  display: none;
 }
 
 img {

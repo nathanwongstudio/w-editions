@@ -40,7 +40,9 @@
         <input type="hidden" name="artist" value="<?= $artists ?>">
         <input type="hidden" name="currentPrice" value="<?= $page->price() ?>">
 
-        <input type="submit" id="submit" value="Submit">
+        <fieldset class="turnstile"><?= turnstileField() ?></fieldset>
+
+        <button type="submit" id="submit">Submit</button>
     </form>
     <div id="message" class="alert"></div>
 

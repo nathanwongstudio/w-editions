@@ -18,6 +18,13 @@ label {
     left: -9999px;
 }
 
+.turnstile {
+    display: grid;
+    grid-template: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
 input {
     display: inline-block;
 

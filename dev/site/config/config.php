@@ -3,11 +3,12 @@
 return [
     // activate debug mode
     'debug' => true,
-    
+
 	'paulmorel.fathom-analytics' => [
         'siteId' => 'TCMXSOEX',
         'sharePassword' => 'w/editions212'
     ],
+
 	'wearejust.meta-tags.default' => function ($page, $site) {
         return [
             'title' => ((!$page->isHomePage()) ? $page->title() . ' /// ' : '' ) . $site->title(),
@@ -62,6 +63,8 @@ return [
 	'routes' => require_once 'routes.php',
 
     'email' => require_once 'email.php',
+
+    'anselmh.uniform-turnstile' => require_once 'turnstile.php',
 
 
     'hooks' => [

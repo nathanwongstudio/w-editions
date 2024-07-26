@@ -278,7 +278,7 @@ p:first-child {
 
 picture {
     &.is-loading {
-        // position: relative;
+        position: relative;
         
         &::after {
             position:absolute;
@@ -293,7 +293,15 @@ picture {
 
             content: ' ';
 
+            opacity:0.5;
+
             background-color: var(--c-paper-200);
+        }
+    }
+
+    &.is-empty {
+        &::after {
+            display: none;
         }
     }
 
