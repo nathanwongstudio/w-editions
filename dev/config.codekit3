@@ -542,14 +542,6 @@
       "oAP" : "\/_build\/content\/_drafts\/notebook\/resources.txt",
       "oF" : 1
     },
-    "\/content\/_drafts\/sales-agreement\/default.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/_drafts\/sales-agreement\/default.txt",
-      "oF" : 1
-    },
     "\/content\/_drafts\/terms-of-service\/default.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -566,34 +558,217 @@
       "oAP" : "\/_build\/content\/.gitignore",
       "oF" : 1
     },
-    "\/content\/1_about\/default.txt" : {
+    "\/content\/1_editions\/1_sample\/gallery-artwork.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/1_about\/default.txt",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/1_sample\/gallery-artwork.txt",
+      "oF" : 0
     },
-    "\/content\/1_about\/img012-web.jpg" : {
+    "\/content\/1_editions\/1_sample\/img_6185.webp" : {
+      "ft" : 8388608,
+      "iS" : 131570,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/1_sample\/img_6185.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/content\/1_editions\/1_sample\/img_6185.webp.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/1_sample\/img_6185.webp.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/2_untitled\/face.jpg" : {
       "ft" : 16384,
-      "iS" : 784336,
+      "iS" : 2091509,
       "jF" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/1_about\/img012-web.jpg",
-      "oF" : 1,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/1_editions\/2_untitled\/face.jpg",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_about\/img012-web.jpg.txt" : {
+    "\/content\/1_editions\/2_untitled\/face.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/1_about\/img012-web.jpg.txt",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/2_untitled\/face.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/2_untitled\/gallery-artwork.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/2_untitled\/gallery-artwork.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/3_wisdom-fist\/gallery-artwork.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/gallery-artwork.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/3_wisdom-fist\/wisdom-fist-detail.jpg" : {
+      "ft" : 16384,
+      "iS" : 807456,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/wisdom-fist-detail.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/3_wisdom-fist\/wisdom-fist-detail.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/wisdom-fist-detail.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/3_wisdom-fist\/wisdomfist-hq.jpg" : {
+      "ft" : 16384,
+      "iS" : 7036462,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/wisdomfist-hq.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/3_wisdom-fist\/wisdomfist-hq.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/wisdomfist-hq.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/4_study-of-buddhist-symbols\/gallery-artwork.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/4_study-of-buddhist-symbols\/gallery-artwork.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/4_study-of-buddhist-symbols\/study-of-buddhist-symbols.jpg" : {
+      "ft" : 16384,
+      "iS" : 2836059,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/1_editions\/4_study-of-buddhist-symbols\/study-of-buddhist-symbols.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/4_study-of-buddhist-symbols\/study-of-buddhist-symbols.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/4_study-of-buddhist-symbols\/study-of-buddhist-symbols.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/default.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/default.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/gallery-collection.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/1_editions\/gallery-collection.txt",
+      "oF" : 0
+    },
+    "\/content\/2_artists\/0_andy-warhol\/artists-profile.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/2_artists\/0_andy-warhol\/artists-profile.txt",
+      "oF" : 0
+    },
+    "\/content\/2_artists\/0_nathan-wong\/artists-profile.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/2_artists\/0_nathan-wong\/artists-profile.txt",
+      "oF" : 0
+    },
+    "\/content\/2_artists\/0_nathan-wong\/funone.jpg" : {
+      "ft" : 16384,
+      "iS" : 5851116,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/2_artists\/0_nathan-wong\/funone.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/2_artists\/0_nathan-wong\/funone.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/2_artists\/0_nathan-wong\/funone.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/2_artists\/0_stefan-sehringer\/artists-profile.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/2_artists\/0_stefan-sehringer\/artists-profile.txt",
+      "oF" : 0
+    },
+    "\/content\/2_artists\/0_xxx\/artists-profile.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/2_artists\/0_xxx\/artists-profile.txt",
+      "oF" : 0
+    },
+    "\/content\/2_artists\/0_yolko-ono\/artists-profile.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/2_artists\/0_yolko-ono\/artists-profile.txt",
+      "oF" : 0
     },
     "\/content\/2_artists\/artists-collection.txt" : {
       "cB" : 0,
@@ -603,21 +778,475 @@
       "oAP" : "\/_build\/content\/2_artists\/artists-collection.txt",
       "oF" : 1
     },
-    "\/content\/3_editions\/gallery-collection.txt" : {
+    "\/content\/3_about\/default.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/3_editions\/gallery-collection.txt",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/default.txt",
+      "oF" : 0
     },
-    "\/content\/4_support-the-arts\/default.txt" : {
+    "\/content\/3_about\/img_4044.jpg" : {
+      "ft" : 16384,
+      "iS" : 826934,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/img_4044.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/3_about\/img_4044.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/4_support-the-arts\/default.txt",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/img_4044.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/mold.jpg" : {
+      "ft" : 16384,
+      "iS" : 195668,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/mold.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/3_about\/mold.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/mold.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/printer.jpg" : {
+      "ft" : 16384,
+      "iS" : 112993,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/printer.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/3_about\/printer.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/printer.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screen-shot-2023-10-17-at-7.03.32-pm.png" : {
+      "ft" : 32768,
+      "iS" : 1057725,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screen-shot-2023-10-17-at-7.03.32-pm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screen-shot-2023-10-17-at-7.03.32-pm.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screen-shot-2023-10-17-at-7.03.32-pm.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-18.27.42.png" : {
+      "ft" : 32768,
+      "iS" : 4912064,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.27.42.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-18.27.42.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.27.42.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-18.28.35.png" : {
+      "ft" : 32768,
+      "iS" : 3237339,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.28.35.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-18.28.35.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.28.35.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-18.30.00.png" : {
+      "ft" : 32768,
+      "iS" : 4410046,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.30.00.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-18.30.00.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.30.00.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-21.58.45.png" : {
+      "ft" : 32768,
+      "iS" : 4289595,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.45.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-21.58.45.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.45.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-21.58.53.png" : {
+      "ft" : 32768,
+      "iS" : 4276502,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.53.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-21.58.53.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.53.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-21.58.56.png" : {
+      "ft" : 32768,
+      "iS" : 4324234,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.56.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-21.58.56.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.56.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.00.00.png" : {
+      "ft" : 32768,
+      "iS" : 4122333,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.00.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.00.00.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.00.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.00.04.png" : {
+      "ft" : 32768,
+      "iS" : 3440058,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.04.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.00.04.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.04.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.00.06.png" : {
+      "ft" : 32768,
+      "iS" : 2928243,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.06.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.00.06.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.06.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.00.12.png" : {
+      "ft" : 32768,
+      "iS" : 3505595,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.12.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.00.12.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.12.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.20.png" : {
+      "ft" : 32768,
+      "iS" : 4732367,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.20.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.20.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.20.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.22.png" : {
+      "ft" : 32768,
+      "iS" : 4861453,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.22.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.22.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.22.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.24.png" : {
+      "ft" : 32768,
+      "iS" : 4872974,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.24.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.24.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.24.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.33.png" : {
+      "ft" : 32768,
+      "iS" : 4906612,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.33.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.33.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.33.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.57.png" : {
+      "ft" : 32768,
+      "iS" : 3276035,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.57.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.01.57.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.57.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.02.03.png" : {
+      "ft" : 32768,
+      "iS" : 4600592,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.03.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.02.03.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.03.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.02.14.png" : {
+      "ft" : 32768,
+      "iS" : 3147630,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.14.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.02.14.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.14.png.txt",
+      "oF" : 0
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.02.22.png" : {
+      "ft" : 32768,
+      "iS" : 4459434,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.22.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/3_about\/screenshot-2018-04-30-22.02.22.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.22.png.txt",
+      "oF" : 0
     },
     "\/content\/error\/error.txt" : {
       "cB" : 0,
@@ -627,13 +1256,47 @@
       "oAP" : "\/_build\/content\/error\/error.txt",
       "oF" : 1
     },
-    "\/content\/fcj6mq3cwuinmpe\/shopify.collections.txt" : {
+    "\/content\/home\/diego-fernandez-v7ycxmqiv2e-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 1382729,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/home\/diego-fernandez-v7ycxmqiv2e-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/home\/diego-fernandez-v7ycxmqiv2e-unsplash.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/fcj6mq3cwuinmpe\/shopify.collections.txt",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/diego-fernandez-v7ycxmqiv2e-unsplash.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/home\/frankie-cordoba-mcgtbxoeih8-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 2339666,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/home\/frankie-cordoba-mcgtbxoeih8-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/home\/frankie-cordoba-mcgtbxoeih8-unsplash.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/frankie-cordoba-mcgtbxoeih8-unsplash.jpg.txt",
+      "oF" : 0
     },
     "\/content\/home\/home.txt" : {
       "cB" : 0,
@@ -643,29 +1306,132 @@
       "oAP" : "\/_build\/content\/home\/home.txt",
       "oF" : 1
     },
-    "\/content\/scbsjao3knap9ly\/9041730076985_jasmine-and-ylang-ylang\/shopify.product.txt" : {
+    "\/content\/home\/loop_1.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/scbsjao3knap9ly\/9041730076985_jasmine-and-ylang-ylang\/shopify.product.txt",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/loop_1.mp4",
+      "oF" : 0
     },
-    "\/content\/scbsjao3knap9ly\/9043282755897_wisdom-fist\/shopify.product.txt" : {
+    "\/content\/home\/loop_1.mp4.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/scbsjao3knap9ly\/9043282755897_wisdom-fist\/shopify.product.txt",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/loop_1.mp4.txt",
+      "oF" : 0
     },
-    "\/content\/scbsjao3knap9ly\/shopify.products.txt" : {
+    "\/content\/home\/loop_2.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/scbsjao3knap9ly\/shopify.products.txt",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/loop_2.mp4",
+      "oF" : 0
+    },
+    "\/content\/home\/loop_2.mp4.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/loop_2.mp4.txt",
+      "oF" : 0
+    },
+    "\/content\/home\/loop_3_1.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/loop_3_1.mp4",
+      "oF" : 0
+    },
+    "\/content\/home\/loop_3_1.mp4.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/loop_3_1.mp4.txt",
+      "oF" : 0
+    },
+    "\/content\/home\/mold.jpg" : {
+      "ft" : 16384,
+      "iS" : 195668,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/home\/mold.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/home\/mold.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/mold.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/home\/printer.jpg" : {
+      "ft" : 16384,
+      "iS" : 112993,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/home\/printer.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/home\/printer.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/printer.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/home\/space-parts-uqlznr9gc3e-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 3494298,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/_build\/content\/home\/space-parts-uqlznr9gc3e-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/home\/space-parts-uqlznr9gc3e-unsplash.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/space-parts-uqlznr9gc3e-unsplash.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/home\/static_1.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/static_1.mp4",
+      "oF" : 0
+    },
+    "\/content\/home\/static_1.mp4.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/content\/home\/static_1.mp4.txt",
+      "oF" : 0
     },
     "\/content\/site.txt" : {
       "cB" : 0,
@@ -673,48 +1439,6 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/_build\/content\/site.txt",
-      "oF" : 1
-    },
-    "\/content\/w-editions-logo-cover.png" : {
-      "ft" : 32768,
-      "iS" : 29076,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/w-editions-logo-cover.png",
-      "oF" : 1,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/content\/w-editions-logo-cover.png.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/w-editions-logo-cover.png.txt",
-      "oF" : 1
-    },
-    "\/content\/w-editions-logo-new-cover.png" : {
-      "ft" : 32768,
-      "iS" : 27231,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/w-editions-logo-new-cover.png",
-      "oF" : 1,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/content\/w-editions-logo-new-cover.png.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/content\/w-editions-logo-new-cover.png.txt",
       "oF" : 1
     },
     "\/index.php" : {
