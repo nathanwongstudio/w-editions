@@ -1,6 +1,5 @@
 <?php snippet('header') ?>
 <div class="default-content">
-    <div <?= ($page->shopifyProductLink()->isNotEmpty()) ? 'data-product="'.$page->shopifyProductLink()->toPage()->shopifyID().'"' : '' ?>></div>
     <div class="artwork">
         <div class="primary-image">
                 <?= $page->primaryImg()->toFile() ?>
@@ -23,7 +22,7 @@
                 </h1>
                 <div class="price">
                     <span class="text-wrap">
-                        $<?= ($page->shopifyProduct()->toBool()) ? $page->shopifyProductLink()->toPage()->shopifyPrice() : $page->price() ?>
+                        $<?= $page->price() ?>
                     </span>
                 </div>
             </div>
@@ -33,39 +32,15 @@
             <div class="sticker-wrapper contrast-text">
 
             <!-- AVAILABILITY STICKER -->
-                <?php if($page->shopifyProduct()->toBool()) {
-
-                    if($page->shopifyProductLink()->toPage()->shopifyVariants()->toStructure()->first()->inventory_quantity()->toInt() == 0) {
-                        $kirby = kirby();
-                        $result = $kirby->impersonate('kirby', function () use($page) {
-                            $page->update([
-                                'available' => false
-                            ]);
-                            return false;
-                        });
-                    } elseif($page->shopifyProductLink()->toPage()->shopifyVariants()->toStructure()->first()->inventory_quantity()->toInt() >= 1) {
-                        $kirby = kirby();
-                        $result = $kirby->impersonate('kirby', function () use($page) {
-                            $page->update([
-                                'available' => true
-                            ]);
-                            return false;
-                        });
-                    } 
-
-                }
-                ?>
-                <?php if(($page->available()->toBool() && $page->shopifyProduct()->toBool()) || !($page->shopifyProduct()->toBool()) ): ?>
+                <?php if($page->available()->toBool()): ?>
                 <div class="sticker availability tag <?= ($page->available()->toBool()) ? 'new' : 'sold' ?>">
                     <?= ($page->available()->toBool()) ? 'Available' : 'Sold Out' ?>
                 </div>
                 <?php endif; ?>
 
                 <!-- INQUIRE STICKER -->
-                <?php if($page->shopifyProduct()->toBool()): ?>
-                    <div id="product-component-<?= $page->shopifyProductLink()->toPage()->shopifyID() ?>">
-                        
-                    </div>
+                <?php if($page->onlineShop()->toBool()): ?>
+                    <?= snippet('products/product-add-to-cart', ['class' => 'tag push sticker']) ?>
                 <?php else: ?>
                         <?php if($page->available()->toBool()) : ?>
                             <div id="inquire" class="tag push sticker">
@@ -107,7 +82,7 @@
     </div>
 </div>
 
-<?= ($page->available()->toBool() && !($page->shopifyProduct()->toBool())) ? snippet('inquire-form') : '' ?>
+<?= ($page->available()->toBool() && !($page->onlineShop()->toBool())) ? snippet('inquire-form') : '' ?>
 
 <script>
 

@@ -86,44 +86,32 @@
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
-.collection li .artwork-title-wrapper, .contrast-text {
-  --contrast-text-color: var(--c-vert-600);
+.wrapper .collection li .artwork-title-wrapper, .contrast-text {
+  --contrast-text-color: var(--c-cobalt);
   --contrast-shadow-color: var(--c-benibana-600);
   font-family: var(--secondary-font-stack);
-  text-wrap: balance;
   background: var(--c-paper);
   mix-blend-mode: multiply;
   filter: contrast(30);
 }
-.collection li .artwork-title-wrapper *, .contrast-text * {
+.wrapper .collection li .artwork-title-wrapper *, .contrast-text * {
   position: relative;
   box-sizing: border-box;
   padding-left: 0.25rem;
+  letter-spacing: -1px;
   color: transparent;
-  text-shadow: 0 0 0.07em var(--contrast-text-color);
+  text-shadow: 0 0 0.05em var(--contrast-text-color);
 }
-.collection li .artwork-title-wrapper *[data-text]::after, .contrast-text *[data-text]::after {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0.1em;
-  display: inline;
-  box-sizing: border-box;
-  width: 100%;
-  padding-left: 0.125rem;
-  content: attr(data-text);
-  text-shadow: 0 0 0.08em var(--contrast-shadow-color);
-}
-.collection li .artwork-title-wrapper > *, .contrast-text > * {
+.wrapper .collection li .artwork-title-wrapper > *, .contrast-text > * {
   font-size: 4rem;
   font-weight: 700;
-  font-style: italic;
-  line-height: 1.125;
+  font-style: normal;
+  line-height: 1;
   position: relative;
   width: 100%;
 }
 @media screen and (width <= 40em) {
-  .collection li .artwork-title-wrapper > *, .contrast-text > * {
+  .wrapper .collection li .artwork-title-wrapper > *, .contrast-text > * {
     font-size: 2.5em;
     letter-spacing: 0;
     -webkit-hyphens: none;
@@ -131,15 +119,15 @@
   }
 }
 
-.collection {
+.wrapper .collection {
   --id-size: 10em;
   position: relative;
 }
-.collection ol {
+.wrapper .collection ol {
   margin: 0;
   padding: 0;
 }
-.collection li {
+.wrapper .collection li {
   position: relative;
   z-index: 99;
   margin: 0;
@@ -148,12 +136,12 @@
   mix-blend-mode: multiply;
 }
 @media screen and (width <= 50em) {
-  .collection li {
+  .wrapper .collection li {
     --list-height: 8em;
     min-height: var(--list-height);
   }
 }
-.collection li::before {
+.wrapper .collection li::before {
   font-weight: bold;
   z-index: 999;
   top: 50%;
@@ -168,17 +156,17 @@
   color: var(--c-paynes-200);
   border-right: 1px solid;
 }
-.collection li:hover::before {
+.wrapper .collection li:hover::before {
   color: red;
 }
-.collection li:hover * {
+.wrapper .collection li:hover * {
   --contrast-text-color: var(--c-cinnabar-400);
 }
-.collection li:hover * .tag.new, .collection li:hover * .tag.sold {
+.wrapper .collection li:hover * .tag.new, .wrapper .collection li:hover * .tag.sold {
   --contrast-text-color: var(--c-paper);
   background: var(--c-cinnabar);
 }
-.collection li .artwork-image {
+.wrapper .collection li .artwork-image {
   width: auto;
   margin-left: 2em;
   padding: calc(var(--base-line-height) / 2) var(--base-line-height);
@@ -186,52 +174,54 @@
   background: white;
   mix-blend-mode: normal;
 }
-.collection li .artwork-image img {
+.wrapper .collection li .artwork-image img {
   display: inline-block;
   width: auto;
   max-width: 100%;
   height: auto;
   max-height: 50vh;
 }
-.collection li .left-side {
+.wrapper .collection li .left-side {
   mix-blend-mode: normal;
   font-size: var(--base-font-size);
   display: flex;
   flex-direction: column;
 }
-.collection li .artwork-artist {
-  font-size: 1em;
-  margin-bottom: 0;
+.wrapper .collection li .artwork-artist {
+  font-family: var(--secondary-font-stack);
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: -1px;
   color: var(--c-paynes);
 }
-.collection li .artwork-artist .artist {
+.wrapper .collection li .artwork-artist .artist {
   margin-right: 0.5em;
 }
 @media screen and (width <= 60em) {
-  .collection li .artwork-artist {
+  .wrapper .collection li .artwork-artist {
     font-size: 1rem;
   }
-  .collection li .artwork-artist * {
+  .wrapper .collection li .artwork-artist * {
     letter-spacing: 0;
   }
 }
-.collection li .artwork-title {
+.wrapper .collection li .artwork-title {
   font-size: 4em;
   display: inline-block;
   width: 100%;
   padding: 0 2rem 0.5rem 0;
   padding-left: 0.25rem;
 }
-.collection li .artwork-title::after {
+.wrapper .collection li .artwork-title::after {
   padding: 0 2rem 0.5rem 0;
 }
 @media screen and (width <= 60em) {
-  .collection li .artwork-title {
+  .wrapper .collection li .artwork-title {
     font-size: 2.5em;
     letter-spacing: 0;
   }
 }
-.collection li .artwork-id {
+.wrapper .collection li .artwork-id {
   mix-blend-mode: normal;
   font-size: 0.8rem;
   width: 100%;
@@ -240,11 +230,11 @@
   color: var(--c-paynes-300);
 }
 @media screen and (width <= 60em) {
-  .collection li .artwork-id {
+  .wrapper .collection li .artwork-id {
     text-align: left;
   }
 }
-.collection li .stickers {
+.wrapper .collection li .stickers {
   position: absolute;
   z-index: 99;
   top: 50%;
@@ -252,7 +242,7 @@
   box-sizing: border-box;
 }
 @media screen and (width <= 50em) {
-  .collection li .stickers {
+  .wrapper .collection li .stickers {
     font-size: 0;
     top: 0;
     right: 0;
@@ -260,7 +250,7 @@
     text-align: right;
     word-spacing: 0;
   }
-  .collection li .stickers .tag {
+  .wrapper .collection li .stickers .tag {
     font-size: 1.5rem;
     font-weight: 900;
     display: inline-block;
@@ -269,7 +259,7 @@
     letter-spacing: 0;
   }
 }
-.collection li .tag {
+.wrapper .collection li .tag {
   font-size: 1.5em;
   position: absolute;
   right: 1em;
@@ -278,26 +268,26 @@
   letter-spacing: -1px;
   /* stylelint-disable-next-line selector-class-pattern */
 }
-.collection li .tag.sold {
+.wrapper .collection li .tag.sold {
   --contrast-text-color: var(--c-gold);
   --contrast-shadow-color: var(--c-benibana);
 }
-.collection li .tag ~ .tag {
+.wrapper .collection li .tag ~ .tag {
   right: 5.5em;
 }
 @media screen and (width <= 50em) {
-  .collection li .tag {
+  .wrapper .collection li .tag {
     font-size: 1.25em;
     position: relative;
     inset: 0;
     transform: none;
     border-radius: 0;
   }
-  .collection li .tag ~ .tag {
+  .wrapper .collection li .tag ~ .tag {
     right: 0;
   }
 }
-.collection li a {
+.wrapper .collection li a {
   mix-blend-mode: normal;
   position: relative;
   z-index: 99;
@@ -311,7 +301,7 @@
   color: inherit;
 }
 @media screen and (width <= 60em) {
-  .collection li a {
+  .wrapper .collection li a {
     grid-template-columns: 1fr;
   }
 }

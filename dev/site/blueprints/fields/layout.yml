@@ -29,6 +29,42 @@ settings:
       width: 1/2
       when:
         role: header
+
+    featureBG:
+      type: color
+      width: 1
+      label: Block Background Color
+      mode: options
+      default: "#1a4bd5"
+      options:
+        "Cobalt": "#6666ff"
+        "Benibana": "#ff99a1"
+        "Cinnabar": "#dd6c6c"
+        "Paper": "#f6f0e6"
+        "Paynes": "#b4b7ad"
+        "Violet": "#9a65ee"
+        "Gold": "#e5c303"
+        "Green": "#00b300"
+      when:
+        role: feature
+    featureTC:
+      type: color
+      width: 1
+      label: Block Text Color
+      mode: options
+      default: "#1a4bd5"
+      options:
+        "Cobalt": "#1a4bd5"
+        "Benibana": "#ff99a1"
+        "Cinnabar": "#b82b2b"
+        "Paper": "#f6f0e6"
+        "Paynes": "#4e5147"
+        "Violet": "#4c12a8"
+        "Gold": "#fcdf39"
+        "Black": "#000000"
+      when:
+        role: feature
+
     tickerLength:
       type: number
       width: 1/2
@@ -101,12 +137,6 @@ fieldsets:
             label: Button Text
           buttonLink:
             type: link
-          blockText:
-            type: text
-            label: Text--old do not use this field.
-          linkto:
-            type: link
-            label: Link -- old do not use this field.
       newsletter:
         preview: fields
         fields:

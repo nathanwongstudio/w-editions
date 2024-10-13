@@ -1,4 +1,7 @@
 
+
+<?= !($page->isHomePage()) ? snippet('cart/cart-checkout-summary') : '' ?>
+
 <?php
 if(!isset($foot)) { $foot = true; }
 
@@ -15,6 +18,19 @@ if($foot): ?>
 <?= js('@auto', ['type'=>'module']) ?>
 
 <?= js('assets/js/shop.js', ['type'=>'module', 'async']) ?>
+
+<script>
+    document.addEventListener('snipcart.ready', () => {
+
+        Snipcart.store.subscribe(() => {
+            if(Snipcart.store.getState().cart.items.count === 0) {
+                document.getElementById('checkout-button').classList.add('empty');
+            } else {
+                document.getElementById('checkout-button').classList.remove('empty');
+            }
+        });
+    });
+</script>
 
 <script>
 
@@ -45,20 +61,6 @@ if($foot): ?>
     navigation();
 </script>
 <script>
-
-    function getRandomInt(min, max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
-    }
-
-    const rotation = getRandomInt(-180, 180);
-
-    var heading = document.querySelector('.header .block-type-heading h1');
-
-    if(heading!==null) {
-        heading.style.setProperty('--rotation', rotation + 'deg');
-    }
 
     document.addEventListener("DOMContentLoaded", function() { // LAZY LOADING JAVASCRIPT
         var lazyImages = document.querySelectorAll('img[loading=lazy]'),
@@ -129,35 +131,17 @@ if($foot): ?>
         transition: none !important;
         animation: none !important;
     }
-    .shopify-buy-frame--product {
-        display: inline;
-        width: auto;
-        margin: 0 auto;
-    }
-
-    .shopify-buy-frame--toggle.is-sticky {
-        z-index:9999;
-        top: 0;
-        right: 0;
-        transform: none;
-        mix-blend-mode: multiply;
-    }
-
-    .shopify-buy__cart-toggle.is-sticky {
-        padding: 1em;
-        width: 6rem;
-    }
-
-    .shopify-buy__btn-wrapper button {
-        padding:0;
-        margin:0;
-        color: transparent;
-        outline:0;
-        box-shadow: none;
-    }
 </style>
 
 <?= $site->customAnalytics() ?>
+
+<?= snippet('cart/cart-load') ?>
+
+<?php if($page->footerCode()->isNotEmpty()): ?>
+    <script>
+        <?= $page->footerCode() ?>
+    </script>
+<?php endif; ?>
 
 </body>
 </html>

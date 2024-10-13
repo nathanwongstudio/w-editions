@@ -196,77 +196,84 @@ hr {
     }
 }
 
-ol {
-    @extend %list-shared;
+.wrapper {
+	width: 100%;
+	height: auto;
+	margin: auto;
 
-    counter-reset: list;
-
-    & > li {
-        counter-increment: list;
-
-        &::before {
-            // font-weight: bold;
-
-            position:absolute;
-            left:-0.875em;
-
-            width: 2em;
-
-            content: counter(list) '.';
-            text-align:right;
-
-            color: var(--c-paynes);
+    ol {
+        @extend %list-shared;
+    
+        counter-reset: list;
+    
+        & > li {
+            counter-increment: list;
+    
+            &::before {
+                // font-weight: bold;
+    
+                position:absolute;
+                left:-0.875em;
+    
+                width: 2em;
+    
+                content: counter(list) '.';
+                text-align:right;
+    
+                color: var(--c-paynes);
+            }
         }
     }
-}
-
-ul {
-    @extend %list-shared;
-
-    & > li {
-        --marker-height: calc(var(--base-line-height) / 2);
-
-        border-left: 1px solid transparent;
-
-        &::before {
-            position:absolute;
-            top: 0;
-            left: -1px;
-
-            width: var(--marker-height);
-            height: var(--marker-height);
-
-            content: " ";
-
-            border-bottom: 1px solid var(--c-paynes);
+    
+    ul {
+        @extend %list-shared;
+    
+        & > li {
+            --marker-height: calc(var(--base-line-height) / 2);
+    
             border-left: 1px solid transparent;
-        }
-
-        ul {
-            li {
-                border-left: 1px solid var(--c-paynes);
-
-                &::before {
+    
+            &::before {
+                position:absolute;
+                top: 0;
+                left: -1px;
+    
+                width: var(--marker-height);
+                height: var(--marker-height);
+    
+                content: " ";
+    
+                border-bottom: 1px solid var(--c-paynes);
+                border-left: 1px solid transparent;
+            }
+    
+            ul {
+                li {
                     border-left: 1px solid var(--c-paynes);
-                }
-
-                &:last-child {
-                    border-left: 1px solid transparent;
+    
+                    &::before {
+                        border-left: 1px solid var(--c-paynes);
+                    }
+    
+                    &:last-child {
+                        border-left: 1px solid transparent;
+                    }
                 }
             }
-        }
-
-        ol {
-            & > li {
-                border: none;
-
-                &::before {
+    
+            ol {
+                & > li {
                     border: none;
+    
+                    &::before {
+                        border: none;
+                    }
                 }
             }
         }
     }
 }
+
 
 p:first-child {
     margin-top:0;
@@ -341,22 +348,6 @@ figure {
 // ELEMENTS
 
 
-// MAIN STRUCTURE OF DOCUMENT
-
-// .default {
-//     .wrapper {
-//         margin-top:-1px;
-//     }
-// }
-
-.wrapper {
-	width: 100%;
-	height: auto;
-	margin: auto;
-
-    // padding: 2 * t.$base-line-height 0;
-}
-
 
 // CONTENT AREAS
 
@@ -364,12 +355,19 @@ figure {
     width:100%;
 
     &.feature {
-        --features-bg: var(--c-paper-400);
+        --features-bg: var(--c-gold-600);
+        --features-text-color: var(--c-cobalt);
 
         box-sizing: border-box;
         width: 100%;
 
         padding: calc(var(--base-line-height) / 2) 0;
+
+        color: var(--features-text-color);
+
+        h1, h2, h3, h4, h5, h6, p {
+            color: var(--features-text-color);
+        }
 
         .blocks .block {
             margin: auto;
@@ -407,6 +405,8 @@ figure {
             }
 
             .block-type-heading {
+                --contrast-text-color: var(--features-text-color);
+
                 @extend %contrast-text;
                 box-sizing: content-box;
                 max-width: none;
@@ -514,6 +514,10 @@ figure {
 
             & + .block {
                 margin: var(--base-line-height) 0 0;
+            }
+
+            &.block-type-heading + .block-type-text {
+                margin-top:0;
             }
     
             &.block-type-gallery {
@@ -660,43 +664,11 @@ figure {
                     margin-left:0;
 
                     h1 {
-                        --rotation: 0deg;
-
                         color: transparent;
-
-                        &::before {
-                            position:absolute;
-                            z-index:-1;
-                            top:50%;
-                            left:50%;
-    
-                            display:inline;
-    
-                            width: 70%;
-                            height:20vh;
-    
-                            content: ' ';
-                            transition: transform 200ms ease;
-                            transform:translate(-50%, -50%) rotate(var(--rotation));
-    
-                            border:1px solid var(--c-benibana);
-    
-                            border-radius: 100%;
-    
-                            background-color: var(--c-benibana);
-                            box-shadow: 0 0 2rem 4rem var(--c-benibana);
-    
-                            @media screen and (width <= 30em) {
-                                width: 50vh;
-                                height: 2vh;
-                            }
-                        }
                     }
                 }
 
-                &.full-image-block {
-                    // text-align: center;
-    
+                &.full-image-block {    
                     figure {
                         max-width: 30em;
                         margin: auto;
@@ -1150,7 +1122,7 @@ figure {
     display:none;
     visibility: hidden;
 
-    @media screen and (width <= 50em) {
+    @media screen and (width <= 60em) {
         display:inherit;
         visibility:visible;
     }
@@ -1160,7 +1132,7 @@ figure {
     display:inherit;
     visibility: visible;
 
-    @media screen and (width <= 50em) {
+    @media screen and (width <= 60em) {
         display:none;
         visibility:hidden;
     }

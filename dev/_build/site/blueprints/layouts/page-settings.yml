@@ -1,0 +1,25 @@
+fields:
+  pageDescription:
+    type: textarea
+    buttons: false
+    label: Page Description
+  headerCode:
+    label: Header Code Injection
+    type: textarea
+    buttons: false
+    font: monospace
+    help: javascript
+  footerCode:
+    label: Footer Code Injection
+    type: textarea
+    buttons: false
+    font: monospace
+    help: javascript
+  customCSS:
+    label: Custom CSS
+    type: textarea
+    buttons: false
+    font: monospace
+    help: css
+
+

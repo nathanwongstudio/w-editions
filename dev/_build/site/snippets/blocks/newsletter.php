@@ -4,7 +4,7 @@
 	</h3>
 <?php endif; ?>
 <form
-  action="https://buttondown.email/api/emails/embed-subscribe/weditions"
+  action="https://buttondown.com/api/emails/embed-subscribe/weditions"
   method="post"
   class="embeddable-buttondown-form"
   id="buttondown"
@@ -19,7 +19,7 @@
   		<input type="email" name="email" id="bd-email" placeholder="<?= ($block->emailPlaceholder()->isNotEmpty()) ? $block->emailPlaceholder() : 'Email' ?>" class="is-empty" />
 	</div>
 	<div class="field submit">
-  		<button type="submit" value="Sign Up">Sign up</button>
+  		<button class="go" type="submit" value="Sign Up">Sign up</button>
 	</div>
   </fieldset>
   <div class="bd-error"></div>

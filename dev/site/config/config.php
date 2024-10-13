@@ -13,7 +13,7 @@ return [
         return [
             'title' => ((!$page->isHomePage()) ? $page->title() . ' /// ' : '' ) . $site->title(),
             'meta' => [
-                'description' => $site->description()
+                'description' => (($page->pageDescription()->isNotEmpty()) ? $page->pageDescription() : $site->description())
             ],
             'link' => [
                 'canonical' => $page->url(),

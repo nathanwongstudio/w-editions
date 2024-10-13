@@ -42,7 +42,7 @@
 
         <fieldset class="turnstile"><?= turnstileField() ?></fieldset>
 
-        <button type="submit" id="submit">Submit</button>
+        <button class="go" type="submit" id="submit">Submit</button>
     </form>
     <div id="message" class="alert"></div>
 
@@ -58,9 +58,11 @@
     
     close.addEventListener('click', function() {
         body.classList.toggle('inquire-active');
+        document.classList.remove('snipcart-cart--opened');
     });
     open.addEventListener('click', function() {
-        body.classList.toggle('inquire-active')
+        body.classList.toggle('inquire-active');
+        document.classList.remove('snipcart-cart--opened');
     });
 
     window.addEventListener('load', function () {

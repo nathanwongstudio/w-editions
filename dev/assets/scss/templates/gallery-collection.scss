@@ -1,7 +1,7 @@
 @use '../variables';
 @use '../mixins';
 
-.collection {
+.wrapper .collection {
     --id-size: 10em;
 
     position:relative;
@@ -107,11 +107,11 @@
         }
 
         .artwork-artist {
-            font-size: 1em;
+            font-family: var(--secondary-font-stack);
+            font-size: 2em;
+            font-weight: 900;
 
-            // font-weight: bold;
-
-            margin-bottom:0;
+            letter-spacing: -1px;
 
             color: var(--c-paynes);
 

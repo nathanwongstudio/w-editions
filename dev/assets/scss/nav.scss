@@ -70,7 +70,7 @@
 }
 
 nav {
-    --text-shadow-menu:0 0 0.06em var(--c-paper);
+    --text-shadow-menu:0 0 0.04em var(--c-paper);
     --nav-font-size: 6vw;
 
     @media screen and (width <=50em) {
@@ -101,10 +101,11 @@ nav {
         color: transparent;
 
         &::before {
+            /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
             font-family: microns;
 
             position: absolute;
-            left:-1.25em;
+            left:-0.75em;
 
             content: '\e701';
 
@@ -184,8 +185,9 @@ nav {
         }
 
         ul.menu-items {
+            font-family: var(--secondary-font-stack);
             font-size: var(--nav-font-size);
-            font-weight:bold;
+            font-weight:900;
 
             z-index:1;
 
@@ -240,9 +242,11 @@ nav {
 
                     display:block;
 
-                    padding: var(--base-line-height) 0;
+                    padding: 0 0 1rem 2rem;
 
                     text-decoration: none;
+                    text-indent:-2rem;
+                    letter-spacing: -1px;
     
                     color: inherit;
                 }

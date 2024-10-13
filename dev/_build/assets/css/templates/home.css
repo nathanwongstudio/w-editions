@@ -131,7 +131,7 @@ body {
 }
 
 .block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown, .section-wrapper:first-child::after, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown, .section-wrapper:first-child::after, .section-wrapper:first-child::before, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
@@ -140,7 +140,7 @@ body {
     text-shadow: 0 0 2px var(--shadow-color);
   }
   .block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown, .section-wrapper:first-child::after, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
+  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown, .section-wrapper:first-child::after, .section-wrapper:first-child::before, .home h1, .home h2, .home h3, .home h4, .home h5, .home h6, .error h1, .error h2, .error h3, .error h4, .error h5, .error h6 {
     text-shadow: 0 0 2px var(--shadow-color);
   }
 }
@@ -253,7 +253,7 @@ which the user cannot interact with */
   width: 100%;
   height: 100%;
   content: " ";
-  background: repeating-linear-gradient(0deg, black, transparent 1px, black 2px);
+  background: repeating-linear-gradient(90deg, black, transparent 1px, black 2px);
 }
 .iframe-wrapper iframe {
   position: absolute;
@@ -268,17 +268,47 @@ which the user cannot interact with */
 
 .section-wrapper {
   position: relative;
-  z-index: 1;
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  place-content: center;
+  z-index: 0;
   width: 100%;
   min-height: 100vh;
   border: none;
   background: black;
   mix-blend-mode: hard-light;
   scroll-snap-align: start;
+}
+@media screen and (width <= 60em) {
+  .section-wrapper {
+    min-height: 100svh;
+  }
+}
+.section-wrapper .content-wrapper {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  place-content: center;
+  inset: 10px;
+}
+.section-wrapper.in-view {
+  z-index: 9999;
+}
+.section-wrapper.in-view section {
+  transition: 400ms ease-in-out;
+  opacity: 1;
+}
+.section-wrapper section {
+  transition: 400ms ease-in-out;
+  opacity: 0;
+}
+.section-wrapper:first-child::before {
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  bottom: 1.25rem;
+  left: 0;
+  content: "scroll";
+  text-align: center;
 }
 .section-wrapper:first-child::after {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
@@ -331,6 +361,7 @@ which the user cannot interact with */
           user-select: none;
 }
 .block .overlay form {
+  z-index: 999999;
   visibility: hidden;
   height: calc(3em + 2rem);
   pointer-events: none;
@@ -449,12 +480,12 @@ which the user cannot interact with */
   box-shadow: 0 0 3px 3px black, 0 0 10px 4px var(--c-cobalt);
 }
 .block.block-type-newsletter form .message {
-  font-size: 0.75em;
+  font-size: 0.5em;
   position: absolute;
   top: 0;
   width: 100%;
-  margin-top: var(--base-line-height);
-  padding: var(--base-line-height) 0;
+  margin-top: 0.5em;
+  padding: 0.125em 0;
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }

@@ -157,7 +157,7 @@ which the user cannot interact with */
 
         content: ' ';
 
-        background: repeating-linear-gradient(0deg, black, transparent 1px, black 2px);
+        background: repeating-linear-gradient(90deg, black, transparent 1px, black 2px);
     }
   
 	/* Make the iframe keep an aspect ratio, and
@@ -179,13 +179,8 @@ which the user cannot interact with */
 
 .section-wrapper {
     position:relative;
-    z-index:1;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    place-content: center;
-
+    z-index:0;
+    
     width: 100%;
     min-height:100vh;
 
@@ -196,7 +191,54 @@ which the user cannot interact with */
 
     scroll-snap-align: start;
 
+    @media screen and (width <= 60em ) {
+        min-height: 100svh;
+    }
+
+    .content-wrapper {
+        position: fixed;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        place-content: center;
+        inset:10px;
+    }
+
+    &.in-view {
+        z-index:9999;
+
+        section {
+            transition: 400ms ease-in-out;
+
+            opacity:1;
+        }
+    }
+
+    section {
+        transition: 400ms ease-in-out;
+
+        opacity: 0;
+    }
+
     &:first-child {
+        &::before {
+            font-size: 26px;
+            font-weight: bold;
+
+            position: absolute;
+
+            right:0;
+            bottom: 1.25rem;
+            left:0;
+
+            content: 'scroll';
+            text-align: center;
+
+            @extend %white-text;
+            
+        }
+
         &::after {
             @extend %white-text;
             /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
@@ -267,6 +309,8 @@ which the user cannot interact with */
         user-select: none;
 
         form {
+            z-index:999999;
+
             visibility:hidden;
 
             height: calc(3em + 2rem);
@@ -440,15 +484,15 @@ which the user cannot interact with */
             }
 
             .message {
-                font-size: 0.75em;
+                font-size: 0.5em;
 
                 position: absolute;
                 top:0;
 
                 width: 100%;
-                margin-top: var(--base-line-height);
+                margin-top: 0.5em;
 
-                padding: var(--base-line-height) 0;
+                padding: 0.125em 0;
 
                 color: transparent;
 

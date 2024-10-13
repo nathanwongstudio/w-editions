@@ -87,11 +87,15 @@
 }
 
 .artists {
-  font-weight: normal;
+  font-family: var(--secondary-font-stack);
+  font-weight: 800;
   margin: 0;
+  padding: 0 0 0.25em;
+  letter-spacing: -0.5px;
   color: var(--c-paynes-400);
 }
 .artists .artist a {
+  overflow: visible;
   text-decoration: none;
   color: inherit;
 }
@@ -106,8 +110,13 @@
 }
 
 h1.title {
-  margin: 0;
+  font-family: var(--secondary-font-stack);
+  font-size: 1.25em;
+  font-weight: 800;
+  margin: 0 0 1rem;
   padding: 0;
+  letter-spacing: -0.5px;
+  color: black;
 }
 
 .year {
@@ -142,6 +151,17 @@ h1.title {
   }
 }
 
+button.snipcart-add-item {
+  box-shadow: none;
+}
+button.snipcart-add-item:hover {
+  --contrast-text-color: var(--c-gold);
+  color: transparent;
+}
+button.snipcart-add-item::after, button.snipcart-add-item::before {
+  display: none;
+}
+
 .sticker {
   --contrast-text-color: var(--c-cinnabar);
   line-height: 1;
@@ -154,14 +174,13 @@ h1.title {
   margin-bottom: 1em;
   word-break: keep-all;
   color: transparent;
-  /* stylelint-disable-next-line selector-class-pattern */
 }
 @media screen and (width <= 60em) {
   .sticker {
     letter-spacing: -1px;
   }
 }
-.sticker.sold, .sticker.push.shopify-buy__btn-disabled {
+.sticker.sold {
   width: auto;
   animation: none;
 }
@@ -299,118 +318,6 @@ h1.title {
 
 span.text-wrap {
   background: var(--c-paper);
-}
-
-#inquire, #close-inquire {
-  cursor: pointer;
-}
-
-#inquire-form {
-  position: fixed;
-  z-index: 9999;
-  top: 0;
-  right: -50vw;
-  overflow: auto;
-  width: 50vw;
-  height: 100vh;
-  transition: right 250ms ease;
-  border-left: 2px solid var(--c-paper-500);
-  background: var(--c-paper-300);
-}
-#inquire-form .card {
-  margin-top: var(--base-line-height);
-  padding: 1em;
-  color: var(--c-paynes);
-  border: 2px solid var(--c-paper-500);
-  background: var(--c-paper-100);
-}
-#inquire-form .card .card-image {
-  width: 100%;
-  text-align: center;
-}
-#inquire-form .card .card-image figure {
-  display: inline-block;
-}
-#inquire-form .card .card-image img {
-  width: auto;
-  height: auto;
-  max-height: 50vh;
-}
-@media screen and (width <= 50em) and (width >= 35em) {
-  #inquire-form .card {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-  }
-  #inquire-form .card .card-image {
-    flex-grow: 0;
-    flex-shrink: 1;
-    width: auto;
-  }
-  #inquire-form .card .card-image figure {
-    margin-bottom: 0;
-  }
-  #inquire-form .card .card-info {
-    flex-grow: 1;
-    flex-shrink: 0;
-    min-width: 50%;
-  }
-}
-@media screen and (width <= 50em) {
-  #inquire-form {
-    top: var(--nav-height);
-    right: -100vw;
-    width: 100vw;
-    height: calc(100vh - var(--nav-height));
-  }
-}
-
-.inquire-wrapper {
-  position: relative;
-  padding: calc(var(--base-line-height) / 2) var(--base-line-height) var(--base-line-height);
-}
-
-#close-inquire {
-  position: absolute;
-  top: calc(var(--base-line-height) / 2);
-  right: var(--base-line-height);
-  display: block;
-  width: var(--base-line-height);
-  height: var(--base-line-height);
-}
-#close-inquire::before, #close-inquire::after {
-  position: absolute;
-  top: calc(50% - 1px);
-  display: block;
-  width: 100%;
-  height: 2px;
-  content: " ";
-  background: var(--c-paynes);
-}
-#close-inquire::before {
-  transform: rotate(45deg);
-}
-#close-inquire::after {
-  transform: rotate(-45deg);
-}
-
-body {
-  max-width: 100vw;
-  transition: max-width 250ms ease;
-}
-
-.inquire-active {
-  max-width: 50vw;
-  transition: max-width 250ms ease;
-}
-@media screen and (width <= 50em) {
-  .inquire-active {
-    max-width: 100vw;
-  }
-}
-.inquire-active #inquire-form {
-  right: 0;
-  transition: right 250ms ease;
 }
 
 /*# sourceMappingURL=gallery-artwork.css.map */

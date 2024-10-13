@@ -2,10 +2,12 @@
             <?= $layout->class() ?> 
             <?= $layout->role() ?>"
     id="<?= $layout->layoutId() ?>"
-    style="
-            <?=($layout->tickerLength()->isNotEmpty()) ? '--duration:' . $layout->tickerLength() . 's;' : '' ?>
+    style=" <?=($layout->tickerLength()->isNotEmpty()) ? '--duration:' . $layout->tickerLength() . 's;' : '' ?>
             <?= ($layout->tickerColor()->isNotEmpty()) ? '--background:' . $layout->tickerColor() . ';' : '' ?>
             <?= ($layout->tickerTextColor()->isNotEmpty()) ? '--ticker-text:' . $layout->tickerTextColor() . ';' : '' ?>
+            <?= ($layout->featureBG()->isNotEmpty()) ? '--features-bg:' . $layout->featureBG() . ';' : '' ?>
+            <?= ($layout->featureTC()->isNotEmpty()) ? '--contrast-text-color:' . $layout->featureTC() . ';' : '' ?>
+            <?= ($layout->featureTC()->isNotEmpty()) ? '--features-text-color:' . $layout->featureTC() . ';' : '' ?>
     ">
     <section    class="grid <?= (count($layout->columns()) == 1) ? 'single' : '' ?>">
         <?php foreach ($layout->columns() as $column): ?>

@@ -321,6 +321,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/scss\/snipcart.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/_build\/assets\/css\/snipcart.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/scss\/styles.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -546,9 +561,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/_drafts\/terms-of-service\/default.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/.gitignore" : {
       "cB" : 0,
@@ -562,18 +577,18 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/1_sample\/gallery-artwork.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/1_sample\/img_6185.webp" : {
       "ft" : 8388608,
       "iS" : 131570,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/1_sample\/img_6185.webp",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -581,17 +596,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/1_sample\/img_6185.webp.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/2_untitled\/face.jpg" : {
       "ft" : 16384,
       "iS" : 2091509,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/1_editions\/2_untitled\/face.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -602,33 +617,33 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/2_untitled\/face.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/2_untitled\/gallery-artwork.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/2_untitled\/gallery-artwork.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/3_wisdom-fist\/gallery-artwork.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/gallery-artwork.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/3_wisdom-fist\/wisdom-fist-detail.jpg" : {
       "ft" : 16384,
       "iS" : 807456,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/wisdom-fist-detail.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -639,17 +654,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/wisdom-fist-detail.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/3_wisdom-fist\/wisdomfist-hq.jpg" : {
       "ft" : 16384,
       "iS" : 7036462,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/wisdomfist-hq.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -660,25 +675,25 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/3_wisdom-fist\/wisdomfist-hq.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/4_study-of-buddhist-symbols\/gallery-artwork.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/4_study-of-buddhist-symbols\/gallery-artwork.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/4_study-of-buddhist-symbols\/study-of-buddhist-symbols.jpg" : {
       "ft" : 16384,
       "iS" : 2836059,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/1_editions\/4_study-of-buddhist-symbols\/study-of-buddhist-symbols.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -689,49 +704,49 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/4_study-of-buddhist-symbols\/study-of-buddhist-symbols.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/default.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/default.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/1_editions\/gallery-collection.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/1_editions\/gallery-collection.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/2_artists\/0_andy-warhol\/artists-profile.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/2_artists\/0_andy-warhol\/artists-profile.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/2_artists\/0_nathan-wong\/artists-profile.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/2_artists\/0_nathan-wong\/artists-profile.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/2_artists\/0_nathan-wong\/funone.jpg" : {
       "ft" : 16384,
       "iS" : 5851116,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/2_artists\/0_nathan-wong\/funone.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -742,33 +757,33 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/2_artists\/0_nathan-wong\/funone.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/2_artists\/0_stefan-sehringer\/artists-profile.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/2_artists\/0_stefan-sehringer\/artists-profile.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/2_artists\/0_xxx\/artists-profile.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/2_artists\/0_xxx\/artists-profile.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/2_artists\/0_yolko-ono\/artists-profile.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/2_artists\/0_yolko-ono\/artists-profile.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/2_artists\/artists-collection.txt" : {
       "cB" : 0,
@@ -782,17 +797,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/default.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/img_4044.jpg" : {
       "ft" : 16384,
       "iS" : 826934,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/img_4044.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -803,17 +818,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/img_4044.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/mold.jpg" : {
       "ft" : 16384,
       "iS" : 195668,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/mold.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -824,17 +839,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/mold.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/printer.jpg" : {
       "ft" : 16384,
       "iS" : 112993,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/printer.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -845,16 +860,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/printer.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screen-shot-2023-10-17-at-7.03.32-pm.png" : {
       "ft" : 32768,
       "iS" : 1057725,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screen-shot-2023-10-17-at-7.03.32-pm.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -866,16 +881,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screen-shot-2023-10-17-at-7.03.32-pm.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-18.27.42.png" : {
       "ft" : 32768,
       "iS" : 4912064,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.27.42.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -887,16 +902,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.27.42.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-18.28.35.png" : {
       "ft" : 32768,
       "iS" : 3237339,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.28.35.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -908,16 +923,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.28.35.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-18.30.00.png" : {
       "ft" : 32768,
       "iS" : 4410046,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.30.00.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -929,16 +944,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-18.30.00.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-21.58.45.png" : {
       "ft" : 32768,
       "iS" : 4289595,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.45.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -950,16 +965,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.45.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-21.58.53.png" : {
       "ft" : 32768,
       "iS" : 4276502,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.53.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -971,16 +986,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.53.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-21.58.56.png" : {
       "ft" : 32768,
       "iS" : 4324234,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.56.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -992,16 +1007,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-21.58.56.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.00.00.png" : {
       "ft" : 32768,
       "iS" : 4122333,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.00.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1013,16 +1028,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.00.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.00.04.png" : {
       "ft" : 32768,
       "iS" : 3440058,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.04.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1034,16 +1049,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.04.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.00.06.png" : {
       "ft" : 32768,
       "iS" : 2928243,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.06.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1055,16 +1070,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.06.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.00.12.png" : {
       "ft" : 32768,
       "iS" : 3505595,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.12.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1076,16 +1091,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.00.12.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.01.20.png" : {
       "ft" : 32768,
       "iS" : 4732367,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.20.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1097,16 +1112,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.20.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.01.22.png" : {
       "ft" : 32768,
       "iS" : 4861453,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.22.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1118,16 +1133,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.22.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.01.24.png" : {
       "ft" : 32768,
       "iS" : 4872974,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.24.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1139,16 +1154,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.24.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.01.33.png" : {
       "ft" : 32768,
       "iS" : 4906612,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.33.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1160,16 +1175,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.33.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.01.57.png" : {
       "ft" : 32768,
       "iS" : 3276035,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.57.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1181,16 +1196,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.01.57.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.02.03.png" : {
       "ft" : 32768,
       "iS" : 4600592,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.03.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1202,16 +1217,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.03.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.02.14.png" : {
       "ft" : 32768,
       "iS" : 3147630,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.14.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1223,16 +1238,16 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.14.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/3_about\/screenshot-2018-04-30-22.02.22.png" : {
       "ft" : 32768,
       "iS" : 4459434,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.22.png",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -1244,25 +1259,25 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/3_about\/screenshot-2018-04-30-22.02.22.png.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/error\/error.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/error\/error.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/diego-fernandez-v7ycxmqiv2e-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 1382729,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/home\/diego-fernandez-v7ycxmqiv2e-unsplash.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -1273,17 +1288,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/diego-fernandez-v7ycxmqiv2e-unsplash.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/frankie-cordoba-mcgtbxoeih8-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 2339666,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/home\/frankie-cordoba-mcgtbxoeih8-unsplash.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -1294,73 +1309,73 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/frankie-cordoba-mcgtbxoeih8-unsplash.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/home.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/home.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/loop_1.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/loop_1.mp4",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/loop_1.mp4.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/loop_1.mp4.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/loop_2.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/loop_2.mp4",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/loop_2.mp4.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/loop_2.mp4.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/loop_3_1.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/loop_3_1.mp4",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/loop_3_1.mp4.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/loop_3_1.mp4.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/mold.jpg" : {
       "ft" : 16384,
       "iS" : 195668,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/home\/mold.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -1371,17 +1386,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/mold.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/printer.jpg" : {
       "ft" : 16384,
       "iS" : 112993,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/home\/printer.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -1392,17 +1407,17 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/printer.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/space-parts-uqlznr9gc3e-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 3494298,
       "jF" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/_build\/content\/home\/space-parts-uqlznr9gc3e-unsplash.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -1413,33 +1428,33 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/space-parts-uqlznr9gc3e-unsplash.jpg.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/static_1.mp4" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/static_1.mp4",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/home\/static_1.mp4.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/home\/static_1.mp4.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/content\/site.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/_build\/content\/site.txt",
-      "oF" : 1
+      "oF" : 0
     },
     "\/index.php" : {
       "cB" : 0,
@@ -1543,6 +1558,14 @@
       "oAP" : "\/_build\/site\/blueprints\/files\/video.yml",
       "oF" : 0
     },
+    "\/site\/blueprints\/layouts\/page-settings.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/blueprints\/layouts\/page-settings.yml",
+      "oF" : 0
+    },
     "\/site\/blueprints\/pages\/artists-collection.yml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1629,6 +1652,14 @@
       "oAP" : "\/_build\/site\/config\/config.php",
       "oF" : 0
     },
+    "\/site\/config\/config.w-editions.ddev.site.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/config\/config.w-editions.ddev.site.php",
+      "oF" : 0
+    },
     "\/site\/config\/config.www.w-editions.com.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1701,1923 +1732,10 @@
       "oAP" : "\/_build\/site\/controllers\/gallery-collection.php",
       "oF" : 0
     },
-    "\/site\/plugins\/fathom-analytics\/.editorconfig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/.editorconfig",
-      "oF" : 1
-    },
-    "\/site\/plugins\/fathom-analytics\/.gitattributes" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/.gitattributes",
-      "oF" : 1
-    },
-    "\/site\/plugins\/fathom-analytics\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/.gitignore",
-      "oF" : 1
-    },
-    "\/site\/plugins\/fathom-analytics\/CHANGELOG.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/CHANGELOG.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/fathom-analytics\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/composer-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/fathom-analytics\/index.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/index-min.css",
-      "oF" : 1,
-      "pg" : 0
-    },
-    "\/site\/plugins\/fathom-analytics\/index.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/index.js",
-      "oF" : 1,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/site\/plugins\/fathom-analytics\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/index.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/fathom-analytics\/LICENSE.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/LICENSE.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/fathom-analytics\/package.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/package-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/fathom-analytics\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/README.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/fathom-analytics\/snippets\/fathom-analytics-embed.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/snippets\/fathom-analytics-embed.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/fathom-analytics\/src\/components\/AnalyticsView.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/src\/components\/AnalyticsView.vue",
-      "oF" : 1
-    },
-    "\/site\/plugins\/fathom-analytics\/src\/index.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/src\/index.js",
-      "oF" : 1,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/site\/plugins\/fathom-analytics\/yarn.lock" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/fathom-analytics\/yarn.lock",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/.editorconfig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/.editorconfig",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/.github\/workflows\/php.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/.github\/workflows\/php.yml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/.gitignore",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/composer-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/LICENSE" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/LICENSE",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/phpunit.xml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/phpunit.xml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/README.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-flash\/src\/Flash.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/src\/Flash.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/src\/helpers.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/src\/helpers.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/tests\/FlashTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/tests\/FlashTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/tests\/HelperTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/tests\/HelperTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-flash\/tests\/TestCase.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-flash\/tests\/TestCase.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/.editorconfig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/.editorconfig",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/.github\/workflows\/php.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/.github\/workflows\/php.yml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/.gitignore",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/composer-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/kirby-form\/LICENSE" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/LICENSE",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/phpunit.xml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/phpunit.xml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/README.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-form\/src\/Exceptions\/TokenMismatchException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/src\/Exceptions\/TokenMismatchException.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/src\/Form.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/src\/Form.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/src\/FormInterface.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/src\/FormInterface.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/src\/helpers.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/src\/helpers.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/src\/Validator.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/src\/Validator.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/tests\/FormTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/tests\/FormTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/tests\/HelperTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/tests\/HelperTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/tests\/TestCase.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/tests\/TestCase.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-form\/tests\/ValidatorTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-form\/tests\/ValidatorTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/blueprints\/fields\/locked-pages.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/blueprints\/fields\/locked-pages.yml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/composer-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/controllers\/locked-pages-login.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/controllers\/locked-pages-login.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/extensions\/hooks.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/extensions\/hooks.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/extensions\/routes.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/extensions\/routes.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/index.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/LICENSE" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/LICENSE",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/LockedPages.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/LockedPages.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-locked-pages\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/README.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-locked-pages\/templates\/locked-pages-login.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-locked-pages\/templates\/locked-pages-login.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-meta-tags\/.editorconfig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/.editorconfig",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-meta-tags\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/.gitignore",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-meta-tags\/CHANGELOG.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/CHANGELOG.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-meta-tags\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/composer-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/kirby-meta-tags\/composer.lock" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/composer.lock",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-meta-tags\/helpers.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/helpers.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-meta-tags\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/index.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-meta-tags\/LICENSE.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/LICENSE.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-meta-tags\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/README.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-meta-tags\/src\/MetaTags.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/src\/MetaTags.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-meta-tags\/src\/Tags.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-meta-tags\/src\/Tags.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/.editorconfig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/.editorconfig",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/.github\/FUNDING.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/.github\/FUNDING.yml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/.github\/ISSUE_TEMPLATE\/bug_report.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/.github\/ISSUE_TEMPLATE\/bug_report.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/.github\/ISSUE_TEMPLATE\/config.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/.github\/ISSUE_TEMPLATE\/config.yml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/.github\/ISSUE_TEMPLATE\/feature_request.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/.github\/ISSUE_TEMPLATE\/feature_request.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/.github\/workflows\/php.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/.github\/workflows\/php.yml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/.gitignore",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/.readthedocs.yaml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/.readthedocs.yaml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/composer-min.json",
-      "oF" : 1,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/actions\/actions.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/actions\/actions.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/actions\/email-select.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/actions\/email-select.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/actions\/email.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/actions\/email.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/actions\/log.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/actions\/log.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/actions\/login.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/actions\/login.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/actions\/session-store.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/actions\/session-store.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/actions\/upload.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/actions\/upload.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/actions\/webhook.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/actions\/webhook.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/answers.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/answers.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/examples\/ajax.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/examples\/ajax.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/examples\/basic.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/examples\/basic.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/examples\/blocks.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/examples\/blocks.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/examples\/dynamic.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/examples\/dynamic.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/examples\/extended.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/examples\/extended.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/guards\/calc.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/guards\/calc.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/guards\/guards.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/guards\/guards.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/guards\/honeypot.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/guards\/honeypot.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/guards\/honeytime.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/guards\/honeytime.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/guards\/recaptcha.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/guards\/recaptcha.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/guards\/simple-captcha.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/guards\/simple-captcha.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/index.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/index.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/methods.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/methods.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/requirements.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/requirements.txt",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/upgrade-guide-v3-v4.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/upgrade-guide-v3-v4.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/upgrade-guide-v4-v5.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/upgrade-guide-v4-v5.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/docs\/usage.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/docs\/usage.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/index.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/LICENSE" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/LICENSE",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/mkdocs.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/mkdocs.yml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/phpunit.xml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/phpunit.xml",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/README.html",
-      "oF" : 1,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby-uniform\/snippets\/errors.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/snippets\/errors.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/Action.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/Action.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/DumpAction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/DumpAction.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/EmailAction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/EmailAction.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/EmailSelectAction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/EmailSelectAction.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/LogAction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/LogAction.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/LoginAction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/LoginAction.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/SessionStoreAction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/SessionStoreAction.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/UploadAction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/UploadAction.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Actions\/WebhookAction.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Actions\/WebhookAction.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Exceptions\/Exception.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Exceptions\/Exception.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Exceptions\/PerformerException.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Exceptions\/PerformerException.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Form.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Form.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Guards\/CalcGuard.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Guards\/CalcGuard.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Guards\/Guard.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Guards\/Guard.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Guards\/HoneypotGuard.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Guards\/HoneypotGuard.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Guards\/HoneytimeGuard.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Guards\/HoneytimeGuard.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/helpers.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/helpers.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/Performer.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/Performer.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/src\/PerformerInterface.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/src\/PerformerInterface.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/templates\/emails\/default.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/templates\/emails\/default.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/templates\/emails\/table.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/templates\/emails\/table.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/templates\/log-json.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/templates\/log-json.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Actions\/EmailActionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Actions\/EmailActionTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Actions\/EmailSelectActionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Actions\/EmailSelectActionTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Actions\/LogActionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Actions\/LogActionTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Actions\/LoginActionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Actions\/LoginActionTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Actions\/SessionStoreActionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Actions\/SessionStoreActionTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Actions\/UploadActionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Actions\/UploadActionTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Actions\/WebhookActionTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Actions\/WebhookActionTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/FormTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/FormTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Guards\/CalcGuardTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Guards\/CalcGuardTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Guards\/HoneypotGuardTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Guards\/HoneypotGuardTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/Guards\/HoneytimeGuardTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/Guards\/HoneytimeGuardTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/HelperTest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/HelperTest.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/templates\/test-data.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/templates\/test-data.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/templates\/test-options.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/templates\/test-options.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/templates\/test.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/templates\/test.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby-uniform\/tests\/TestCase.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/_build\/site\/plugins\/kirby-uniform\/tests\/TestCase.php",
-      "oF" : 1
-    },
-    "\/site\/plugins\/kirby3-snipcart\/.editorconfig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/.editorconfig",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/.gitattributes" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/.gitattributes",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/.gitignore",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/blueprints\/cart\/product.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/blueprints\/cart\/product.yml",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/composer.json" : {
-      "ft" : 524288,
+    "\/site\/plugins" : {
+      "ft" : 65536,
       "oA" : 1,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/composer-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/kirby3-snipcart\/composer.lock" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/composer.lock",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/index.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/index-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/index.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/index.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/index.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/LICENSE.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/LICENSE.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/package-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/kirby3-snipcart\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/SECURITY.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/SECURITY.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/snippets\/snipcart\/cart\/cart-checkout-summary.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/snippets\/snipcart\/cart\/cart-checkout-summary.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/snippets\/snipcart\/cart\/cart-init.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/snippets\/snipcart\/cart\/cart-init.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/snippets\/snipcart\/products\/product-add-to-cart.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/snippets\/snipcart\/products\/product-add-to-cart.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/snippets\/snipcart\/products\/product-list.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/snippets\/snipcart\/products\/product-list.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/abandoned.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/abandoned.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/orders.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/orders.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/popular.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/popular.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/sales.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/sales.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/Vitals.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/dashboard\/Vitals.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/discounts\/components\/discountlist.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/discounts\/components\/discountlist.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/discounts\/discounts.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/discounts\/discounts.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/panel\/Dashboard.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/panel\/Dashboard.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/products\/ProductTotal.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/products\/ProductTotal.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/components\/tools\/tabs.vue" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/components\/tools\/tabs.vue",
-      "oF" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/src\/index.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/src\/index.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/site\/plugins\/kirby3-snipcart\/yarn.lock" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/kirby3-snipcart\/yarn.lock",
-      "oF" : 0
-    },
-    "\/site\/plugins\/uniform-turnstile\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/.gitignore",
-      "oF" : 0
-    },
-    "\/site\/plugins\/uniform-turnstile\/composer.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/composer-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/site\/plugins\/uniform-turnstile\/i18n\/de.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/i18n\/de.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/uniform-turnstile\/i18n\/en.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/i18n\/en.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/uniform-turnstile\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/index.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/uniform-turnstile\/LICENSE" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/LICENSE",
-      "oF" : 0
-    },
-    "\/site\/plugins\/uniform-turnstile\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/site\/plugins\/uniform-turnstile\/src\/Guards\/TurnstileGuard.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/src\/Guards\/TurnstileGuard.php",
-      "oF" : 0
-    },
-    "\/site\/plugins\/uniform-turnstile\/src\/helpers.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_build\/site\/plugins\/uniform-turnstile\/src\/helpers.php",
+      "oAP" : "\/_build\/site\/plugins",
       "oF" : 0
     },
     "\/site\/sessions\/index.html" : {
@@ -3674,6 +1792,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_build\/site\/snippets\/blocks\/text.php",
+      "oF" : 0
+    },
+    "\/site\/snippets\/cart\/cart-checkout-summary.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/snippets\/cart\/cart-checkout-summary.php",
+      "oF" : 0
+    },
+    "\/site\/snippets\/cart\/cart-load.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/snippets\/cart\/cart-load.php",
       "oF" : 0
     },
     "\/site\/snippets\/footer.php" : {
@@ -3738,6 +1872,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_build\/site\/snippets\/no-content.php",
+      "oF" : 0
+    },
+    "\/site\/snippets\/products\/product-add-to-cart.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/snippets\/products\/product-add-to-cart.php",
       "oF" : 0
     },
     "\/site\/templates\/artists-collection.php" : {
@@ -5419,7 +3561,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
-    "skippedFoldersString" : "node_modules,\/kirby,_cache,\/vendor,cache,_logs,.idea,\/storage\/framework\/sessions,log,logs",
+    "skippedFoldersString" : "log,\/site\/plugins,\/kirby,node_modules,\/storage\/framework\/sessions,cache,_logs,.idea,_cache,logs,\/vendor",
     "sourceFolderName" : "dev",
     "susyVersion" : 3,
     "tsAllowArbitraryExtensions" : 0,

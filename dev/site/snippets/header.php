@@ -46,11 +46,6 @@
         document.documentElement.className.replace("no-js","js");
     </script>
 
-    <script type="module">
-        import Shop from '../assets/js/shop.js';
-        Shop.init();
-    </script>
-
     <link rel="stylesheet" href="https://use.typekit.net/inc5dxe.css">
 
     <?= snippet('fathom-analytics-embed'); ?>
@@ -96,6 +91,19 @@
         </style>
     </noscript>
 
+    <?= css('assets/css/snipcart.css') ?>
+
+    <?php if($page->headerCode()->isNotEmpty()): ?>
+        <script>
+            <?= $page->headerCode() ?>
+        </script>
+    <?php endif; ?>
+
+    <?php if($page->customCSS()->isNotEmpty()): ?>
+        <style>
+            <?= $page->customCSS() ?>
+        </style>
+    <?php endif; ?>
 </head>
 <body class="<?= $page->intendedTemplate() ?> <?= (option('environment') == 'development' ? 'dev' : '' ) ?>">
 

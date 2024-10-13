@@ -9,21 +9,6 @@ tabs:
   content:
     icon: edit
     columns:
-      top:
-        width: 1
-        fields:
-          shopifyProduct:
-            type: toggle
-            label: Link to Shopify?
-            width: 1/4
-          shopifyProductLink:
-            width: 3/4
-            type: pages
-            multiple: false
-            label: Shopify Product
-            query: site.index.findBy("intendedTemplate", "shopify.products") 
-            when:
-              shopifyProduct: true
       left:
         width: 1/2
         fields:
@@ -77,7 +62,7 @@ tabs:
             before: $
             help: In USD$
             when:
-              shopifyProduct: false
+              onlineShop: false
 
           available:
             label: Availability
@@ -96,6 +81,7 @@ tabs:
             help: Other text you might want to add to the page
             type: writer
             nodes: true
+
   e-commerce:
     label: E-Commerce
     icon: cart
@@ -103,7 +89,54 @@ tabs:
       productdata:
         type: fields
         fields:
-          productinfo: cart/product
+          onlineShop:
+            type: toggle
+            label: E Commerce Availability
+            width: 1/4
+          maxQty:
+            type: number
+            label: Max QTY Allowed
+            width: 1/4
+            when:
+              onlineShop: true
+          productinfo: 
+            extends: cart/product
+            when:
+              onlineShop: true
+            fields:
+              productTotal: false
+              productName: false
+              productID: false
+              productPrice: false
+              productDescription:
+                width: 1
+                type: textarea
+                buttons: false
+              productImage:
+                width: 1/2
+          
+          packageInfo:
+            label: Package Info
+            type: headline
+            width: 1
+          packageWeight:
+            type: number
+            label: Weight in Grams
+            width: 1/4
+          packageWidth:
+            type: number
+            label: Width in CM
+            width: 1/4
+          packageHeight:
+            type: number
+            label: Height in CM
+            width: 1/4
+          packageLength:
+            type: number
+            label: Length in CM
+            width: 1/4
+          
+
   media:
     label: Media
     icon: images
@@ -115,3 +148,7 @@ tabs:
         image:
           back: white
           ratio: 1/1
+  
+  settings:
+    icon: cog
+    extends: layouts/page-settings
