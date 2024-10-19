@@ -92,7 +92,7 @@
   margin: 0;
   padding: 0 0 0.25em;
   letter-spacing: -0.5px;
-  color: var(--c-paynes-400);
+  color: var(--c-cobalt);
 }
 .artists .artist a {
   overflow: visible;
@@ -116,7 +116,7 @@ h1.title {
   margin: 0 0 1rem;
   padding: 0;
   letter-spacing: -0.5px;
-  color: black;
+  color: var(--c-cobalt);
 }
 
 .year {
