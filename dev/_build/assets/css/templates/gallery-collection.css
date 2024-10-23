@@ -97,6 +97,7 @@
 .wrapper .collection li .artwork-title-wrapper *, .contrast-text * {
   position: relative;
   box-sizing: border-box;
+  padding: 0.1em 0;
   padding-left: 0.25rem;
   letter-spacing: -1px;
   color: transparent;

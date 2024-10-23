@@ -1,36 +1,17 @@
 <?php if(isset($src)): ?>
 <?php
 /** IMG VARIABLES */
-$link = $src->link();
-$title = $src->title()->smartypants();
-$alt = $src->alt();
-$aspect = $src->height() / $src->width();
-if(!isset($class)) {
-    $class='';
-}
-if(!isset($lazy)) {
-    $lazy=true;
-}
-
-if(isset($width)) {
-    $height = round($width * $aspect);
-} else {
-    $height = null;
-}
-
-// if($column) {
-//     $imgMinWidth = $column;
-// }
-
-if(!isset($web)) {
-    $web = false;
-}
-if(!isset($figure)) {
-    $figure = true;
-}
-if(!isset($fullscreen)) {
-    $fullscreen = false;
-}
+$link = $src->link() ?? '';
+$title = $src->title()->smartypants() ?? '';
+$alt = $src->alt() ?? '';
+$aspect = round($src->height() / $src->width() * 10000) / 100;
+$class= $class ?? '';
+$lazy = $lazy ?? true;
+$width = $width ?? $src->width();
+$height = round($width * $aspect) ?? null;
+$web = $web ?? false;
+$figure = $figure ?? true;
+$fullscreen = $fullscreen ?? false;
 
 if(isset($imgMinWidth)) {
     if($imgMinWidth=="full") {
@@ -63,11 +44,13 @@ if(isset($imgMinWidth)) {
 ?>
 
 
-<?php if($figure == true): ?>
-<figure class="image <?= ($fullscreen ? 'fullscreen' : '') ?> <?= $class ?? '' ?>">
-<?php endif; ?>
+<figure class="image
+                <?= ($fullscreen ? 'fullscreen' : '') ?>
+                <?= $class ?? '' ?>
+                is-loading"
+        style="--aspect-ratio: <?= $aspect ?>%">
 
-    <picture class="is-loading" style="--aspect-ratio: <?= $src->width() ?>/<?= $src->height() ?>">
+    <picture style="--aspect-ratio: <?= $aspect ?>%">
 
         <?php if($link->isNotEmpty()): ?>
 
@@ -121,8 +104,8 @@ if(isset($imgMinWidth)) {
                     loading="lazy"
                 <?php endif; ?>
 
-                width="<?= $width ?? $src->width(); ?>"
-                height="<?= $height ?? $src->height(); ?>"
+                width="<?= $width ?>"
+                height="<?= $height ?>"
             />
         
         <?php endif; ?>

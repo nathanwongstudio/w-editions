@@ -65,6 +65,20 @@
             opacity: 0;
             transition: opacity 300ms ease;
         }
+
+        figure {
+            display:inline-block;
+            position: relative;
+            padding-bottom:0;
+            background-color: none;
+        }
+
+        figure.is-loading {
+            width: 100%;
+            padding-bottom: var(--aspect-ratio);
+            background-color: var(--c-paper-200);
+            max-height:0;
+        }
     </style>
 
     <noscript>

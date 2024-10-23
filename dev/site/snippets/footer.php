@@ -68,7 +68,7 @@ if($foot): ?>
 
         setTimeout(() => {
             for (var img of notLazy) {
-                img.parentNode.classList.remove('is-loading');
+                img.parentElement.classList.remove('is-loading');
             }
             
             if ('loading' in HTMLImageElement.prototype) {
@@ -78,16 +78,16 @@ if($foot): ?>
                         img.addEventListener('load', lazyImageLoad, false);
                         img.addEventListener('error', lazyImageError, false);
                     } else {
-                        img.parentNode.classList.remove('is-loading');
+                        img.closest('.is-loading').classList.remove('is-loading');
                     }
                 }
                 
                 function lazyImageLoad(e) {
-                    e.currentTarget.parentNode.classList.remove('is-loading');
+                    e.currentTarget.closest('.is-loading').classList.remove('is-loading');
                 }
                 
                 function lazyImageError(e) {
-                    var parent = e.currentTarget.parentNode;
+                    var parent = e.currentTarget.closest('.is-loading');
                     parent.classList.remove('is-loading');
                     parent.classList.add('is-empty');
                     setTimeout(function() {

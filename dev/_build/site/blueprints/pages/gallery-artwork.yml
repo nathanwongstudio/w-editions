@@ -61,8 +61,6 @@ tabs:
             min: 0
             before: $
             help: In USD$
-            when:
-              onlineShop: false
 
           available:
             label: Availability
