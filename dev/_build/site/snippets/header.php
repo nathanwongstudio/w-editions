@@ -16,6 +16,11 @@
     <?php if($site->favicon()->isNotEmpty()): ?>
         <link rel="shortcut icon" href="<?= $site->favicon()->toFile()->thumb(['width' => 200])->url() ?>" type="image/x-icon">
     <?php endif;?>
+
+    <link rel="preload" href="https://use.typekit.net/inc5dxe.css" as="style">
+    <link rel="preload" href="/assets/css/styles.css" as="style">
+    <link rel="preload" href="/assets/css/nav.css" as="style">
+
     
     <?php echo $page->metaTags() ?>
     
@@ -74,10 +79,14 @@
         }
 
         figure.is-loading {
-            width: 100%;
-            padding-bottom: var(--aspect-ratio);
+            display: block;
+            position:relative;
+            width:auto;
+            height: auto;
+            max-width: calc(80vh * var(--aspect-ratio));
+            /* padding-bottom: var(--aspect-ratio); */
             background-color: var(--c-paper-200);
-            max-height:0;
+            max-height:80vh;
         }
     </style>
 

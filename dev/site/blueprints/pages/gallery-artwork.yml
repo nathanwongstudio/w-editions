@@ -74,11 +74,13 @@ tabs:
             help: Wall label stuff such as Title, Year, Size, Materials, etc.
             type: writer
             nodes: true
-          bottomText:
-            label: Bottom Text
-            help: Other text you might want to add to the page
-            type: writer
-            nodes: true
+          accordionText:
+            label: Accordion Text
+            extends: fields/layout
+            settings:
+              fields:
+                role:
+                  default: accordion
 
   e-commerce:
     label: E-Commerce
@@ -112,6 +114,20 @@ tabs:
                 buttons: false
               productImage:
                 width: 1/2
+              gap1:
+                type: gap
+              framable:
+                type: toggle
+                label: Allow Framing?
+                width: 1/2
+              frameCost:
+                type: number
+                step: .01
+                label: Frame Add On cost
+                width: 1/2
+                before: $
+                when:
+                  framable: true
           
           packageInfo:
             label: Package Info
@@ -119,20 +135,24 @@ tabs:
             width: 1
           packageWeight:
             type: number
-            label: Weight in Grams
+            label: Weight in Pounds
+            after: lbs
             width: 1/4
           packageWidth:
             type: number
-            label: Width in CM
+            label: Width (in.)
             width: 1/4
+            after: in
           packageHeight:
             type: number
-            label: Height in CM
+            label: Height (in.)
             width: 1/4
+            after: in
           packageLength:
             type: number
-            label: Length in CM
+            label: Length (in.)
             width: 1/4
+            after: in
           
 
   media:

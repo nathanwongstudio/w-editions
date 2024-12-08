@@ -1,7 +1,10 @@
 <div class="section-wrapper 
             <?= $layout->class() ?> 
             <?= $layout->role() ?>
-            <?= ($layout->role() == 'accordion' && $layout->next()->role() != 'accordion') ? 'last' : '' ?>"
+            <?php if($layout->next()) {
+                echo ($layout->role() == 'accordion' && $layout->next()->role() != 'accordion') ? 'last' : '';
+             }
+             else { echo 'last'; } ?>"
     id="<?= $layout->layoutId() ?>"
     style=" <?=($layout->tickerLength()->isNotEmpty()) ? '--duration:' . $layout->tickerLength() . 's;' : '' ?>
             <?= ($layout->tickerColor()->isNotEmpty()) ? '--background:' . $layout->tickerColor() . ';' : '' ?>

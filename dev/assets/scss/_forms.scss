@@ -107,6 +107,8 @@ input[type="checkbox"],
 input[type="radio"] {
     @extend %inputs;
     line-height: 1em;
+    
+    top: 2px;
 
     display: inline-block;
 
@@ -501,6 +503,10 @@ body {
 
 /** SNIP CART FORM ELEMENTS **/
 
+.snipcart-item-line__info {
+    margin-bottom: var(--base-line-height);
+}
+
 .snipcart-textbox {
     @extend %inputs;
 
@@ -512,6 +518,36 @@ body {
         background: transparent;
         appearance: none;
     }
+}
+
+.snipcart-form__address-autocomplete .snipcart-textbox {
+	background-image: none;
+}
+
+.snipcart-form__address-autocomplete > .snipcart-textbox {
+	height: auto;
+    min-height: var(--base-line-height);
+}
+
+.snipcart-form__address-autocomplete > .snipcart-typeahead__select {
+	height: 0;
+
+	opacity: 0;
+}
+
+.snipcart-form__address-autocomplete--active > .snipcart-typeahead__select {
+	height: unset;
+
+	opacity: 1;
+}
+
+.snipcart-form__address-autocomplete
+	.snipcart-typeahead__suggestion--powered-by-google {
+	display: flex;
+	justify-content: flex-end;
+
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 ul.snipcart-typeahead__suggestions {

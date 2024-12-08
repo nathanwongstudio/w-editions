@@ -23,6 +23,12 @@ h1, h2, h3, h4, h5, h6 {
 
 		max-height: 66vh;
 
+		figure {
+			display: block;
+
+			height:100%;
+		}
+
 		img {
 			margin:0 auto;
 		}
@@ -57,33 +63,53 @@ section.container {
 
 .gallery.no-scroll {
 	.gallery-items {
+		flex-shrink:0;
 		flex-wrap:wrap;
 		justify-content: center;
 
+		width:100%;
+
 		height: auto;
+		gap: 1rem;
+		
+		&::after {
+			display:none;
+		}
 		
 		li.gallery-item {
-		height:var(--gallery-height);
+			height:var(--gallery-height);
+			margin:0;
+			padding:0;
 
-		@media screen and (width <= 50em) {
-			width: 100%;
-			height: auto;
-			padding: 0 1rem;
+			@media screen and (width <= 50em) {
+				width: 45vw;
+				min-width: 300px;
+				height: 50vh;
 
-			text-align: center;
+				text-align: center;
+
+				figure {
+					display: block;
+		
+					width:100%;
+					max-height: 100%;
+					margin:auto;
+				}
+
+				img {
+					margin: auto;
+				}
+			}
+
+			figure {
+				display: block;
+
+				height:100%;
+			}
 
 			img {
 				margin: auto;
 			}
-		}
-
-		img {
-			margin: auto;
-		}
-
-		&:first-of-type {
-			margin-left: 0;
-		}
 		}
 	}
 }

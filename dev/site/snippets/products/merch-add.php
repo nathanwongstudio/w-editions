@@ -24,27 +24,18 @@ $weightG = toGs($weight);
 ?>
 
 <button class="snipcart-add-item <?= $class ?>"
-  data-item-id="<?= $page->artId() ?>"
-  data-item-price="<?= $page->price() ?>"
-  data-item-url="<?= Url::path($page->url(), true, false); ?>"
-  data-item-description="<?= $page->artId() ?> - <?= $page->ProductDescription() ?>"
-  data-item-image="<?= Url::path($page->ProductImage()->toFile()->url(), true, false); ?>"
-  data-item-name="<?= $page->title() ?>"
-
-  data-item-max-quantity="<?= $page->maxQty() ?>"
+  data-item-id="<?= $page->productID() ?>"
+  data-item-price="<?= $page->productPrice() ?>"
+  data-item-url="<?= $page->url() ?>"
+  data-item-description="<?= $page->ProductDescription() ?>"
+  data-item-image="<?= $page->ProductImage()->toFile()->url() ?>"
+  data-item-name="<?= $page->ProductName() ?>"
 
   data-item-weight="<?=$page->packageWeight()?>"
 
   data-item-width="<?= $cm['width'] ?>"
   data-item-height="<?= $cm['height'] ?>"
   data-item-length="<?= $cm['length'] ?>"
-
-  <?php if($page->framable()) : ?>
-  data-item-custom1-name="Frame it for me for $<?= $page->frameCost() ?>"
-  data-item-custom1-type="checkbox"
-  data-item-custom1-options="true[<?= $page->frameCost() ?>]|false"
-  data-item-custom1-value="false"
-  <?php endif; ?>
 
   >
   Add to cart

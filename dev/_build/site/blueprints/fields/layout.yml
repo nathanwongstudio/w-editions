@@ -71,7 +71,7 @@ settings:
       width: 1
       label: Block Background Color
       mode: options
-      default: "#1a4bd5"
+      default: "#f6f0e6"
       options:
         "Cobalt": "#6666ff"
         "Benibana": "#ff99a1"

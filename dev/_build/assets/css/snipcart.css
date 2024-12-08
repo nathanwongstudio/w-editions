@@ -287,21 +287,44 @@ ul.snipcart-shipping-rates-list {
 ul.snipcart-shipping-rates-list li {
   display: grid;
   grid-template-columns: 1fr 4em;
-  grid-gap: 0.75em;
   margin: 0;
   padding: 0.5em;
   list-style-type: none;
+  cursor: pointer;
   border-bottom: 1px solid var(--c-paper-400);
+  grid-gap: 0.75em;
+}
+ul.snipcart-shipping-rates-list li input {
+  display: none;
+}
+ul.snipcart-shipping-rates-list li.snipcart-shipping-rates-list-item--highlight {
+  font-weight: bold;
+  color: white;
+  background: var(--c-cobalt);
+}
+ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item--right {
+  text-align: right;
+}
+ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item--guaranteed_days {
+  font-size: 0.8em;
+  font-weight: bold;
+  display: block;
 }
 ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item__label--highlight {
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: normal;
-  display: grid;
-  grid-template-columns: 1em 1fr;
-  grid-gap: 0.25em;
+  cursor: pointer;
 }
 ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item__label--highlight label {
   line-height: 1.25;
+  display: block;
+  cursor: pointer;
+}
+
+.snipcart__notice--with-icon {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  padding: var(--base-line-height) 0;
 }
 
 .snipcart-cart__footer-buttons {
@@ -404,6 +427,11 @@ ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item__label--hi
 }
 .snipcart__box h1, .snipcart__box h2, .snipcart__box h3, .snipcart__box h4, .snipcart__box h5, .snipcart__box h6 {
   margin: 0;
+}
+.snipcart__box h3 {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .snipcart__box--header,

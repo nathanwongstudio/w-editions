@@ -197,6 +197,17 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/js\/accordion.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/_build\/assets\/js\/accordion.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/assets\/js\/main.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -381,6 +392,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/scss\/templates\/default.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/_build\/assets\/css\/templates\/default.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/scss\/templates\/error.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -466,6 +492,36 @@
       "ma" : 1,
       "oA" : 0,
       "oAP" : "\/_build\/assets\/css\/templates\/locked-pages-login.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/assets\/scss\/templates\/merch-collection.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/_build\/assets\/css\/templates\/merch-collection.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/assets\/scss\/templates\/merch-product.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "co" : 2,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/_build\/assets\/css\/templates\/merch-product.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1614,6 +1670,22 @@
       "oAP" : "\/_build\/site\/blueprints\/pages\/home.yml",
       "oF" : 0
     },
+    "\/site\/blueprints\/pages\/merch-collection.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/blueprints\/pages\/merch-collection.yml",
+      "oF" : 0
+    },
+    "\/site\/blueprints\/pages\/merch-product.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/blueprints\/pages\/merch-product.yml",
+      "oF" : 0
+    },
     "\/site\/blueprints\/pages\/resources.yml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1746,6 +1818,14 @@
       "oAP" : "\/_build\/site\/sessions\/index.html",
       "oF" : 0
     },
+    "\/site\/snippets\/accordion-js.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/snippets\/accordion-js.php",
+      "oF" : 0
+    },
     "\/site\/snippets\/blocks\/button.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1874,6 +1954,14 @@
       "oAP" : "\/_build\/site\/snippets\/no-content.php",
       "oF" : 0
     },
+    "\/site\/snippets\/products\/merch-add.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/snippets\/products\/merch-add.php",
+      "oF" : 0
+    },
     "\/site\/snippets\/products\/product-add-to-cart.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1968,6 +2056,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_build\/site\/templates\/locked-pages-login.php",
+      "oF" : 0
+    },
+    "\/site\/templates\/merch-collection.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/templates\/merch-collection.php",
+      "oF" : 0
+    },
+    "\/site\/templates\/merch-product.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_build\/site\/templates\/merch-product.php",
       "oF" : 0
     },
     "\/site\/templates\/resources.php" : {

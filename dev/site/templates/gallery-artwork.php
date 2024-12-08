@@ -1,4 +1,8 @@
-<?php snippet('header') ?>
+<?php snippet('header');
+
+$layouts = $page->accordionText()->toLayouts();
+
+?>
 <div class="default-content">
     <div class="artwork">
         <div class="primary-image">
@@ -56,9 +60,6 @@
             <div class="text-block top">
                 <?= $page->text()->widont(); ?>
             </div>
-            <div class="text-block bottom">
-                <?= $page->bottomText()->widont(); ?>
-            </div>
 
             <p class="artid">
                 <?= $page->artId() ?>
@@ -79,6 +80,15 @@
                 <?php endforeach ?>
             </ul>
         </div>
+    </div>
+    <div class="text-block bottom">
+        <?php foreach($layouts as $layout): ?>
+            <?= snippet('layouts', compact('layout')); ?>
+        <?php endforeach; ?>
+
+        <?php if($layouts->findBy('role', 'accordion')): ?>
+            <?= snippet('accordion-js') ?>
+        <?php endif; ?>
     </div>
 </div>
 

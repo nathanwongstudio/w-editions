@@ -62,13 +62,17 @@ if($foot): ?>
 </script>
 <script>
 
-    document.addEventListener("DOMContentLoaded", function() { // LAZY LOADING JAVASCRIPT
-        var lazyImages = document.querySelectorAll('img[loading=lazy]'),
-            notLazy = document.querySelectorAll('img:not([loading=lazy])');
+    document.addEventListener("DOMContentLoaded", function() {
+        
+        // LAZY LOADING JAVASCRIPT
+        var lazyImages = document.querySelectorAll('img[loading=lazy]');
+        var allImages = document.querySelectorAll('img');
 
         setTimeout(() => {
-            for (var img of notLazy) {
-                img.parentElement.classList.remove('is-loading');
+            for (var i of allImages) {
+                if(i.loading != 'lazy' && i.closest('.is-loading')) {
+                    i.closest('.is-loading').classList.remove('is-loading');
+                }
             }
             
             if ('loading' in HTMLImageElement.prototype) {

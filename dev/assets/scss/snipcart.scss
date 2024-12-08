@@ -318,7 +318,6 @@ ul.snipcart-shipping-rates-list {
     li {
         display: grid;
         grid-template-columns: 1fr 4em;
-        grid-gap: 0.75em;
 
         margin:0;
 
@@ -326,21 +325,55 @@ ul.snipcart-shipping-rates-list {
 
         list-style-type:none;
 
+        cursor: pointer;
+
         border-bottom: 1px solid var(--c-paper-400);
+        grid-gap: 0.75em;
+
+        input {
+            display: none;
+        }
+
+        &.snipcart-shipping-rates-list-item--highlight {
+            font-weight: bold;
+
+            color: white;
+            background: var(--c-cobalt);
+        }
+
+        .snipcart-shipping-rates-list-item--right {
+            text-align: right;
+        }
+
+        .snipcart-shipping-rates-list-item--guaranteed_days {
+            font-size: 0.8em;
+            font-weight: bold;
+
+            display: block;
+        }
 
         .snipcart-shipping-rates-list-item__label--highlight {
-            font-size: 0.8em;
+            font-size: 1em;
             font-weight: normal;
 
-            display: grid;
-            grid-template-columns: 1em 1fr;
-            grid-gap: 0.25em;
+            cursor: pointer;
 
             label {
                 line-height:1.25;
+
+                display: block;
+
+                cursor: pointer;
             }
         }
     }
+}
+
+.snipcart__notice--with-icon {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+
+    padding: var(--base-line-height) 0;
 }
 
 .snipcart-cart__footer-buttons {
@@ -470,6 +503,13 @@ ul.snipcart-shipping-rates-list {
 
     h1, h2, h3, h4, h5, h6 {
         margin:0;
+    }
+
+    h3 {
+        font-size: 0.8em;
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
     }
 }
 
