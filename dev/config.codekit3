@@ -3314,6 +3314,49 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/.jobs\/img_6185-38x.webp.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/.jobs\/img_6185-38x.webp-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/.jobs\/img_6185-352x.webp.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/.jobs\/img_6185-352x.webp-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/.jobs\/img_6185-864x.webp.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/.jobs\/img_6185-864x.webp-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/.jobs\/img_6185-1408x.webp.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/.jobs\/img_6185-1408x.webp-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/img_6185-76x.webp" : {
+      "ft" : 8388608,
+      "iS" : 978,
+      "oA" : 0,
+      "oAP" : "\/media\/pages\/editions\/sample\/5e2cec6103-1734109364\/img_6185-76x.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/media\/pages\/editions\/sample\/6869decd5e-1728849581\/.jobs\/img_6185-38x.webp.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -3497,6 +3540,59 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1728849581\/study-of-buddhist-symbols.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-76x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-76x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/.jobs\/study-of-buddhist-symbols-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/study-of-buddhist-symbols-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2836059,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/study-of-buddhist-symbols\/0f8b116208-1734109364\/study-of-buddhist-symbols-76x.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5571,11 +5667,11 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/apple-touch-icon-dark.png" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/apple-touch-icon-dark.png" : {
       "ft" : 32768,
       "iS" : 1148,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/apple-touch-icon-dark.png",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/apple-touch-icon-dark.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5584,11 +5680,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/apple-touch-icon.png" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/apple-touch-icon.png" : {
       "ft" : 32768,
       "iS" : 4115,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/apple-touch-icon.png",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/apple-touch-icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5597,7 +5693,7 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/css\/style.min.css" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/css\/style.min.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -5605,15 +5701,15 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/css\/style.min-min.css",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/css\/style.min-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/favicon-dark.png" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/favicon-dark.png" : {
       "ft" : 32768,
       "iS" : 416,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/favicon-dark.png",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/favicon-dark.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5622,11 +5718,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/favicon.png" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/favicon.png" : {
       "ft" : 32768,
       "iS" : 539,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/favicon.png",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/favicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5635,143 +5731,143 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/favicon.svg" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/favicon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/favicon.svg",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/favicon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/img\/icons.svg" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/img\/icons.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/img\/icons.svg",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/img\/icons.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/container-query-polyfill.modern.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/container-query-polyfill.modern.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/container-query-polyfill.modern.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/container-query-polyfill.modern.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/Docs.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/Docs.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/Docs.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/Docs.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/DocsView.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/DocsView.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/DocsView.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/DocsView.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/Highlight.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/Highlight.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/Highlight.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/Highlight.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/index.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/index.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/index.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/index.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/IndexView.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/IndexView.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/IndexView.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/IndexView.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/PlaygroundView.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/PlaygroundView.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/PlaygroundView.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/PlaygroundView.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/plugins.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/plugins.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/plugins.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/plugins.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/vendor.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/vendor.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/vendor.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/vendor.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/vue.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/vue.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/vue.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/vue.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/js\/vuedraggable.min.js" : {
+    "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/js\/vuedraggable.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/c9e4dc50b8d6ed20385fdca95873b3a5\/vuedraggable.min.js",
+      "oAP" : "\/media\/panel\/7c038681746a729e2fff9520a575e78c\/vuedraggable.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

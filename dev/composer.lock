@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4914e547d1be3a77b231eb97e059efcc",
+    "content-hash": "c32db7d8f6b05dc2e17922b48264ad4c",
     "packages": [
         {
             "name": "anselmh/kirby-uniform-turnstile",
@@ -53,6 +53,58 @@
                 "source": "https://github.com/anselmh/kirby-uniform-turnstile/tree/1.0.2"
             },
             "time": "2023-01-06T19:56:32+00:00"
+        },
+        {
+            "name": "belugadigital/kirby-navigation",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisbeluga/kirby-navigation.git",
+                "reference": "a64fa7d3360a9f562ad550ca42d69f3699c3cc3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisbeluga/kirby-navigation/zipball/a64fa7d3360a9f562ad550ca42d69f3699c3cc3c",
+                "reference": "a64fa7d3360a9f562ad550ca42d69f3699c3cc3c",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "kirby-navigation"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Martin",
+                    "email": "chris@builtbybeluga.com",
+                    "homepage": "https://builtbybeluga.com/"
+                },
+                {
+                    "name": "Ahmet Bora",
+                    "email": "ahmet@getkirby.com",
+                    "homepage": "https://owebstudio.com/"
+                },
+                {
+                    "name": "Gabor Horvath"
+                },
+                {
+                    "name": "Immo Seebörger",
+                    "homepage": "https://diesachbearbeiter.de/"
+                }
+            ],
+            "description": "Kirby 4 field for hierarchical menus with drag & drop level indentation.",
+            "homepage": "https://github.com/chrisbeluga/kirby-navigation",
+            "support": {
+                "issues": "https://github.com/chrisbeluga/kirby-navigation/issues",
+                "source": "https://github.com/chrisbeluga/kirby-navigation/tree/4.1.0"
+            },
+            "time": "2024-11-14T11:34:06+00:00"
         },
         {
             "name": "christian-riesen/base32",
