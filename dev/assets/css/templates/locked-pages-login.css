@@ -1,0 +1,17 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15em;
+  height: calc(100vh - var(--nav-height));
+  margin: auto;
+}
+form input {
+  width: 100%;
+}
+
+.help.is-danger {
+  color: var(--c-cinnabar);
+}
+
+/*# sourceMappingURL=locked-pages-login.css.map */

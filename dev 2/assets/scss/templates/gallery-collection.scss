@@ -1,0 +1,325 @@
+@use '../variables';
+@use '../mixins';
+
+.wrapper .collection {
+    --id-size: 10em;
+
+    position:relative;
+
+    ol {
+        margin:0;
+        padding:0;
+    }
+
+    li {
+        position: relative;
+        z-index:99;
+
+        margin:0;
+        padding:0;
+
+        border-bottom: 3px solid var(--c-paper-300);
+
+        mix-blend-mode:multiply;
+
+
+        @media screen and (width <= 50em) {
+            --list-height: 8em;
+            min-height:var(--list-height);
+        }
+
+        &::before {
+            font-weight: bold;
+
+            z-index:999;
+
+            top:50%;
+            left:0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 100%;
+
+            content: var(--index);
+
+            transform: translateY(-50%);
+
+            text-align: center;
+
+            color: var(--c-paynes-200);
+
+            border-right: 1px solid;
+        }
+
+
+        &:hover {
+            &::before {
+                color: red;
+            }
+
+            * {
+                --contrast-text-color: var(--c-cinnabar-400);
+
+                .tag {
+                    &.new,
+                    &.sold {
+                        --contrast-text-color: var(--c-paper);
+                        background: var(--c-cinnabar);
+                    }
+                }
+            }
+
+        }
+
+        .artwork-image {
+            width: auto;
+            margin-left: 2em;
+            padding: calc(var(--base-line-height) / 2) var(--base-line-height);
+
+            text-align:center;
+
+            background: white;
+
+            mix-blend-mode: normal;
+
+            img {
+                display:inline-block;
+
+                width: auto;
+                max-width: 100%;
+                height: auto;
+                max-height: 50vh;
+            }
+        }
+
+        .left-side {
+            // --contrast-text-color: var(--c-cobalt);
+            // --contrast-shadow-color: var(--c-benibana);
+
+            mix-blend-mode: normal;
+
+            font-size: var(--base-font-size);
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .artwork-artist {
+            font-family: var(--secondary-font-stack);
+            font-size: 2em;
+            font-weight: 900;
+
+            letter-spacing: -1px;
+
+            color: var(--c-paynes);
+
+            .artist {
+                margin-right: 0.5em;
+            }
+
+            @media screen and (width <=60em) {
+                & * {
+                    letter-spacing:0;
+                }
+
+                font-size: 1rem;
+            }
+        }
+
+        .artwork-title-wrapper {
+            @extend %contrast-text;
+        }
+
+        .artwork-title {
+            font-size: 4em;
+
+            display:inline-block;
+
+            width: 100%;
+            
+            padding: 0 2rem 0.5rem 0;
+            padding-left:0.25rem;
+
+            &::after {
+                padding: 0 2rem 0.5rem 0;
+            }
+
+            @media screen and (width <=60em) {
+                font-size: 2.5em;
+
+                letter-spacing:0;
+            }
+        }
+
+        .artwork-id {
+            // @extend %contrast-text;
+
+            mix-blend-mode: normal;
+
+            font-size: 0.8rem;
+
+            // --contrast-text-color: var(--c-paynes-500);
+            width: 100%;
+
+            text-align:right;
+
+            letter-spacing: 0;
+
+            color: var(--c-paynes-300);
+
+            @media screen and (width <=60em) {
+                text-align:left;
+            }
+        }
+
+        .stickers {
+            position:absolute;
+            z-index: 99;
+            top: 50%;
+            right:0;
+
+            box-sizing:border-box;
+
+            @media screen and (width<=50em) {
+                font-size: 0;
+
+                // position: sticky;
+                top:0;
+                right: 0;
+
+                width: calc(100% - 2rem);
+
+                text-align:right;
+
+                word-spacing: 0;
+
+                .tag {
+                    font-size:1.5rem;
+                    font-weight:900;
+
+                    display:inline-block;
+
+                    width:auto;
+                    padding: 0 0.5em;
+
+                    letter-spacing:0;
+                }
+            }
+        }
+
+        .tag {
+            font-size: 1.5em;
+
+            position: absolute;
+
+            right: 1em;
+            bottom:0;
+
+            width: 6em;
+
+            letter-spacing:-1px;
+
+            /* stylelint-disable-next-line selector-class-pattern */
+            &.sold  {
+                --contrast-text-color: var(--c-gold);
+                --contrast-shadow-color: var(--c-benibana);
+            }
+
+            & ~ .tag {
+                right: 5.5em;
+            }
+
+            @media screen and (width <=50em) {
+                font-size: 1.25em;
+
+                position: relative;
+
+                inset:0;
+
+                transform:none;
+
+                border-radius: 0;
+
+                & ~ .tag {
+                    right: 0
+                }
+            }
+        }
+
+        a {
+            // @extend %contrast-text;
+
+            mix-blend-mode: normal;
+
+            position:relative;
+
+            z-index:99;
+
+            display: grid;
+            grid-template-columns: 1fr var(--id-size);
+
+            width:100%;
+            height: 100%;
+            padding: calc(var(--base-line-height) / 2) var(--base-line-height);
+            padding-left: 3rem;
+
+            text-decoration:none;
+
+            color: inherit;
+
+            @media screen and (width <=60em) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
+
+.image-box {
+    position: fixed;
+    z-index:-999;
+    top:0;
+    left:0;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin:0;
+    padding:0;
+
+    transition: opacity 200ms ease;
+
+    text-align:center;
+
+    figure {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        margin:0;
+        padding:0!important;
+
+        transition: opacity 300ms ease;
+
+        transform: translate(-50%, -50%);
+
+        opacity:0;
+
+        &.shown {
+            transition: opacity 300ms ease;
+    
+            opacity:1;
+        }
+    }
+
+    img {
+        width: auto;
+        max-width: 80vw;
+        max-height: 70vh;
+
+        @media screen and (width <=60em) {
+            max-width: 50vw;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+@mixin color($name) {
+    &.#{$name} {
+        .color {
+            background-color: var(--c-#{$name});
+
+            @for $i from 1 through 9 {
+                &.c-#{$i}00 {
+                    background-color: var(--c-#{$name}-#{$i}00);
+
+                    &::after {
+                        display:inline-block;
+
+                        width:100%;
+
+                        content: '#{$i}00';
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.colors {
+    max-width:60em;
+    margin:auto;
+    padding:0;
+}
+
+.chart {
+    width: 98%;
+    margin:auto;
+
+    .row {
+        display:grid;
+        grid-template-columns: 2fr repeat(9, 1fr);
+
+        height: 3em;
+        margin:0.25em 0;
+
+        text-align: center;
+
+        color: white;
+        grid-gap: 0.25em;
+
+        @include color('benibana');
+        @include color('cinnabar');
+        @include color('cobalt');
+        @include color('paper');
+        @include color('paynes');
+        @include color('violet');
+        @include color('gold');
+
+        .color {
+            display: flex;
+            align-items: center;
+
+            width:100%;
+
+            border: 1px solid var(--c-paper);
+            border-radius: 0.25em;
+        }
+    }
+}
