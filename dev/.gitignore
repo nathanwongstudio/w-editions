@@ -57,3 +57,5 @@ Icon
 #ignore plugins (composer)
 
 **/plugins
+
+!**/plugins/kirby-shopify-api
