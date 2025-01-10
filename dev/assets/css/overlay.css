@@ -67,6 +67,11 @@
   opacity: 0;
   background: var(--c-paper-500);
 }
+@media screen and (width <= 60em) {
+  .overlay {
+    --modal-header-height: calc(var(--base-line-height) * 1.5);
+  }
+}
 @media screen and (width <= 60em) and (width >= 35em) {
   .overlay {
     --modal-width: 90vw;
@@ -104,11 +109,6 @@
 .modal-header h2, .modal-header h3, .modal-header h4, .modal-header h5 {
   line-height: var(--modal-header-height);
   color: var(--c-paper);
-}
-@media screen and (width <= 60em) {
-  .modal-header {
-    --modal-header-height: calc(var(--base-line-height) * 1.5);
-  }
 }
 
 .modal-close {

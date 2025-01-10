@@ -5171,14 +5171,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/.jobs\/img_6185-800x-q90.webp.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/.jobs\/img_6185-800x-q90.webp-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/.jobs\/img_6185-1024x-q90.webp.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -5214,11 +5206,33 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/img_6185-800x-q90.webp" : {
+      "ft" : 8388608,
+      "iS" : 38436,
+      "oA" : 0,
+      "oAP" : "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/img_6185-800x-q90.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/img_6185-2048x-q90.webp" : {
       "ft" : 8388608,
       "iS" : 141492,
       "oA" : 0,
       "oAP" : "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/img_6185-2048x-q90.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/img_6185.webp" : {
+      "ft" : 8388608,
+      "iS" : 131570,
+      "oA" : 0,
+      "oAP" : "\/media\/pages\/editions\/sample\/82a36833ef-1734110469\/img_6185.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -6660,6 +6674,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/site\/sessions\/1736473414.fb9b464a8674c40baaa7-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1736477022.d8c076cee72149a8a976.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1736477022.d8c076cee72149a8a976-output.sess",
       "oF" : 0
     },
     "\/site\/sessions\/index.html" : {

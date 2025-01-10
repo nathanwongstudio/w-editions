@@ -92,10 +92,16 @@ h1.title {
 			box-sizing: border-box;
 
 			width: 100%;
+
+			.sticker {
+				margin-bottom:1rem;
+			}
 		}
 	}
 
 	@media screen and (width <= 50em) {
+		position: relative;
+
 		width: 100%;
 	}
 }
@@ -219,6 +225,11 @@ button.snipcart-add-item {
 
 		@media screen and (width <= 60em) {
 			position: relative;
+
+			width: 100%;
+			max-width: none;
+			height: auto;
+			padding: 1rem;
 		}
 
 		span.text-wrap {
@@ -244,6 +255,13 @@ button.snipcart-add-item {
 
 	width: 100vw;
 	height: calc(100vh - var(--nav-height));
+
+	@media screen and (width <=50em) {
+		position: relative;
+
+		width: 100%;
+		height:auto;
+	}
 }
 
 .title-card {
@@ -257,9 +275,11 @@ button.snipcart-add-item {
 	text-align: left;
 
 	@media screen and (width <=50em) {
-		position: fixed;
+		position: relative;
 		top: auto;
 		bottom: 0;
+
+		padding: 1rem;
 	}
 }
 

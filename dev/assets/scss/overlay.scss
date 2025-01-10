@@ -35,6 +35,10 @@
 
     background: var(--c-paper-500);
 
+    @media screen and (width <= 60em) {
+        --modal-header-height: calc(var(--base-line-height) * 1.5);
+    }
+
     @media screen and (width <= 60em) and (width >= 35em) {
         --modal-width: 90vw;
         --modal-max-height:90svh;
@@ -81,10 +85,6 @@
         line-height: var(--modal-header-height);
 
         color: var(--c-paper);
-    }
-
-    @media screen and (width <= 60em) {
-        --modal-header-height: calc(var(--base-line-height) * 1.5);
     }
 }
 

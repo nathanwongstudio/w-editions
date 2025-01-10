@@ -4,7 +4,7 @@ return [
     // set environment variable
     'environment' => 'production',
 
-	'debug' => true,
+	'debug' => false,
 
 	'cache' => [
 		'pages' => [
