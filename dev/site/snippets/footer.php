@@ -17,8 +17,6 @@ if($foot): ?>
 
 <?= js('@auto', ['type'=>'module']) ?>
 
-<?= js('assets/js/shop.js', ['type'=>'module', 'async']) ?>
-
 <script>
     document.addEventListener('snipcart.ready', () => {
 
@@ -109,7 +107,7 @@ if($foot): ?>
                 
         }, '300');
 
-    })();
+    });
 
     // REMOVE ALL ANIMATIONS
     let resizeTimer;
@@ -125,9 +123,6 @@ if($foot): ?>
     });
 
 </script>
-
-
-<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js" defer></script>
 
 <style>
 
@@ -146,6 +141,14 @@ if($foot): ?>
         <?= $page->footerCode() ?>
     </script>
 <?php endif; ?>
+
+<?= snippet('cookieconsentJs') ?>
+
+<script>
+    function closeModal(target) {
+        target.parentElement.parentElement.classList.remove('modal-opened');
+    }
+</script>
 
 </body>
 </html>

@@ -38,6 +38,10 @@
 
         // text-shadow: 0 0 0 transparent;
 
+        &::before {
+            display: none;
+        }
+
         span {
             display:inline-block;
 
@@ -73,10 +77,6 @@ nav {
     --text-shadow-menu:0 0 0.04em var(--c-paper);
     --nav-font-size: 6vw;
 
-    @media screen and (width <=50em) {
-        --nav-font-size: 12vw;
-    }
-
     line-height:1;
 
     position:sticky;
@@ -94,6 +94,10 @@ nav {
     transition-property:  max-height;
 
     background-color: var(--c-paper);
+
+    @media screen and (width <=50em) {
+        --nav-font-size: 12vw;
+    }
 
     a {
         text-decoration: none;

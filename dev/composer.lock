@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c32db7d8f6b05dc2e17922b48264ad4c",
+    "content-hash": "4bb4939c70dbeea95798ff5b4224a152",
     "packages": [
         {
             "name": "anselmh/kirby-uniform-turnstile",
@@ -1711,15 +1711,55 @@
                 "source": "https://github.com/wearejust/kirby-meta-tags/tree/3.0.1"
             },
             "time": "2023-03-13T15:15:17+00:00"
+        },
+        {
+            "name": "zephir/kirby-cookieconsent",
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zephir/kirby-cookieconsent.git",
+                "reference": "4c2c5943280a8914ca77f76fd6d0e99d2fdf2047"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zephir/kirby-cookieconsent/zipball/4c2c5943280a8914ca77f76fd6d0e99d2fdf2047",
+                "reference": "4c2c5943280a8914ca77f76fd6d0e99d2fdf2047",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Zephir\\Cookieconsent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Stampfli",
+                    "email": "marc@zephir.ch"
+                }
+            ],
+            "description": "Kirby cookieconsent plugin",
+            "support": {
+                "issues": "https://github.com/zephir/kirby-cookieconsent/issues",
+                "source": "https://github.com/zephir/kirby-cookieconsent/tree/3.2.1"
+            },
+            "time": "2024-09-05T11:56:13+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

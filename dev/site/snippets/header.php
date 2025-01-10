@@ -36,13 +36,24 @@
 
 	$tagged = false;
     ?>
+
+    <?= snippet('cookieconsentCss') ?>
+
     <?= css('assets/css/microns-min.css') ?>
 
     <?=css('assets/css/type-mobile.css', 'screen and (max-width: 50em)') ?>
 
+    <?= css('assets/css/overlay.css') ?>
+
     <?= css('assets/css/nav.css') ?>
 
     <?=css('@auto') ?>
+
+    <?php if(isset($layouts)) {
+        if($layouts->filterBy('type', 'gallery')) {
+            echo css('assets/css/images-gallery.css');
+        }
+    } ?>
 
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
@@ -54,11 +65,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/inc5dxe.css">
 
     <?= snippet('fathom-analytics-embed'); ?>
-
-    <link
-        rel="stylesheet"
-        href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
-    />
 
     <style>
         img {
@@ -90,30 +96,6 @@
         }
     </style>
 
-    <noscript>
-        <style>
-            /**
-            * Reinstate scrolling for non-JS clients
-            */
-            .simplebar-content-wrapper {
-            scrollbar-width: auto;
-            -ms-overflow-style: auto;
-            }
-
-            .simplebar-content-wrapper::-webkit-scrollbar,
-            .simplebar-hide-scrollbar::-webkit-scrollbar {
-            display: initial;
-            width: initial;
-            height: initial;
-            }
-
-            /** ADD IMAGE OPACITY BACK */
-            img {
-                opacity: 1!important;
-            }
-        </style>
-    </noscript>
-
     <?= css('assets/css/snipcart.css') ?>
 
     <?php if($page->headerCode()->isNotEmpty()): ?>
@@ -135,3 +117,16 @@
     <?= ($nav) ? snippet('nav') : '' ?>
 
 <div class="wrapper">
+
+<div class="overlay">
+    <div class="modal-header">
+        <h3>Header Text</h3>
+        <button class="modal-close"></button>
+    </div>
+    <div class="modal-body">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos iure dolor vel sunt ducimus eaque voluptatum optio, praesentium beatae voluptatem consectetur, eius aspernatur, ratione dolore aperiam. Modi pariatur possimus et!
+        <div class="button-set">
+            <button class="negative">Reject</button><button>Accept</button>
+        </div>
+    </div>
+</div>

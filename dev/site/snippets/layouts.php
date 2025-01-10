@@ -4,7 +4,11 @@
             <?php if($layout->next()) {
                 echo ($layout->role() == 'accordion' && $layout->next()->role() != 'accordion') ? 'last' : '';
              }
-             else { echo 'last'; } ?>"
+             else { echo 'last'; } ?>
+             <?php if($layout->next()) {
+                 echo ($layout->role() == 'ticker' && $layout->next()->role() != 'ticker') ? 'last' : '';
+              }
+              else { echo 'last'; } ?>"
     id="<?= $layout->layoutId() ?>"
     style=" <?=($layout->tickerLength()->isNotEmpty()) ? '--duration:' . $layout->tickerLength() . 's;' : '' ?>
             <?= ($layout->tickerColor()->isNotEmpty()) ? '--background:' . $layout->tickerColor() . ';' : '' ?>

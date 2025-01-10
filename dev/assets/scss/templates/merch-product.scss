@@ -3,5 +3,43 @@
 .merch-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    box-sizing: border-box;
     grid-gap: 1em;
+}
+
+.merch-description {
+    display: flex;
+    flex-direction: column;
+
+    min-height: calc(100vh - var(--nav-height) - var(--merch-padding) * 2);
+
+    .text {
+        flex-grow:1;
+    }
+
+    .merch-footer {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        .merch-price {
+            font-size: 1.25em;
+            line-height: 1;
+
+            flex-grow:1;
+        }
+    }
+
+    button {
+        margin:0;
+    }
+}
+
+.merch-images {
+    text-align: center;
+
+    img {
+        max-height: calc(100vh - var(--nav-height) - var(--merch-padding) * 3);
+    }
 }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Templates</title></head>
+
+    <body>
+        <div id="snipcart-templates">
+            <!-- CART HEADER -->
+            <cart-header>
+                <header class="snipcart-cart-header modal-header" v-if="!loading">
+                    <h3 class="snipcart-cart-header__title snipcart__font--black snipcart__font--secondary">
+                        {{ $localize(title) }}
+                    </h3>
+
+                    <close-cart-action class="snipcart-cart-header__close-button snipcart-modal__close modal-close">
+                    </close-cart-action>
+                </header>
+            </cart-header>       
+        </div>
+    </body>
+</html>

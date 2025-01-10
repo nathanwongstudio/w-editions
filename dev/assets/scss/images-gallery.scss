@@ -1,0 +1,119 @@
+.default-content .blocks .block.block-type-gallery {
+    width: 100%;
+    max-width: 100%;
+
+    figure {
+        margin:0;
+        padding:0;
+    }
+
+    & > figure {
+        @media screen and (width <= 60em) {
+            position:relative;
+            left: calc(var(--column-padding) * -1);
+
+            overflow: hidden;
+
+            width: 100vw;
+            max-width: none;
+        }
+    }
+
+    & > figure figcaption {
+        display: flex;
+        flex-flow: row;
+
+        width: 100%;
+
+        margin:0;
+
+        text-align: left;
+
+        @media screen and (width <= 60em) {
+            box-sizing: border-box;
+            padding: 0 var(--column-padding);
+        }
+
+        .captext {
+            flex:1 0 auto;
+        }
+
+        .gallery-buttons {
+            flex: 0 0 auto;
+
+            width: auto;
+
+            margin:0;
+            
+            .button {
+                font-size: 0.8rem;
+        
+                display:inline-block;
+        
+                width: auto;
+                margin:0;
+        
+                // margin: calc(var(--base-line-height / 2));
+        
+                padding: 0.5rem;
+        
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.gallery-scroll {
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    ul {
+        --gap: 1rem;
+        --flex-height: calc(var(--base-line-height) * 9);
+        display: flex;
+        overflow-x:scroll;
+
+        flex-flow: nowrap;
+        place-content: start;
+
+        width: 100%;
+
+        margin:0;
+        padding:0;
+
+        padding-bottom: 1em;
+
+        list-style-type: none;
+        gap: var(--gap);
+
+        & > li {
+            border: none;
+        }
+
+        li {
+            display: contents;
+
+            // height: var(--flex-height);
+
+            margin:0;
+            padding:0;
+
+            figure {
+                flex: 1 0 auto;
+            }
+    
+            &::before {
+                display: none;
+            }
+
+            img {
+                width: auto;
+                height: var(--flex-height);
+            }
+        }
+    }
+}
+

@@ -1,53 +1,58 @@
-<div class="inquire-form" id="inquire-form">
+<div class="inquire-form overlay" id="inquire-form">
+    <div class="modal-header">
+        <h2>
+            Artwork Inquiry
+        </h2>
 
-<div class="inquire-wrapper">
+        <button class="close modal-close" id="close-inquire"></button>
+
+    </div>
+    <div class="inquire-wrapper modal-body">
+
+        <div class="modal-body-wrapper">
+
+            <form action="<?php echo $page->url() ?>" method="POST">
+                <div class="card">
+                    <div class="card-image mobile-only">
+                        <?= snippet('images', ['src' => $page->primaryImg()->toFile()]); ?>
+                    </div>
+                    <div class="card-info">
+                        <p>
+                            <strong><em><?= $page->title() ?></em> <?= $page->year()->isNotEmpty() ? '(' . $page->year() . ')' : '' ?></em></strong>
+                            <br><?= $artists ?>
+                            <br><?= $page->artId() ?>
+                        </p>
+                        <p>$<?= $page->price() ?></p>
+                    </div>
+                </div>
+                <label for="name">Name <abbr title="required">*</abbr></label>
+                <input name="name" type="text" placeholder="Name">
+
+                <label for="email">Email <abbr title="required">*</abbr></label>
+                <input name="email" type="email">
+
+                <label for="message">Message <abbr title="required">*</abbr></label>
+                <textarea name="message"></textarea>
+
+                <?php echo csrf_field(); ?>
+                <?php echo honeypot_field(); ?>
+
+                <input type="hidden" name="artId" value="<?= $page->artId() ?>">
+                <input type="hidden" name="title" value="<?= $page->title() ?>">
+                <input type="hidden" name="artist" value="<?= $artists ?>">
+                <input type="hidden" name="currentPrice" value="<?= $page->price() ?>">
+
+                <fieldset class="turnstile"><?= turnstileField() ?></fieldset>
+
+                <div id="message" class="alert"></div>
+
+                <button class="go" type="submit" id="submit">Submit</button>
+            </form>
 
 
-<?php 
-    ?>
 
-    <h2>Artwork Inquiry</h2>
-    <div class="card">
-        <div class="card-image mobile-only">
-            <?= snippet('images', ['src' => $page->primaryImg()->toFile()]); ?>
-        </div>
-        <div class="card-info">
-            <p>
-            <strong><em><?= $page->title() ?></em> <?= $page->year()->isNotEmpty() ? '(' . $page->year() . ')' : '' ?></em></strong>
-            <br><?= $artists ?>
-            <br><?= $page->artId() ?>
-            </p>
-            <p>$<?= $page->price() ?></p>
         </div>
     </div>
-    <span class="close" id="close-inquire"></span>
-
-    <form action="<?php echo $page->url() ?>" method="POST">
-        <label for="name">Name <abbr title="required">*</abbr></label>
-        <input name="name" type="text" placeholder="Name">
-
-        <label for="email">Email <abbr title="required">*</abbr></label>
-        <input name="email" type="email">
-
-        <label for="message">Message <abbr title="required">*</abbr></label>
-        <textarea name="message"></textarea>
-        
-        <?php echo csrf_field(); ?>
-        <?php echo honeypot_field(); ?>
-
-        <input type="hidden" name="artId" value="<?= $page->artId() ?>">
-        <input type="hidden" name="title" value="<?= $page->title() ?>">
-        <input type="hidden" name="artist" value="<?= $artists ?>">
-        <input type="hidden" name="currentPrice" value="<?= $page->price() ?>">
-
-        <fieldset class="turnstile"><?= turnstileField() ?></fieldset>
-
-        <button class="go" type="submit" id="submit">Submit</button>
-    </form>
-    <div id="message" class="alert"></div>
-
-
-</div>
 
 </div>
 
@@ -55,7 +60,7 @@
     var close = document.getElementById('close-inquire'),
         body = document.getElementsByTagName('body')[0],
         open = document.getElementById('inquire');
-    
+
     close.addEventListener('click', function() {
         body.classList.toggle('inquire-active');
         document.classList.remove('snipcart-cart--opened');
@@ -65,17 +70,17 @@
         document.classList.remove('snipcart-cart--opened');
     });
 
-    window.addEventListener('load', function () {
+    window.addEventListener('load', function() {
         var form = document.querySelector('form');
         var message = document.getElementById('message');
         var fields = {};
-        form.querySelectorAll('[name]').forEach(function (field) {
+        form.querySelectorAll('[name]').forEach(function(field) {
             fields[field.name] = field;
         });
 
         // Displays all error messages and adds 'error' classes to the form fields with
         // failed validation.
-        var handleError = function (response) {
+        var handleError = function(response) {
             var errors = [];
             for (var key in response) {
                 if (!response.hasOwnProperty(key)) continue;
@@ -86,7 +91,7 @@
             message.innerHTML = errors.join('<br>');
         }
 
-        var onload = function (e) {
+        var onload = function(e) {
             if (e.target.status === 200) {
                 message.classList.add('success');
                 message.innerHTML = 'Your inquiry was submitted.'
@@ -100,7 +105,7 @@
             }
         };
 
-        var submit = function (e) {
+        var submit = function(e) {
             e.preventDefault();
             var request = new XMLHttpRequest();
             request.open('POST', e.target.action);
@@ -110,11 +115,10 @@
             for (var key in fields) {
                 if (!fields.hasOwnProperty(key)) continue;
                 fields[key].classList.remove('error');
-                fields[key].disabled = true; 
+                fields[key].disabled = true;
             }
             message.classList.remove('error');
         };
         form.addEventListener('submit', submit);
     });
-
 </script>

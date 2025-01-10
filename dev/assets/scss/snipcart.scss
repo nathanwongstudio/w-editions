@@ -1,25 +1,50 @@
 /* stylelint-disable selector-class-pattern */
+@use 'mixins';
+@use 'variables';
+@use 'forms';
 
 #snipcart {
+    @extend %xp-box;
     position: fixed;
     z-index:99999999;
-    top:0;
-    right:-105vw;
-    left: auto;
+    inset: 2.5vw;
 
     overflow: auto;
 
-    width: calc(67vw - 2px);
-    height:100vh;
+	transition: transform 500ms ease, opacity 3000ms ease 400ms;
 
-    border-left: 2px solid var(--c-paper-700);
+    transform: scale(0);
 
-    background: var(--c-paper);
+    opacity: 0;
+
+    background: var(--c-paper-600);
 
     @media screen and (width <= 60em) {
         z-index:99999999999999;
+        inset: 0;
 
         width:100vw;
+
+        height: 100svh;
+    }
+
+    .snipcart-modal__container {
+        min-width: 100vw;
+    }
+}
+
+
+.snipcart-cart--opened #snipcart {
+	transition: transform 300ms ease, opacity 100ms ease;
+
+    transform: scale(1);
+
+    opacity: 1;
+
+    background: var(--c-paper-300);
+
+    .snipcart-modal__container {
+        min-width: 100%;
     }
 }
 
@@ -39,42 +64,44 @@
 }
 
 .snipcart-cart-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    // align-items: center;
+    // justify-content: center;
 
     @media screen and (width <=60em) {
-        grid-template-columns: 1fr;
+        // grid-template-columns: 1fr;
     }
 
     h3 {
-        text-align: center;
+        // text-align: center;
     }
 
     button {
-        font-size: 0.6em;
+        // font-size: 0.6em;
 
-        display: grid;
-        grid-template-columns: 2em 1fr;
-        align-items: center;
-        justify-content: center;
+        // display: grid;
+        // grid-template-columns: 2em 1fr;
+        // align-items: center;
+        // justify-content: center;
 
-        min-width: 2em;
+        // min-width: 2em;
 
-        padding: 0.5em;
+        // margin-left:0;
 
-        letter-spacing: 1px;
-        text-transform: uppercase;
+        // padding: 0.5em;
 
-        svg {
-            width: auto;
-            height:1.5em;
-        }
+        // letter-spacing: 1px;
+        // text-transform: uppercase;
 
-        &::after {
-            display: none;
-        }
+        // svg {
+        //     width: auto;
+        //     height:1.5em;
+        // }
+
+        // &::after {
+        //     display: none;
+        // }
     }
 }
 
@@ -121,10 +148,6 @@
             height: 2em;
         }
     }
-}
-
-.snipcart-modal__container {
-    padding: 1em;
 }
 
 .snipcart__font--bold {
@@ -456,6 +479,15 @@ ul.snipcart-shipping-rates-list {
     text-transform: uppercase;
 }
 
+button.snipcart-checkout {
+    margin:0;
+    padding: calc(var(--base-line-height) / 4);
+
+    &::after {
+        display:none;
+    }
+}
+
 #checkout-button.empty {
     display:none;
     visibility: hidden;
@@ -499,8 +531,6 @@ ul.snipcart-shipping-rates-list {
     margin-bottom:1em;
     padding: 1em;
 
-    background: var(--c-paper-100);
-
     h1, h2, h3, h4, h5, h6 {
         margin:0;
     }
@@ -511,6 +541,10 @@ ul.snipcart-shipping-rates-list {
         letter-spacing: 1px;
         text-transform: uppercase;
     }
+}
+
+.snipcart-layout__content {
+    padding: 1rem;
 }
 
 .snipcart__box--header,
@@ -524,10 +558,10 @@ ul.snipcart-shipping-rates-list {
     margin-bottom: 1em;
     
     button {
-        font-size: 0.7em;
-        justify-self: end;
+        // font-size: 0.7em;
+        // justify-self: end;
 
-        margin:0;
+        // margin:0;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -855,4 +889,156 @@ button.snipcart-discount-box__cancel {
     &:hover {
         margin-top:inherit;
     }
+}
+
+/* stylelint-disable-next-line no-duplicate-selectors */
+.snipcart-cart__content ul.snipcart-featured-payment-methods__list,
+.snipcart-cart-summary ul.snipcart-featured-payment-methods__list {
+    display: none;
+}
+
+/** SNIP CART FORM ELEMENTS **/
+
+.snipcart-item-line__info {
+	margin-bottom: var(--base-line-height);
+}
+
+.snipcart-textbox {
+	@extend %inputs;
+
+	input {
+		margin: 0;
+		padding: 0;
+
+		border: 0;
+		background: transparent;
+		appearance: none;
+	}
+}
+
+.snipcart-form__address-autocomplete .snipcart-textbox {
+	background-image: none;
+}
+
+.snipcart-form__address-autocomplete > .snipcart-textbox {
+	height: auto;
+	min-height: var(--base-line-height);
+}
+
+.snipcart-form__address-autocomplete > .snipcart-typeahead__select {
+	height: 0;
+
+	opacity: 0;
+}
+
+.snipcart-form__address-autocomplete--active > .snipcart-typeahead__select {
+	height: unset;
+
+	opacity: 1;
+}
+
+.snipcart-form__address-autocomplete
+	.snipcart-typeahead__suggestion--powered-by-google {
+	display: flex;
+	justify-content: flex-end;
+
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+ul.snipcart-typeahead__suggestions {
+	font-size: 0.8em;
+
+	position: absolute;
+	z-index: 99999;
+	top: 100%;
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+
+	background: white;
+	box-shadow: 0 6px 6px 0 var(--c-paper-800);
+
+	li {
+		font-weight: normal;
+
+		padding: 0.75em 0.5em;
+
+		cursor: pointer;
+
+		color: var(--c-paynes);
+		border-bottom: 1px solid var(--c-paper);
+
+		&:hover {
+			background: var(--c-paper-100);
+		}
+	}
+
+	.snipcart-typeahead__suggestion--secondary {
+		font-size: 0.8em;
+		font-weight: bold;
+
+		padding: 0 0.5em;
+
+		text-transform: uppercase;
+	}
+
+	img {
+		width: 5em;
+		height: auto;
+		margin: 0;
+	}
+}
+
+[class^="snipcart-form"] {
+	position: relative;
+
+	.snipcart__icon {
+		position: absolute;
+		z-index: 999;
+		top: calc(50% - 1em);
+		right: 0.5em;
+
+		width: 2em;
+		height: 2em;
+	}
+
+	.snipcart__notice__icon {
+		position: relative;
+		top: auto;
+		right: auto;
+		left: auto;
+	}
+}
+
+.snipcart-checkout-step__col {
+	display: grid;
+	grid-template-columns: 1fr 8fr;
+	grid-gap: 1em;
+
+	margin-top: 1em;
+}
+
+.snipcart-field-error {
+	font-size: 0.7em;
+	font-weight: bold;
+
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+	color: var(--c-cinnabar);
+}
+
+
+.snipcart-cart--opened body {
+	// max-width: 33vw;
+
+	// transition: max-width 250ms ease;
+
+	// @media screen and (width <= 60em) {
+	// 	max-width: 100vw;
+	// }
 }

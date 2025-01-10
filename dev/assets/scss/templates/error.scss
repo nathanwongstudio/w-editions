@@ -1,1 +1,11 @@
-@use 'home.scss';
+@use "home.scss";
+
+.section-wrapper {
+	&:first-child {
+		&::before,
+		&::after {
+			display: none;
+			visibility: hidden;
+		}
+	}
+}

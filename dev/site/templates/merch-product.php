@@ -8,17 +8,21 @@ $src = $page->productImage()->toFile();
 <div class="default-content">
 
 <div class="merch-wrap">
-    <div class="merch--description">
+    <div class="merch-description">
         <h1><?= $page->productName(); ?></h1>
-        <div class="merch--price">
-            $<?= $page->productPrice(); ?>
-        </div>
         <div class="text">
             <?= $page->productDescription(); ?>
         </div>
-        <?= snippet('products/merch-add', ['class'=>'button']) ?>
+        <div class="merch-footer">
+            <div class="merch-price">
+                $<?= $page->productPrice(); ?>
+            </div>
+            <div class="merch-button">
+                <?= snippet('products/merch-add', ['class'=>'button']) ?>
+            </div>
+        </div>
     </div>
-    <div class="merch--images">
+    <div class="merch-images">
         <?= snippet('images', compact('src')) ?>
     </div>
 </div>

@@ -31,7 +31,7 @@
 
         position: relative;
 
-        width: 100%;
+        // width: 100%;
         
         @media screen and (width <= 40em) {
             font-size: 2.5em;
@@ -41,6 +41,18 @@
             hyphens:none;
         }
     }
+}
+
+%xp-box {
+    text-decoration: none;
+
+    color: var(--c-paynes-700);
+    border: 2px outset var(--c-paper-400) ;
+    border-radius: 0;
+
+    outline: 0;
+    background-color: var(--c-paper-600);
+    appearance: none;
 }
 
 .contrast-text {

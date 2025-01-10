@@ -184,6 +184,10 @@
         --ticker-size: 3rem;
     }
 
+    &.last {
+        margin-bottom: var(--column-margins)!important;
+    }
+
     @keyframes ticker {
       0% {
         visibility: visible;

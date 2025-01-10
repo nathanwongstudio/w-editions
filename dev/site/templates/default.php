@@ -1,8 +1,4 @@
-<?php snippet('header');
-
-$layouts = $page->text()->toLayouts();
-
-?>
+<?php snippet('header'); ?>
 <div class="default-content">
 
     <?php foreach($layouts as $layout): ?>
@@ -11,6 +7,11 @@ $layouts = $page->text()->toLayouts();
 
     <?php if($layouts->findBy('role', 'accordion')): ?>
         <?= snippet('accordion-js') ?>
+    <?php endif; ?>
+
+    <?php if($layouts->filterBy('type', 'gallery')): ?>
+        <?= snippet('modals/overlay', ['modalTitle' => 'Image Gallery', 'modalContent' => '', 'id' => 'gallery-overlay']) ?>
+        <?= snippet('inline-gallery-js') ?>
     <?php endif; ?>
 
 </div>
