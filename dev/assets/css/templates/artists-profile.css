@@ -1,89 +1,175 @@
-h1, h2, h3, h4, h5, h6 {
-  text-align: center;
+.contrast-text {
+  --contrast-text-color: var(--c-cobalt);
+  --contrast-shadow-color: var(--c-benibana-600);
+  font-family: var(--secondary-font-stack);
+  background: var(--c-paper);
+  mix-blend-mode: multiply;
+  filter: contrast(30);
+}
+.contrast-text * {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.1em 0;
+  padding-left: 0.25rem;
+  letter-spacing: -1px;
+  color: transparent;
+  text-shadow: 0 0 0.05em var(--contrast-text-color);
+}
+.contrast-text > * {
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+}
+@media screen and (width <= 40em) {
+  .contrast-text > * {
+    font-size: 2.5em;
+    letter-spacing: 0;
+    -webkit-hyphens: none;
+            hyphens: none;
+  }
 }
 
+.section-bio .container, .profilepic .pic-wrapper, section.container.gallery, .artworks .gallery-items li {
+  text-decoration: none;
+  color: var(--c-paynes-700);
+  border: 2px outset var(--c-paper-400);
+  border-radius: 0;
+  outline: 0;
+  background-color: var(--c-paper-600);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  box-shadow: 0 5px 16px -8px var(--c-paynes);
+}
+
+.section-bio .artist-name, .profilepic .pic-wrapper-header, .gallery-header {
+  font-size: 0.8em;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.125rem 1rem;
+  color: white;
+  background: var(--c-cobalt);
+}
+
+.artworks .gallery-items li:active {
+  border: 2px inset var(--c-paper-400);
+  background-color: var(--c-paper-700);
+}
+
+.section-bio {
+  flex: 1 0;
+}
+.section-bio .artist-name {
+  margin: 0;
+}
 .profile {
-  padding-top: calc(2 * var(--base-line-height));
+  display: flex;
+  flex-flow: row wrap;
+  place-items: center;
+  box-sizing: border-box;
+  padding: calc(1.5 * var(--base-line-height));
+  gap: var(--base-line-height);
+}
+@media screen and (width < 40rem) {
+  .profile > * {
+    flex-basis: 100%;
+  }
 }
 
 .profilepic {
   display: flex;
+  flex: 1 0;
   place-content: center;
-  width: 100%;
-  margin-bottom: calc(2 * var(--base-line-height));
 }
 .profilepic .pic-wrapper {
   position: relative;
   display: inline;
-  flex: 0 0 content;
-  max-width: 100vw;
-  max-height: 66vh;
+  flex: 0 1 content;
+  box-sizing: border-box;
 }
 .profilepic .pic-wrapper figure {
   display: block;
+  box-sizing: border-box;
   height: 100%;
+  margin: 0;
+  padding: 1em;
 }
 .profilepic .pic-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
   margin: 0 auto;
 }
 
-section.container {
-  padding: var(--base-line-height);
-}
 section.container.gallery {
   position: relative;
+  width: 100%;
   height: auto;
   padding-right: 0;
   padding-left: 0;
 }
 
 .bio {
-  max-width: 45rem;
+  max-width: 40rem;
   margin: auto;
-  text-align: center;
+  padding: var(--base-line-height);
+  text-align: left;
 }
 
 .editions {
   display: block;
+  box-sizing: border-box;
   width: 100%;
+  padding: var(--base-line-height);
 }
 
+.gallery.no-scroll {
+  --gallery-height: 23em;
+}
+.gallery.no-scroll figure {
+  width: 100%;
+}
+.gallery.no-scroll ul {
+  margin: 0;
+  list-style-type: none;
+}
 .gallery.no-scroll .gallery-items {
+  display: flex;
+  flex-flow: row wrap;
   flex-shrink: 0;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
   height: auto;
+  list-style-type: none;
   gap: 1rem;
 }
 .gallery.no-scroll .gallery-items::after {
   display: none;
 }
 .gallery.no-scroll .gallery-items li.gallery-item {
-  height: var(--gallery-height);
+  display: flex;
+  flex: 0 1 25%;
+  flex-flow: column nowrap;
+  place-content: center center;
   margin: 0;
   padding: 0;
+  padding: 1rem;
+  background: var(--c-paper-100);
+}
+.gallery.no-scroll .gallery-items li.gallery-item::before {
+  display: none;
 }
 @media screen and (width <= 50em) {
   .gallery.no-scroll .gallery-items li.gallery-item {
     width: 45vw;
     min-width: 300px;
-    height: 50vh;
-    text-align: center;
-  }
-  .gallery.no-scroll .gallery-items li.gallery-item figure {
-    display: block;
-    width: 100%;
-    max-height: 100%;
-    margin: auto;
-  }
-  .gallery.no-scroll .gallery-items li.gallery-item img {
-    margin: auto;
   }
 }
 .gallery.no-scroll .gallery-items li.gallery-item figure {
-  display: block;
-  height: 100%;
+  display: contents;
 }
 .gallery.no-scroll .gallery-items li.gallery-item img {
   margin: auto;
@@ -91,38 +177,25 @@ section.container.gallery {
 
 .artworks {
   position: relative;
-  margin-top: var(--base-line-height);
 }
 .artworks .nothing {
-  font-size: var(--up-2);
+  font-weight: bold;
   margin: var(--base-line-height) 0;
   text-align: center;
-  color: var(--c-paynes-200);
-}
-.artworks .gallery-items li {
-  --text-area-height:1.5 * var(--base-line-height);
+  color: var(--c-paynes-400);
 }
 .artworks .gallery-items li .art-image {
   position: relative;
-  height: calc(100% - var(--text-area-height));
+  max-height: 100%;
 }
 .artworks .gallery-items li .art-image a {
   height: 100%;
 }
 .artworks .gallery-items li .art-title {
-  height: calc(var(--text-area-height));
-  margin-top: calc(var(--text-area-height) - var(--base-line-height));
+  margin-top: var(--base-line-height);
 }
 .artworks .gallery-items li .art-title a {
-  font-weight: bold;
-  transition: text-shadow 200ms ease-out;
   text-decoration: none;
-  color: transparent;
-  text-shadow: 0 0 0 var(--c-cobalt);
-}
-.artworks .gallery-items li .art-title a:hover {
-  transition: text-shadow 200ms ease-out;
-  text-shadow: 0 0 3px var(--c-cobalt);
 }
 
 /*# sourceMappingURL=artists-profile.css.map */

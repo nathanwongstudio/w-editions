@@ -42,12 +42,18 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  box-shadow: 0 5px 16px -8px var(--c-paynes);
+}
+
+.inquire-active,
+.overlay-active {
+  overflow-y: hidden;
 }
 
 .overlay, #snipcart {
   --modal-header-height: var(--base-line-height);
   --modal-width:36vw;
-  --modal-max-height: 75svh;
+  --modal-max-height: 80svh;
   box-sizing: border-box;
   box-shadow: 0 5px 16px -8px var(--c-paynes);
 }
@@ -94,7 +100,8 @@
 }
 
 .modal-header {
-  font-size: 1rem;
+  font-size: 0.7rem;
+  position: -webkit-sticky;
   position: sticky;
   z-index: 99;
   top: 0;
@@ -107,6 +114,7 @@
   background: var(--c-cobalt);
 }
 .modal-header h2, .modal-header h3, .modal-header h4, .modal-header h5 {
+  font-size: 0.8rem;
   line-height: var(--modal-header-height);
   color: var(--c-paper);
 }
@@ -277,9 +285,9 @@
 #cc-main .pm__header {
   font-size: var(--base-font-size);
   height: var(--base-line-height);
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
   color: white;
   background: var(--c-cobalt);
 }

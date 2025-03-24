@@ -21,7 +21,10 @@
             <?= ($layout->accordionTC()->isNotEmpty()) ? '--contrast-text-color:' . $layout->accordionTC() . ';' : '' ?>
             <?= ($layout->accordionTC()->isNotEmpty()) ? '--accordion-text-color:' . $layout->accordionTC() . ';' : '' ?>
     ">
-    <section    class="grid <?= (count($layout->columns()) == 1) ? 'single' : '' ?>">
+    <section
+        class="grid
+        <?= (count($layout->columns()) == 1) ? 'single' : '' ?>
+        <?= ($layout->openDefault()->toBool()) ? 'active' : '' ?>">
         <?php foreach ($layout->columns() as $column): ?>
             <div class="column col-<?= Str::replace($column->width(), '/', '-') ?>" style="--span:<?= $column->span() ?>">
                 <div class="blocks" style="<?= ($layout->tickerDirection()->toBool()) ? 'animation-direction: reverse;' : '' ?>">

@@ -8,7 +8,7 @@ return [
     ],
 
     'zephir.cookieconsent' => [
-        'cdn' => false,
+        'cdn' => true,
         'revision' => 1,
         'root' => 'document.body',
         'autoClearCookies' => true, // Only works when the categories have an autoClear array
@@ -35,14 +35,17 @@ return [
                 'enabled' => true,
                 'readOnly' => true
             ],
-            'measurement' => [],
-            'functionality' => [],
-            'experience' => [],
-            'marketing' => []
+            'measurement' => false,
+            'functionality' => false,
+            'experience' => false,
+            'marketing' => false
         ],
         'language' => [
             'locale' => 'en',
             'direction' => 'ltr'
+        ],
+        'translations' => [
+            'en' => require_once(__DIR__ . '/translations/en.php'),
         ]
     ],
 
@@ -50,7 +53,7 @@ return [
 
     'wearejust.meta-tags.default' => function ($page, $site) {
         return [
-            'title' => ((!$page->isHomePage()) ? $page->title() . ' /// ' : '') . $site->title(),
+            'title' => ((!$page->isHomePage()) ? $page->title() . ' ʬ ' : '') . $site->title(),
             'meta' => [
                 'description' => (($page->pageDescription()->isNotEmpty()) ? $page->pageDescription() : $site->description())
             ],
@@ -86,6 +89,25 @@ return [
                         'alt' => $image->alt()
                     ];
                 }
+            ],
+        ];
+    },
+    'wearejust.meta-tags.templates' => function ($page, $site) {
+        return [
+            'gallery-artwork' => [
+                'og' => [
+                    'title' => $page->title(),
+                    'image' => $page->url() . '.png',
+                    'type' => 'website',
+                    'site_name' => $site->title(),
+                    'url' => $page->url()
+                ],
+                'twitter' => [
+                    'card' => 'summary_large_image',
+                    'site' => $site->twitter(),
+                    'title' => $page->title(),
+                    'image' => $page->url() . '.png'
+                ]
             ]
         ];
     },

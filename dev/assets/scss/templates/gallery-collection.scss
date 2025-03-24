@@ -186,8 +186,9 @@
                 font-size: 0;
 
                 // position: sticky;
-                top:0;
-                right: 0;
+
+                top:4px;
+                right: 4px;
 
                 width: calc(100% - 2rem);
 
@@ -202,7 +203,8 @@
                     display:inline-block;
 
                     width:auto;
-                    padding: 0 0.5em;
+                    height:auto;
+                    padding: 0.25em 0.5em;
 
                     letter-spacing:0;
                 }
@@ -241,6 +243,10 @@
                 transform:none;
 
                 border-radius: 0;
+
+                &::before {
+                    border-radius:0;
+                }
 
                 & ~ .tag {
                     right: 0

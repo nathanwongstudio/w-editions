@@ -1,0 +1,70 @@
+<pre>Array
+(
+    [0] => Array
+        (
+            [cost] => 0
+            [description] => Get a Frame Quote — <a href="/framing">Read more about custom framing</a>
+        )
+
+    [1] => Array
+        (
+            [cost] => 13.01
+            [description] => UPS — Ground
+        )
+
+    [2] => Array
+        (
+            [cost] => 14.20
+            [description] => UPS — 3 Day Select
+        )
+
+    [3] => Array
+        (
+            [cost] => 16.54
+            [description] => UPS — 2nd Day Air
+        )
+
+    [4] => Array
+        (
+            [cost] => 18.17
+            [description] => UPS — 2nd Day Air AM
+        )
+
+    [5] => Array
+        (
+            [cost] => 20.26
+            [description] => USPS — Ground Advantage
+        )
+
+    [6] => Array
+        (
+            [cost] => 25.29
+            [description] => UPS — Next Day Air Saver
+        )
+
+    [7] => Array
+        (
+            [cost] => 30.29
+            [description] => UPS — Next Day Air
+        )
+
+    [8] => Array
+        (
+            [cost] => 32.37
+            [description] => USPS — Priority
+        )
+
+    [9] => Array
+        (
+            [cost] => 60.29
+            [description] => UPS — Next Day Air Early AM
+        )
+
+    [10] => Array
+        (
+            [cost] => 70.45
+            [description] => USPS — Express
+        )
+
+)
+</pre>

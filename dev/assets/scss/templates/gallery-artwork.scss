@@ -37,6 +37,48 @@
 	}
 }
 
+.action-bar {
+	font-size: 0.7em;
+	line-height:1;
+
+	position:sticky;
+	z-index:999;
+	top:var(--nav-height);
+
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	align-items: center;
+
+	box-sizing:border-box;
+
+	width: 100%;
+	padding: 0 0 0 1em;
+
+	color: var(--c-paper);
+
+	background-color: var(--c-cobalt);
+
+	button, .button {
+		display:inline-block;
+
+		margin:0;
+
+		vertical-align: middle;
+	}
+
+	.action-cta {
+		text-align:right;
+	}
+
+	.action-info {
+		display:block;
+
+		width: auto;
+
+		text-align:left;
+	}
+}
+
 h1.title {
 	font-family: var(--secondary-font-stack);
 	font-size: 1.25em;
@@ -57,7 +99,7 @@ h1.title {
 }
 
 .sticker-box {
-	position: fixed;
+	position: absolute;
 	z-index: 99;
 
 	top: var(--nav-height);
@@ -74,6 +116,8 @@ h1.title {
 			display: flex;
 			flex-direction: column;
 			place-content: center;
+
+			padding: 0.25em 0.5em;
 		}
 
 		& > * {
@@ -81,6 +125,8 @@ h1.title {
 
 			@media screen and (width <= 50em) {
 				font-size: 1.5rem;
+
+				padding:0.25em 0.5em;
 			}
 		}
 
@@ -101,22 +147,9 @@ h1.title {
 
 	@media screen and (width <= 50em) {
 		position: relative;
+		top:0;
 
 		width: 100%;
-	}
-}
-
-button.snipcart-add-item {
-	box-shadow: none;
-
-	&:hover {
-		--contrast-text-color: var(--c-gold);
-		color: transparent;
-	}
-
-	&::after,
-	&::before {
-		display: none;
 	}
 }
 
@@ -182,11 +215,11 @@ button.snipcart-add-item {
 
 @keyframes button {
 	from {
-		transform: scale(100%) skewX(-15deg) rotate(-15deg);
+		transform: scale(100%) skewX(15deg) rotate(15deg);
 	}
 
 	to {
-		transform: scale(115%) skewX(-15deg) rotate(-15deg);
+		transform: scale(115%) skewX(15deg) rotate(15deg);
 	}
 }
 
@@ -204,13 +237,9 @@ button.snipcart-add-item {
 }
 
 .artwork {
-	@media screen and (width <= 50em) {
-		padding-top: 4em;
-	}
-
 	.description {
 		position: sticky;
-		z-index: 9;
+		z-index: 0;
 		top: var(--nav-height);
 
 		display: block;
@@ -218,13 +247,15 @@ button.snipcart-add-item {
 
 		box-sizing: border-box;
 
-		width: 50%;
-		max-width: 30em;
+		width: 100%;
 		height: 100%;
-		padding: var(--base-line-height);
 
 		@media screen and (width <= 60em) {
 			position: relative;
+
+			top:0;
+
+			overflow:visible;
 
 			width: 100%;
 			max-width: none;
@@ -248,19 +279,47 @@ button.snipcart-add-item {
 	}
 }
 
+.secondary-info {
+	display: grid;
+	grid-template-columns: 19rem 1fr;
+
+	margin:0 5%;
+	gap: 1em;
+
+	@media screen and (width <=70em) {
+		grid-template-columns: 1fr 2fr;
+	}
+	
+	@media screen and (width <=60em) {
+		grid-template-columns: 1fr;
+
+		margin: 0 1%;
+	}
+}
+
 .title-card-wrapper {
-	position: absolute;
-	top: 0;
-	left: 0;
+	.overlay.modal-opened {
+		position: sticky;
 
-	width: 100vw;
-	height: calc(100vh - var(--nav-height));
+		z-index:0;
+		top: calc(var(--nav-height) + 5%);
+		left:0;
 
-	@media screen and (width <=50em) {
-		position: relative;
+		width: auto;
+		
+		height: auto;
+		max-height: none;
+	
+		transform:none;
+	
+		@media screen and (width <=60em) {
+			position: relative;
+			top:0;
+			left:0;
 
-		width: 100%;
-		height:auto;
+			width: 100%;
+			height:auto;
+		}
 	}
 }
 
@@ -270,9 +329,13 @@ button.snipcart-add-item {
 	top: var(--nav-height);
 	left: 0;
 
-	padding: var(--base-line-height);
+	padding: calc(var(--base-line-height) / 2);
 
 	text-align: left;
+
+	@media screen and (width <=35em) {
+		max-height:none;
+	}
 
 	@media screen and (width <=50em) {
 		position: relative;
@@ -283,9 +346,23 @@ button.snipcart-add-item {
 	}
 }
 
-.image-gallery {
+.image-gallery.overlay.modal-opened {
+	position:relative;
 	z-index: 0;
 	top: 0;
+	left:0;
+
+	width: auto;
+	height:auto;
+	max-height: none;
+	margin:0;
+
+	transform:none;
+
+	.modal-body {
+		height:auto;
+		max-height:none;
+	}
 
 	ul {
 		margin: 0;
@@ -293,8 +370,7 @@ button.snipcart-add-item {
 		list-style-type: none;
 
 		li {
-			width: 100%;
-			margin: 4em 0;
+			margin: calc(var(--base-line-height) / 2);
 			padding: 0;
 
 			text-align: center;
@@ -318,7 +394,7 @@ button.snipcart-add-item {
 .primary-image {
 	box-sizing: border-box;
 	width: 100%;
-	padding: var(--base-line-height);
+	padding:0;
 
 	text-align: center;
 
@@ -333,4 +409,16 @@ button.snipcart-add-item {
 
 span.text-wrap {
 	background: var(--c-paper);
+}
+
+.block-type-bio {
+	img {
+		float: left;
+
+		max-width: 50%;
+		object-fit: contain;
+
+		height: calc(8 * var(--base-line-height));
+		padding-right: var(--base-line-height);
+	}
 }

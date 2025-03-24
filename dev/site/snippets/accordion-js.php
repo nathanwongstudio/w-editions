@@ -1,9 +1,10 @@
-<?= js('assets/js/accordion.js') ?>
-
 <script>
-    window.onload = setTimeout(accordionSet, 5);
+    window.addEventListener('DOMContentLoaded', accordionSet);
 
-    window.onresize = () => {
-        setTimeout(accordionSet, 1000);
-    }
+    var acc;
+    window.addEventListener('resize', (event) => {
+        clearTimeout(acc);
+        acc = setTimeout(accordionMeasure, 100);
+    });
+
 </script>

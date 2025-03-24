@@ -44,6 +44,8 @@
 }
 
 %xp-box {
+    // font-family: Tahoma, Verdana, Geneva, neue-haas-grotesk-text,  sans-serif;
+
     text-decoration: none;
 
     color: var(--c-paynes-700);
@@ -53,8 +55,29 @@
     outline: 0;
     background-color: var(--c-paper-600);
     appearance: none;
+
+    box-shadow: 0 5px 16px -8px var(--c-paynes);
+}
+
+%xp-header {
+    font-size: 0.8em;
+    font-weight:bold;
+
+    box-sizing: border-box;
+
+    width:100%;
+    padding: 0.125rem 1rem;
+
+    color: white;
+    background: var(--c-cobalt);
+}
+
+%xp-box-active {
+    border: 2px inset var(--c-paper-400);
+    background-color: var(--c-paper-700);
 }
 
 .contrast-text {
     @extend %contrast-text;
 }
+

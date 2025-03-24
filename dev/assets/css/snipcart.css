@@ -46,6 +46,7 @@ input[type=button] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  box-shadow: 0 5px 16px -8px var(--c-paynes);
 }
 
 :root {
@@ -139,9 +140,14 @@ input[type=button] {
 /* stylelint-disable selector-class-pattern */
 /* stylelint-disable selector-class-pattern */
 label {
+  font-size: 0.6em;
+  font-weight: bold;
+  line-height: var(--base-line-height);
   display: inline-block;
   width: 100%;
-  margin-top: calc(var(--base-line-height) / 2);
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 label + input {
   margin-top: 0;
@@ -163,7 +169,7 @@ input {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  margin: calc(var(--base-line-height) / 2) 0;
+  margin: 0;
 }
 
 abbr[title=required] {
@@ -341,6 +347,14 @@ input[type=button] {
   margin: calc(var(--base-line-height) / 2) auto;
   padding: 0.5em 2em 0.5em 1em;
   cursor: pointer;
+  box-shadow: none;
+}
+a.button.inline,
+.button.inline,
+button.inline,
+input[type=submit].inline,
+input[type=button].inline {
+  display: inline-block;
 }
 a.button.negative,
 .button.negative,
@@ -371,6 +385,22 @@ input[type=button]::after {
   right: 0.5em;
   content: "\e701";
   transform: translateY(-50%);
+}
+a.button.reverse,
+.button.reverse,
+button.reverse,
+input[type=submit].reverse,
+input[type=button].reverse {
+  padding: 0.5em 1em 0.5em 2em;
+}
+a.button.reverse::after,
+.button.reverse::after,
+button.reverse::after,
+input[type=submit].reverse::after,
+input[type=button].reverse::after {
+  right: auto;
+  left: 0.5em;
+  content: "\e700";
 }
 a.button:disabled, a.button.disabled,
 .button:disabled,
@@ -477,10 +507,14 @@ form {
 }
 
 #inquire-form .card {
-  padding: 1em;
+  padding: 0.5em;
   color: var(--c-paynes);
-  border: 2px solid var(--c-paper-600);
+  border: 2px inset var(--c-paper-600);
   background: var(--c-paper-100);
+}
+#inquire-form .card p {
+  font-size: 0.7em;
+  margin: 0;
 }
 #inquire-form .card .card-image {
   width: 100%;
@@ -488,6 +522,7 @@ form {
 }
 #inquire-form .card .card-image figure {
   display: inline-block;
+  margin: 0;
 }
 #inquire-form .card .card-image img {
   width: auto;
@@ -689,15 +724,14 @@ body {
 .snipcart-cart__content ul li.snipcart-item-line .snipcart-item-line__media, .snipcart-cart__content ul li.snipcart-cart-summary-item .snipcart-item-line__media,
 .snipcart-cart-summary ul li.snipcart-item-line .snipcart-item-line__media,
 .snipcart-cart-summary ul li.snipcart-cart-summary-item .snipcart-item-line__media {
-  flex: 0 1 9em;
-  width: 25%;
+  flex: 0 1 10em;
 }
 .snipcart-cart__content ul li.snipcart-item-line .snipcart-item-line__product, .snipcart-cart__content ul li.snipcart-cart-summary-item .snipcart-item-line__product,
 .snipcart-cart-summary ul li.snipcart-item-line .snipcart-item-line__product,
 .snipcart-cart-summary ul li.snipcart-cart-summary-item .snipcart-item-line__product {
   display: flex;
+  flex: 1 1 75%;
   flex-direction: column;
-  flex-grow: 1;
 }
 .snipcart-cart__content ul li.snipcart-item-line .snipcart-item-line__header, .snipcart-cart__content ul li.snipcart-cart-summary-item .snipcart-item-line__header,
 .snipcart-cart-summary ul li.snipcart-item-line .snipcart-item-line__header,
@@ -817,7 +851,7 @@ ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item--guarantee
 }
 ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item__label--highlight {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: bold;
   cursor: pointer;
 }
 ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item__label--highlight label {

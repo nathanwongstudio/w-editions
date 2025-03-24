@@ -10,26 +10,23 @@
     <div class="inquire-wrapper modal-body">
 
         <div class="modal-body-wrapper">
-
             <form action="<?php echo $page->url() ?>" method="POST">
                 <div class="card">
                     <div class="card-image mobile-only">
                         <?= snippet('images', ['src' => $page->primaryImg()->toFile()]); ?>
                     </div>
                     <div class="card-info">
-                        <p>
-                            <strong><em><?= $page->title() ?></em> <?= $page->year()->isNotEmpty() ? '(' . $page->year() . ')' : '' ?></em></strong>
-                            <br><?= $artists ?>
-                            <br><?= $page->artId() ?>
-                        </p>
-                        <p>$<?= $page->price() ?></p>
+                        <p><strong><em><?= $page->title() ?></em> <?= $page->year()->isNotEmpty() ? '(' . $page->year() . ')' : '' ?></em></strong>
+                        <p><?= $artists ?>
+                        <p><?= $page->artId() ?>
+                        <p>$<?= $page->price() ?>
                     </div>
                 </div>
                 <label for="name">Name <abbr title="required">*</abbr></label>
-                <input name="name" type="text" placeholder="Name">
+                <input name="name" type="text" placeholder="Johannes Gutenberg">
 
-                <label for="email">Email <abbr title="required">*</abbr></label>
-                <input name="email" type="email">
+                <label for="email">Email Address <abbr title="required">*</abbr></label>
+                <input name="email" type="email" placeholder="johannes@example.com">
 
                 <label for="message">Message <abbr title="required">*</abbr></label>
                 <textarea name="message"></textarea>
@@ -42,15 +39,13 @@
                 <input type="hidden" name="artist" value="<?= $artists ?>">
                 <input type="hidden" name="currentPrice" value="<?= $page->price() ?>">
 
-                <fieldset class="turnstile"><?= turnstileField() ?></fieldset>
-
-                <div id="message" class="alert"></div>
-
                 <button class="go" type="submit" id="submit">Submit</button>
+
+                <fieldset class="turnstile">
+                    <label for="turnstile">Are you a human?</label>
+                    <?= turnstileField() ?></fieldset>
             </form>
-
-
-
+            <div id="message" class="alert"></div>
         </div>
     </div>
 
@@ -58,16 +53,19 @@
 
 <script>
     var close = document.getElementById('close-inquire'),
-        body = document.getElementsByTagName('body')[0],
-        open = document.getElementById('inquire');
+        body = document.body,
+        open = document.getElementsByClassName('inquire');
+    
+    for (let i = 0; i < open.length; i++) {
+        open[i].addEventListener('click', function() {
+            body.classList.toggle('inquire-active');
+            document.documentElement.classList.remove('snipcart-cart--opened');
+        });
+    }
 
     close.addEventListener('click', function() {
         body.classList.toggle('inquire-active');
-        document.classList.remove('snipcart-cart--opened');
-    });
-    open.addEventListener('click', function() {
-        body.classList.toggle('inquire-active');
-        document.classList.remove('snipcart-cart--opened');
+        document.documentElement.classList.remove('snipcart-cart--opened');
     });
 
     window.addEventListener('load', function() {
@@ -95,6 +93,7 @@
             if (e.target.status === 200) {
                 message.classList.add('success');
                 message.innerHTML = 'Your inquiry was submitted.'
+                document.querySelector('.modal-body-wrapper').removeChild(form);
                 form.classList.add('submitted');
                 document.getElementById('submit').disabled = true;
             } else {

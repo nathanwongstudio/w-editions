@@ -6,20 +6,24 @@
             $figure = false; ?>
             <div class="profilepic">
                 <div class="pic-wrapper">
+                    <div class="pic-wrapper-header">Image</div>
                     <?= snippet('images', compact('src', 'figure')); ?>
                 </div>
             </div>
         <?php endif; ?>
-        <h1 class="artist-name"><?= $page->title() ?></h1>
-
-        <?php if($page->bio()->isNotEmpty()): ?>
+        <section class="section-bio">
             <section class="container">
-                <div class="bio">
-                    <?= $page->bio()->toBlocks() ?>
-                </div>
+                <h1 class="artist-name">Bio ʬ <?= $page->title() ?></h1>
+                <?php if($page->bio()->isNotEmpty()): ?>
+                    <div class="bio">
+                        <?= $page->bio()->toBlocks() ?>
+                    </div>
+                <?php endif; ?>
             </section>
-        <?php endif; ?>
+        </section>
+        
         <section class="container gallery no-scroll">
+            <div class="gallery-header">Artworks w/ <?= $page->title() ?></div>
             <div class="editions">
                 <?php if($artworks->isNotEmpty()): ?>
                     <figure class="artworks">
@@ -34,18 +38,13 @@
                                             <?= snippet('images', compact('src', 'figure')) ?>
                                         </a>
                                     </div>
-                                    <div class="art-title">
-                                        <a href="<?= $art->url() ?>">
-                                            <?= $art->title(); ?>
-                                        </a>
-                                    </div>
                                 </li>
                             <?php endforeach ?>
                         </ul>
                     </figure>
                 <?php else: ?>
                     <div class="artworks empty">
-                        <p class="nothing">There are no collaborations yet.</p>
+                        <p class="nothing">There are no releases from <?= $page->title() ?> yet.</p>
                     </div>
                 <?php endif; ?>
             </div>

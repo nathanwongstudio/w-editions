@@ -235,15 +235,13 @@
                 }
 
                 .snipcart-item-line__media {
-                    flex: 0 1 9em;
-
-                    width: 25%;
+                    flex: 0 1 10em;
                 }
                 
                 .snipcart-item-line__product {
                     display: flex;
+                    flex:1 1 75%;
                     flex-direction: column;
-                    flex-grow:1;
                 }
 
                 .snipcart-item-line__header {
@@ -377,7 +375,7 @@ ul.snipcart-shipping-rates-list {
 
         .snipcart-shipping-rates-list-item__label--highlight {
             font-size: 1em;
-            font-weight: normal;
+            font-weight: bold;
 
             cursor: pointer;
 

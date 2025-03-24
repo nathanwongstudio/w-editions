@@ -6,7 +6,7 @@ if($artists->isNotEmpty()): ?>
         <ul class="exclude artists">
             <li class="artist header">
                     <span class="artist-name" data-text="Artists (A-Z)">
-                        Artists (A-Z)
+                        Artists
                     </span>
             </li>
             <?php 

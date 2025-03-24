@@ -11,6 +11,29 @@ tabs:
             fields:
               text:
                 extends: fields/layout
+                fieldsets:
+                  text:
+                    fieldsets:
+                      featuredArtist:
+                        preview: fields
+                        label: Featured Artist
+                        fields:
+                          link:
+                            type: link
+                            options:
+                              - page
+                              - url
+                              - anchor
+                          topText:
+                            type: text
+                            label: Top Text
+                          bottomText:
+                            type: text
+                            label: Bottom Text
+                          image:
+                            type: files
+                            multiple: false
+                    
 
   media:
     sections:

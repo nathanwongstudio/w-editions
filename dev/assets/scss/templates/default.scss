@@ -1,7 +1,6 @@
 @use '../variables';
 @use '../mixins';
 
-
 // STYLESHEET FOR BLOCKS ON DEFAULT PAGES
 
 // ACCORDION
@@ -170,14 +169,14 @@
 
 .ticker {
     --duration: 20s;
-    --ticker-font-size: 1rem;
-    --ticker-size: 1.5rem;
+    --ticker-font-size: 1.625rem;
+    --ticker-size: 1.625rem;
     --background: var(--c-paper);
     --ticker-text: var(--c-paper);
     
     border-bottom:0;
 
-    filter: contrast(10);
+    // filter: contrast(10);
 
     &.bigger {
         --ticker-font-size: 2.66rem;
@@ -234,13 +233,14 @@
             box-sizing: content-box;
             width: 100%;
             height: var(--ticker-size);
-            padding:calc(var(--base-line-height) / 2) 0;
+            padding:calc(var(--base-line-height) / 4) 0;
 
             padding-left: 100%;
         
             background-color: var(--background);
 
             .blocks {
+                --steps: 780;
                 display: inline-block;
 
                 box-sizing: content-box;
@@ -250,7 +250,7 @@
 
                 animation-name: ticker;
                 animation-duration: var(--duration);
-                animation-timing-function: linear;
+                animation-timing-function: steps(var(--steps));
 
                 animation-iteration-count: infinite;
                 white-space: nowrap;
@@ -259,8 +259,14 @@
                     animation-play-state: paused;
                 }
 
-                & * {
-                    font-family: var(--primary-font-family);
+                a {
+                    color: var(--ticker-text);
+                }
+
+                & > * {
+                    font-family: gridlite-pe-variable,sans-serif;
+                    font-variation-settings: 'wght' 900, 'BACK' 1, 'RECT' 0, 'ELSH' 4;
+
                     font-size: var(--ticker-font-size);
                     font-weight: bold;
 
@@ -269,33 +275,31 @@
                     display:inline;
 
                     width:auto;
-                    margin:0;
+                    margin:0 2em;
                     padding:0;
 
                     text-align:left;
+                    text-transform: uppercase;
 
-                    color: transparent;
-                    text-shadow: 0 0 0.05em var(--ticker-text);
+                    color: var(--ticker-text);
                 }
 
-                & > * {
-                    &::after {
-                        font-size: var(--ticker-size);
+                // & > * {
+                //     &::after {
+                //         font-size: var(--ticker-size);
 
-                        margin: 0 calc(2 * var(--base-line-height));
-                        margin-top:2px;
+                //         margin: 0 calc(2 * var(--base-line-height));
+                //         margin-top:2px;
 
-                        content: '/';
-                        vertical-align: bottom;
+                //         content: '/';
+                //         vertical-align: bottom;
+                //     }
 
-                        text-shadow: 0 0 3px var(--ticker-text);
-                    }
-
-                    &:last-child::after {
-                        display:none;
-                        visibility: hidden;
-                    }
-                }
+                //     &:last-child::after {
+                //         display:none;
+                //         visibility: hidden;
+                //     }
+                // }
             }
         }
     }

@@ -13,9 +13,9 @@ function toCM($in) {
   return (number_format($float, 0, '.', ''));
 }
 
-//convert lbs to gms
-function toGs($lb) {
-  $float = $lb * 453.59237;
+//convert ozs to gms
+function toGs($oz) {
+  $float = $oz * 28.35;
   return (number_format($float, 2, '.', ''));
 }
 
@@ -36,6 +36,14 @@ $weightG = toGs($weight);
   data-item-width="<?= $cm['width'] ?>"
   data-item-height="<?= $cm['height'] ?>"
   data-item-length="<?= $cm['length'] ?>"
+
+  <?php if($page->taxCategory()->isNotEmpty()) : ?>
+  data-item-custom1-name="TaxJarCategory"
+  data-item-custom1-value="<?= $page->taxCategory() ?> "
+  data-item-custom1-type="hidden"
+  <?php endif; ?>
+
+  data-item-taxable="<?= $page->taxable() ?>"
 
   >
   Add to cart

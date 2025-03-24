@@ -29,7 +29,7 @@ $layouts = $page->text()->toLayouts();
                             <?= $merch->productName() ?>
                         </div>
                         <div class="merch-collection-item-price">
-                            $<?= $merch->productPrice() ?>
+                            $<?= preg_replace('/\b\.00\b/', '', number_format($merch->productPrice()->toFloat(), 2, '.', '')) ?>
                         </div>
                     </div>
                 </a>

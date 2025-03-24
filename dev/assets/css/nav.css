@@ -140,6 +140,7 @@ nav {
   --text-shadow-menu:0 0 0.04em var(--c-paper);
   --nav-font-size: 6vw;
   line-height: 1;
+  position: -webkit-sticky;
   position: sticky;
   z-index: 9999;
   top: 0;
@@ -266,7 +267,6 @@ nav .menu ul.menu-items li a {
 nav .menu ul.menu-items li:hover {
   transition: 250ms ease;
   transition-property: color, text-shadow;
-  text-decoration: underline;
   text-shadow: 0 0 0 var(--c-paper);
 }
 nav .menu ul.menu-items li:first-child {
@@ -362,6 +362,10 @@ nav.is-open {
   max-height: 100vh;
   transition: 400ms ease;
   transition-property: background-color, max-height;
+  background-image: url("/assets/images/backgrounds/newsprint.jpg");
+  background-position: fixed;
+  background-position: 0 0;
+  background-size: cover;
 }
 nav:has(#x:checked) {
   max-height: 100vh;

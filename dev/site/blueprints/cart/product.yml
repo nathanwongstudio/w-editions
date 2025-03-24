@@ -1,0 +1,75 @@
+type: group
+fields:
+  productName:
+    label: Name
+    type: text
+    required: true
+    width: 1/2
+  productID:
+    label: Product ID
+    type: text
+    required: true
+    width: 1/2
+  productPrice:
+    label: Price
+    type: number
+    step: .01
+    required: true
+    width: 1/2
+  productImage:
+    label: Image
+    type: files
+    max: 1
+    required: true
+    layout: cards
+    width: 1/2
+  productDescription:
+    label: Short Description for Cart
+    type: text
+    required: true
+    width: 1/2
+  productDescriptionLong:
+    label: Long Description
+    type: writer
+    required: true
+    width: 1/2
+  
+  taxInfo:
+    label: Tax Info
+    type: headline
+    width: 1
+  taxCategory:
+    type: text
+    label: Tax Category
+    width: 1/2
+    help: |
+      Use <a href="https://developers.taxjar.com/api/reference/#get-list-tax-categories" target="_blank">Code from TaxJar</a>
+  taxable:
+    type: toggle
+    label: Taxable
+    width: 1/2
+  
+  packageInfo:
+    label: Package Info
+    type: headline
+    width: 1
+  packageWeight:
+    type: number
+    label: Weight in OUNCES
+    after: ozs
+    width: 1/4
+  packageWidth:
+    type: number
+    label: Width (in.)
+    width: 1/4
+    after: in
+  packageHeight:
+    type: number
+    label: Height (in.)
+    width: 1/4
+    after: in
+  packageLength:
+    type: number
+    label: Length (in.)
+    width: 1/4
+    after: in

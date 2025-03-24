@@ -7,9 +7,7 @@ if(!isset($foot)) { $foot = true; }
 
 if($foot): ?>
     <footer class="signed-area">
-        <!-- <section class="edition">1/1</section>
-        <section class="title"></section>
-        <section class="signed">w</section> -->
+        <!-- <span class="chop" data-text="W/">W/</span> -->
     </footer>
 <?php endif; ?>
 </div>
@@ -58,56 +56,9 @@ if($foot): ?>
 
     navigation();
 </script>
+
 <script>
-
-    document.addEventListener("DOMContentLoaded", function() {
-        
-        // LAZY LOADING JAVASCRIPT
-        var lazyImages = document.querySelectorAll('img[loading=lazy]');
-        var allImages = document.querySelectorAll('img');
-
-        setTimeout(() => {
-            for (var i of allImages) {
-                if(i.loading != 'lazy' && i.closest('.is-loading')) {
-                    i.closest('.is-loading').classList.remove('is-loading');
-                }
-            }
-            
-            if ('loading' in HTMLImageElement.prototype) {
-        
-                for (var img of lazyImages) {
-                    if (!img.complete) {
-                        img.addEventListener('load', lazyImageLoad, false);
-                        img.addEventListener('error', lazyImageError, false);
-                    } else {
-                        img.closest('.is-loading').classList.remove('is-loading');
-                    }
-                }
-                
-                function lazyImageLoad(e) {
-                    e.currentTarget.closest('.is-loading').classList.remove('is-loading');
-                }
-                
-                function lazyImageError(e) {
-                    var parent = e.currentTarget.closest('.is-loading');
-                    parent.classList.remove('is-loading');
-                    parent.classList.add('is-empty');
-                    setTimeout(function() {
-                        parent.classList.add('img-is-empty');
-                    }, 60);
-                }
-        
-            } else { // if 'loading' supported, else
-                
-                    for (var img of lazyImages) {
-                        img.classList.remove('is-loading');
-                    }
-
-            } // if 'loading' supported
-                
-        }, '300');
-
-    });
+    window.addEventListener('DOMContentLoaded', lazyLoader);
 
     // REMOVE ALL ANIMATIONS
     let resizeTimer;

@@ -259,8 +259,6 @@ nav {
                     transition: 250ms ease;
                     transition-property: color, text-shadow;
 
-                    text-decoration: underline;
-
                     text-shadow: 0 0 0 var(--c-paper);
                 }
 
@@ -406,6 +404,11 @@ nav {
 
         transition: 400ms ease;
         transition-property: background-color, max-height;
+        
+        background-image:url("/assets/images/backgrounds/newsprint.jpg");
+        background-position: fixed;
+        background-position: 0 0;
+        background-size: cover;
     }
 
     &:has(#x:checked) {

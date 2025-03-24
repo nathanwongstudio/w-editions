@@ -81,6 +81,26 @@ tabs:
               fields:
                 role:
                   default: accordion
+            fieldsets:
+              text:
+                fieldsets:
+                  bio:
+                    label: Artist Bio
+                    preview: fields
+                    fields:
+                      artistlink:
+                        label: Artist to Link
+                        type: pages
+                        multiple: false
+                        query: site.find('artists')
+          stickers:
+            label: Stickers
+            type: structure
+            fields:
+              stickerLabel:
+                type: text
+                label: Label
+                width: 1/2
 
   e-commerce:
     label: E-Commerce
@@ -108,51 +128,41 @@ tabs:
               productName: false
               productID: false
               productPrice: false
-              productDescription:
-                width: 1
-                type: textarea
-                buttons: false
-              productImage:
-                width: 1/2
+              productDescriptionLong: false
               gap1:
                 type: gap
+              frameTitle:
+                label: Framing Options
+                type: headline
               framable:
                 type: toggle
                 label: Allow Framing?
-                width: 1/2
-              frameCost:
+                width: 1
+              frame:
                 type: number
                 step: .01
-                label: Frame Add On cost
-                width: 1/2
+                label: Frame Add. Cost
+                width: 1/3
+                before: $
+                help: Frame cost if only one option for framing. Set to 0.00 or blank if you will give Optium and OP3 costs separate.
+                when:
+                  framable: true
+              frameOptium:
+                type: number
+                step: .01
+                label: Optium Add. Cost
+                width: 1/3
                 before: $
                 when:
                   framable: true
-          
-          packageInfo:
-            label: Package Info
-            type: headline
-            width: 1
-          packageWeight:
-            type: number
-            label: Weight in Pounds
-            after: lbs
-            width: 1/4
-          packageWidth:
-            type: number
-            label: Width (in.)
-            width: 1/4
-            after: in
-          packageHeight:
-            type: number
-            label: Height (in.)
-            width: 1/4
-            after: in
-          packageLength:
-            type: number
-            label: Length (in.)
-            width: 1/4
-            after: in
+              frameOP3:
+                type: number
+                step: .01
+                label: OP3 Add. Cost
+                width: 1/3
+                before: $
+                when:
+                  framable: true
           
 
   media:

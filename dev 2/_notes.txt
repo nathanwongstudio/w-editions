@@ -1,5 +1,0 @@
--- make sort-name update every time you change the title
--- make a dynamic page setting so if an Artist Tag doesn't have a matching page, then it will show a virtual page using the template
--- setup editions page and artworks templates
--- make the dashboard look better (more organized)
-

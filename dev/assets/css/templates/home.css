@@ -116,6 +116,9 @@ body {
 }
 
 .block.block-type-newsletter form input[type=email]::-moz-placeholder, .block.block-type-newsletter form input[type=text]::-moz-placeholder {
+  -moz-transition: 1s ease text-shadow;
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
@@ -133,6 +136,8 @@ body {
 .error h4,
 .error h5,
 .error h6 {
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
@@ -158,22 +163,30 @@ body {
 }
 
 .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder, .block.block-type-newsletter form .email:hover button::-moz-placeholder {
+  -moz-transition: 1s ease text-shadow;
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
   color: transparent;
   text-shadow: 0 0 3px black;
 }
 
 .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
+  -moz-transition: 1s ease text-shadow;
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
   color: transparent;
   text-shadow: 0 0 3px black;
 }
 
-.block.block-type-newsletter form input[type=email]:focus::placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
+.block-type-featuredArtist .go, .block.block-type-newsletter form input[type=email]:focus::placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
 .block.block-type-newsletter form input[type=text]:focus::placeholder,
 .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
 .block.block-type-newsletter form input[type=text]:focus,
 .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder,
 .block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input,
 .block.block-type-newsletter form .email:hover button, .block.block-type-text a::after, .block.block-type-text a {
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
   color: transparent;
   text-shadow: 0 0 3px black;
 }
@@ -184,7 +197,7 @@ body {
   .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
     text-shadow: 0 0 2px black;
   }
-  .block.block-type-newsletter form input[type=email]:focus::placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
+  .block-type-featuredArtist .go, .block.block-type-newsletter form input[type=email]:focus::placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
   .block.block-type-newsletter form input[type=text]:focus::placeholder,
   .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
   .block.block-type-newsletter form input[type=text]:focus,
@@ -195,9 +208,22 @@ body {
   }
 }
 
+.start-out * {
+  transition: 500ms ease text-shadow;
+  transition-delay: 1s;
+  text-shadow: 0 0 0 transparent !important;
+}
+
+.start-out *::after {
+  transition: 1s ease text-shadow;
+  transition-delay: 2s;
+  text-shadow: 0 0 0 transparent !important;
+}
+
 .wrapper,
 .layouts,
 body {
+  font-family: var(--secondary-font-stack);
   display: contents;
 }
 
@@ -254,6 +280,7 @@ body {
 .error h4,
 .error h5,
 .error h6 {
+  font-family: var(--secondary-font-stack);
   font-size: var(--base-font-size);
   font-weight: 900;
   line-height: 1;
@@ -460,8 +487,10 @@ which the user cannot interact with */
   left: 0;
   width: 100%;
   content: attr(data-text);
+  transition: 2.5s ease text-shadow;
+  transition-delay: 1s;
   word-break: break-word;
-  text-shadow: 0 0 0.3em var(--c-cobalt);
+  text-shadow: 0 0 0.5em var(--c-cobalt);
 }
 .block.block-type-markdown {
   padding: 2em;
@@ -787,6 +816,73 @@ which the user cannot interact with */
   }
 }
 .header .blocks {
+  display: contents;
+}
+
+h3.top-text,
+h3.bottom-text {
+  font-size: 2em;
+  line-height: 0.8;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+h3.bottom-text {
+  inset: auto 0 0 auto;
+  text-align: right;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.block-type-featuredArtist {
+  height: 100vh;
+  text-align: center;
+}
+.block-type-featuredArtist figure {
+  display: contents;
+}
+.block-type-featuredArtist picture {
+  display: contents;
+}
+.block-type-featuredArtist img {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.block-type-featuredArtist .go {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: microns;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 0.5em;
+  display: block;
+  width: 2em;
+  height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.9;
+  border-radius: 50%;
+  background: var(--c-paper);
+  box-shadow: 0 0 10px 10px var(--c-paper);
+}
+
+.feature-link {
   display: contents;
 }
 

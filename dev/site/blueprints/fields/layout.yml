@@ -100,6 +100,12 @@ settings:
         "Black": "#000000"
       when:
         role: accordion
+    openDefault:
+      type: toggle
+      width: 1/2
+      label: Default Open
+      when:
+        role: accordion
 
     tickerLength:
       type: number
@@ -160,11 +166,11 @@ fieldsets:
     label: Text
     type: group
     fieldsets:
-      - heading
-      - text
-      - list
-      - line
-      - quote
+      heading: true
+      text: true
+      list: true
+      line: true
+      quote: true
       button:
         preview: fields
         fields:

@@ -24,3 +24,4 @@ dev/site/config/email.php
 dev/_build/site/config/turnstile.php
 dev/_build/site/config/turnstile.php
 env-shopify.txt
+dev/site/config/routes.php

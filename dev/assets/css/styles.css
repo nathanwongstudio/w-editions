@@ -45,6 +45,7 @@ input[type=button] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  box-shadow: 0 5px 16px -8px var(--c-paynes);
 }
 
 br {
@@ -281,6 +282,7 @@ img {
 :root {
   --em-line-height: 1.5em;
   --base-line-height: 30px;
+  --primary-font-stack:"neue-haas-grotesk-text", helvetica, sans-serif;
   --secondary-font-stack:"neue-haas-grotesk-display", sans-serif;
 }
 
@@ -378,9 +380,14 @@ html, body {
 
 /* stylelint-disable selector-class-pattern */
 label {
+  font-size: 0.6em;
+  font-weight: bold;
+  line-height: var(--base-line-height);
   display: inline-block;
   width: 100%;
-  margin-top: calc(var(--base-line-height) / 2);
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 label + input {
   margin-top: 0;
@@ -402,7 +409,7 @@ input {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  margin: calc(var(--base-line-height) / 2) 0;
+  margin: 0;
 }
 
 abbr[title=required] {
@@ -576,6 +583,14 @@ input[type=button] {
   margin: calc(var(--base-line-height) / 2) auto;
   padding: 0.5em 2em 0.5em 1em;
   cursor: pointer;
+  box-shadow: none;
+}
+a.button.inline,
+.button.inline,
+button.inline,
+input[type=submit].inline,
+input[type=button].inline {
+  display: inline-block;
 }
 a.button.negative,
 .button.negative,
@@ -606,6 +621,22 @@ input[type=button]::after {
   right: 0.5em;
   content: "\e701";
   transform: translateY(-50%);
+}
+a.button.reverse,
+.button.reverse,
+button.reverse,
+input[type=submit].reverse,
+input[type=button].reverse {
+  padding: 0.5em 1em 0.5em 2em;
+}
+a.button.reverse::after,
+.button.reverse::after,
+button.reverse::after,
+input[type=submit].reverse::after,
+input[type=button].reverse::after {
+  right: auto;
+  left: 0.5em;
+  content: "\e700";
 }
 a.button:disabled, a.button.disabled,
 .button:disabled,
@@ -712,10 +743,14 @@ form {
 }
 
 #inquire-form .card {
-  padding: 1em;
+  padding: 0.5em;
   color: var(--c-paynes);
-  border: 2px solid var(--c-paper-600);
+  border: 2px inset var(--c-paper-600);
   background: var(--c-paper-100);
+}
+#inquire-form .card p {
+  font-size: 0.7em;
+  margin: 0;
 }
 #inquire-form .card .card-image {
   width: 100%;
@@ -723,6 +758,7 @@ form {
 }
 #inquire-form .card .card-image figure {
   display: inline-block;
+  margin: 0;
 }
 #inquire-form .card .card-image img {
   width: auto;
@@ -791,7 +827,72 @@ body > * {
   transition: max-width 250ms ease;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.w-1-2 {
+  width: calc(1 / 2 * 100%);
+}
+
+.w-1-3 {
+  width: calc(1 / 3 * 100%);
+}
+
+.w-2-3 {
+  width: calc(2 / 3 * 100%);
+}
+
+.w-1-4 {
+  width: calc(1 / 4 * 100%);
+}
+
+.w-2-4 {
+  width: calc(2 / 4 * 100%);
+}
+
+.w-3-4 {
+  width: calc(3 / 4 * 100%);
+}
+
+.w-1-5 {
+  width: calc(1 / 5 * 100%);
+}
+
+.w-2-5 {
+  width: calc(2 / 5 * 100%);
+}
+
+.w-3-5 {
+  width: calc(3 / 5 * 100%);
+}
+
+.w-4-5 {
+  width: calc(4 / 5 * 100%);
+}
+
+.w-1-6 {
+  width: calc(1 / 6 * 100%);
+}
+
+.w-2-6 {
+  width: calc(2 / 6 * 100%);
+}
+
+.w-3-6 {
+  width: calc(3 / 6 * 100%);
+}
+
+.w-4-6 {
+  width: calc(4 / 6 * 100%);
+}
+
+.w-5-6 {
+  width: calc(5 / 6 * 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--primary-font-stack);
   font-weight: 800;
   color: var(--c-paynes);
@@ -819,7 +920,6 @@ blockquote {
   mix-blend-mode: multiply;
 }
 blockquote footer {
-  font-family: var(--primary-font-family);
   font-size: var(--base-font-size);
   font-style: normal;
   line-height: var(--base-line-height);
@@ -957,11 +1057,20 @@ figure:first-child {
   padding: 0;
   color: var(--features-text-color);
 }
-.section-wrapper.feature h1, .section-wrapper.feature h2, .section-wrapper.feature h3, .section-wrapper.feature h4, .section-wrapper.feature h5, .section-wrapper.feature h6, .section-wrapper.feature p {
+.section-wrapper.feature h1,
+.section-wrapper.feature h2,
+.section-wrapper.feature h3,
+.section-wrapper.feature h4,
+.section-wrapper.feature h5,
+.section-wrapper.feature h6,
+.section-wrapper.feature p {
   color: var(--features-text-color);
 }
 .section-wrapper.feature .blocks .block {
   margin: auto;
+}
+.section-wrapper.feature .blocks .block.block-type-text {
+  margin-top: 0;
 }
 .section-wrapper.feature section.grid {
   line-height: 1;
@@ -993,8 +1102,13 @@ figure:first-child {
   --contrast-text-color: var(--features-text-color);
   box-sizing: content-box;
   max-width: none;
+  margin: 0;
   margin-left: -10px;
   padding-left: 10px;
+}
+.section-wrapper.feature section.grid .block-type-heading:only-child {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .section-wrapper.feature section.grid .block-type-heading h2 {
   font-size: 3rem;
@@ -1002,8 +1116,15 @@ figure:first-child {
 .section-wrapper.feature section.grid .block-type-heading h3 {
   font-size: 2.75rem;
 }
-.section-wrapper.feature section.grid .block-type-heading h4, .section-wrapper.feature section.grid .block-type-heading h5, .section-wrapper.feature section.grid .block-type-heading h6 {
+.section-wrapper.feature section.grid .block-type-heading h4,
+.section-wrapper.feature section.grid .block-type-heading h5,
+.section-wrapper.feature section.grid .block-type-heading h6 {
   font-size: 2.5rem;
+}
+@media screen and (width <= 40em) {
+  .section-wrapper.feature section.grid .block-type-heading h1, .section-wrapper.feature section.grid .block-type-heading h2, .section-wrapper.feature section.grid .block-type-heading h3, .section-wrapper.feature section.grid .block-type-heading h4, .section-wrapper.feature section.grid .block-type-heading h5, .section-wrapper.feature section.grid .block-type-heading h6 {
+    font-size: 2em;
+  }
 }
 .section-wrapper.feature section.grid form input {
   color: var(--c-cobalt);
@@ -1216,10 +1337,26 @@ figure:first-child {
   grid-template-columns: 1fr 1fr 1fr;
   box-sizing: border-box;
   width: 100%;
-  margin: auto auto 10rem;
+  margin: 2em auto 10em;
   padding: var(--base-line-height);
   color: transparent;
-  text-shadow: 0 0 1px var(--c-paper-900);
+}
+.signed-area .chop {
+  font-family: var(--secondary-font-stack);
+  font-size: 1.25em;
+  font-weight: 900;
+  position: absolute;
+  right: 5em;
+  width: 1.25em;
+  transform: scale(255%, 105%);
+  text-shadow: 0 0 1px var(--c-paper-700);
+}
+.signed-area .chop::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-text);
+  text-shadow: 0 -1px 1px var(--c-paper-200);
 }
 .signed-area::after {
   bottom: -10rem;
@@ -1242,8 +1379,8 @@ figure:first-child {
 }
 
 .tag {
-  --contrast-text-color: var(--c-vert-800);
-  --tag-background-color: var(--c-gold);
+  --contrast-text-color: var(--c-cobalt-700);
+  --tag-background-color: white;
   font-size: 1.75rem;
   font-style: normal;
   line-height: 1.25 !important;
@@ -1253,14 +1390,15 @@ figure:first-child {
   display: table;
   width: 3em;
   height: 1.25em;
-  padding: 0.25em;
-  transform: skewX(-15deg) rotate(-15deg);
+  padding: 0.375em;
+  transform: skewX(15deg) rotate(15deg);
   text-align: center;
   vertical-align: middle;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   border-radius: 50%;
   background: var(--tag-background-color);
+  box-shadow: 0 0 0 4px var(--c-benibana-600);
   text-shadow: 0 0 3px var(--contrast-text-color);
   /* stylelint-disable-next-line selector-class-pattern */
   /* stylelint-disable-next-line selector-class-pattern */
@@ -1270,17 +1408,18 @@ figure:first-child {
 }
 .tag::before {
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 3px;
+  left: 3px;
   display: block;
-  width: calc(100% - 12px);
-  height: calc(100% - 12px);
+  box-sizing: border-box;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
   content: " ";
-  border: 2.5px dotted var(--contrast-text-color);
+  border: 4.5px solid var(--c-vert-100);
   border-radius: 50%;
 }
 .tag.new {
-  --tag-background-color: var(--c-gold);
+  --tag-background-color: white;
 }
 .tag.push.shopify-buy__btn-disabled, .tag.sold, .tag.sold:disabled {
   --tag-background-color: var(--c-cinnabar);
@@ -1289,7 +1428,7 @@ figure:first-child {
   border: none;
   background: var(--tag-background-color);
 }
-.tag.push.shopify-buy__btn-disabled::before, .tag.availability::before, .tag.sold::before {
+.tag.sold::before {
   display: none;
   content: "";
 }

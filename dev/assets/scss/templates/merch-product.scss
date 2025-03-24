@@ -1,33 +1,106 @@
 @use 'merch-collection';
+@use 'mixins';
 
 .merch-wrap {
+    position: relative;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     box-sizing: border-box;
-    grid-gap: 1em;
+    grid-gap: 0;
+
+    @media screen and (width <= 45em) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.merch-description-wrapper {
+    position:relative;
+    z-index: 2;
+
+    display: block;
 }
 
 .merch-description {
+    position:sticky;
+    top:10em;
+    left:4em;
+
     display: flex;
     flex-direction: column;
 
-    min-height: calc(100vh - var(--nav-height) - var(--merch-padding) * 2);
+    width: 105%;
+
+    // min-height: calc(100vh - var(--nav-height) - var(--merch-padding) * 4);
+
+    @extend %xp-box;
+
+
+    @media screen and (width <= 45em) {
+        position: relative;
+
+        top: 0;
+        left:0;
+
+        box-sizing: border-box;
+
+        width:95%;
+        margin: auto -0.5rem auto auto;
+    }
+
+    .merch-description-header {
+        @extend %xp-header;
+    }
+
+    .merch-description-body {
+        font-family: var(--primary-font-stack);
+
+        flex-grow:1;
+
+        padding: 1rem;
+
+        color: var(--text-color);
+    }
 
     .text {
         flex-grow:1;
     }
 
     .merch-footer {
+        font-family: var(--primary-font-stack);
+
         display: flex;
         flex-flow: row wrap;
         align-items: center;
 
+        padding: 1rem;
+
         .merch-price {
             font-size: 1.25em;
+            font-weight: bold;
             line-height: 1;
 
             flex-grow:1;
+
+            .price {
+                font-family: var(--secondary-font-stack);
+
+                display:inline;
+
+                margin:0;
+    
+                padding:0.125rem 1rem;
+
+                cursor:default;
+
+                color: var(--c-cobalt);
+                
+                &::after {
+                    display:none;
+                }
+            }
         }
     }
 
@@ -36,8 +109,31 @@
     }
 }
 
+.merch-image-wrapper {
+    position: relative;
+    z-index:1;
+}
+
 .merch-images {
+    @extend %xp-box;
+
+    position: relative;
+    top:2em;
+
     text-align: center;
+
+    @media screen and (width <= 45em) {
+        width: 95%;
+    }
+
+    .merch-images-header {
+        @extend %xp-header;
+        text-align:left;
+    }
+
+    .merch-images-body {
+        padding: 1rem;
+    }
 
     img {
         max-height: calc(100vh - var(--nav-height) - var(--merch-padding) * 3);

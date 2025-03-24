@@ -109,24 +109,17 @@
             <?= $page->customCSS() ?>
         </style>
     <?php endif; ?>
+
+    <?= js('assets/js/main.js', false) ?>
+
+    <?= js('assets/js/accordion.js') ?>
 </head>
-<body class="<?= $page->intendedTemplate() ?> <?= (option('environment') == 'development' ? 'dev' : '' ) ?>">
+<body class="<?= $page->intendedTemplate() ?>
+             <?= (option('environment') == 'development' ? 'dev' : '' ) ?>
+             <?= ($page->intendedTemplate() == "home") ? 'start-out' : '' ?>">
 
     <?php if(!isset($nav)) {$nav = true;} ?>
 
     <?= ($nav) ? snippet('nav') : '' ?>
 
 <div class="wrapper">
-
-<div class="overlay">
-    <div class="modal-header">
-        <h3>Header Text</h3>
-        <button class="modal-close"></button>
-    </div>
-    <div class="modal-body">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos iure dolor vel sunt ducimus eaque voluptatum optio, praesentium beatae voluptatem consectetur, eius aspernatur, ratione dolore aperiam. Modi pariatur possimus et!
-        <div class="button-set">
-            <button class="negative">Reject</button><button>Accept</button>
-        </div>
-    </div>
-</div>

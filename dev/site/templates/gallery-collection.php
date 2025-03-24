@@ -45,7 +45,7 @@ if($artworks->isNotEmpty()): ?>
                                     $datediff = $diff->days;
                                 }
                                 ?>
-                                <?php if($datediff <= 90): ?>
+                                <?php if(isset($datediff) && $datediff <= 90): ?>
                                     <span class="tag new">Fresh</span>
                                 <?php endif; ?>
                                 <?php if(!$artwork->available()->toBool()): ?>

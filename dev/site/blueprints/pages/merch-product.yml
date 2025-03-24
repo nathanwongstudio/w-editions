@@ -11,38 +11,6 @@ tabs:
         fields:
           productinfo: 
             extends: cart/product
-            fields:
-              productDescription:
-                width: 1
-                type: textarea
-                buttons: false
-              productImage:
-                width: 1/2
-          
-          packageInfo:
-            label: Package Info
-            type: headline
-            width: 1
-          packageWeight:
-            type: number
-            label: Weight in Pounds
-            after: lbs
-            width: 1/4
-          packageWidth:
-            type: number
-            label: Width (in.)
-            width: 1/4
-            after: in
-          packageHeight:
-            type: number
-            label: Height (in.)
-            width: 1/4
-            after: in
-          packageLength:
-            type: number
-            label: Length (in.)
-            width: 1/4
-            after: in
           
 
   media:
