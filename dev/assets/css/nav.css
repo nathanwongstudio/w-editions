@@ -142,7 +142,7 @@ nav {
   line-height: 1;
   position: -webkit-sticky;
   position: sticky;
-  z-index: 9999;
+  z-index: 999999;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -286,6 +286,7 @@ nav #x {
   cursor: pointer;
   transition: 250ms ease;
   transform: rotate(0);
+  border: 0;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;

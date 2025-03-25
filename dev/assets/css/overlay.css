@@ -12,7 +12,7 @@
   box-sizing: border-box;
   padding: 0.1em 0;
   padding-left: 0.25rem;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   color: transparent;
   text-shadow: 0 0 0.05em var(--contrast-text-color);
 }
@@ -60,7 +60,7 @@
 
 .overlay {
   position: fixed;
-  z-index: 99999;
+  z-index: 99999999;
   top: 50%;
   left: 50%;
   box-sizing: border-box;
@@ -81,13 +81,13 @@
 @media screen and (width <= 60em) and (width >= 35em) {
   .overlay {
     --modal-width: 90vw;
-    --modal-max-height:90svh;
+    --modal-max-height:90dvh;
   }
 }
 @media screen and (width < 35em) {
   .overlay {
     --modal-width: 100vw;
-    --modal-max-height:100svh;
+    --modal-max-height:100dvh;
   }
 }
 

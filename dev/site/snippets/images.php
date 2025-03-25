@@ -18,8 +18,8 @@ if(isset($imgMinWidth)) {
         $sizes = " 
         (min-width: 1800px) 100vw,
         (min-width: 1200px) 100vw,
-        (min-width: 900px) 80vw,
-        (max-width: 600px) 80vw,
+        (min-width: 900px) 100vw,
+        (max-width: 600px) 100vw,
         100vw
         ";
     } else {
@@ -27,17 +27,17 @@ if(isset($imgMinWidth)) {
         (min-width: 1800px) $imgMinWidth,
         (min-width: 1200px) $imgMinWidth,
         (min-width: 900px) $imgMinWidth,
-        (max-width: 600px) 80vw,
-        80vw
+        (max-width: 600px) 100vw,
+        100vw
         ";
     }
 } else {
     $sizes = " 
     (min-width: 1800px) 100vw,
     (min-width: 1200px) 100vw,
-    (min-width: 900px) 80vw,
-    (max-width: 600px) 80vw,
-    80vw
+    (min-width: 900px) 100vw,
+    (max-width: 600px) 100vw,
+    100vw
     ";
 }
     

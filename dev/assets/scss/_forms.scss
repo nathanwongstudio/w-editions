@@ -13,6 +13,8 @@ label {
 
 	margin:0;
 
+	vertical-align: middle;
+
 	letter-spacing:1px;
 	text-transform: uppercase;
 
@@ -370,7 +372,47 @@ form {
     cursor: pointer;
 }
 
+.inquire-backdrop {
+	position: fixed;
+
+	z-index:999999;
+
+	display: block;
+
+	width:100vw;
+	height: 100dvh;
+
+	transition: all 300ms ease;
+
+	pointer-events:none;
+	inset:0;
+}
+
+.inquire-active .inquire-backdrop {
+	transition: all 300ms ease;
+
+	pointer-events: all;
+}
+
 #inquire-form {
+	#include-a-message {
+		& ~ .message-wrapper {
+			overflow:hidden;
+
+			max-height:0;
+
+			transition: max-height 0.5s ease;
+		}
+
+		&:checked {
+			& ~ .message-wrapper {
+				max-height: 100%;
+
+				transition: max-height 0.5s ease;
+			}
+		}
+	}
+
 	.card {
 		padding: 0.5em;
 

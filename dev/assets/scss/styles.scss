@@ -834,16 +834,6 @@ figure {
 	}
 }
 
-.mobile-only {
-	display: none;
-	visibility: hidden;
-
-	@media screen and (width <= 60em) {
-		display: inherit;
-		visibility: visible;
-	}
-}
-
 .desktop-only {
 	display: inherit;
 	visibility: visible;
@@ -862,4 +852,15 @@ figure {
 .icon {
 	/* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
 	font-family: microns;
+}
+
+
+.mobile-only {
+	display: none;
+	visibility: hidden;
+
+	@media screen and (width <= 60em) {
+		display: inherit;
+		visibility: visible;
+	}
 }

@@ -1,3 +1,4 @@
+<div class="inquire-backdrop"></div>
 <div class="inquire-form overlay" id="inquire-form">
     <div class="modal-header">
         <h2>
@@ -23,13 +24,15 @@
                     </div>
                 </div>
                 <label for="name">Name <abbr title="required">*</abbr></label>
-                <input name="name" type="text" placeholder="Johannes Gutenberg">
+                <input name="name" id="name" type="text" placeholder="Johannes Gutenberg">
 
                 <label for="email">Email Address <abbr title="required">*</abbr></label>
-                <input name="email" type="email" placeholder="johannes@example.com">
+                <input name="email" type="email" id="email" placeholder="johannes@example.com">
 
-                <label for="message">Message <abbr title="required">*</abbr></label>
-                <textarea name="message"></textarea>
+                <input type="checkbox" name="include-a-message" id="include-a-message"><label for="include-a-message">Add a message</label>
+                <div class="message-wrapper">
+                    <textarea name="message" id="included-message"></textarea>
+                </div>
 
                 <?php echo csrf_field(); ?>
                 <?php echo honeypot_field(); ?>

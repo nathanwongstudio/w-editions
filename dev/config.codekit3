@@ -1419,6 +1419,14 @@
       "oAP" : "\/content\/.gitignore",
       "oF" : 0
     },
+    "\/content\/1_editions\/_drafts\/lern-2025-001\/.lock" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/.lock",
+      "oF" : 0
+    },
     "\/content\/1_editions\/_drafts\/lern-2025-001\/gallery-artwork.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -11331,68 +11339,52 @@
       "oAP" : "\/site\/plugins",
       "oF" : 0
     },
-    "\/site\/sessions\/1742805349.06d80aa29f77e55a4a8d.sess" : {
+    "\/site\/sessions\/1742894474.2af9f2e285229be81808.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742805349.06d80aa29f77e55a4a8d-output.sess",
+      "oAP" : "\/site\/sessions\/1742894474.2af9f2e285229be81808-output.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1742806539.6c91c85ea2fc4995d3a8.sess" : {
+    "\/site\/sessions\/1742894474.62e84a17cfbea555954a.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742806539.6c91c85ea2fc4995d3a8-output.sess",
+      "oAP" : "\/site\/sessions\/1742894474.62e84a17cfbea555954a-output.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1742806539.968e5f4d3f701592867a.sess" : {
+    "\/site\/sessions\/1742895474.6aeceaf00845e8d45005.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742806539.968e5f4d3f701592867a-output.sess",
+      "oAP" : "\/site\/sessions\/1742895474.6aeceaf00845e8d45005-output.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1742807606.ff11d2402180725fd0d4.sess" : {
+    "\/site\/sessions\/1742898082.41aad75860c40de8c9fd.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742807606.ff11d2402180725fd0d4-output.sess",
+      "oAP" : "\/site\/sessions\/1742898082.41aad75860c40de8c9fd-output.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1742808380.0a6706681af7cd3cdb12.sess" : {
+    "\/site\/sessions\/1742898916.fb1e7a58f9c8edd867d5.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742808380.0a6706681af7cd3cdb12-output.sess",
+      "oAP" : "\/site\/sessions\/1742898916.fb1e7a58f9c8edd867d5-output.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1742809017.6aae9a195eb448b2e713.sess" : {
+    "\/site\/sessions\/1742898920.2c1136e695ab675891fb.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742809017.6aae9a195eb448b2e713-output.sess",
-      "oF" : 0
-    },
-    "\/site\/sessions\/1742809648.7e92210d4635a1ed61e2.sess" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742809648.7e92210d4635a1ed61e2-output.sess",
-      "oF" : 0
-    },
-    "\/site\/sessions\/1742810973.948515e2e5ffe3bbc572.sess" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742810973.948515e2e5ffe3bbc572-output.sess",
+      "oAP" : "\/site\/sessions\/1742898920.2c1136e695ab675891fb-output.sess",
       "oF" : 0
     },
     "\/site\/sessions\/index.html" : {
@@ -11409,6 +11401,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/site\/snippets\/accordion-js-output.php",
+      "oF" : 0
+    },
+    "\/site\/snippets\/action-bar.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/snippets\/action-bar-output.php",
       "oF" : 0
     },
     "\/site\/snippets\/blocks\/bio.php" : {

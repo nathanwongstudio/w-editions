@@ -66,10 +66,7 @@ return [
                     'rules' => ['required', 'email'],
                     'message' => ['Email Address is Required', 'Please enter a valid email address'],
                 ],
-                'message' => [
-                    'rules' => ['required'],
-                    'message' => 'Please enter a message',
-                ],
+                'message' => [],
                 'artId' => [],
                 'title' => [],
                 'artist' => [],

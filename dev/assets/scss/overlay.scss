@@ -19,7 +19,7 @@
 .overlay {
     @extend %xp-box;
     position: fixed;
-    z-index:99999;
+    z-index:99999999;
 
     top: 50%;
     left:50%;
@@ -46,12 +46,12 @@
 
     @media screen and (width <= 60em) and (width >= 35em) {
         --modal-width: 90vw;
-        --modal-max-height:90svh;
+        --modal-max-height:90dvh;
     }
 
     @media screen and (width < 35em) {
         --modal-width: 100vw;
-        --modal-max-height:100svh;
+        --modal-max-height:100dvh;
     }
 }
 

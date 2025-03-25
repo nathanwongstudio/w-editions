@@ -80,7 +80,7 @@ nav {
     line-height:1;
 
     position:sticky;
-    z-index:9999;
+    z-index:999999;
     top:0;
     left:0;
 
@@ -276,7 +276,6 @@ nav {
     }
 
     #x { // nav-open button
-
         position:absolute;
         z-index:9999;
         top:0;
@@ -289,6 +288,8 @@ nav {
 
         transition: 250ms ease;
         transform: rotate(0);
+
+        border:0;
         appearance: none;;
 
         // CROSS AND BAR REGISTRATION DESIGN

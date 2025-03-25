@@ -11,7 +11,7 @@
   box-sizing: border-box;
   padding: 0.1em 0;
   padding-left: 0.25rem;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   color: transparent;
   text-shadow: 0 0 0.05em var(--contrast-text-color);
 }

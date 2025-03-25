@@ -470,16 +470,30 @@ ul.snipcart-shipping-rates-list {
     font-size: 0.8rem;
 
     position: fixed;
-    z-index:99;
-    right: 1em;
-    bottom:1em;
+    z-index:999;
+    top:var(--nav-height);
+    right: 0;
+
+    width:100%;
+
+    text-align: left;
 
     text-transform: uppercase;
+
+    @media screen and (width >= 50em) {
+        width: 10em;
+    }
 }
 
 button.snipcart-checkout {
+    position: relative;
+
+    display:block;
+
+    width:100%;
     margin:0;
-    padding: calc(var(--base-line-height) / 4);
+
+    padding-right:1em;
 
     &::after {
         display:none;
@@ -492,28 +506,34 @@ button.snipcart-checkout {
 }
 
 .checkout-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1.5em;
-    align-items: center;
-    justify-content: center;
-    grid-gap: 0.5em;
+    display: block;
+
+    text-align: left;
+
+    // grid-template-columns: 1fr;
+    // align-items: center;
+    // justify-content: center;
+    // grid-gap: 0.5em;
 }
 
 .snipcart-items-count {
-    font-size: 0.7em;
     font-weight: bold;
+
+    position: absolute;
+    top:0;
+    right:0;
 
     display: grid;
     grid-template-columns: 1fr;
     align-content: center;
 
-    width: 1.5em;
-    height: 1.5em;
+    width: 2rem;
+    height: 2em;
     padding: 0.125em;
 
-    color: var(--c-cobalt);
-    border-radius: 3em;
-    background: var(--c-paper);
+    color: var(--c-paper);
+    border-radius: 0;
+    background: var(--c-cobalt);
     justify-items: center;
 }
 

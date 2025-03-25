@@ -7,23 +7,6 @@ $layouts = $page->accordionText()->toLayouts();
 <div class="default-content">
     <div class="artwork">
         <div class="primary-image">
-            <div class="action-bar">
-                <div class="action-info">
-                    <strong><?= $page->title() . " (" . $page->year() . ")" ?></strong> by <?= $artists ?>
-                </div>
-                <div class="action-cta">
-                    <?php if ($page->onlineShop()->toBool()):
-                        $inquire = false;
-                        $buytext = "$" . $page->price() . "—" . "Buy"; ?>
-                        <?= snippet('products/product-add-to-cart', ['class' => 'button inline', 'buttonText' => $buytext]) ?>
-                    <?php else:
-                        $inquire = true; ?>
-                        <div class="button inline inquire">
-                            <?="$". $page->price() ?> — Inquire
-                        </div>
-                    <?php endif; ?>
-                </div>
-            </div>
             <?= snippet('images', ['src' => $page->primaryImg()->toFile(), 'lazy' => false]) ?>
         </div>
 
@@ -45,6 +28,8 @@ $layouts = $page->accordionText()->toLayouts();
                 <?php endif; ?>
             </div>
         </div>
+        
+        <?= snippet('action-bar') ?>
 
         <div class="secondary-info">
             <div class="title-card-wrapper">
@@ -115,8 +100,14 @@ $layouts = $page->accordionText()->toLayouts();
         <?php if ($layouts->findBy('role', 'accordion')): ?>
             <?= snippet('accordion-js') ?>
         <?php endif; ?>
+
+        <?= snippet('action-bar') ?>
     </div>
+
 </div>
+
+
+<?= snippet('action-bar', ['class' => 'mobile-only']) ?>
 
 <?= ($inquire) ? snippet('inquire-form') : '' ?>
 
