@@ -34,7 +34,9 @@
         position:relative;
         z-index:0;
 
-        transition: text-shadow 250ms ease;
+        transition: text-shadow 300ms ease;
+
+        color: transparent;
 
         // text-shadow: 0 0 0 transparent;
 
@@ -66,9 +68,9 @@
         }
 
         &:hover {
-            transition: text-shadow 250ms ease;
+            transition: text-shadow 300ms ease;
     
-            text-shadow: 0 0 3px var(--c-cobalt);
+            text-shadow: 0 0 5px var(--c-cobalt);
         }
     }
 }
@@ -99,7 +101,7 @@ nav {
         --nav-font-size: 12vw;
     }
 
-    a {
+    .menu a {
         text-decoration: none;
 
         color: transparent;

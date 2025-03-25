@@ -109,7 +109,8 @@
 .site-title a {
   position: relative;
   z-index: 0;
-  transition: text-shadow 250ms ease;
+  transition: text-shadow 300ms ease;
+  color: transparent;
 }
 .site-title a::before {
   display: none;
@@ -132,8 +133,8 @@
   transform-origin: right;
 }
 .site-title a:hover {
-  transition: text-shadow 250ms ease;
-  text-shadow: 0 0 3px var(--c-cobalt);
+  transition: text-shadow 300ms ease;
+  text-shadow: 0 0 5px var(--c-cobalt);
 }
 
 nav {
@@ -158,11 +159,11 @@ nav {
     --nav-font-size: 12vw;
   }
 }
-nav a {
+nav .menu a {
   text-decoration: none;
   color: transparent;
 }
-nav a::before {
+nav .menu a::before {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   position: absolute;
@@ -170,7 +171,7 @@ nav a::before {
   content: "\e701";
   opacity: 0;
 }
-nav a::after {
+nav .menu a::after {
   font-style: italic;
   position: absolute;
   z-index: -1;
@@ -183,15 +184,15 @@ nav a::after {
   word-break: break-word;
   text-shadow: 0 0 0.1em var(--c-cinnabar);
 }
-nav a:hover {
+nav .menu a:hover {
   color: transparent;
 }
-nav a:hover::after {
+nav .menu a:hover::after {
   transition: 250ms ease;
   transition-property: text-shadow;
   text-shadow: 0 0 0.2em var(--c-cinnabar);
 }
-nav a:hover::before {
+nav .menu a:hover::before {
   opacity: 1;
 }
 nav .wrapper-nav {
