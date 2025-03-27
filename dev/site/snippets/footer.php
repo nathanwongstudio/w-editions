@@ -1,11 +1,11 @@
-
-
 <?= !($page->isHomePage()) ? snippet('cart/cart-checkout-summary') : '' ?>
 
 <?php
-if(!isset($foot)) { $foot = true; }
+if (!isset($foot)) {
+    $foot = true;
+}
 
-if($foot): ?>
+if ($foot): ?>
     <footer class="signed-area">
         <!-- <span class="chop" data-text="W/">W/</span> -->
     </footer>
@@ -13,13 +13,13 @@ if($foot): ?>
 </div>
 
 
-<?= js('@auto', ['type'=>'module']) ?>
+<?= js('@auto', ['type' => 'module']) ?>
 
 <script>
     document.addEventListener('snipcart.ready', () => {
 
         Snipcart.store.subscribe(() => {
-            if(Snipcart.store.getState().cart.items.count === 0) {
+            if (Snipcart.store.getState().cart.items.count === 0) {
                 document.getElementById('checkout-button').classList.add('empty');
             } else {
                 document.getElementById('checkout-button').classList.remove('empty');
@@ -29,7 +29,6 @@ if($foot): ?>
 </script>
 
 <script>
-
     // X NAVIGATOR OPEN/CLOSE MENU JS (FIXED SIZE)
     // use responsivenav.js if you want it to adjust to the size of the menu.
     function navigation() {
@@ -58,7 +57,7 @@ if($foot): ?>
 </script>
 
 <script>
-    window.addEventListener('DOMContentLoaded', lazyLoader);
+    window.addEventListener('load', lazyLoader);
 
     // REMOVE ALL ANIMATIONS
     let resizeTimer;
@@ -72,11 +71,9 @@ if($foot): ?>
         }, 400);
 
     });
-
 </script>
 
 <style>
-
     .resize-animation-stopper * {
         transition: none !important;
         animation: none !important;
@@ -87,7 +84,7 @@ if($foot): ?>
 
 <?= snippet('cart/cart-load') ?>
 
-<?php if($page->footerCode()->isNotEmpty()): ?>
+<?php if ($page->footerCode()->isNotEmpty()): ?>
     <script>
         <?= $page->footerCode() ?>
     </script>
@@ -102,4 +99,5 @@ if($foot): ?>
 </script>
 
 </body>
+
 </html>
