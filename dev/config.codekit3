@@ -923,6 +923,16 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/images\/icons\/cart-shopping.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 1,
+      "oAP" : "\/assets\/images\/icons\/cart-shopping.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/images\/icons\/favicon64.png" : {
       "ft" : 32768,
       "iS" : 1249,
@@ -1379,6 +1389,56 @@
       "oAP" : "\/content\/_drafts\/about-copy2\/default.txt",
       "oF" : 0
     },
+    "\/content\/_drafts\/home-copy\/full-hi-res.jpeg" : {
+      "ft" : 16384,
+      "iS" : 6647554,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/_drafts\/home-copy\/full-hi-res.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/_drafts\/home-copy\/full-hi-res.jpeg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/_drafts\/home-copy\/full-hi-res.jpeg.txt",
+      "oF" : 0
+    },
+    "\/content\/_drafts\/home-copy\/home.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/_drafts\/home-copy\/home.txt",
+      "oF" : 0
+    },
+    "\/content\/_drafts\/home-copy\/screenshot-2025-01-24-at-4.27.42-pm.png" : {
+      "ft" : 32768,
+      "iS" : 263790,
+      "oA" : 1,
+      "oAP" : "\/content\/_drafts\/home-copy\/screenshot-2025-01-24-at-4.27.42-pm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/_drafts\/home-copy\/screenshot-2025-01-24-at-4.27.42-pm.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/_drafts\/home-copy\/screenshot-2025-01-24-at-4.27.42-pm.png.txt",
+      "oF" : 0
+    },
     "\/content\/_drafts\/lab\/lab.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1419,330 +1479,6 @@
       "oAP" : "\/content\/.gitignore",
       "oF" : 0
     },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/.lock" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/.lock",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/gallery-artwork.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/gallery-artwork.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001-full.png" : {
-      "ft" : 32768,
-      "iS" : 16398767,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001-full.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001-full.png.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001-full.png.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001.png" : {
-      "ft" : 32768,
-      "iS" : 17769755,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001.png.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001.png.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001full-hi-res.jpg" : {
-      "ft" : 16384,
-      "iS" : 6647554,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001full-hi-res.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001full-hi-res.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-25-001full-hi-res.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-2025-001-mylar.jpg" : {
-      "ft" : 16384,
-      "iS" : 5276815,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-2025-001-mylar.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-2025-001-mylar.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern-2025-001-mylar.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-cropped-01.jpg" : {
-      "ft" : 16384,
-      "iS" : 5580454,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-cropped-01.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-cropped-01.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-cropped-01.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-cropped.jpg" : {
-      "ft" : 16384,
-      "iS" : 3804225,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-cropped.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-cropped.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-cropped.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 5917660,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-01.jpg" : {
-      "ft" : 16384,
-      "iS" : 6277537,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-01.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-1.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-1.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-01.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-01.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 3695039,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-2.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-2.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-3-chop.jpg" : {
-      "ft" : 16384,
-      "iS" : 300254,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-3-chop.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-3-chop.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25-001-detail-3-chop.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25.001-web.jpg" : {
-      "ft" : 16384,
-      "iS" : 2065547,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25.001-web.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25.001-web.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/_drafts\/lern-2025-001\/lern25.001-web.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/1_untitled\/gallery-artwork.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_untitled\/gallery-artwork.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/1_untitled\/red_oak__92522.webp" : {
-      "ft" : 8388608,
-      "iS" : 688952,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_untitled\/red_oak__92522.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/content\/1_editions\/1_untitled\/red_oak__92522.webp.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_untitled\/red_oak__92522.webp.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/desert\/gallery-artwork.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/desert\/gallery-artwork.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/desert\/study-of-buddhist-symbols.jpg" : {
-      "ft" : 16384,
-      "iS" : 2836059,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/desert\/study-of-buddhist-symbols.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/desert\/study-of-buddhist-symbols.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/desert\/study-of-buddhist-symbols.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/desert\/vija-celmins-sample.jpeg" : {
-      "ft" : 16384,
-      "iS" : 326906,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/1_editions\/desert\/vija-celmins-sample.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/1_editions\/desert\/vija-celmins-sample.jpeg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/desert\/vija-celmins-sample.jpeg.txt",
-      "oF" : 0
-    },
     "\/content\/1_editions\/gallery-collection.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1751,20 +1487,12 @@
       "oAP" : "\/content\/1_editions\/gallery-collection.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/wisdom-fist\/gallery-artwork.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/wisdom-fist\/gallery-artwork.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/wisdom-fist\/img_0647.jpg" : {
+    "\/content\/1_editions\/lern25-01\/full-small-size.jpg" : {
       "ft" : 16384,
-      "iS" : 3673546,
+      "iS" : 1121969,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/wisdom-fist\/img_0647.jpg",
+      "oAP" : "\/content\/1_editions\/lern25-01\/full-small-size.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1772,20 +1500,49 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/wisdom-fist\/img_0647.jpg.txt" : {
+    "\/content\/1_editions\/lern25-01\/full-small-size.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/wisdom-fist\/img_0647.jpg.txt",
+      "oAP" : "\/content\/1_editions\/lern25-01\/full-small-size.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/wisdom-fist\/wisdom-fist-detail.jpg" : {
+    "\/content\/1_editions\/lern25-01\/gallery-artwork.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/lern25-01\/gallery-artwork.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/lern25-01\/lern-25-01-full.png" : {
+      "ft" : 32768,
+      "iS" : 5141611,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern-25-01-full.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/lern25-01\/lern-25-01-full.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern-25-01-full.png.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/lern25-01\/lern25-01-cropped-01.jpg" : {
       "ft" : 16384,
-      "iS" : 807456,
+      "iS" : 5580454,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/wisdom-fist\/wisdom-fist-detail.jpg",
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-01-cropped-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1793,20 +1550,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/wisdom-fist\/wisdom-fist-detail.jpg.txt" : {
+    "\/content\/1_editions\/lern25-01\/lern25-01-cropped-01.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/wisdom-fist\/wisdom-fist-detail.jpg.txt",
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-01-cropped-01.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/wisdom-fist\/wisdomfist-hq.jpg" : {
+    "\/content\/1_editions\/lern25-01\/lern25-01-detail-01.jpg" : {
       "ft" : 16384,
-      "iS" : 7036462,
+      "iS" : 6277537,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/wisdom-fist\/wisdomfist-hq.jpg",
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-01-detail-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1814,36 +1571,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/wisdom-fist\/wisdomfist-hq.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/wisdom-fist\/wisdomfist-hq.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/2_artists\/_drafts\/sample\/artists-profile.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/2_artists\/_drafts\/sample\/artists-profile.txt",
-      "oF" : 0
-    },
-    "\/content\/2_artists\/0_lerner-natalie\/artists-profile.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/2_artists\/0_lerner-natalie\/artists-profile.txt",
-      "oF" : 0
-    },
-    "\/content\/2_artists\/0_lerner-natalie\/exhibition00_810x.jpg" : {
+    "\/content\/1_editions\/lern25-01\/lern25-001-detail-1.jpg" : {
       "ft" : 16384,
-      "iS" : 157021,
+      "iS" : 5917660,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/2_artists\/0_lerner-natalie\/exhibition00_810x.jpg",
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-001-detail-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1851,44 +1584,99 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/2_artists\/0_lerner-natalie\/exhibition00_810x.jpg.txt" : {
+    "\/content\/1_editions\/lern25-01\/lern25-01-detail-01.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/2_artists\/0_lerner-natalie\/exhibition00_810x.jpg.txt",
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-01-detail-01.jpg.txt",
       "oF" : 0
     },
-    "\/content\/2_artists\/artists-collection.txt" : {
+    "\/content\/1_editions\/lern25-01\/lern25-001-detail-1.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/2_artists\/artists-collection.txt",
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-001-detail-1.jpg.txt",
       "oF" : 0
     },
-    "\/content\/2_artists\/natalie-lerner\/artists-profile.txt" : {
+    "\/content\/1_editions\/lern25-01\/lern25-001-detail-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 3695039,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-001-detail-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/lern25-01\/lern25-001-detail-2.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/2_artists\/natalie-lerner\/artists-profile.txt",
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-001-detail-2.jpg.txt",
       "oF" : 0
     },
-    "\/content\/3_about\/default.txt" : {
+    "\/content\/1_editions\/lern25-01\/lern25-001-detail-3-chop.jpg" : {
+      "ft" : 16384,
+      "iS" : 300254,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-001-detail-3-chop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/lern25-01\/lern25-001-detail-3-chop.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/3_about\/default.txt",
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25-001-detail-3-chop.jpg.txt",
       "oF" : 0
     },
-    "\/content\/3_about\/img012-web.jpg" : {
+    "\/content\/1_editions\/lern25-01\/lern25.001-web.jpg" : {
+      "ft" : 16384,
+      "iS" : 2065547,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25.001-web.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/lern25-01\/lern25.001-web.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/lern25-01\/lern25.001-web.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/2_about\/default.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/2_about\/default.txt",
+      "oF" : 0
+    },
+    "\/content\/2_about\/img012-web.jpg" : {
       "ft" : 16384,
       "iS" : 784336,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/3_about\/img012-web.jpg",
+      "oAP" : "\/content\/2_about\/img012-web.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1896,20 +1684,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/3_about\/img012-web.jpg.txt" : {
+    "\/content\/2_about\/img012-web.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/3_about\/img012-web.jpg.txt",
+      "oAP" : "\/content\/2_about\/img012-web.jpg.txt",
       "oF" : 0
     },
-    "\/content\/3_about\/w-editions-inthemood-2.jpg" : {
+    "\/content\/2_about\/w-editions-inthemood-2.jpg" : {
       "ft" : 16384,
       "iS" : 1109058,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/3_about\/w-editions-inthemood-2.jpg",
+      "oAP" : "\/content\/2_about\/w-editions-inthemood-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1917,28 +1705,52 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/3_about\/w-editions-inthemood-2.jpg.txt" : {
+    "\/content\/2_about\/w-editions-inthemood-2.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/3_about\/w-editions-inthemood-2.jpg.txt",
+      "oAP" : "\/content\/2_about\/w-editions-inthemood-2.jpg.txt",
       "oF" : 0
     },
-    "\/content\/4_support\/default.txt" : {
+    "\/content\/3_support\/default.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/4_support\/default.txt",
+      "oAP" : "\/content\/3_support\/default.txt",
       "oF" : 0
     },
-    "\/content\/5_news\/resources.txt" : {
+    "\/content\/4_news\/resources.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/5_news\/resources.txt",
+      "oAP" : "\/content\/4_news\/resources.txt",
+      "oF" : 0
+    },
+    "\/content\/artists\/_drafts\/sample\/artists-profile.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/artists\/_drafts\/sample\/artists-profile.txt",
+      "oF" : 0
+    },
+    "\/content\/artists\/0_lerner-natalie\/artists-profile.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/artists\/0_lerner-natalie\/artists-profile.txt",
+      "oF" : 0
+    },
+    "\/content\/artists\/artists-collection.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/artists\/artists-collection.txt",
       "oF" : 0
     },
     "\/content\/blog\/_drafts\/buying-art-for-under-1000\/default.txt" : {
@@ -2016,27 +1828,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/content\/home\/home.txt",
-      "oF" : 0
-    },
-    "\/content\/home\/img_6342.jpg" : {
-      "ft" : 16384,
-      "iS" : 5276815,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/home\/img_6342.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/home\/img_6342.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/home\/img_6342.jpg.txt",
       "oF" : 0
     },
     "\/content\/home\/screenshot-2025-01-24-at-4.27.42-pm.png" : {
@@ -6062,6 +5853,27 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/media\/pages\/about\/b3efe7d013-1743097648\/.jobs\/img012-web-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/b3efe7d013-1743097648\/.jobs\/img012-web-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/b3efe7d013-1743097648\/img012-web-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2105,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/b3efe7d013-1743097648\/img012-web-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/pages\/about\/c8d6324998-1735924525\/.jobs\/screen-shot-2023-03-03-at-3.07.56-pm-250x-q90.png.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -7978,6 +7790,420 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-500x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 5580454,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-500x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-600x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 93970,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-600x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-800x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 172436,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-800x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-864x.jpg" : {
+      "ft" : 16384,
+      "iS" : 202637,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-864x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1024x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 290089,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1024x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1440x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 581679,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1440x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1126865,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-38x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-38x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-352x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-352x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-1408x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-1408x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-q95.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-q95.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-76x.png" : {
+      "ft" : 32768,
+      "iS" : 8168,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-76x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-500x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 306905,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-500x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-600x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 443790,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-600x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-800x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 802510,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-800x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-864x.png" : {
+      "ft" : 32768,
+      "iS" : 5141611,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-864x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1024x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 1301519,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1024x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1440x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 2523703,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1440x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-2048x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 5339878,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-2048x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-500x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 6277537,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-500x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-600x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 82061,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-600x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-800x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 152983,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-800x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-864x.jpg" : {
+      "ft" : 16384,
+      "iS" : 6277537,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-864x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1024x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 260746,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1024x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1440x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 535039,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1440x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1094248,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/pages\/editions\/sample\/2fb4b56b4f-1741230798\/.jobs\/img_6185-38x.webp.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -9498,6 +9724,27 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/editions\/wisdom-fist\/ff9a048ce0-1734110469\/wisdomfist-hq.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/home-copy\/d5ff8a727b-1742930654\/.jobs\/full-hi-res-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home-copy\/d5ff8a727b-1742930654\/.jobs\/full-hi-res-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home-copy\/d5ff8a727b-1742930654\/full-hi-res-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2510,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home-copy\/d5ff8a727b-1742930654\/full-hi-res-76x.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -11339,52 +11586,36 @@
       "oAP" : "\/site\/plugins",
       "oF" : 0
     },
-    "\/site\/sessions\/1742894474.2af9f2e285229be81808.sess" : {
+    "\/site\/sessions\/1743104766.4e75ae206d563cbe1585.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742894474.2af9f2e285229be81808-output.sess",
+      "oAP" : "\/site\/sessions\/1743104766.4e75ae206d563cbe1585-output.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1742894474.62e84a17cfbea555954a.sess" : {
+    "\/site\/sessions\/1743104766.56be3c4e9b4ec7fc7e8e.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742894474.62e84a17cfbea555954a-output.sess",
+      "oAP" : "\/site\/sessions\/1743104766.56be3c4e9b4ec7fc7e8e-output.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1742895474.6aeceaf00845e8d45005.sess" : {
+    "\/site\/sessions\/1743104782.1201712822c09eb3af31.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742895474.6aeceaf00845e8d45005-output.sess",
+      "oAP" : "\/site\/sessions\/1743104782.1201712822c09eb3af31-output.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1742898082.41aad75860c40de8c9fd.sess" : {
+    "\/site\/sessions\/1743104917.2a6f4ddd79d05a30c431.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742898082.41aad75860c40de8c9fd-output.sess",
-      "oF" : 0
-    },
-    "\/site\/sessions\/1742898916.fb1e7a58f9c8edd867d5.sess" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742898916.fb1e7a58f9c8edd867d5-output.sess",
-      "oF" : 0
-    },
-    "\/site\/sessions\/1742898920.2c1136e695ab675891fb.sess" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/site\/sessions\/1742898920.2c1136e695ab675891fb-output.sess",
+      "oAP" : "\/site\/sessions\/1743104917.2a6f4ddd79d05a30c431-output.sess",
       "oF" : 0
     },
     "\/site\/sessions\/index.html" : {

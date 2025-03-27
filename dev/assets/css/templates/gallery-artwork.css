@@ -364,6 +364,7 @@
 .action-bar.mobile-only {
   display: none;
   visibility: hidden;
+  padding-left: 0.5em;
 }
 @media screen and (width <= 50em) {
   .action-bar {
@@ -379,13 +380,29 @@
   }
   .action-bar.mobile-only {
     position: fixed;
-    display: grid;
+    display: flex;
     visibility: visible;
+    align-items: stretch;
     margin: 0;
+    gap: 0.5em;
+  }
+  .action-bar.mobile-only .action-info {
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+  }
+  .action-bar.mobile-only .action-cta {
+    flex-shrink: 0;
+  }
+  .action-bar.mobile-only .action-cta button, .action-bar.mobile-only .action-cta .button {
+    display: flex;
+    align-items: center;
+    height: 100%;
   }
 }
 .action-bar button, .action-bar .button {
   display: inline-block;
+  box-sizing: border-box;
   margin: 0;
   text-align: center;
   vertical-align: middle;
@@ -396,6 +413,7 @@
 .action-bar .action-info {
   display: block;
   width: auto;
+  padding: 0.5em 0;
   text-align: left;
 }
 
@@ -540,8 +558,11 @@ h1.title {
     padding: 0;
   }
 }
-.artwork .description span.text-wrap {
-  background: var(--c-paper);
+.artwork .description a[target=_blank] {
+  cursor: help;
+  color: inherit;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
 }
 .artwork .text-block + .text-block {
   margin-top: var(--base-line-height);
@@ -657,11 +678,13 @@ h1.title {
 .primary-image {
   position: relative;
   z-index: 99;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
   box-sizing: border-box;
   width: 100%;
   min-height: 100dvh;
-  padding: var(--base-line-height);
-  padding-top: 0;
+  padding: 0 var(--base-line-height) 8em;
   text-align: center;
 }
 .primary-image img {
@@ -672,11 +695,8 @@ h1.title {
 }
 @media screen and (width <= 50em) {
   .primary-image {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
     min-height: 100dvh;
-    padding: 0 0 4em;
+    padding-bottom: 4em;
   }
 }
 

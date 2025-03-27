@@ -1,5 +1,5 @@
 <script>
-    window.addEventListener('DOMContentLoaded', accordionSet);
+    window.addEventListener('load', accordionSet);
 
     var acc;
     window.addEventListener('resize', (event) => {
