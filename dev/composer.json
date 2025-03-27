@@ -1,6 +1,6 @@
 {
-    "name": "itsallwong/kirby-dev-starter",
-    "description": "Development starter set for Kirby-based sites",
+    "name": "itsallwong/w-editions",
+    "description": "W Editions website",
     "type": "project",
     "require": {
         "getkirby/cms": "^4",

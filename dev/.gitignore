@@ -58,4 +58,7 @@ Icon
 
 **/plugins
 
+# UNIGNORE SPECIAL PLUGINS
+!/site/plugins/wong-shared-templates
+
 *.psd
