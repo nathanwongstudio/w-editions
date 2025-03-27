@@ -56,7 +56,7 @@ Icon
 
 #ignore plugins (composer)
 
-**/plugins
+**/plugins/*
 
 # UNIGNORE SPECIAL PLUGINS
 !/site/plugins/wong-shared-templates
