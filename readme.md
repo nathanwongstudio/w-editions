@@ -17,3 +17,8 @@ Alternatively, you can use any other local [php server setup that has the requir
 
 ## Folder setup
 I use CodeKit to preprocess my SASS code into CSS, and instead of using a build folder, I just have separate folders for CSS and SCSS, Javascript gets minified from a `_dev` folder to the main `js` folder.
+
+## Content Folder
+The content folder is a submodule. This is done so that I can sync the content folder between the website and github. Changes to the public site get committed and pushed nightly.
+
+**Do not push any changes to the content folder unless you are in a dev branch, I am dumb and haven't set up the content folder to pull changes nightly before committing.**
