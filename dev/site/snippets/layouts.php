@@ -1,16 +1,18 @@
 <div class="section-wrapper 
             <?= $layout->class() ?> 
             <?= $layout->role() ?>
-            <?php if($layout->next()) {
+            <?php if ($layout->next()) {
                 echo ($layout->role() == 'accordion' && $layout->next()->role() != 'accordion') ? 'last' : '';
-             }
-             else { echo 'last'; } ?>
-             <?php if($layout->next()) {
-                 echo ($layout->role() == 'ticker' && $layout->next()->role() != 'ticker') ? 'last' : '';
-              }
-              else { echo 'last'; } ?>"
+            } else {
+                echo 'last';
+            } ?>
+             <?php if ($layout->next()) {
+                    echo ($layout->role() == 'ticker' && $layout->next()->role() != 'ticker') ? 'last' : '';
+                } else {
+                    echo 'last';
+                } ?>"
     id="<?= $layout->layoutId() ?>"
-    style=" <?=($layout->tickerLength()->isNotEmpty()) ? '--duration:' . $layout->tickerLength() . 's;' : '' ?>
+    style=" <?= ($layout->tickerLength()->isNotEmpty()) ? '--duration:' . $layout->tickerLength() . 's;' : '' ?>
             <?= ($layout->tickerColor()->isNotEmpty()) ? '--background:' . $layout->tickerColor() . ';' : '' ?>
             <?= ($layout->tickerTextColor()->isNotEmpty()) ? '--ticker-text:' . $layout->tickerTextColor() . ';' : '' ?>
             <?= ($layout->role() == 'ticker') ? 'margin:0;' : '' ?>
@@ -28,11 +30,11 @@
         <?php foreach ($layout->columns() as $column): ?>
             <div class="column col-<?= Str::replace($column->width(), '/', '-') ?>" style="--span:<?= $column->span() ?>">
                 <div class="blocks" style="<?= ($layout->tickerDirection()->toBool()) ? 'animation-direction: reverse;' : '' ?>">
-                    <?php if($layout->role() == 'ticker') : ?>
+                    <?php if ($layout->role() == 'ticker') : ?>
                         <?= str_repeat($column->blocks()->toHtml(), 11) ?>
                     <?php else: ?>
-                        <?php foreach($column->blocks() as $block): ?>
-                            <div class="block block-type-<?=$block->type() ?> <?= ($block->full()->toBool() ? 'full-image-block' : ' ' ) ?>">
+                        <?php foreach ($column->blocks() as $block): ?>
+                            <div class="block block-type-<?= $block->type() ?> <?= ($block->full()->toBool() ? 'full-image-block' : ' ') ?>">
                                 <?= $block ?>
                             </div>
                         <?php endforeach ?>

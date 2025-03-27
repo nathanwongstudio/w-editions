@@ -37,20 +37,20 @@
 
 .action-bar {
 	font-size: 0.7em;
-	line-height:1;
+	line-height: 1;
 
-	position:sticky;
-	z-index:999;
-	bottom:0;
+	position: sticky;
+	z-index: 999;
+	bottom: 0;
 
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	align-items: center;
 
-	box-sizing:border-box;
+	box-sizing: border-box;
 
 	width: 100%;
-	margin-bottom:var(--base-line-height);
+	margin-bottom: var(--base-line-height);
 	padding: 0 0 0 1em;
 
 	color: var(--c-paper);
@@ -61,25 +61,26 @@
 		display: none;
 		visibility: hidden;
 
-		padding-left:0.5em;
+		padding-left: 0.5em;
 	}
 
 	@media screen and (width <= 50em) {
 		font-size: 0.8em;
 
-		display:none;
+		display: none;
 		visibility: hidden;
 
-		button, .button {
-			padding:0.5em;
+		button,
+		.button {
+			padding: 0.5em;
 
 			&::after {
-				display:none;
+				display: none;
 			}
 		}
 
 		&.mobile-only {
-			position:fixed;
+			position: fixed;
 
 			display: flex;
 			visibility: visible;
@@ -91,30 +92,32 @@
 			gap: 0.5em;
 
 			.action-info {
-				flex-grow:1;
-				flex-shrink:1;
+				flex-grow: 1;
+				flex-shrink: 1;
 				align-self: center;
 			}
 
 			.action-cta {
 				flex-shrink: 0;
 
-				button, .button {
+				button,
+				.button {
 					display: flex;
 					align-items: center;
 
-					height:100%;
+					height: 100%;
 				}
 			}
 		}
 	}
 
-	button, .button {
-		display:inline-block;
+	button,
+	.button {
+		display: inline-block;
 
 		box-sizing: border-box;
 
-		margin:0;
+		margin: 0;
 
 		text-align: center;
 
@@ -122,16 +125,16 @@
 	}
 
 	.action-cta {
-		text-align:right;
+		text-align: right;
 	}
 
 	.action-info {
-		display:block;
+		display: block;
 
 		width: auto;
 		padding: 0.5em 0;
 
-		text-align:left;
+		text-align: left;
 	}
 }
 
@@ -180,7 +183,7 @@ h1.title {
 			@media screen and (width <= 50em) {
 				font-size: 1.5rem;
 
-				padding:0.25em 0.5em;
+				padding: 0.25em 0.5em;
 			}
 		}
 
@@ -194,14 +197,14 @@ h1.title {
 			width: 100%;
 
 			.sticker {
-				margin-bottom:1rem;
+				margin-bottom: 1rem;
 			}
 		}
 	}
 
 	@media screen and (width <= 50em) {
 		position: relative;
-		top:0;
+		top: 0;
 
 		width: 100%;
 	}
@@ -307,23 +310,22 @@ h1.title {
 		@media screen and (width <= 60em) {
 			position: relative;
 
-			top:0;
+			top: 0;
 
-			overflow:visible;
+			overflow: visible;
 
 			width: 100%;
 			max-width: none;
 			height: auto;
-			padding:0;
+			padding: 0;
 		}
 
 		a[target="_blank"] {
-			cursor:help;
+			cursor: help;
 
-			color:inherit;
+			color: inherit;
 			text-decoration-style: dotted;
 		}
-
 	}
 
 	.text-block + .text-block {
@@ -341,19 +343,19 @@ h1.title {
 	display: grid;
 	grid-template-columns: 21rem 1fr;
 
-	margin:0 5%;
+	margin: 0 5%;
 	gap: 1em;
 
 	@media screen and (width <=70em) {
 		grid-template-columns: 14rem 1fr;
 	}
-	
+
 	@media screen and (width <=60em) {
 		grid-template-columns: 2fr 3fr;
 
 		margin: 0 1%;
 	}
-	
+
 	@media screen and (width <=50em) {
 		grid-template-columns: 1fr;
 	}
@@ -363,34 +365,35 @@ h1.title {
 	.overlay.modal-opened {
 		position: sticky;
 
-		z-index:0;
+		z-index: 0;
 		top: calc(var(--nav-height) + 5%);
-		left:0;
+		left: 0;
 
 		width: auto;
-		
+
 		height: auto;
 		max-height: none;
-	
-		transform:none;
-	
+
+		transform: none;
+
 		@media screen and (width <=60em) {
 			position: relative;
-			top:0;
-			left:0;
+			top: 0;
+			left: 0;
 
 			width: 100%;
-			height:auto;
-			max-height:none;
+			height: auto;
+			max-height: none;
 		}
 	}
 }
 
 .title-card-footer {
 	.buttons {
-		button, .button {
+		button,
+		.button {
 			box-sizing: border-box;
-			width:100%;
+			width: 100%;
 
 			text-align: left;
 		}
@@ -406,34 +409,34 @@ h1.title {
 	padding: calc(var(--base-line-height) / 2);
 
 	text-align: left;
-	
+
 	@media screen and (width <=50em) {
 		position: relative;
 		top: auto;
 		bottom: 0;
 
-		max-height:none;
+		max-height: none;
 
 		padding: 1rem;
 	}
 }
 
 .image-gallery.overlay.modal-opened {
-	position:relative;
+	position: relative;
 	z-index: 0;
 	top: 0;
-	left:0;
+	left: 0;
 
 	width: auto;
-	height:auto;
+	height: auto;
 	max-height: none;
-	margin:0;
+	margin: 0;
 
-	transform:none;
+	transform: none;
 
 	.modal-body {
-		height:auto;
-		max-height:none;
+		height: auto;
+		max-height: none;
 	}
 
 	ul {
@@ -473,8 +476,8 @@ h1.title {
 
 	box-sizing: border-box;
 	width: 100%;
-	min-height:100dvh;
-	padding:0 var(--base-line-height) 8em;
+	min-height: 100dvh;
+	padding: 0 var(--base-line-height) 8em;
 
 	text-align: center;
 
@@ -489,8 +492,8 @@ h1.title {
 	}
 
 	@media screen and (width <= 50em) {
-		min-height:100dvh;
-		padding-bottom:4em;
+		min-height: 100dvh;
+		padding-bottom: 4em;
 	}
 }
 
@@ -509,15 +512,14 @@ span.text-wrap {
 		padding-right: var(--base-line-height);
 
 		@media screen and (width <= 35em) {
-			display:block;
-			float:none;
+			display: block;
+			float: none;
 
 			width: auto;
-			max-width:15em;
+			max-width: 15em;
 			height: auto;
 
 			margin: 0 auto;
-			
 		}
 	}
 }

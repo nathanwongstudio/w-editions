@@ -11,11 +11,11 @@ label {
 
 	width: 100%;
 
-	margin:0;
+	margin: 0;
 
 	vertical-align: middle;
 
-	letter-spacing:1px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 
 	& + input {
@@ -201,7 +201,7 @@ input[type="button"] {
 	box-shadow: none;
 
 	&.inline {
-		display:inline-block;
+		display: inline-block;
 	}
 
 	&.negative {
@@ -233,7 +233,7 @@ input[type="button"] {
 
 		&::after {
 			right: auto;
-			left:0.5em;
+			left: 0.5em;
 
 			content: "\e700";
 		}
@@ -241,7 +241,7 @@ input[type="button"] {
 
 	&:disabled,
 	&.disabled {
-		cursor:not-allowed;
+		cursor: not-allowed;
 		pointer-events: none;
 
 		color: var(--c-paper-900);
@@ -267,11 +267,11 @@ fieldset {
 		display: grid;
 		grid-template-columns: 1fr;
 
-		margin:0;
+		margin: 0;
 
 		.field + .field {
 			input {
-				border-top:0;
+				border-top: 0;
 			}
 		}
 
@@ -281,8 +281,8 @@ fieldset {
 		}
 
 		button {
-			margin-right:0;
-			margin-bottom:0;
+			margin-right: 0;
+			margin-bottom: 0;
 		}
 	}
 }
@@ -369,23 +369,23 @@ form {
 
 // INQUIRY FORM
 #inquire {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .inquire-backdrop {
 	position: fixed;
 
-	z-index:999999;
+	z-index: 999999;
 
 	display: block;
 
-	width:100vw;
+	width: 100vw;
 	height: 100dvh;
 
 	transition: all 300ms ease;
 
-	pointer-events:none;
-	inset:0;
+	pointer-events: none;
+	inset: 0;
 }
 
 .inquire-active .inquire-backdrop {
@@ -397,9 +397,9 @@ form {
 #inquire-form {
 	#include-a-message {
 		& ~ .message-wrapper {
-			overflow:hidden;
+			overflow: hidden;
 
-			max-height:0;
+			max-height: 0;
 
 			transition: max-height 0.5s ease;
 		}
@@ -423,7 +423,7 @@ form {
 		p {
 			font-size: 0.7em;
 
-			margin:0;
+			margin: 0;
 		}
 
 		.card-image {
@@ -434,7 +434,7 @@ form {
 			figure {
 				display: inline-block;
 
-				margin:0;
+				margin: 0;
 			}
 
 			img {

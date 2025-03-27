@@ -1,4 +1,4 @@
-<div class="action-bar <?= $class = $class ?? ''?>">
+<div class="action-bar <?= $class = $class ?? '' ?>">
     <div class="action-info">
         <strong><?= $page->title() . " (" . $page->year() . ")" ?></strong> by <?= $artists ?>
     </div>

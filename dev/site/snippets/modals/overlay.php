@@ -1,4 +1,4 @@
-<div class="overlay gallery" id="<?=$id?>">
+<div class="overlay gallery" id="<?= $id ?>">
   <div class="modal-header">
     <h3><?= $modalTitle ?></h3>
 

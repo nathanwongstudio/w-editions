@@ -28,13 +28,15 @@ $layouts = $page->accordionText()->toLayouts();
                 <?php endif; ?>
             </div>
         </div>
-        
+
         <?= snippet('action-bar') ?>
 
         <div class="secondary-info">
             <div class="title-card-wrapper">
                 <div class="overlay modal-opened">
-                    <div class="modal-header"><h3>Info</h3><button class="modal-close" disabled></button></div>
+                    <div class="modal-header">
+                        <h3>Info</h3><button class="modal-close" disabled></button>
+                    </div>
                     <div class="title-card modal-body">
                         <h2 class="title-card-header artists">
                             <?= $artists ?>
@@ -74,7 +76,9 @@ $layouts = $page->accordionText()->toLayouts();
             </div>
 
             <div class="image-gallery overlay modal-opened">
-                <div class="modal-header"><h3>Additional Images</h3><button class="modal-close" disabled></button></div>
+                <div class="modal-header">
+                    <h3>Additional Images</h3><button class="modal-close" disabled></button>
+                </div>
                 <ul class="gallery-items modal-body">
                     <?php
                     foreach ($page->details()->toFiles() as $art):

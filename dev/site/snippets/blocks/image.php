@@ -14,7 +14,6 @@ $fullscreen = $block->full()->toBool();
 if ($block->location() == 'web') {
 	$src = $block->src()->esc();
 	$web = true;
-
 } elseif ($image = $block->image()->toFile()) {
 	$alt = $alt->or($image->alt());
 	$src = $image;

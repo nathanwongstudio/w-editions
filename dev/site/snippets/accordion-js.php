@@ -6,5 +6,4 @@
         clearTimeout(acc);
         acc = setTimeout(accordionMeasure, 100);
     });
-
 </script>

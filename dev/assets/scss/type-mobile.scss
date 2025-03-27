@@ -1,35 +1,32 @@
 @use "nw-type" as t with (
+	// Font Family
+	$font-family: ("neue-haas-grotesk-text", sans-serif),
+	$font-mono: (courier new, courier, mono),
+	// Base ratios
+	$typescale: 1,
 
-// Font Family
-$font-family: ("neue-haas-grotesk-text", sans-serif),
-$font-mono: (courier new, courier, mono),
+	// Base Font for HTML
+	$base-font-size: 16px,
+	$base-line-height: 1.5,
 
-// Base ratios
-$typescale: 1,
+	// Paragraph Styles
+	$paragraph-size: 1rem,
+	$paragraph-line-height: default,
+	$paragraph-margin: default,
 
-// Base Font for HTML
-$base-font-size: 16px,
-$base-line-height: 1.5,
+	// hr
+	$hr-margin: default,
 
-// Paragraph Styles
-$paragraph-size: 1rem,
-$paragraph-line-height: default,
-$paragraph-margin: default,
-
-// hr
-$hr-margin: default,
-
-// Type Misc
-$font-weight-bold: 800,
-
+	// Type Misc
+	$font-weight-bold: 800
 );
 
 :root {
-    --em-line-height: 1.5em;
-    --base-line-height: 27px;
+	--em-line-height: 1.5em;
+	--base-line-height: 27px;
 
-    // fonts
-    --secondary-font-stack:"neue-haas-grotesk-display", sans-serif;
+	// fonts
+	--secondary-font-stack: "neue-haas-grotesk-display", sans-serif;
 }
 
 // h1, h2, h3, h4, h5, h6 {
@@ -37,6 +34,7 @@ $font-weight-bold: 800,
 //     line-height: 1;
 // }
 
-html, body {
-    font-size: var(--base-font-size);
+html,
+body {
+	font-size: var(--base-font-size);
 }

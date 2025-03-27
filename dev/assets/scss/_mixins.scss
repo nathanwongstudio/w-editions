@@ -1,83 +1,83 @@
-%contrast-text { // THIS IS FOR A PARENT CONTAINER OF WHATEVER TEXT YOU WANT CONTRASTED
-    --contrast-text-color: var(--c-cobalt);
-    --contrast-shadow-color: var(--c-benibana-600);
+%contrast-text {
+	// THIS IS FOR A PARENT CONTAINER OF WHATEVER TEXT YOU WANT CONTRASTED
+	--contrast-text-color: var(--c-cobalt);
+	--contrast-shadow-color: var(--c-benibana-600);
 
-    font-family: var(--secondary-font-stack);
+	font-family: var(--secondary-font-stack);
 
-    background:var(--c-paper);
-    mix-blend-mode: multiply;
-    filter: contrast(30);
+	background: var(--c-paper);
+	mix-blend-mode: multiply;
+	filter: contrast(30);
 
-    & * {
-        position: relative;
+	& * {
+		position: relative;
 
-        box-sizing: border-box;
+		box-sizing: border-box;
 
-        padding: 0.1em 0;
+		padding: 0.1em 0;
 
-        padding-left:0.25rem;
+		padding-left: 0.25rem;
 
-        letter-spacing:-0.5px;
+		letter-spacing: -0.5px;
 
-        color: transparent;
-        text-shadow: 0 0 0.05em var(--contrast-text-color);
-    }
+		color: transparent;
+		text-shadow: 0 0 0.05em var(--contrast-text-color);
+	}
 
-    & > * {
-        font-size: 4rem;
-        font-weight:700;
-        font-style:normal;
-        line-height: 1;
+	& > * {
+		font-size: 4rem;
+		font-weight: 700;
+		font-style: normal;
+		line-height: 1;
 
-        position: relative;
+		position: relative;
 
-        // width: 100%;
-        
-        @media screen and (width <= 40em) {
-            font-size: 2.5em;
+		// width: 100%;
 
-            letter-spacing: 0;
+		@media screen and (width <= 40em) {
+			font-size: 2.5em;
 
-            hyphens:none;
-        }
-    }
+			letter-spacing: 0;
+
+			hyphens: none;
+		}
+	}
 }
 
 %xp-box {
-    // font-family: Tahoma, Verdana, Geneva, neue-haas-grotesk-text,  sans-serif;
+	// font-family: Tahoma, Verdana, Geneva, neue-haas-grotesk-text,  sans-serif;
 
-    text-decoration: none;
+	text-decoration: none;
 
-    color: var(--c-paynes-700);
-    border: 2px outset var(--c-paper-400) ;
-    border-radius: 0;
+	color: var(--c-paynes-700);
+	border: 2px outset var(--c-paper-400);
+	border-radius: 0;
 
-    outline: 0;
-    background-color: var(--c-paper-600);
-    appearance: none;
+	outline: 0;
+	background-color: var(--c-paper-600);
+	appearance: none;
 
-    box-shadow: 0 5px 16px -8px var(--c-paynes);
+	box-shadow: 0 5px 16px -8px var(--c-paynes);
 }
 
 %xp-header {
-    font-size: 0.8em;
-    font-weight:bold;
+	font-size: 0.8em;
+	font-weight: bold;
 
-    box-sizing: border-box;
+	box-sizing: border-box;
 
-    width:100%;
-    padding: 0.125rem 1rem;
+	width: 100%;
+	padding: 0.125rem 1rem;
 
-    color: white;
-    background: var(--c-cobalt);
+	color: white;
+	background: var(--c-cobalt);
 }
 
 %xp-box-active {
-    border: 2px inset var(--c-paper-400);
-    background-color: var(--c-paper-700);
+	border: 2px inset var(--c-paper-400);
+	background-color: var(--c-paper-700);
 }
 
 .contrast-text {
-    @extend %contrast-text;
+	@extend %contrast-text;
 }
-

@@ -9,7 +9,7 @@ $src = $page->productImage()->toFile();
 
     <div class="merch-wrap">
         <div class="merch-description-wrapper">
-            <a href="<?=$page->parent()->url()?>" class="button reverse inline">More Merch</a>
+            <a href="<?= $page->parent()->url() ?>" class="button reverse inline">More Merch</a>
             <div class="merch-description">
                 <div class="merch-description-header">
                     <?= $page->productId(); ?>

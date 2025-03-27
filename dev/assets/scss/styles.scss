@@ -305,7 +305,7 @@ figure {
 			margin: auto;
 
 			&.block-type-text {
-				margin-top:0;
+				margin-top: 0;
 			}
 		}
 
@@ -373,7 +373,12 @@ figure {
 				}
 
 				@media screen and (width <= 40em) {
-					h1, h2, h3, h4, h5, h6 {
+					h1,
+					h2,
+					h3,
+					h4,
+					h5,
+					h6 {
 						font-size: 2em;
 					}
 				}
@@ -697,7 +702,6 @@ figure {
 			content: attr(data-text);
 
 			text-shadow: 0 -1px 1px var(--c-paper-200);
-			
 		}
 	}
 
@@ -755,7 +759,7 @@ figure {
 
 	border-radius: 50%;
 	background: var(--tag-background-color);
-	
+
 	box-shadow: 0 0 0 4px var(--c-benibana-600);
 
 	text-shadow: 0 0 3px var(--contrast-text-color);
@@ -853,7 +857,6 @@ figure {
 	/* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
 	font-family: microns;
 }
-
 
 .mobile-only {
 	display: none;

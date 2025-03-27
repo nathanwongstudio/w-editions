@@ -1,70 +1,71 @@
-@use 'default';
+@use "default";
 
 .merch-wrap {
-    --merch-padding: var(--base-line-height);
+	--merch-padding: var(--base-line-height);
 
-    max-width: 70em;
-    margin: 0 auto;
-    padding: var(--merch-padding);
+	max-width: 70em;
+	margin: 0 auto;
+	padding: var(--merch-padding);
 }
 
 .merch-collection-grid {
-    display: flex;
+	display: flex;
 
-    flex-flow: row wrap;
-    place-content: center center;
+	flex-flow: row wrap;
+	place-content: center center;
 
-    margin: var(--base-line-height) auto;
-    gap: var(--base-line-height);
+	margin: var(--base-line-height) auto;
+	gap: var(--base-line-height);
 }
 
 .merch-collection-item {
-    flex: 0 1 calc(25% - var(--base-line-height) * 2);
+	flex: 0 1 calc(25% - var(--base-line-height) * 2);
 
-    padding: calc(var(--base-line-height) / 2);
+	padding: calc(var(--base-line-height) / 2);
 
-    border: 2px outset var(--c-paper-400);
+	border: 2px outset var(--c-paper-400);
 
-    background: var(--c-paper-100);
+	background: var(--c-paper-100);
 
-    &:active {
-        border: 2px inset var(--c-paper-400);
-        background: var(--c-paper-300);
+	&:active {
+		border: 2px inset var(--c-paper-400);
+		background: var(--c-paper-300);
 
-        img {
-            transform: scale(98%);
-        }
-    }
+		img {
+			transform: scale(98%);
+		}
+	}
 
-    a, a:hover {
-        text-decoration: none;
+	a,
+	a:hover {
+		text-decoration: none;
 
-        color: inherit;
-    }
+		color: inherit;
+	}
 
-    .merch-collection-item-image {
-        img {
-            object-fit:contain;
-            aspect-ratio: 1 / 1;
+	.merch-collection-item-image {
+		img {
+			object-fit: contain;
+			aspect-ratio: 1 / 1;
 
-            width: 100%;
-        }
-    }
+			width: 100%;
+		}
+	}
 
-    .merch-collection-item-info {
-        display: grid;
-        grid-template-columns: 1fr 4rem;
+	.merch-collection-item-info {
+		display: grid;
+		grid-template-columns: 1fr 4rem;
 
-        padding-top: var(--base-line-height);
-    }
+		padding-top: var(--base-line-height);
+	}
 
-    .merch-collection-item-name {
-        font-weight: bold;
+	.merch-collection-item-name {
+		font-weight: bold;
 
-        color: var(--c-paynes);
-    }
+		color: var(--c-paynes);
+	}
 
-    .merch-collection-item-price {
-        text-align: right;
-    }
+	.merch-collection-item-price {
+		text-align: right;
+	}
 }

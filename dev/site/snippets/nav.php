@@ -2,15 +2,15 @@
     <div class="wrapper-nav">
         <input type="checkbox" id="x" class="menu-toggle" aria-label="click to toggle the menu" role="button" aria-pressed="false" aria-haspopup="menu"></input>
         <section class="site-title">
-            <a href="<?= $site->url()?>" aria-label="click to go to the home page">
-               <span data-text="w/">W/</span><span data-text="EDITIONS">EDITIONS</span>
+            <a href="<?= $site->url() ?>" aria-label="click to go to the home page">
+                <span data-text="w/">W/</span><span data-text="EDITIONS">EDITIONS</span>
             </a>
         </section>
         <section class="menu">
             <ul class="menu-items" aria-label="list of pages">
-                <?php foreach($site->pages()->listed() as $page): ?>
-                    <li class="item <?= ($page->isOpen()) ? 'active' : '' ?>" >
-                        <a href="<?=$page->url()?>" data-text="<?= $page->title() ?>">
+                <?php foreach ($site->pages()->listed() as $page): ?>
+                    <li class="item <?= ($page->isOpen()) ? 'active' : '' ?>">
+                        <a href="<?= $page->url() ?>" data-text="<?= $page->title() ?>">
                             <?= $page->title() ?>
                         </a>
                     </li>

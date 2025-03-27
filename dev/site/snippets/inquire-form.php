@@ -46,7 +46,8 @@
 
                 <fieldset class="turnstile">
                     <label for="turnstile">Are you a human?</label>
-                    <?= turnstileField() ?></fieldset>
+                    <?= turnstileField() ?>
+                </fieldset>
             </form>
             <div id="message" class="alert"></div>
         </div>
@@ -58,7 +59,7 @@
     var close = document.getElementById('close-inquire'),
         body = document.body,
         open = document.getElementsByClassName('inquire');
-    
+
     for (let i = 0; i < open.length; i++) {
         open[i].addEventListener('click', function() {
             body.classList.toggle('inquire-active');

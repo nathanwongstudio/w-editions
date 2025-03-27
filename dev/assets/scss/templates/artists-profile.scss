@@ -1,11 +1,11 @@
-@use '../mixins';
+@use "../mixins";
 
 .section-bio {
-	flex:1 0;
+	flex: 1 0;
 
 	.artist-name {
 		@extend %xp-header;
-		margin:0;
+		margin: 0;
 	}
 
 	.container {
@@ -33,13 +33,13 @@
 
 .profilepic {
 	display: flex;
-	flex:1 0;
+	flex: 1 0;
 	place-content: center;
 
 	.pic-wrapper-header {
 		@extend %xp-header;
 	}
-	
+
 	.pic-wrapper {
 		@extend %xp-box;
 		position: relative;
@@ -55,14 +55,14 @@
 			box-sizing: border-box;
 
 			height: 100%;
-			margin:0;
+			margin: 0;
 
 			padding: 1em;
 		}
 
 		img {
-			max-width:100%;
-			max-height:100%;
+			max-width: 100%;
+			max-height: 100%;
 			margin: 0 auto;
 		}
 	}
@@ -73,7 +73,7 @@ section.container {
 		@extend %xp-box;
 		position: relative;
 
-		width:100%;
+		width: 100%;
 
 		height: auto;
 
@@ -85,7 +85,7 @@ section.container {
 .bio {
 	max-width: 40rem;
 	margin: auto;
-	
+
 	padding: var(--base-line-height);
 
 	text-align: left;
@@ -195,7 +195,7 @@ section.container {
 			.art-image {
 				position: relative;
 
-				max-height:100%;
+				max-height: 100%;
 
 				a {
 					height: 100%;

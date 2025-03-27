@@ -11,7 +11,7 @@ $title  = wordwrap($title, 17); // default value for third parameter $break = "\
 $artists = [];
 
 foreach ($page->artist()->split() as $artist):
-    if($artistPage = $pages->find('artists/'.$artist)){
+    if ($artistPage = $pages->find('artists/' . $artist)) {
         $artists[] = $artistPage->title();
     } else {
         $artists[] = $artist;
@@ -20,7 +20,7 @@ endforeach;
 
 $artists = implode(', ', $artists);
 
-$artists = wordwrap($artists,30);
+$artists = wordwrap($artists, 30);
 
 $backgroundFile = './assets/images/backgrounds/newsprint.jpg';
 $bg = imagecreatefromjpeg($backgroundFile);

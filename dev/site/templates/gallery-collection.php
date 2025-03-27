@@ -1,35 +1,35 @@
 <?php snippet('header');
 
-if($artworks->isNotEmpty()): ?>
+if ($artworks->isNotEmpty()): ?>
 
     <div class="default-content">
         <div class="collection">
             <ol class="artworks" reversed style="--count: <?= $artworks->count() ?>">
                 <?php
-                    foreach($artworks as $artwork):
+                foreach ($artworks as $artwork):
 
-                        $src = $artwork->primaryImg()->toFile();
+                    $src = $artwork->primaryImg()->toFile();
                 ?>
                     <li class="artwork" style="--index: '<?= $artwork->num() ?>'">
                         <div class="artwork-image mobile-only">
                             <?= snippet('images', compact('src')) ?>
                         </div>
-                        <a href="<?=$artwork->url()?>" data-id="<?= $artwork->uid() ?>">
+                        <a href="<?= $artwork->url() ?>" data-id="<?= $artwork->uid() ?>">
                             <div class="left-side">
                                 <div class="artwork-title-wrapper">
-                                    <span class="artwork-title" data-text="<?=$artwork->title()?>">
-                                        <?=$artwork->title()?>
+                                    <span class="artwork-title" data-text="<?= $artwork->title() ?>">
+                                        <?= $artwork->title() ?>
                                     </span>
                                 </div>
                                 <div class="artwork-artist">
-                                    <?php foreach ($artwork->artist()->split() as $artist): 
-                                        if($artistPage = $pages->find('artists/'.$artist)):
-                                        ?>
+                                    <?php foreach ($artwork->artist()->split() as $artist):
+                                        if ($artistPage = $pages->find('artists/' . $artist)):
+                                    ?>
                                             <span class="artist text-wrap" data-text="<?= $artistPage->title(); ?>"><?= $artistPage->title(); ?></span>
                                         <?php else: ?>
                                             <span class="artist text-wrap" data-text="<?= $artist ?>"><?= $artist ?></span>
                                         <?php endif; ?>
-                                    <?php endforeach;?>
+                                    <?php endforeach; ?>
                                 </div>
                             </div>
                             <span class="artwork-id" data-text="<?= $artwork->artId() ?>">
@@ -38,55 +38,55 @@ if($artworks->isNotEmpty()): ?>
                         </a>
                         <div class="stickers">
                             <?php
-                                if($artwork->publishdate()->isNotEmpty()) {
-                                    $today = new Datetime(date('Y-m-d'));
-                                    $endDate = new Datetime($artwork->publishdate()->toDate('Y-m-d'));
-                                    $diff = $endDate->diff($today);
-                                    $datediff = $diff->days;
-                                }
-                                ?>
-                                <?php if(isset($datediff) && $datediff <= 90): ?>
-                                    <span class="tag new">Fresh</span>
-                                <?php endif; ?>
-                                <?php if(!$artwork->available()->toBool()): ?>
-                                    <span class="tag sold">Sold Out</span>
-                                <?php endif; ?>
+                            if ($artwork->publishdate()->isNotEmpty()) {
+                                $today = new Datetime(date('Y-m-d'));
+                                $endDate = new Datetime($artwork->publishdate()->toDate('Y-m-d'));
+                                $diff = $endDate->diff($today);
+                                $datediff = $diff->days;
+                            }
+                            ?>
+                            <?php if (isset($datediff) && $datediff <= 90): ?>
+                                <span class="tag new">Fresh</span>
+                            <?php endif; ?>
+                            <?php if (!$artwork->available()->toBool()): ?>
+                                <span class="tag sold">Sold Out</span>
+                            <?php endif; ?>
                         </div>
                     </li>
                 <?php endforeach ?>
             </ol>
             <div class="image-box desktop-only">
                 <?php
-                    foreach($artworks as $artwork):
+                foreach ($artworks as $artwork):
 
-                        $src = $artwork->primaryImg()->toFile();
-                        $class = $artwork->uid();
-                        $lazy = false;
+                    $src = $artwork->primaryImg()->toFile();
+                    $class = $artwork->uid();
+                    $lazy = false;
                 ?>
                     <?= snippet('images', compact('src', 'class', 'lazy')) ?>
                 <?php endforeach ?>
             </div>
         </div>
     </div>
-<script>
-    var elements = document.querySelectorAll('.artwork a');
-    for (e in elements) {
-       elements[e].onmouseover = function(t) {
-            var id = this.getAttribute('data-id'),
-            img = document.querySelector('figure.'+ CSS.escape(id));
-            
-            document.querySelector('figure.shown')?.classList.remove('shown');
-            
-            img.classList.add('shown');
-            
-            console.log(id + ' was moused over');
-       }
-       elements[e].onmouseleave = function(t) {
-            document.querySelector('figure.shown')?.classList.remove('shown');
-       }
-    }
-</script>
-<?php 
+    <script>
+        var elements = document.querySelectorAll('.artwork a');
+        for (e in elements) {
+            elements[e].onmouseover = function(t) {
+                var id = this.getAttribute('data-id'),
+                    img = document.querySelector('figure.' + CSS.escape(id));
+
+                document.querySelector('figure.shown')?.classList.remove('shown');
+
+                img.classList.add('shown');
+
+                console.log(id + ' was moused over');
+            }
+            elements[e].onmouseleave = function(t) {
+                document.querySelector('figure.shown')?.classList.remove('shown');
+            }
+        }
+    </script>
+<?php
 else:
     snippet('no-content');
 endif;

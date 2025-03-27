@@ -24,9 +24,9 @@
         line-height: 1;
         color: transparent;
         text-shadow: 0 0 7px var(--c-cobalt);
-        display:inline-block;
-        margin:0;
-        padding:0;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
         padding-bottom: 1em;
         mix-blend-mode: multiply;
     }
@@ -35,9 +35,9 @@
         position: absolute;
         font-style: italic;
         width: 100%;
-        top:0;
-        left:0;
-        z-index:-1;
+        top: 0;
+        left: 0;
+        z-index: -1;
         text-shadow: 0 0 0.1em var(--c-cinnabar);
     }
 </style>

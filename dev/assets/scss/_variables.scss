@@ -1,4 +1,4 @@
-@use 'sass:color';
+@use "sass:color";
 
 $benibana: #ff99a1;
 $cinnabar: #b82b2b;
@@ -95,7 +95,7 @@ $vert: green;
 	--c-vert-700: #{color.adjust($vert, $lightness: -10%)};
 	--c-vert-800: #{color.adjust($vert, $lightness: -15%)};
 	--c-vert-900: #{color.adjust($vert, $lightness: -20%)};
-	
+
 	// EXTENDED COLORS
 	--border-color: var(--c-cobalt);
 	--text-color: var(--c-cobalt);
