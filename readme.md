@@ -8,7 +8,8 @@ First, you need to install some way to use Kirby CMS -- [here's their quickstart
 then:
 
 1. clone the repo
-2. install dependencies using `composer update`
+2. `cd` to the `dev` folder on your computer
+3. install dependencies using `composer update`
 
 you can also install the dependencies independently.
 
