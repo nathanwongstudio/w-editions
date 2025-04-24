@@ -1,4 +1,4 @@
-<?= !($page->isHomePage()) ? snippet('cart/cart-checkout-summary') : '' ?>
+<?= !($page->isErrorPage()) ? snippet('cart/cart-checkout-summary') : '' ?>
 
 <?php
 if (!isset($foot)) {

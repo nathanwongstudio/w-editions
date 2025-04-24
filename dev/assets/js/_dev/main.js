@@ -50,3 +50,5 @@ function lazyLoader() {
     }, "300");
 
 }
+
+lazyLoader();

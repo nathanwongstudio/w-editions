@@ -39,10 +39,6 @@
 		color: var(--accordion-text-color);
 	}
 
-	.blocks .block {
-		margin: auto;
-	}
-
 	section.grid {
 		line-height: 1;
 
@@ -134,11 +130,13 @@
 		}
 
 		.block {
-			margin: 0;
+			margin-left: 0;
 		}
 
-		.block-type-heading {
+		.block-type-heading:first-child {
 			--contrast-text-color: var(--accordion-text-color);
+
+			font-family: var(--secondary-font-family);
 
 			@extend %contrast-text;
 			z-index: 99;
@@ -155,6 +153,10 @@
 			padding-right: 2rem;
 
 			cursor: pointer;
+
+			&:first-child + .block {
+				margin-top: 0;
+			}
 
 			h1 {
 				font-size: 1.75rem;

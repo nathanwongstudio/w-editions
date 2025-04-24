@@ -1,6 +1,6 @@
 <div class="action-bar <?= $class = $class ?? '' ?>">
     <div class="action-info">
-        <strong><?= $page->title() . " (" . $page->year() . ")" ?></strong> by <?= $artists ?>
+        <strong><?= $page->title() . " (" . $page->year() . ")" ?></strong> <span class="chop-inline"></span> <?= $artists ?>
     </div>
     <div class="action-cta">
         <?php if ($page->onlineShop()->toBool()):

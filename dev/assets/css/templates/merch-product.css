@@ -71,12 +71,12 @@
   --c-violet-700: rgb(34.3225806452, 8.1290322581, 75.8709677419);
   --c-violet-800: rgb(13.4838709677, 3.1935483871, 29.8064516129);
   --c-violet-900: hsl(263.2, 80.6451612903%, -3.5294117647%);
-  --c-vert: green;
+  --c-vert: #008000;
   --c-vert-100: rgb(0, 214.7, 0);
   --c-vert-200: rgb(0, 204.5, 0);
   --c-vert-300: #00b300;
   --c-vert-400: rgb(0, 153.5, 0);
-  --c-vert-500: green;
+  --c-vert-500: #008000;
   --c-vert-600: rgb(0, 102.5, 0);
   --c-vert-700: #004d00;
   --c-vert-800: rgb(0, 51.5, 0);
@@ -86,7 +86,7 @@
   --nav-height: calc(var(--base-line-height) * 2);
 }
 
-.wrapper .accordion section.grid .block-type-heading, .contrast-text {
+.wrapper .accordion section.grid .block-type-heading:first-child, .contrast-text {
   --contrast-text-color: var(--c-cobalt);
   --contrast-shadow-color: var(--c-benibana-600);
   font-family: var(--secondary-font-stack);
@@ -94,7 +94,7 @@
   mix-blend-mode: multiply;
   filter: contrast(30);
 }
-.wrapper .accordion section.grid .block-type-heading *, .contrast-text * {
+.wrapper .accordion section.grid .block-type-heading:first-child *, .contrast-text * {
   position: relative;
   box-sizing: border-box;
   padding: 0.1em 0;
@@ -103,7 +103,7 @@
   color: transparent;
   text-shadow: 0 0 0.05em var(--contrast-text-color);
 }
-.wrapper .accordion section.grid .block-type-heading > *, .contrast-text > * {
+.wrapper .accordion section.grid .block-type-heading:first-child > *, .contrast-text > * {
   font-size: 4rem;
   font-weight: 700;
   font-style: normal;
@@ -111,7 +111,7 @@
   position: relative;
 }
 @media screen and (width <= 40em) {
-  .wrapper .accordion section.grid .block-type-heading > *, .contrast-text > * {
+  .wrapper .accordion section.grid .block-type-heading:first-child > *, .contrast-text > * {
     font-size: 2.5em;
     letter-spacing: 0;
     -webkit-hyphens: none;
@@ -160,11 +160,14 @@
 .wrapper .accordion.last {
   margin-bottom: var(--base-line-height);
 }
-.wrapper .accordion h1, .wrapper .accordion h2, .wrapper .accordion h3, .wrapper .accordion h4, .wrapper .accordion h5, .wrapper .accordion h6, .wrapper .accordion p {
+.wrapper .accordion h1,
+.wrapper .accordion h2,
+.wrapper .accordion h3,
+.wrapper .accordion h4,
+.wrapper .accordion h5,
+.wrapper .accordion h6,
+.wrapper .accordion p {
   color: var(--accordion-text-color);
-}
-.wrapper .accordion .blocks .block {
-  margin: auto;
 }
 .wrapper .accordion section.grid {
   line-height: 1;
@@ -228,10 +231,11 @@
   }
 }
 .wrapper .accordion section.grid .block {
-  margin: 0;
+  margin-left: 0;
 }
-.wrapper .accordion section.grid .block-type-heading {
+.wrapper .accordion section.grid .block-type-heading:first-child {
   --contrast-text-color: var(--accordion-text-color);
+  font-family: var(--secondary-font-family);
   z-index: 99;
   display: grid;
   align-items: center;
@@ -244,16 +248,21 @@
   padding-right: 2rem;
   cursor: pointer;
 }
-.wrapper .accordion section.grid .block-type-heading h1 {
+.wrapper .accordion section.grid .block-type-heading:first-child:first-child + .block {
+  margin-top: 0;
+}
+.wrapper .accordion section.grid .block-type-heading:first-child h1 {
   font-size: 1.75rem;
 }
-.wrapper .accordion section.grid .block-type-heading h2 {
+.wrapper .accordion section.grid .block-type-heading:first-child h2 {
   font-size: 1.75rem;
 }
-.wrapper .accordion section.grid .block-type-heading h3 {
+.wrapper .accordion section.grid .block-type-heading:first-child h3 {
   font-size: 1.75rem;
 }
-.wrapper .accordion section.grid .block-type-heading h4, .wrapper .accordion section.grid .block-type-heading h5, .wrapper .accordion section.grid .block-type-heading h6 {
+.wrapper .accordion section.grid .block-type-heading:first-child h4,
+.wrapper .accordion section.grid .block-type-heading:first-child h5,
+.wrapper .accordion section.grid .block-type-heading:first-child h6 {
   font-size: 1.5rem;
 }
 
@@ -373,7 +382,8 @@
 .merch-collection-item:active img {
   transform: scale(98%);
 }
-.merch-collection-item a, .merch-collection-item a:hover {
+.merch-collection-item a,
+.merch-collection-item a:hover {
   text-decoration: none;
   color: inherit;
 }

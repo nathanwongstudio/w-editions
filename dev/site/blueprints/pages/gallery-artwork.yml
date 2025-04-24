@@ -134,10 +134,11 @@ tabs:
               frameTitle:
                 label: Framing Options
                 type: headline
+                width: 1/2
               framable:
                 type: toggle
-                label: Allow Framing?
-                width: 1
+                label: Add Framing?
+                width: 1/2
               frame:
                 type: number
                 step: .01
@@ -147,23 +148,39 @@ tabs:
                 help: Frame cost if only one option for framing. Set to 0.00 or blank if you will give Optium and OP3 costs separate.
                 when:
                   framable: true
-              frameOptium:
-                type: number
-                step: .01
-                label: Optium Add. Cost
-                width: 1/3
-                before: $
+              frameDimensions:
+                type: headline
+                label: Updated Package Dimensions for Frame
                 when:
                   framable: true
-              frameOP3:
+              framedPackageWeight:
                 type: number
-                step: .01
-                label: OP3 Add. Cost
-                width: 1/3
-                before: $
+                label: Weight in OUNCES
+                after: ozs
+                width: 1/4
                 when:
                   framable: true
-          
+              framedPackageWidth:
+                type: number
+                label: Width (in.)
+                width: 1/4
+                after: in
+                when:
+                  framable: true
+              framedPackageLength:
+                type: number
+                label: Length (in.)
+                width: 1/4
+                after: in
+                when:
+                  framable: true
+              framedPackageHeight:
+                type: number
+                label: Height (in.)
+                width: 1/4
+                after: in
+                when:
+                  framable: true
 
   media:
     label: Media

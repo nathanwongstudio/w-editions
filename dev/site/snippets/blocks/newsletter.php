@@ -27,34 +27,34 @@
 
 <?php if ($page->isHomePage()): ?>
 	<script>
-		var input = document.getElementsByTagName('input');
+		// var input = document.getElementsByTagName('input');
 
-		for (var i = 0; i < input.length; i++) {
+		// for (var i = 0; i < input.length; i++) {
 
-			input[i].onmouseover = function() {
-				this.focus();
-			};
+		// 	input[i].onmouseover = function() {
+		// 		this.focus();
+		// 	};
 
-			input[i].onfocus = function() {
-				this.parentElement.classList.add('is-focused');
-				document.documentElement.classList.add('input-focused');
-			};
+		// 	input[i].onfocus = function() {
+		// 		this.parentElement.classList.add('is-focused');
+		// 		document.documentElement.classList.add('input-focused');
+		// 	};
 
-			input[i].onblur = function() {
-				this.parentElement.classList.remove('is-focused');
-				document.documentElement.classList.remove('input-focused');
-			};
+		// 	input[i].onblur = function() {
+		// 		this.parentElement.classList.remove('is-focused');
+		// 		document.documentElement.classList.remove('input-focused');
+		// 	};
 
-			input[i].onchange = function() {
-				if (this.value == "") {
-					this.classList.add('is-empty');
-					this.parentElement.classList.add('is-empty');
-				} else {
-					this.classList.remove('is-empty');
-					this.parentElement.classList.remove('is-empty');
-				}
-			};
-		}
+		// 	input[i].onchange = function() {
+		// 		if (this.value == "") {
+		// 			this.classList.add('is-empty');
+		// 			this.parentElement.classList.add('is-empty');
+		// 		} else {
+		// 			this.classList.remove('is-empty');
+		// 			this.parentElement.classList.remove('is-empty');
+		// 		}
+		// 	};
+		// }
 	</script>
 <?php endif; ?>
 

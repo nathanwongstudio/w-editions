@@ -1,19 +1,27 @@
 @use "../mixins";
 
 .section-bio {
-	flex: 1 0;
+	flex: 1 1 60%;
+
+	@extend %xp-box;
 
 	.artist-name {
-		@extend %xp-header;
-		margin: 0;
+		// @extend %xp-header;
+		// margin: 0;
 	}
 
 	.container {
-		@extend %xp-box;
+		// @extend %xp-box;
+	}
+
+	@media screen and (width<= 60rem) {
+		flex-basis: 45%;
 	}
 }
 
 .profile {
+	--modal-header-height: var(--base-line-height);
+
 	display: flex;
 	flex-flow: row wrap;
 	place-items: center;
@@ -22,7 +30,11 @@
 
 	padding: calc(1.5 * var(--base-line-height));
 
-	gap: var(--base-line-height);
+	gap: 1%;
+
+	& > * {
+		box-sizing: border-box;
+	}
 
 	@media screen and (width < 40rem) {
 		& > * {
@@ -33,11 +45,11 @@
 
 .profilepic {
 	display: flex;
-	flex: 1 0;
+	flex: 1 1 30%;
 	place-content: center;
 
-	.pic-wrapper-header {
-		@extend %xp-header;
+	@media screen and (width<= 60rem) {
+		flex-basis: 45%;
 	}
 
 	.pic-wrapper {
@@ -49,6 +61,10 @@
 
 		box-sizing: border-box;
 
+		.modal-body {
+			padding: calc(var(--base-line-height) / 2);
+		}
+
 		figure {
 			display: block;
 
@@ -56,8 +72,6 @@
 
 			height: 100%;
 			margin: 0;
-
-			padding: 1em;
 		}
 
 		img {
@@ -76,6 +90,7 @@ section.container {
 		width: 100%;
 
 		height: auto;
+		margin-top: var(--base-line-height);
 
 		padding-right: 0;
 		padding-left: 0;
@@ -86,13 +101,9 @@ section.container {
 	max-width: 40rem;
 	margin: auto;
 
-	padding: var(--base-line-height);
+	padding: calc(var(--base-line-height) / 2);
 
 	text-align: left;
-}
-
-.gallery-header {
-	@extend %xp-header;
 }
 
 .editions {

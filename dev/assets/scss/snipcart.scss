@@ -378,11 +378,15 @@ ul.snipcart-shipping-rates-list {
 			cursor: pointer;
 
 			label {
-				line-height: 1.25;
+				font-size: 1em;
+				font-weight:normal;
+				line-height: 1.5;
 
 				display: block;
 
 				cursor: pointer;
+				letter-spacing: 0;
+				text-transform: none;
 			}
 		}
 	}

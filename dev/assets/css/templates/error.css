@@ -71,12 +71,12 @@
   --c-violet-700: rgb(34.3225806452, 8.1290322581, 75.8709677419);
   --c-violet-800: rgb(13.4838709677, 3.1935483871, 29.8064516129);
   --c-violet-900: hsl(263.2, 80.6451612903%, -3.5294117647%);
-  --c-vert: green;
+  --c-vert: #008000;
   --c-vert-100: rgb(0, 214.7, 0);
   --c-vert-200: rgb(0, 204.5, 0);
   --c-vert-300: #00b300;
   --c-vert-400: rgb(0, 153.5, 0);
-  --c-vert-500: green;
+  --c-vert-500: #008000;
   --c-vert-600: rgb(0, 102.5, 0);
   --c-vert-700: #004d00;
   --c-vert-800: rgb(0, 51.5, 0);
@@ -84,6 +84,251 @@
   --border-color: var(--c-cobalt);
   --text-color: var(--c-cobalt);
   --nav-height: calc(var(--base-line-height) * 2);
+}
+
+.wrapper .accordion section.grid .block-type-heading:first-child, .contrast-text {
+  --contrast-text-color: var(--c-cobalt);
+  --contrast-shadow-color: var(--c-benibana-600);
+  font-family: var(--secondary-font-stack);
+  background: var(--c-paper);
+  mix-blend-mode: multiply;
+  filter: contrast(30);
+}
+.wrapper .accordion section.grid .block-type-heading:first-child *, .contrast-text * {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.1em 0;
+  padding-left: 0.25rem;
+  letter-spacing: -0.5px;
+  color: transparent;
+  text-shadow: 0 0 0.05em var(--contrast-text-color);
+}
+.wrapper .accordion section.grid .block-type-heading:first-child > *, .contrast-text > * {
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+}
+@media screen and (width <= 40em) {
+  .wrapper .accordion section.grid .block-type-heading:first-child > *, .contrast-text > * {
+    font-size: 2.5em;
+    letter-spacing: 0;
+    -webkit-hyphens: none;
+            hyphens: none;
+  }
+}
+
+.wrapper .accordion {
+  --accordion-bg: var(--c-paper);
+  --accordion-tc: var(--c-cobalt);
+  --offset-height: 1.75rem;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 2px 0;
+  color: var(--accordion-text-color);
+}
+.wrapper .accordion + .accordion {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.wrapper .accordion.last {
+  margin-bottom: var(--base-line-height);
+}
+.wrapper .accordion h1,
+.wrapper .accordion h2,
+.wrapper .accordion h3,
+.wrapper .accordion h4,
+.wrapper .accordion h5,
+.wrapper .accordion h6,
+.wrapper .accordion p {
+  color: var(--accordion-text-color);
+}
+.wrapper .accordion section.grid {
+  line-height: 1;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: calc(var(--max-content-width) - var(--base-line-height) * 2);
+  max-height: calc(var(--offset-height) + 2 * var(--base-line-height));
+  margin: 0 auto;
+  transition: max-height ease 100ms;
+}
+.wrapper .accordion section.grid.active {
+  max-height: calc(var(--section-height) + 2 * var(--base-line-height));
+  transition: max-height ease 100ms;
+}
+.wrapper .accordion section.grid.active::after {
+  transition: transform ease 200ms;
+  transform: rotate(-90deg);
+}
+.wrapper .accordion section.grid::after, .wrapper .accordion section.grid::before {
+  --plus-stroke: 3px;
+  position: absolute;
+  top: var(--base-line-height);
+  right: var(--base-line-height);
+  display: block;
+  width: 2em;
+  height: 2em;
+  content: " ";
+  border-radius: var(--plus-stroke);
+  background: var(--accordion-text-color);
+}
+.wrapper .accordion section.grid::after {
+  right: calc(var(--base-line-height) + 1em - var(--plus-stroke) / 2);
+  width: var(--plus-stroke);
+  transition: transform ease 200ms;
+  transform: rotate(0);
+}
+.wrapper .accordion section.grid::before {
+  top: calc(var(--base-line-height) + 1em - var(--plus-stroke) / 2);
+  height: var(--plus-stroke);
+}
+@media screen and (width <= 60em) {
+  .wrapper .accordion section.grid {
+    padding: var(--base-line-height);
+    background: var(--accordion-bg);
+  }
+}
+.wrapper .accordion section.grid .column {
+  margin: 0;
+  padding: var(--base-line-height);
+  border-right: 0;
+  background: var(--accordion-bg);
+}
+@media screen and (width <= 60em) {
+  .wrapper .accordion section.grid .column {
+    margin-bottom: var(--base-line-height);
+    padding: 0;
+  }
+  .wrapper .accordion section.grid .column:last-child {
+    margin: 0;
+  }
+}
+.wrapper .accordion section.grid .block {
+  margin-left: 0;
+}
+.wrapper .accordion section.grid .block-type-heading:first-child {
+  --contrast-text-color: var(--accordion-text-color);
+  font-family: var(--secondary-font-family);
+  z-index: 99;
+  display: grid;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: none;
+  min-height: 2rem;
+  margin-bottom: var(--base-line-height);
+  margin-left: -10px;
+  padding: 0 0.25rem;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+.wrapper .accordion section.grid .block-type-heading:first-child:first-child + .block {
+  margin-top: 0;
+}
+.wrapper .accordion section.grid .block-type-heading:first-child h1 {
+  font-size: 1.75rem;
+}
+.wrapper .accordion section.grid .block-type-heading:first-child h2 {
+  font-size: 1.75rem;
+}
+.wrapper .accordion section.grid .block-type-heading:first-child h3 {
+  font-size: 1.75rem;
+}
+.wrapper .accordion section.grid .block-type-heading:first-child h4,
+.wrapper .accordion section.grid .block-type-heading:first-child h5,
+.wrapper .accordion section.grid .block-type-heading:first-child h6 {
+  font-size: 1.5rem;
+}
+
+.ticker {
+  --duration: 20s;
+  --ticker-font-size: 1.625rem;
+  --ticker-size: 1.625rem;
+  --background: var(--c-paper);
+  --ticker-text: var(--c-paper);
+  border-bottom: 0;
+}
+.ticker.bigger {
+  --ticker-font-size: 2.66rem;
+  --ticker-size: 3rem;
+}
+.ticker.last {
+  margin-bottom: var(--column-margins) !important;
+}
+@keyframes ticker {
+  0% {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@media screen and (width <= 60rem) {
+  .ticker section.grid .column,
+  .ticker section.grid .column:last-child {
+    display: block;
+    margin: 0;
+    padding: 0.5em 0;
+  }
+}
+.ticker section.grid {
+  overflow: hidden;
+  width: 100%;
+  max-width: none;
+}
+.ticker section.grid .column {
+  overflow: hidden;
+  box-sizing: content-box;
+  width: 100%;
+  height: var(--ticker-size);
+  padding: calc(var(--base-line-height) / 4) 0;
+  padding-left: 100%;
+  background-color: var(--background);
+}
+.ticker section.grid .column .blocks {
+  --steps: 780;
+  display: inline-block;
+  box-sizing: content-box;
+  height: var(--ticker-size);
+  padding-right: 100%;
+  animation-name: ticker;
+  animation-duration: var(--duration);
+  animation-timing-function: steps(var(--steps));
+  animation-iteration-count: infinite;
+  white-space: nowrap;
+}
+.ticker section.grid .column .blocks:hover {
+  animation-play-state: paused;
+}
+.ticker section.grid .column .blocks a {
+  color: var(--ticker-text);
+}
+.ticker section.grid .column .blocks > * {
+  font-family: gridlite-pe-variable, sans-serif;
+  font-variation-settings: "wght" 900, "BACK" 1, "RECT" 0, "ELSH" 4;
+  font-size: var(--ticker-font-size);
+  font-weight: bold;
+  line-height: var(--ticker-size);
+  display: inline;
+  width: auto;
+  margin: 0 2em;
+  padding: 0;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--ticker-text);
 }
 
 :root {
@@ -94,28 +339,30 @@
 html,
 body {
   overflow-x: hidden;
-  background-color: black !important;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  height: 100vh;
-}
-html.input-focused {
-  scroll-snap-type: none;
 }
 
 body {
+  background-color: black !important;
   background-image: url("../crt.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   image-rendering: pixelated;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+body.input-focused {
+  scroll-snap-type: none;
+}
+body.home2 {
+  height: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: none;
+  background-color: var(--c-paper) !important;
 }
 
-.block.block-type-newsletter form input[type=email]::-moz-placeholder, .block.block-type-newsletter form input[type=text]::-moz-placeholder {
+.error .block.block-type-newsletter form input[type=email]::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]::-moz-placeholder {
   -moz-transition: 1s ease text-shadow;
   transition: 1s ease text-shadow;
   transition-delay: 1s;
@@ -123,8 +370,8 @@ body {
   text-shadow: 0 0 3px var(--shadow-color);
 }
 
-.block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-.block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown, .section-wrapper:first-child::after, .section-wrapper:first-child::before, .home h1,
+.hero .container-full .header h1, .error .block.block-type-newsletter form button[type=submit], .error .block.block-type-newsletter form input[type=email]::placeholder,
+.error .block.block-type-newsletter form input[type=text]::placeholder, .error .block.block-type-heading, .error .block.block-type-newsletter, .error .block.block-type-text, .error .block.block-type-markdown, .error .section-wrapper:first-child::after, .error .section-wrapper:first-child::before, .home h1,
 .home h2,
 .home h3,
 .home h4,
@@ -142,11 +389,11 @@ body {
   text-shadow: 0 0 3px var(--shadow-color);
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-newsletter form input[type=email]::-moz-placeholder, .block.block-type-newsletter form input[type=text]::-moz-placeholder {
+  .error .block.block-type-newsletter form input[type=email]::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]::-moz-placeholder {
     text-shadow: 0 0 2px var(--shadow-color);
   }
-  .block.block-type-newsletter form button[type=submit], .block.block-type-newsletter form input[type=email]::placeholder,
-  .block.block-type-newsletter form input[type=text]::placeholder, .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown, .section-wrapper:first-child::after, .section-wrapper:first-child::before, .home h1,
+  .hero .container-full .header h1, .error .block.block-type-newsletter form button[type=submit], .error .block.block-type-newsletter form input[type=email]::placeholder,
+  .error .block.block-type-newsletter form input[type=text]::placeholder, .error .block.block-type-heading, .error .block.block-type-newsletter, .error .block.block-type-text, .error .block.block-type-markdown, .error .section-wrapper:first-child::after, .error .section-wrapper:first-child::before, .home h1,
   .home h2,
   .home h3,
   .home h4,
@@ -162,7 +409,7 @@ body {
   }
 }
 
-.block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder, .block.block-type-newsletter form .email:hover button::-moz-placeholder {
+.error .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .error .block.block-type-newsletter form .email:hover input::-moz-placeholder, .error .block.block-type-newsletter form .email:hover button::-moz-placeholder {
   -moz-transition: 1s ease text-shadow;
   transition: 1s ease text-shadow;
   transition-delay: 1s;
@@ -170,7 +417,7 @@ body {
   text-shadow: 0 0 3px black;
 }
 
-.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
+.error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
   -moz-transition: 1s ease text-shadow;
   transition: 1s ease text-shadow;
   transition-delay: 1s;
@@ -178,53 +425,81 @@ body {
   text-shadow: 0 0 3px black;
 }
 
-.block-type-featuredArtist .go, .block.block-type-newsletter form input[type=email]:focus::placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
-.block.block-type-newsletter form input[type=text]:focus::placeholder,
-.block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
-.block.block-type-newsletter form input[type=text]:focus,
-.block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder,
-.block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input,
-.block.block-type-newsletter form .email:hover button, .block.block-type-text a::after, .block.block-type-text a {
+.error .block-type-featuredArtist .go, .error .block.block-type-newsletter form input[type=email]:focus::placeholder, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
+.error .block.block-type-newsletter form input[type=text]:focus::placeholder,
+.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .error .block.block-type-newsletter form input[type=email]:focus, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+.error .block.block-type-newsletter form input[type=text]:focus,
+.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .error .block.block-type-newsletter form .email:hover input::placeholder,
+.error .block.block-type-newsletter form .email:hover button::placeholder, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .error .block.block-type-newsletter form .email:hover input,
+.error .block.block-type-newsletter form .email:hover button, .error .block.block-type-text a::after, .error .block.block-type-text a {
   transition: 1s ease text-shadow;
   transition-delay: 1s;
   color: transparent;
   text-shadow: 0 0 3px black;
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .block.block-type-newsletter form .email:hover input::-moz-placeholder, .block.block-type-newsletter form .email:hover button::-moz-placeholder {
+  .error .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .error .block.block-type-newsletter form .email:hover input::-moz-placeholder, .error .block.block-type-newsletter form .email:hover button::-moz-placeholder {
     text-shadow: 0 0 2px black;
   }
-  .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
+  .error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown)::placeholder, .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown)::placeholder, .error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
     text-shadow: 0 0 2px black;
   }
-  .block-type-featuredArtist .go, .block.block-type-newsletter form input[type=email]:focus::placeholder, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
-  .block.block-type-newsletter form input[type=text]:focus::placeholder,
-  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
-  .block.block-type-newsletter form input[type=text]:focus,
-  .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .block.block-type-newsletter form .email:hover input::placeholder,
-  .block.block-type-newsletter form .email:hover button::placeholder, .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input,
-  .block.block-type-newsletter form .email:hover button, .block.block-type-text a::after, .block.block-type-text a {
+  .error .block-type-featuredArtist .go, .error .block.block-type-newsletter form input[type=email]:focus::placeholder, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
+  .error .block.block-type-newsletter form input[type=text]:focus::placeholder,
+  .error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .error .block.block-type-newsletter form input[type=email]:focus, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+  .error .block.block-type-newsletter form input[type=text]:focus,
+  .error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .error .block.block-type-newsletter form .email:hover input::placeholder,
+  .error .block.block-type-newsletter form .email:hover button::placeholder, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .error .block.block-type-newsletter form .email:hover input,
+  .error .block.block-type-newsletter form .email:hover button, .error .block.block-type-text a::after, .error .block.block-type-text a {
     text-shadow: 0 0 2px black;
   }
 }
 
-.start-out * {
+.error.start-out * {
   transition: 500ms ease text-shadow;
   transition-delay: 1s;
   text-shadow: 0 0 0 transparent !important;
 }
 
-.start-out *::after {
+.error.start-out *::after {
   transition: 1s ease text-shadow;
   transition-delay: 2s;
   text-shadow: 0 0 0 transparent !important;
 }
 
-.wrapper,
-.layouts,
-body {
-  font-family: var(--secondary-font-stack);
-  display: contents;
+.home2.start-out nav,
+.home2.start-out #checkout-button {
+  position: fixed;
+  top: calc(var(--nav-height) * -2);
+  transition: 1s ease-out top;
+  transition-delay: 11s;
+}
+.home2.start-out .hero .container-full {
+  transition: 1s ease transform;
+  transition-delay: 1s;
+  transform: scale(200%);
+}
+.home2.start-out .hero .container-full h1 {
+  transition: 1s ease-out transform;
+  transition-delay: 1s;
+  transform: scale(0);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  transition: 450ms ease-out top;
+  transition-delay: 9.5s;
+}
+
+#checkout-button {
+  position: fixed;
+  z-index: 99;
+  transition: 450ms ease-out top, 450ms ease-out opacity;
+  opacity: 1;
+}
+#checkout-button.empty {
+  opacity: 0;
 }
 
 .home,
@@ -315,7 +590,7 @@ which the user cannot interact with */
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background-color: white;
+  background-color: var(--c-paynes);
   /* Make the iframe keep an aspect ratio, and
   position it in the middle of its parent wrapper */
 }
@@ -338,7 +613,7 @@ which the user cannot interact with */
   transform: translate(-50%, -50%);
 }
 
-.section-wrapper {
+.error .section-wrapper {
   --base-font-size: 60px;
   font-size: var(--base-font-size);
   position: relative;
@@ -351,21 +626,21 @@ which the user cannot interact with */
   scroll-snap-align: start;
 }
 @media screen and (width <= 60em) {
-  .section-wrapper {
+  .error .section-wrapper {
     min-height: 100svh;
   }
 }
 @media screen and (width <= 500px) {
-  .section-wrapper {
+  .error .section-wrapper {
     --base-font-size: 10vw;
   }
 }
 @media screen and (height <= 400px) {
-  .section-wrapper {
+  .error .section-wrapper {
     --base-font-size: 5vw;
   }
 }
-.section-wrapper .content-wrapper {
+.error .section-wrapper .content-wrapper {
   position: fixed;
   display: grid;
   grid-template-columns: 1fr;
@@ -373,18 +648,18 @@ which the user cannot interact with */
   place-content: center;
   inset: 10px;
 }
-.section-wrapper.in-view {
+.error .section-wrapper.in-view {
   z-index: 9999;
 }
-.section-wrapper.in-view section {
+.error .section-wrapper.in-view section {
   transition: 400ms ease-in-out;
   opacity: 1;
 }
-.section-wrapper section {
+.error .section-wrapper section {
   transition: 400ms ease-in-out;
   opacity: 0;
 }
-.section-wrapper:first-child::before {
+.error .section-wrapper:first-child::before {
   font-size: 26px;
   font-weight: bold;
   position: absolute;
@@ -394,7 +669,7 @@ which the user cannot interact with */
   content: "scroll";
   text-align: center;
 }
-.section-wrapper:first-child::after {
+.error .section-wrapper:first-child::after {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   font-size: 1rem;
@@ -406,7 +681,7 @@ which the user cannot interact with */
   content: "\e707";
   text-align: center;
 }
-.section-wrapper.ticker {
+.error .section-wrapper.ticker {
   font-size: 7vw;
   z-index: 9;
   box-shadow: 0 0 15px 15px var(--c-cobalt-800);
@@ -414,29 +689,29 @@ which the user cannot interact with */
   --ticker-size: 1.25em;
   --ticker-font-size: 1em;
 }
-.section-wrapper.ticker section {
+.error .section-wrapper.ticker section {
   height: auto;
   min-height: 0;
 }
-.section-wrapper.ticker section.grid .column {
+.error .section-wrapper.ticker section.grid .column {
   padding: 0.5rem;
   color: transparent;
   background: var(--c-cobalt-800);
 }
-.section-wrapper.ticker section.grid .column .blocks {
+.error .section-wrapper.ticker section.grid .column .blocks {
   font-weight: bold;
 }
-.section-wrapper.ticker section.grid .column .blocks .block {
+.error .section-wrapper.ticker section.grid .column .blocks .block {
   scroll-snap-align: start;
 }
 
-.block {
+.error .block {
   position: relative;
   z-index: 9;
   box-sizing: border-box;
   border: none;
 }
-.block .overlay {
+.error .block .overlay {
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -444,7 +719,7 @@ which the user cannot interact with */
      -moz-user-select: none;
           user-select: none;
 }
-.block .overlay form {
+.error .block .overlay form {
   z-index: 999999;
   visibility: hidden;
   height: calc(3em + 2rem);
@@ -452,34 +727,34 @@ which the user cannot interact with */
   opacity: 0;
 }
 @media screen and (width <= 60em) {
-  .block .overlay form {
+  .error .block .overlay form {
     height: calc(3.75em + 2rem + 10px);
   }
 }
-.block .overlay form .email {
+.error .block .overlay form .email {
   display: none;
   visibility: hidden;
 }
-.block h1,
-.block h2,
-.block h3,
-.block h4,
-.block h5,
-.block h6,
-.block p,
-.block div,
-.block * {
+.error .block h1,
+.error .block h2,
+.error .block h3,
+.error .block h4,
+.error .block h5,
+.error .block h6,
+.error .block p,
+.error .block div,
+.error .block * {
   position: relative;
 }
-.block h1::after,
-.block h2::after,
-.block h3::after,
-.block h4::after,
-.block h5::after,
-.block h6::after,
-.block p::after,
-.block div::after,
-.block *::after {
+.error .block h1::after,
+.error .block h2::after,
+.error .block h3::after,
+.error .block h4::after,
+.error .block h5::after,
+.error .block h6::after,
+.error .block p::after,
+.error .block div::after,
+.error .block *::after {
   font-style: normal;
   position: absolute;
   z-index: -1;
@@ -492,15 +767,15 @@ which the user cannot interact with */
   word-break: break-word;
   text-shadow: 0 0 0.5em var(--c-cobalt);
 }
-.block.block-type-markdown {
+.error .block.block-type-markdown {
   padding: 2em;
 }
 @media screen and (width <= 50em) {
-  .block.block-type-markdown {
+  .error .block.block-type-markdown {
     padding: 1em;
   }
 }
-.block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown {
+.error .block.block-type-heading, .error .block.block-type-newsletter, .error .block.block-type-text, .error .block.block-type-markdown {
   font-weight: bold;
   margin: 0;
   padding: 1em;
@@ -508,20 +783,20 @@ which the user cannot interact with */
   color: transparent;
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-heading, .block.block-type-newsletter, .block.block-type-text, .block.block-type-markdown {
+  .error .block.block-type-heading, .error .block.block-type-newsletter, .error .block.block-type-text, .error .block.block-type-markdown {
     padding: 16px;
     -webkit-hyphens: auto;
             hyphens: auto;
   }
 }
-.block.block-type-heading a, .block.block-type-newsletter a, .block.block-type-text a, .block.block-type-markdown a {
+.error .block.block-type-heading a, .error .block.block-type-newsletter a, .error .block.block-type-text a, .error .block.block-type-markdown a {
   word-break: break-word;
   color: inherit;
 }
-.block.block-type-heading a:hover, .block.block-type-newsletter a:hover, .block.block-type-text a:hover, .block.block-type-markdown a:hover {
+.error .block.block-type-heading a:hover, .error .block.block-type-newsletter a:hover, .error .block.block-type-text a:hover, .error .block.block-type-markdown a:hover {
   color: inherit;
 }
-.block.block-type-text a {
+.error .block.block-type-text a {
   font-weight: bold;
   display: inline-block;
   padding: 0.25em 0.75em;
@@ -532,11 +807,11 @@ which the user cannot interact with */
   background: var(--c-gold);
   box-shadow: 0 0 5px 5px var(--c-gold);
 }
-.block.block-type-text a:hover {
+.error .block.block-type-text a:hover {
   transition: box-shadow 300ms ease;
   box-shadow: 0 0 15px 20px var(--c-gold);
 }
-.block.block-type-text a::after {
+.error .block.block-type-text a::after {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   position: absolute;
@@ -548,20 +823,20 @@ which the user cannot interact with */
   content: "\e701";
   text-align: right;
 }
-.block.block-type-text a[href^="#"] {
+.error .block.block-type-text a[href^="#"] {
   position: relative;
   padding: 0.25em;
 }
-.block.block-type-text a[href^="#"]::after {
+.error .block.block-type-text a[href^="#"]::after {
   display: none;
 }
-.block.block-type-text p {
+.error .block.block-type-text p {
   font-size: 36px;
   line-height: 1 !important;
   margin-top: 1.5em;
 }
 @media screen and (width <= 60em) {
-  .block.block-type-text p {
+  .error .block.block-type-text p {
     font-size: 20px;
     line-height: 1.15 !important;
     word-break: normal;
@@ -570,18 +845,18 @@ which the user cannot interact with */
     text-shadow: 0 0 1px var(--shadow-color);
   }
 }
-.block.block-type-heading + .block.block-type-heading {
+.error .block.block-type-heading + .error .block.block-type-heading {
   width: 100%;
   padding: 0 1em;
 }
-.block.block-type-newsletter form {
+.error .block.block-type-newsletter form {
   position: relative;
 }
-.block.block-type-newsletter form fieldset .field.is-empty.is-focused::after, .block.block-type-newsletter form .email:hover .field.is-empty::after {
+.error .block.block-type-newsletter form fieldset .field.is-empty.is-focused::after, .error .block.block-type-newsletter form .email:hover .field.is-empty::after {
   background: black;
   box-shadow: 0 0 3px 3px black, 0 0 10px 4px var(--c-cobalt);
 }
-.block.block-type-newsletter form .message {
+.error .block.block-type-newsletter form .message {
   font-size: 0.5em;
   position: absolute;
   top: 0;
@@ -591,7 +866,7 @@ which the user cannot interact with */
   color: transparent;
   text-shadow: 0 0 3px var(--shadow-color);
 }
-.block.block-type-newsletter form .message.success {
+.error .block.block-type-newsletter form .message.success {
   position: absolute;
   top: 0;
   right: 0;
@@ -602,17 +877,17 @@ which the user cannot interact with */
   border: none;
   background: transparent;
 }
-.block.block-type-newsletter form .message.error {
+.error .block.block-type-newsletter form .message.error {
   top: 100%;
 }
-.block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .block.block-type-newsletter form .email:hover input,
-.block.block-type-newsletter form .email:hover button {
+.error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .error .block.block-type-newsletter form .email:hover input,
+.error .block.block-type-newsletter form .email:hover button {
   transition: 100ms ease;
   background: transparent;
   background: var(--shadow-color);
   box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
 }
-.block.block-type-newsletter form .email {
+.error .block.block-type-newsletter form .email {
   position: relative;
   width: 100%;
   margin: auto;
@@ -620,10 +895,10 @@ which the user cannot interact with */
   background: black;
   box-shadow: 0 0 0 var(--shadow-color);
 }
-.block.block-type-newsletter form .email:hover {
+.error .block.block-type-newsletter form .email:hover {
   transition: 100ms ease;
 }
-.block.block-type-newsletter form fieldset {
+.error .block.block-type-newsletter form fieldset {
   display: grid;
   grid-template-areas: "a c" "b c";
   grid-template-columns: 6fr 1fr;
@@ -638,29 +913,29 @@ which the user cannot interact with */
           appearance: none;
 }
 @media screen and (width <= 60rem) {
-  .block.block-type-newsletter form fieldset {
+  .error .block.block-type-newsletter form fieldset {
     font-size: 40px;
     grid-template-areas: "a a" "b b" "c c";
   }
 }
-.block.block-type-newsletter form fieldset.disabled {
+.error .block.block-type-newsletter form fieldset.disabled {
   transition: opacity 200ms ease-out;
   opacity: 0;
 }
-.block.block-type-newsletter form fieldset .field {
+.error .block.block-type-newsletter form fieldset .field {
   min-width: 0;
   min-height: 0;
 }
-.block.block-type-newsletter form fieldset .field.name-input {
+.error .block.block-type-newsletter form fieldset .field.name-input {
   grid-area: a;
 }
-.block.block-type-newsletter form fieldset .field.email-input {
+.error .block.block-type-newsletter form fieldset .field.email-input {
   grid-area: b;
 }
-.block.block-type-newsletter form fieldset .field.submit {
+.error .block.block-type-newsletter form fieldset .field.submit {
   grid-area: c;
 }
-.block.block-type-newsletter form fieldset .field::after {
+.error .block.block-type-newsletter form fieldset .field::after {
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -675,13 +950,13 @@ which the user cannot interact with */
   box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 10px 4px var(--c-cobalt);
 }
 @media screen and (width <= 60em) {
-  .block.block-type-newsletter form fieldset .field::after {
+  .error .block.block-type-newsletter form fieldset .field::after {
     top: 0.5em;
     height: 1.5em;
     transform: none;
   }
 }
-.block.block-type-newsletter form fieldset .field.is-empty::after {
+.error .block.block-type-newsletter form fieldset .field.is-empty::after {
   animation: 0.5s infinite alternate cursor;
 }
 @keyframes cursor {
@@ -692,12 +967,12 @@ which the user cannot interact with */
     opacity: 1;
   }
 }
-.block.block-type-newsletter form input {
+.error .block.block-type-newsletter form input {
   font-size: inherit;
   background: transparent;
 }
-.block.block-type-newsletter form input[type=email],
-.block.block-type-newsletter form input[type=text] {
+.error .block.block-type-newsletter form input[type=email],
+.error .block.block-type-newsletter form input[type=text] {
   font-weight: bold;
   line-height: 1;
   position: relative;
@@ -711,26 +986,26 @@ which the user cannot interact with */
   outline: none;
 }
 @media screen and (width <= 60em) {
-  .block.block-type-newsletter form input[type=email],
-  .block.block-type-newsletter form input[type=text] {
+  .error .block.block-type-newsletter form input[type=email],
+  .error .block.block-type-newsletter form input[type=text] {
     font-size: 0.75em;
     padding: 1em;
   }
 }
-.block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
+.error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder-shown), .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder-shown) {
   -moz-transition: 100ms ease;
   transition: 100ms ease;
   background: var(--shadow-color);
   box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
 }
-.block.block-type-newsletter form input[type=email]:focus, .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
-.block.block-type-newsletter form input[type=text]:focus,
-.block.block-type-newsletter form input[type=text]:not(:placeholder-shown) {
+.error .block.block-type-newsletter form input[type=email]:focus, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+.error .block.block-type-newsletter form input[type=text]:focus,
+.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown) {
   transition: 100ms ease;
   background: var(--shadow-color);
   box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
 }
-.block.block-type-newsletter form button[type=submit] {
+.error .block.block-type-newsletter form button[type=submit] {
   font-family: inherit;
   font-weight: 700;
   line-height: 1;
@@ -752,11 +1027,11 @@ which the user cannot interact with */
   background: transparent;
   box-shadow: none;
 }
-.block.block-type-newsletter form button[type=submit]::before {
+.error .block.block-type-newsletter form button[type=submit]::before {
   display: none;
 }
 @media screen and (width <= 60em) {
-  .block.block-type-newsletter form button[type=submit] {
+  .error .block.block-type-newsletter form button[type=submit] {
     font-size: 0.75em;
     position: relative;
     width: 50%;
@@ -766,21 +1041,21 @@ which the user cannot interact with */
     transform-origin: top left;
   }
 }
-.block h1,
-.block h2,
-.block h3,
-.block h4,
-.block h5,
-.block h6 {
+.error .block h1,
+.error .block h2,
+.error .block h3,
+.error .block h4,
+.error .block h5,
+.error .block h6 {
   line-height: 1;
   text-transform: uppercase;
 }
 
-.header {
+.error .header {
   font-size: 0;
   text-align: center;
 }
-.header h1 {
+.error .header h1 {
   font-size: calc(var(--base-line-height) * 4);
   display: block;
   width: 100%;
@@ -792,35 +1067,35 @@ which the user cannot interact with */
   word-spacing: 0;
   text-shadow: 0 0 6px var(--shadow-color);
 }
-.header h1::after {
+.error .header h1::after {
   display: none;
   content: "";
 }
-.header h1 span {
+.error .header h1 span {
   display: inline-block;
 }
-.header h1 span:first-child {
+.error .header h1 span:first-child {
   z-index: 99;
   transform: scale(255%, 105%);
   transform-origin: left;
   letter-spacing: -3px;
 }
-.header h1 span:last-child {
+.error .header h1 span:last-child {
   transform: scale(55%, 100%);
   transform-origin: right;
 }
 @media screen and (width <= 60em) {
-  .header h1 {
+  .error .header h1 {
     font-size: 14vw;
     text-shadow: 0 0 4px var(--shadow-color);
   }
 }
-.header .blocks {
+.error .header .blocks {
   display: contents;
 }
 
-h3.top-text,
-h3.bottom-text {
+.error h3.top-text,
+.error h3.bottom-text {
   font-size: 2em;
   line-height: 0.8;
   position: absolute;
@@ -834,23 +1109,23 @@ h3.bottom-text {
   text-align: left;
 }
 
-h3.bottom-text {
+.error h3.bottom-text {
   inset: auto 0 0 auto;
   text-align: right;
 }
 
 /* stylelint-disable-next-line selector-class-pattern */
-.block-type-featuredArtist {
+.error .block-type-featuredArtist {
   height: 100vh;
   text-align: center;
 }
-.block-type-featuredArtist figure {
+.error .block-type-featuredArtist figure {
   display: contents;
 }
-.block-type-featuredArtist picture {
+.error .block-type-featuredArtist picture {
   display: contents;
 }
-.block-type-featuredArtist img {
+.error .block-type-featuredArtist img {
   position: absolute;
   z-index: 0;
   top: 50%;
@@ -862,7 +1137,7 @@ h3.bottom-text {
   -o-object-fit: contain;
      object-fit: contain;
 }
-.block-type-featuredArtist .go {
+.error .block-type-featuredArtist .go {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   font-size: 1em;
@@ -882,10 +1157,88 @@ h3.bottom-text {
   box-shadow: 0 0 10px 10px var(--c-paper);
 }
 
-.feature-link {
+.error .feature-link {
   display: contents;
 }
 
+.hero {
+  position: relative;
+  z-index: 999;
+  width: 100vw;
+  height: calc(100vh - var(--nav-height) - 2 * var(--base-line-height));
+  margin-top: var(--nav-height);
+  background: black;
+}
+.hero .container-full {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 5s ease-out transform;
+  transition-delay: 3s;
+  transform: scale(80%);
+  clip-path: url("#squircle");
+}
+.hero .container-full .iframe-wrapper {
+  position: absolute;
+}
+.hero .container-full .header {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  mix-blend-mode: hard-light;
+}
+.hero .container-full .header h1 {
+  font-family: var(--secondary-font-stack);
+  font-size: 10vw;
+  width: 100vw;
+  transition: 2s ease-out transform;
+  transition-delay: 2s;
+  transform: scale(100%);
+  text-align: center;
+}
+.hero .container-full .header h1 span {
+  display: inline-block;
+}
+.hero .container-full .header h1 span:first-child {
+  z-index: 99;
+  transform: scale(255%, 105%);
+  transform-origin: left;
+  letter-spacing: -3px;
+}
+.hero .container-full .header h1 span:last-child {
+  transform: scale(55%, 100%);
+  transform-origin: right;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.wrapper,
+.layouts,
+body {
+  font-family: var(--secondary-font-stack);
+  display: contents;
+}
+
+#snipcart {
+  display: none;
+}
+
+#checkout-button {
+  display: none;
+}
+
+.section-wrapper {
+  scroll-snap-align: start;
+}
 .section-wrapper:first-child::before, .section-wrapper:first-child::after {
   display: none;
   visibility: hidden;

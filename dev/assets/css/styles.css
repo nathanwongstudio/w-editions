@@ -34,8 +34,9 @@
 a.button,
 .button,
 button,
-input[type=submit],
-input[type=button] {
+[type=submit],
+[type=button],
+[type=reset] {
   text-decoration: none;
   color: var(--c-paynes-700);
   border: 2px outset var(--c-paper-400);
@@ -282,11 +283,12 @@ img {
 :root {
   --em-line-height: 1.5em;
   --base-line-height: 30px;
-  --primary-font-stack:"neue-haas-grotesk-text", helvetica, sans-serif;
-  --secondary-font-stack:"neue-haas-grotesk-display", sans-serif;
+  --primary-font-stack: "neue-haas-grotesk-text", helvetica, sans-serif;
+  --secondary-font-stack: "neue-haas-grotesk-display", sans-serif;
 }
 
-html, body {
+html,
+body {
   font-size: var(--base-font-size);
 }
 
@@ -363,12 +365,12 @@ html, body {
   --c-violet-700: rgb(34.3225806452, 8.1290322581, 75.8709677419);
   --c-violet-800: rgb(13.4838709677, 3.1935483871, 29.8064516129);
   --c-violet-900: hsl(263.2, 80.6451612903%, -3.5294117647%);
-  --c-vert: green;
+  --c-vert: #008000;
   --c-vert-100: rgb(0, 214.7, 0);
   --c-vert-200: rgb(0, 204.5, 0);
   --c-vert-300: #00b300;
   --c-vert-400: rgb(0, 153.5, 0);
-  --c-vert-500: green;
+  --c-vert-500: #008000;
   --c-vert-600: rgb(0, 102.5, 0);
   --c-vert-700: #004d00;
   --c-vert-800: rgb(0, 51.5, 0);
@@ -411,6 +413,9 @@ input {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
+}
+input:focus-visible {
+  outline: 3px solid var(--c-cobalt);
 }
 
 abbr[title=required] {
@@ -519,21 +524,25 @@ input[type=radio]::after {
 
 input[type=checkbox],
 input[type=radio] {
-  line-height: 1em;
-  top: 2px;
+  line-height: 1;
   display: inline-block;
   width: 1em;
   height: 1em;
-  margin: 0 0.5em 0 0;
+  margin: 0 0.25em 0 0;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  vertical-align: middle;
 }
 input[type=checkbox] ~ label,
 input[type=radio] ~ label {
-  line-height: 1em;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1rem;
   display: inline;
   margin: 0;
+  letter-spacing: 0;
+  text-transform: none;
 }
 input[type=checkbox]:checked,
 input[type=radio]:checked {
@@ -545,10 +554,11 @@ input[type=radio]:checked::after {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   font-size: 1.5em;
+  line-height: 1rem;
   position: absolute;
-  top: 0.025em;
-  left: 0;
+  inset: 0;
   content: "\e718";
+  text-align: center;
   color: white;
 }
 
@@ -574,8 +584,9 @@ select::after {
 a.button,
 .button,
 button,
-input[type=submit],
-input[type=button] {
+[type=submit],
+[type=button],
+[type=reset] {
   font-weight: 800;
   position: relative;
   display: block;
@@ -589,15 +600,17 @@ input[type=button] {
 a.button.inline,
 .button.inline,
 button.inline,
-input[type=submit].inline,
-input[type=button].inline {
+[type=submit].inline,
+[type=button].inline,
+[type=reset].inline {
   display: inline-block;
 }
 a.button.negative,
 .button.negative,
 button.negative,
-input[type=submit].negative,
-input[type=button].negative {
+[type=submit].negative,
+[type=button].negative,
+[type=reset].negative {
   color: var(--c-paynes-500);
   border-color: var(--c-paper-300);
   background-color: var(--c-paper-400);
@@ -605,15 +618,30 @@ input[type=button].negative {
 a.button:active,
 .button:active,
 button:active,
-input[type=submit]:active,
-input[type=button]:active {
+[type=submit]:active,
+[type=button]:active,
+[type=reset]:active {
   border-style: inset;
+}
+a.button:focus, a.button:focus-visible,
+.button:focus,
+.button:focus-visible,
+button:focus,
+button:focus-visible,
+[type=submit]:focus,
+[type=submit]:focus-visible,
+[type=button]:focus,
+[type=button]:focus-visible,
+[type=reset]:focus,
+[type=reset]:focus-visible {
+  outline: 3px solid var(--c-cobalt);
 }
 a.button::after,
 .button::after,
 button::after,
-input[type=submit]::after,
-input[type=button]::after {
+[type=submit]::after,
+[type=button]::after,
+[type=reset]::after {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   font-size: 1em;
@@ -626,15 +654,17 @@ input[type=button]::after {
 a.button.reverse,
 .button.reverse,
 button.reverse,
-input[type=submit].reverse,
-input[type=button].reverse {
+[type=submit].reverse,
+[type=button].reverse,
+[type=reset].reverse {
   padding: 0.5em 1em 0.5em 2em;
 }
 a.button.reverse::after,
 .button.reverse::after,
 button.reverse::after,
-input[type=submit].reverse::after,
-input[type=button].reverse::after {
+[type=submit].reverse::after,
+[type=button].reverse::after,
+[type=reset].reverse::after {
   right: auto;
   left: 0.5em;
   content: "\e700";
@@ -644,10 +674,12 @@ a.button:disabled, a.button.disabled,
 .button.disabled,
 button:disabled,
 button.disabled,
-input[type=submit]:disabled,
-input[type=submit].disabled,
-input[type=button]:disabled,
-input[type=button].disabled {
+[type=submit]:disabled,
+[type=submit].disabled,
+[type=button]:disabled,
+[type=button].disabled,
+[type=reset]:disabled,
+[type=reset].disabled {
   cursor: not-allowed;
   pointer-events: none;
   color: var(--c-paper-900);
@@ -846,8 +878,12 @@ body {
 html {
   color: var(--text-color);
   background-color: var(--c-paper);
+  scroll-behavior: smooth;
 }
 
+body {
+  font-family: var(--primary-font-stack);
+}
 body > * {
   max-width: 100vw;
   transition: max-width 250ms ease;
@@ -919,7 +955,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--primary-font-stack);
   font-weight: 800;
   color: var(--c-paynes);
 }
@@ -930,6 +965,11 @@ a {
 }
 a:hover {
   color: #6666ff;
+}
+a:focus-visible {
+  color: white !important;
+  outline: 3px solid var(--c-cobalt);
+  background: var(--c-cobalt);
 }
 
 blockquote {
@@ -1084,6 +1124,10 @@ figure:first-child {
   color: var(--features-text-color);
 }
 .section-wrapper.feature h1,
+.section-wrapper.feature h2 {
+  font-family: var(--secondary-font-stack);
+}
+.section-wrapper.feature h1,
 .section-wrapper.feature h2,
 .section-wrapper.feature h3,
 .section-wrapper.feature h4,
@@ -1148,7 +1192,12 @@ figure:first-child {
   font-size: 2.5rem;
 }
 @media screen and (width <= 40em) {
-  .section-wrapper.feature section.grid .block-type-heading h1, .section-wrapper.feature section.grid .block-type-heading h2, .section-wrapper.feature section.grid .block-type-heading h3, .section-wrapper.feature section.grid .block-type-heading h4, .section-wrapper.feature section.grid .block-type-heading h5, .section-wrapper.feature section.grid .block-type-heading h6 {
+  .section-wrapper.feature section.grid .block-type-heading h1,
+  .section-wrapper.feature section.grid .block-type-heading h2,
+  .section-wrapper.feature section.grid .block-type-heading h3,
+  .section-wrapper.feature section.grid .block-type-heading h4,
+  .section-wrapper.feature section.grid .block-type-heading h5,
+  .section-wrapper.feature section.grid .block-type-heading h6 {
     font-size: 2em;
   }
 }
@@ -1506,6 +1555,33 @@ figure:first-child {
     display: inherit;
     visibility: visible;
   }
+}
+
+svg.hidden {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+}
+
+.chop-inline {
+  display: inline-block;
+  width: 2.75em;
+  transform: scale(255%, 100%);
+  text-align: center;
+}
+.chop-inline::after {
+  font-family: var(--secondary-font-stack);
+  font-size: 0.625em;
+  font-weight: 900;
+  content: "W/";
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=styles.css.map */

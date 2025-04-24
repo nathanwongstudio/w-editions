@@ -7,6 +7,11 @@ return [
         'sharePassword' => 'w/editions212'
     ],
 
+    'mauricerenck.indieConnector' => [
+        'sqlitePath' => 'content/.sqlite',
+        'stats.enabled' => true,
+    ],
+
     'zephir.cookieconsent' => [
         'cdn' => true,
         'revision' => 1,

@@ -32,7 +32,7 @@ tabs:
               cover: false
             search: true
             columns:
-              artId:
+              artid:
                 label: Art ID
               year: 
                 label: Year Published

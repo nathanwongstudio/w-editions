@@ -13,7 +13,8 @@
         "hashandsalt/kirby3-snipcart": "^0.5.0",
         "belugadigital/kirby-navigation": "^4.1",
         "zephir/kirby-cookieconsent": "^3.2",
-        "easypost/easypost-php": "^7.4"
+        "easypost/easypost-php": "^7.4",
+        "mauricerenck/indieconnector": "^2.6"
     },
     "license": "Proprietary",
     "authors": [

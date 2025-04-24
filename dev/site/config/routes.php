@@ -173,7 +173,7 @@ return [
                 'parcel' => [
                     'length' => $itemMAX['length'],
                     'width' => $itemMAX['width'],
-                    'height' => $itemMAX['height'],
+                    'height' => array_sum($heights),
                     'weight' => $itemMAX['weight']
                 ]
             ])['rates'];
@@ -214,10 +214,10 @@ return [
 
             usort($rates, 'compare_rates');
 
-            array_unshift($rates, [
-                'cost' => '-10',
-                'description' => 'Frame it! — Get a quote from our custom framing partner for each artwork and receive a separate invoice for framing and shipping.',
-            ]);
+            // array_unshift($rates, [
+            //     'cost' => '-10',
+            //     'description' => 'Frame it! — Get a quote from our custom framing partner for each artwork and receive a separate invoice for framing and shipping.',
+            // ]);
 
             $ratesJson = json_encode(["rates" => $rates]);
 

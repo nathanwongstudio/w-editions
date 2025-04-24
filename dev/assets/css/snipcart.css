@@ -35,8 +35,9 @@
 #snipcart, a.button,
 .button,
 button,
-input[type=submit],
-input[type=button] {
+[type=submit],
+[type=button],
+[type=reset] {
   text-decoration: none;
   color: var(--c-paynes-700);
   border: 2px outset var(--c-paper-400);
@@ -122,12 +123,12 @@ input[type=button] {
   --c-violet-700: rgb(34.3225806452, 8.1290322581, 75.8709677419);
   --c-violet-800: rgb(13.4838709677, 3.1935483871, 29.8064516129);
   --c-violet-900: hsl(263.2, 80.6451612903%, -3.5294117647%);
-  --c-vert: green;
+  --c-vert: #008000;
   --c-vert-100: rgb(0, 214.7, 0);
   --c-vert-200: rgb(0, 204.5, 0);
   --c-vert-300: #00b300;
   --c-vert-400: rgb(0, 153.5, 0);
-  --c-vert-500: green;
+  --c-vert-500: #008000;
   --c-vert-600: rgb(0, 102.5, 0);
   --c-vert-700: #004d00;
   --c-vert-800: rgb(0, 51.5, 0);
@@ -171,6 +172,9 @@ input {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
+}
+input:focus-visible {
+  outline: 3px solid var(--c-cobalt);
 }
 
 abbr[title=required] {
@@ -283,21 +287,25 @@ input[type=radio]::after {
 
 input[type=checkbox],
 input[type=radio] {
-  line-height: 1em;
-  top: 2px;
+  line-height: 1;
   display: inline-block;
   width: 1em;
   height: 1em;
-  margin: 0 0.5em 0 0;
+  margin: 0 0.25em 0 0;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  vertical-align: middle;
 }
 input[type=checkbox] ~ label,
 input[type=radio] ~ label {
-  line-height: 1em;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1rem;
   display: inline;
   margin: 0;
+  letter-spacing: 0;
+  text-transform: none;
 }
 input[type=checkbox]:checked,
 input[type=radio]:checked {
@@ -309,10 +317,11 @@ input[type=radio]:checked::after {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   font-size: 1.5em;
+  line-height: 1rem;
   position: absolute;
-  top: 0.025em;
-  left: 0;
+  inset: 0;
   content: "\e718";
+  text-align: center;
   color: white;
 }
 
@@ -338,8 +347,9 @@ select::after {
 a.button,
 .button,
 button,
-input[type=submit],
-input[type=button] {
+[type=submit],
+[type=button],
+[type=reset] {
   font-weight: 800;
   position: relative;
   display: block;
@@ -353,15 +363,17 @@ input[type=button] {
 a.button.inline,
 .button.inline,
 button.inline,
-input[type=submit].inline,
-input[type=button].inline {
+[type=submit].inline,
+[type=button].inline,
+[type=reset].inline {
   display: inline-block;
 }
 a.button.negative,
 .button.negative,
 button.negative,
-input[type=submit].negative,
-input[type=button].negative {
+[type=submit].negative,
+[type=button].negative,
+[type=reset].negative {
   color: var(--c-paynes-500);
   border-color: var(--c-paper-300);
   background-color: var(--c-paper-400);
@@ -369,15 +381,30 @@ input[type=button].negative {
 a.button:active,
 .button:active,
 button:active,
-input[type=submit]:active,
-input[type=button]:active {
+[type=submit]:active,
+[type=button]:active,
+[type=reset]:active {
   border-style: inset;
+}
+a.button:focus, a.button:focus-visible,
+.button:focus,
+.button:focus-visible,
+button:focus,
+button:focus-visible,
+[type=submit]:focus,
+[type=submit]:focus-visible,
+[type=button]:focus,
+[type=button]:focus-visible,
+[type=reset]:focus,
+[type=reset]:focus-visible {
+  outline: 3px solid var(--c-cobalt);
 }
 a.button::after,
 .button::after,
 button::after,
-input[type=submit]::after,
-input[type=button]::after {
+[type=submit]::after,
+[type=button]::after,
+[type=reset]::after {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: microns;
   font-size: 1em;
@@ -390,15 +417,17 @@ input[type=button]::after {
 a.button.reverse,
 .button.reverse,
 button.reverse,
-input[type=submit].reverse,
-input[type=button].reverse {
+[type=submit].reverse,
+[type=button].reverse,
+[type=reset].reverse {
   padding: 0.5em 1em 0.5em 2em;
 }
 a.button.reverse::after,
 .button.reverse::after,
 button.reverse::after,
-input[type=submit].reverse::after,
-input[type=button].reverse::after {
+[type=submit].reverse::after,
+[type=button].reverse::after,
+[type=reset].reverse::after {
   right: auto;
   left: 0.5em;
   content: "\e700";
@@ -408,10 +437,12 @@ a.button:disabled, a.button.disabled,
 .button.disabled,
 button:disabled,
 button.disabled,
-input[type=submit]:disabled,
-input[type=submit].disabled,
-input[type=button]:disabled,
-input[type=button].disabled {
+[type=submit]:disabled,
+[type=submit].disabled,
+[type=button]:disabled,
+[type=button].disabled,
+[type=reset]:disabled,
+[type=reset].disabled {
   cursor: not-allowed;
   pointer-events: none;
   color: var(--c-paper-900);
@@ -881,9 +912,13 @@ ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item__label--hi
   cursor: pointer;
 }
 ul.snipcart-shipping-rates-list li .snipcart-shipping-rates-list-item__label--highlight label {
-  line-height: 1.25;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5;
   display: block;
   cursor: pointer;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .snipcart__notice--with-icon {
@@ -1013,7 +1048,12 @@ button.snipcart-checkout::after {
   margin-bottom: 1em;
   padding: 1em;
 }
-.snipcart__box h1, .snipcart__box h2, .snipcart__box h3, .snipcart__box h4, .snipcart__box h5, .snipcart__box h6 {
+.snipcart__box h1,
+.snipcart__box h2,
+.snipcart__box h3,
+.snipcart__box h4,
+.snipcart__box h5,
+.snipcart__box h6 {
   margin: 0;
 }
 .snipcart__box h3 {
@@ -1035,7 +1075,12 @@ button.snipcart-checkout::after {
   gap: 0.75em;
   margin-bottom: 1em;
 }
-.snipcart__box--header h1, .snipcart__box--header h2, .snipcart__box--header h3, .snipcart__box--header h4, .snipcart__box--header h5, .snipcart__box--header h6,
+.snipcart__box--header h1,
+.snipcart__box--header h2,
+.snipcart__box--header h3,
+.snipcart__box--header h4,
+.snipcart__box--header h5,
+.snipcart__box--header h6,
 .snipcart__box--subtitle h1,
 .snipcart__box--subtitle h2,
 .snipcart__box--subtitle h3,

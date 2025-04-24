@@ -63,13 +63,13 @@ fields:
     label: Width (in.)
     width: 1/4
     after: in
-  packageHeight:
-    type: number
-    label: Height (in.)
-    width: 1/4
-    after: in
   packageLength:
     type: number
     label: Length (in.)
+    width: 1/4
+    after: in
+  packageHeight:
+    type: number
+    label: Height (in.)
     width: 1/4
     after: in

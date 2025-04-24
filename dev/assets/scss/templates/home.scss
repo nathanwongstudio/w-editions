@@ -1,5 +1,6 @@
 @use "sass:color";
 @use "../variables" as v;
+@use "default";
 
 :root {
 	--shadow-color: rgba(239 239 216 / 90%);
@@ -9,28 +10,30 @@
 html,
 body {
 	overflow-x: hidden;
-
-	background-color: black !important;
-}
-
-html {
-	scroll-behavior: smooth;
-	scroll-snap-type: y mandatory;
-
-	height: 100vh;
-
-	&.input-focused {
-		scroll-snap-type: none;
-	}
 }
 
 body {
+	background-color: black !important;
 	background-image: url("../crt.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 	image-rendering: pixelated;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+
+	&.input-focused {
+		scroll-snap-type: none;
+	}
+
+	&.home2 {
+		height: auto;
+		scroll-behavior: smooth;
+		scroll-snap-type: none;
+
+		background-color: var(--c-paper) !important;
+	}
 }
 
 %white-text {
@@ -58,26 +61,63 @@ body {
 	}
 }
 
-.start-out * {
+.error.start-out * {
 	transition: 500ms ease text-shadow;
 	transition-delay: 1s;
 
 	text-shadow: 0 0 0 transparent !important;
 }
 
-.start-out *::after {
+.error.start-out *::after {
 	transition: 1s ease text-shadow;
 	transition-delay: 2s;
 
 	text-shadow: 0 0 0 transparent !important;
 }
 
-.wrapper,
-.layouts,
-body {
-	font-family: var(--secondary-font-stack);
+.home2.start-out {
+	nav,
+	#checkout-button {
+		position: fixed;
+		top: calc(var(--nav-height) * -2);
 
-	display: contents;
+		transition: 1s ease-out top;
+		transition-delay: 11s;
+	}
+
+	.hero .container-full {
+		transition: 1s ease transform;
+		transition-delay: 1s;
+		transform: scale(200%);
+
+		h1 {
+			transition: 1s ease-out transform;
+			transition-delay: 1s;
+			transform: scale(0);
+		}
+	}
+}
+
+nav {
+	position: fixed;
+	top: 0;
+
+	transition: 450ms ease-out top;
+	transition-delay: 9.5s;
+}
+
+#checkout-button {
+	position: fixed;
+
+	z-index:99;
+
+	transition: 450ms ease-out top, 450ms ease-out opacity;
+
+	opacity: 1;
+
+	&.empty {
+		opacity: 0;
+	}
 }
 
 .home,
@@ -166,7 +206,7 @@ which the user cannot interact with */
 
 	pointer-events: none;
 
-	background-color: white;
+	background-color: var(--c-paynes);
 
 	&::after {
 		position: absolute;
@@ -203,7 +243,7 @@ which the user cannot interact with */
 	}
 }
 
-.section-wrapper {
+.error .section-wrapper {
 	--base-font-size: 60px;
 
 	font-size: var(--base-font-size);
@@ -327,7 +367,7 @@ which the user cannot interact with */
 	}
 }
 
-.block {
+.error .block {
 	position: relative;
 	z-index: 9;
 
@@ -834,7 +874,7 @@ which the user cannot interact with */
 	}
 }
 
-.header {
+.error .header {
 	font-size: 0;
 
 	text-align: center;
@@ -901,8 +941,8 @@ which the user cannot interact with */
 	}
 }
 
-h3.top-text,
-h3.bottom-text {
+.error h3.top-text,
+.error h3.bottom-text {
 	font-size: 2em;
 	line-height: 0.8;
 
@@ -921,14 +961,14 @@ h3.bottom-text {
 	text-align: left;
 }
 
-h3.bottom-text {
+.error h3.bottom-text {
 	inset: auto 0 0 auto;
 
 	text-align: right;
 }
 
 /* stylelint-disable-next-line selector-class-pattern */
-.block-type-featuredArtist {
+.error .block-type-featuredArtist {
 	height: 100vh;
 
 	text-align: center;
@@ -987,6 +1027,93 @@ h3.bottom-text {
 	}
 }
 
-.feature-link {
+.error .feature-link {
 	display: contents;
+}
+
+.hero {
+	position: relative;
+	z-index: 999;
+
+	width: 100vw;
+	height: calc(100vh - var(--nav-height) - (2 * var(--base-line-height)));
+	margin-top: var(--nav-height);
+
+	background: black;
+
+	.container-full {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 100%;
+
+		transition: 5s ease-out transform;
+		transition-delay: 3s;
+		transform: scale(80%);
+
+		clip-path: url("#squircle");
+
+		.iframe-wrapper {
+			position: absolute;
+		}
+
+		.header {
+			position: absolute;
+
+			display: grid;
+			grid-template-columns: 1fr;
+			place-items: center;
+
+			width: 100%;
+			height: 100%;
+			inset: 0;
+
+			// background: black;
+			mix-blend-mode: hard-light;
+
+			h1 {
+				font-family: var(--secondary-font-stack);
+				font-size: 10vw;
+
+				width: 100vw;
+
+				transition: 2s ease-out transform;
+				transition-delay: 2s;
+
+				transform: scale(100%);
+
+				text-align: center;
+
+				@extend %white-text;
+
+				span {
+					display: inline-block;
+
+					&:first-child {
+						z-index: 99;
+
+						// font-size: 2rem;
+
+						transform: scale(255%, 105%);
+						transform-origin: left;
+						letter-spacing: -3px;
+
+						// text-shadow: 0 0 5px var(--shadow-color);
+
+						@media screen and (width<=60em) {
+							// text-shadow: 0 0 0.8vw var(--shadow-color);
+						}
+					}
+
+					&:last-child {
+						transform: scale(55%, 100%);
+						transform-origin: right;
+					}
+				}
+			}
+		}
+	}
 }

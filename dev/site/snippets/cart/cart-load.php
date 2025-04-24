@@ -5,6 +5,7 @@
     loadStrategy: "on-user-interaction",
     templatesUrl: "/assets/snipcart/snipcart-templates.html",
     loadCSS: false,
+    version: "3.7.3"
   };
 
   (function() {

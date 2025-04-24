@@ -1,17 +1,4 @@
-// if there is an accordion show the accordion code
 var accordions = document.getElementsByClassName('accordion');
-
-function accordionSet() {
-    var i;
-
-    accordionMeasure();
-
-    for(i = 0; i < accordions.length; i++) {
-        accordions[i].querySelector('.block-type-heading').addEventListener('click', function() {
-            this.closest('section').classList.toggle('active');
-        });
-    }
-}
 
 function accordionMeasure() {
     var i;
@@ -24,3 +11,20 @@ function accordionMeasure() {
         accordions[i].style.setProperty('--section-height', sectionHeight + 'px');
     }
 }
+
+function accordionSet() {
+    var i;
+
+    accordionMeasure();
+
+    for(i = 0; i < accordions.length; i++) {
+        accordions[i].querySelector('.block-type-heading').addEventListener('click', function() {
+            accordionMeasure();
+            this.closest('section').classList.toggle('active');
+        });
+    }
+}
+
+window.addEventListener("load", () => {
+    accordionSet();
+})
