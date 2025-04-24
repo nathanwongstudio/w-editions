@@ -18,6 +18,8 @@ This site uses Kirby as a CMS with php templating.
 
 I use DDEV to setup my local server environment. [You can find instructions for DDEV and Kirby here](https://getkirby.com/docs/cookbook/development-deployment/ddev).
 
+There is already a ddev project in the `dev` folder of this repo so it should set it up the same way if you just say `ddev start`.
+
 Alternatively, you can use any other local [php server setup that has the requirements](https://getkirby.com/docs/guide/install-guide/development-environment).
 
 ## Folder setup
