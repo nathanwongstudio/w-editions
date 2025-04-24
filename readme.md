@@ -1,7 +1,11 @@
 # W Editions Github Repo
 
 ## Installation
-Hello, in order to preview this site correctly, you first have to install the dependencies:
+Hello, in order to preview this site correctly, you first have to install the dependencies
+
+First, you need to install some way to use Kirby CMS -- [here's their quickstart guide with requirements etc.](https://getkirby.com/docs/guide/quickstart)
+
+then:
 
 1. clone the repo
 2. install dependencies using `composer update`
