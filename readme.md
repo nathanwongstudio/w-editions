@@ -3,13 +3,18 @@
 ## Installation
 Hello, in order to preview this site correctly, you first have to install the dependencies
 
-First, you need to install some way to use Kirby CMS -- [here's their quickstart guide with requirements etc.](https://getkirby.com/docs/guide/quickstart)
+First, you need to install the requirements for Kirby -- [here's their quickstart guide with a list of requirements, etc.](https://getkirby.com/docs/guide/quickstart)
 
-then:
+### Primary Requirements
+- PHP 8.1, 8.2, or 8.3 (recommended)
+- Composer
+- Local server of your choosing (see Local Server below)
+
+### Clone and install dependencies
 
 1. clone the repo using `git clone --recurse-submodules` to get the submodules too.
    - if you've already cloned the repo, use `git submodule init` then `git submodule update` to get the submodules.
-2. `cd` to the `dev` folder on your computer
+2. `cd` to the `dev` folder in the cloned repo
 3. install dependencies using `composer update`
 
 you can also install the dependencies independently.
