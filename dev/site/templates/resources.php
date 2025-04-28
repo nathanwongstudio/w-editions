@@ -13,7 +13,7 @@
             foreach ($resources as $resource): ?>
 
                 <li class="resource">
-                    <a href="<?= $resource->url() ?>"><?= $resource->title() ?></a>
+                    <a href="<?= $resource->url() ?>"><h4><?= $resource->title() ?></h4></a>
                 </li>
 
             <?php endforeach; ?>
