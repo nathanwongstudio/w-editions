@@ -15,9 +15,26 @@ First, you need to install the requirements for Kirby -- [here's their quickstar
 1. clone the repo using `git clone --recurse-submodules` to get the submodules too.
    - if you've already cloned the repo, use `git submodule init` then `git submodule update` to get the submodules.
 2. `cd` to the `dev` folder in the cloned repo
-3. install dependencies using `composer update`
 
-you can also install the dependencies independently.
+#### Install Using Composer
+the Kirby folder and all of the files relating to the main CMS App are not tracked by this repo and can be installed any way you want -- Composer is how I choose to do it.
+
+From the `/dev/` folder:
+```
+composer update
+```
+
+There should already be a composer.lock and composer.json file.
+
+#### Install Manually
+
+You can also install the Kirby dependencies manually by [downloading the Kirby files from their github](https://github.com/getkirby/plainkit).
+
+1. Download the files
+2. Copy the following files from the Kirby Plainkit into the `/dev/` folder of the repo and replace any files that already exist
+     - /kirby
+     - /index.php
+     - /.htaccess
 
 ## Local Server
 This site uses Kirby as a CMS with php templating.
