@@ -433,26 +433,49 @@ nav {
 // SUB NAVS
 
 .subpages {
+	--sub-nav-height: calc(1.5 * var(--base-line-height));
 	line-height: var(--base-line-height);
 
 	z-index: 99;
 
 	top: var(--nav-height);
 
-	height: calc(1.5 * var(--base-line-height));
-	padding: calc(0.25 * var(--base-line-height));
-
 	background-color: var(--c-paper-200);
 
 	ul {
-		font-size: 0.8em;
+		display:flex;
+
+		overflow:hidden;
+
+		overflow-x:scroll;
+		flex-flow: row nowrap;
+		place-content: center;
+
+		box-sizing: border-box;
+
+		height: var(--sub-nav-height);
+
+		margin:0;
+
+		padding: calc(0.25 * var(--base-line-height));
 
 		list-style-type: none;
 
 		text-align: center;
 
+		@media screen and (width<=30em) {
+			place-content: start;
+		}
+
 		li {
-			display: inline-block;
+			font-size: 0.8em;
+
+			display: flex;
+
+			flex:0 0 auto;
+
+			flex-direction: column;
+			place-content: center;
 
 			margin: 0 1em;
 			padding: 0;
