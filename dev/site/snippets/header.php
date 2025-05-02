@@ -135,11 +135,16 @@
     <?= js('assets/js/main.js', false) ?>
 
     <?= js('assets/js/accordion.js') ?>
+
+    <?php
+        $parent = $parent ?? null;
+    ?>
 </head>
 
 <body class="<?= $temp = $temp ?? $page->intendedTemplate() ?>
              <?= (option('environment') == 'development' ? 'dev' : '') ?>
-             <?= ($page->intendedTemplate() == "home") ? 'start-out' : '' ?>">
+             <?= ($page->intendedTemplate() == "home") ? 'start-out' : '' ?>
+             <?= $parent ? 'has-parent' : '' ?>">
 
     <?php if (!isset($nav)) {
         $nav = true;

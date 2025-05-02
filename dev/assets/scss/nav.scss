@@ -429,3 +429,58 @@ nav {
 		background-color: var(--c-paper);
 	}
 }
+
+// SUB NAVS
+
+.subpages {
+	line-height: var(--base-line-height);
+
+	z-index: 99;
+
+	top: var(--nav-height);
+
+	height: calc(1.5 * var(--base-line-height));
+	padding: calc(0.25 * var(--base-line-height));
+
+	background-color: var(--c-paper-200);
+
+	ul {
+		font-size: 0.8em;
+
+		list-style-type: none;
+
+		text-align: center;
+
+		li {
+			display: inline-block;
+
+			margin: 0 1em;
+			padding: 0;
+
+			&::before {
+				display: none;
+
+				content: "";
+			}
+
+			a,
+			a:visited {
+				font-weight: bold;
+
+				text-decoration: none;
+
+				color: var(--c-paynes-400);
+			}
+
+			&.active,
+			&:hover {
+				a,
+				a:visited {
+					text-decoration: underline;
+
+					color: var(--c-paynes);
+				}
+			}
+		}
+	}
+}

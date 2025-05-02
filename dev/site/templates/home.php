@@ -28,7 +28,15 @@ $layouts = $page->text()->toLayouts();
 
 <script>
     window.addEventListener("load", () => {
-        document.getElementsByClassName("start-out")[0].classList.remove("start-out");
+
+        if (document.documentElement.classList.contains('show--consent')) {
+            window.addEventListener('cc:onModalHide', () => {
+                document.getElementsByClassName("start-out")[0].classList.remove("start-out");
+            });
+        } else {
+            document.getElementsByClassName("start-out")[0].classList.remove("start-out");
+        }
+
     });
 
     let observerOptions = {

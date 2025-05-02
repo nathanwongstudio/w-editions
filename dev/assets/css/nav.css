@@ -141,7 +141,6 @@ nav {
   --text-shadow-menu: 0 0 0.04em var(--c-paper);
   --nav-font-size: 6vw;
   line-height: 1;
-  position: -webkit-sticky;
   position: sticky;
   z-index: 999999;
   top: 0;
@@ -375,6 +374,41 @@ nav:has(#x:checked) {
   transition-property: background-color, max-height;
   color: var(--c-paper);
   background-color: var(--c-paper);
+}
+
+.subpages {
+  line-height: var(--base-line-height);
+  z-index: 99;
+  top: var(--nav-height);
+  height: calc(1.5 * var(--base-line-height));
+  padding: calc(0.25 * var(--base-line-height));
+  background-color: var(--c-paper-200);
+}
+.subpages ul {
+  font-size: 0.8em;
+  list-style-type: none;
+  text-align: center;
+}
+.subpages ul li {
+  display: inline-block;
+  margin: 0 1em;
+  padding: 0;
+}
+.subpages ul li::before {
+  display: none;
+  content: "";
+}
+.subpages ul li a,
+.subpages ul li a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--c-paynes-400);
+}
+.subpages ul li.active a,
+.subpages ul li.active a:visited, .subpages ul li:hover a,
+.subpages ul li:hover a:visited {
+  text-decoration: underline;
+  color: var(--c-paynes);
 }
 
 /*# sourceMappingURL=nav.css.map */

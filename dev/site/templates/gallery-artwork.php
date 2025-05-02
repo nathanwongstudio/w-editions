@@ -50,10 +50,10 @@ $layouts = $page->accordionText()->toLayouts();
                             </div>
 
                             <div class="buttons">
-                                <?php if($page->framable()->toBool() && $page->onlineShop()->toBool()):?>
+                                <?php if ($page->framable()->toBool() && $page->onlineShop()->toBool()): ?>
                                     <fieldset>
                                         <input type="checkbox" name="frame" id="frame" <?= $framing === '1' ? 'checked' : '' ?>>
-                                        <label for="frame">Add a frame for $<?=$page->frame() ?></label>
+                                        <label for="frame">Add a frame for $<?= $page->frame() ?></label>
                                     </fieldset>
                                 <?php endif; ?>
                                 <?php if ($page->onlineShop()->toBool()):
@@ -129,29 +129,27 @@ $layouts = $page->accordionText()->toLayouts();
     // DETECT THE PARAMETER
     var frame = document.getElementById('frame'),
         buttons = document.getElementsByClassName('snipcart-add-item');
-    if(frame) {
+    if (frame) {
         frame.addEventListener('change', (event) => {
             for (let i = 0; i < buttons.length; i++) {
-                if(frame.checked) {
+                if (frame.checked) {
                     buttons[i].setAttribute('data-item-custom1-value', 'Framed');
-                    buttons[i].setAttribute('data-item-url', '<?= url($page->url(), ['params' => ['frame' => '1']])?>');
-                    buttons[i].setAttribute('data-item-weight','<?= $weightfG ?>');
-                    buttons[i].setAttribute('data-item-height','<?= $cmf['height'] ?>');
-                    buttons[i].setAttribute('data-item-length','<?= $cmf['length'] ?>');
-                    buttons[i].setAttribute('data-item-width','<?= $cmf['width'] ?>');
-                }
-                else {
+                    buttons[i].setAttribute('data-item-url', '<?= url($page->url(), ['params' => ['frame' => '1']]) ?>');
+                    buttons[i].setAttribute('data-item-weight', '<?= $weightfG ?>');
+                    buttons[i].setAttribute('data-item-height', '<?= $cmf['height'] ?>');
+                    buttons[i].setAttribute('data-item-length', '<?= $cmf['length'] ?>');
+                    buttons[i].setAttribute('data-item-width', '<?= $cmf['width'] ?>');
+                } else {
                     buttons[i].setAttribute('data-item-custom1-value', 'Unframed');
-                    buttons[i].setAttribute('data-item-url', '<?= url($page->url(), ['params' => ['frame' => '0']])?>');
-                    buttons[i].setAttribute('data-item-weight','<?= $weightG ?>');
-                    buttons[i].setAttribute('data-item-height','<?= $cm['height'] ?>');
-                    buttons[i].setAttribute('data-item-length','<?= $cm['length'] ?>');
-                    buttons[i].setAttribute('data-item-width','<?= $cm['width'] ?>');
+                    buttons[i].setAttribute('data-item-url', '<?= url($page->url(), ['params' => ['frame' => '0']]) ?>');
+                    buttons[i].setAttribute('data-item-weight', '<?= $weightG ?>');
+                    buttons[i].setAttribute('data-item-height', '<?= $cm['height'] ?>');
+                    buttons[i].setAttribute('data-item-length', '<?= $cm['length'] ?>');
+                    buttons[i].setAttribute('data-item-width', '<?= $cm['width'] ?>');
                 }
             }
         })
     }
-
 </script>
 
 <?php snippet('footer') ?>

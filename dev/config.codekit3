@@ -1487,12 +1487,28 @@
       "oAP" : "\/content\/.sqliteindieConnector.sqlite",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/full-small-size.jpg" : {
+    "\/content\/1_editions\/1_25-002\/gallery-artwork.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/1_25-002\/gallery-artwork.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/1_25-002\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/1_25-002\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/content\/1_editions\/1_25-002\/risdm-34-563.jpg" : {
       "ft" : 16384,
-      "iS" : 1121969,
+      "iS" : 6069174,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/full-small-size.jpg",
+      "oAP" : "\/content\/1_editions\/1_25-002\/risdm-34-563.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1500,43 +1516,56 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_lern25-01\/full-small-size.jpg.txt" : {
+    "\/content\/1_editions\/1_25-002\/risdm-34-563.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/full-small-size.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_25-002\/risdm-34-563.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/gallery-artwork.txt" : {
+    "\/content\/1_editions\/2_25-001\/full-small-size.jpg" : {
+      "ft" : 16384,
+      "iS" : 1121969,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/2_25-001\/full-small-size.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/2_25-001\/full-small-size.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/gallery-artwork.txt",
+      "oAP" : "\/content\/1_editions\/2_25-001\/full-small-size.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/indieConnector.json" : {
+    "\/content\/1_editions\/2_25-001\/gallery-artwork.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/2_25-001\/gallery-artwork.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/2_25-001\/indieConnector.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/indieConnector-min.json",
+      "oAP" : "\/content\/1_editions\/2_25-001\/indieConnector-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/content\/1_editions\/1_lern25-01\/indieConnector.json.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/indieConnector.json.txt",
-      "oF" : 0
-    },
-    "\/content\/1_editions\/1_lern25-01\/lern-25-01-full.png" : {
+    "\/content\/1_editions\/2_25-001\/lern-25-01-full.png" : {
       "ft" : 32768,
       "iS" : 5141611,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern-25-01-full.png",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern-25-01-full.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1545,20 +1574,20 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_lern25-01\/lern-25-01-full.png.txt" : {
+    "\/content\/1_editions\/2_25-001\/lern-25-01-full.png.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern-25-01-full.png.txt",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern-25-01-full.png.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-01-cropped-01.jpg" : {
+    "\/content\/1_editions\/2_25-001\/lern25-01-cropped-01.jpg" : {
       "ft" : 16384,
       "iS" : 5580454,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-01-cropped-01.jpg",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-01-cropped-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1566,20 +1595,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-01-cropped-01.jpg.txt" : {
+    "\/content\/1_editions\/2_25-001\/lern25-01-cropped-01.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-01-cropped-01.jpg.txt",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-01-cropped-01.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-01-detail-01.jpg" : {
+    "\/content\/1_editions\/2_25-001\/lern25-01-detail-01.jpg" : {
       "ft" : 16384,
-      "iS" : 6277537,
+      "iS" : 6036332,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-01-detail-01.jpg",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-01-detail-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1587,12 +1616,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-1.jpg" : {
+    "\/content\/1_editions\/2_25-001\/lern25-001-detail-1.jpg" : {
       "ft" : 16384,
       "iS" : 5917660,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-1.jpg",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-001-detail-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1600,28 +1629,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-01-detail-01.jpg.txt" : {
+    "\/content\/1_editions\/2_25-001\/lern25-01-detail-01.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-01-detail-01.jpg.txt",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-01-detail-01.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-1.jpg.txt" : {
+    "\/content\/1_editions\/2_25-001\/lern25-001-detail-1.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-1.jpg.txt",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-001-detail-1.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-2.jpg" : {
+    "\/content\/1_editions\/2_25-001\/lern25-001-detail-2.jpg" : {
       "ft" : 16384,
       "iS" : 3695039,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-2.jpg",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-001-detail-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1629,20 +1658,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-2.jpg.txt" : {
+    "\/content\/1_editions\/2_25-001\/lern25-001-detail-2.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-2.jpg.txt",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-001-detail-2.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-3-chop.jpg" : {
+    "\/content\/1_editions\/2_25-001\/lern25-001-detail-3-chop.jpg" : {
       "ft" : 16384,
       "iS" : 300254,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-3-chop.jpg",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-001-detail-3-chop.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1650,20 +1679,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-3-chop.jpg.txt" : {
+    "\/content\/1_editions\/2_25-001\/lern25-001-detail-3-chop.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25-001-detail-3-chop.jpg.txt",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25-001-detail-3-chop.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25.001-web.jpg" : {
+    "\/content\/1_editions\/2_25-001\/lern25.001-web.jpg" : {
       "ft" : 16384,
       "iS" : 2065547,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25.001-web.jpg",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25.001-web.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1671,12 +1700,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_lern25-01\/lern25.001-web.jpg.txt" : {
+    "\/content\/1_editions\/2_25-001\/lern25.001-web.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_lern25-01\/lern25.001-web.jpg.txt",
+      "oAP" : "\/content\/1_editions\/2_25-001\/lern25.001-web.jpg.txt",
       "oF" : 0
     },
     "\/content\/1_editions\/gallery-collection.txt" : {
@@ -1686,6 +1715,14 @@
       "oA" : 0,
       "oAP" : "\/content\/1_editions\/gallery-collection.txt",
       "oF" : 0
+    },
+    "\/content\/1_editions\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/content\/2_artists\/0_lerner-natalie\/artists-profile.txt" : {
       "cB" : 0,
@@ -1715,6 +1752,22 @@
       "oA" : 0,
       "oAP" : "\/content\/2_artists\/0_lerner-natalie\/natalie-lerner-profile-pic.jpg.txt",
       "oF" : 0
+    },
+    "\/content\/2_artists\/0_sample\/artists-profile.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/2_artists\/0_sample\/artists-profile.txt",
+      "oF" : 0
+    },
+    "\/content\/2_artists\/0_sample\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/2_artists\/0_sample\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/content\/2_artists\/artists-collection.txt" : {
       "cB" : 0,
@@ -1798,12 +1851,197 @@
       "oAP" : "\/content\/4_support\/default.txt",
       "oF" : 0
     },
+    "\/content\/5_news\/1_blog-post\/default.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/5_news\/1_blog-post\/default.txt",
+      "oF" : 0
+    },
+    "\/content\/5_news\/1_blog-post\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/5_news\/1_blog-post\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/content\/5_news\/1_blog-post\/w-editions-inthemood-film.jpg" : {
+      "ft" : 16384,
+      "iS" : 803595,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/5_news\/1_blog-post\/w-editions-inthemood-film.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/5_news\/1_blog-post\/w-editions-inthemood-film.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/5_news\/1_blog-post\/w-editions-inthemood-film.jpg.txt",
+      "oF" : 0
+    },
     "\/content\/5_news\/resources.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/content\/5_news\/resources.txt",
+      "oF" : 0
+    },
+    "\/content\/6_merch\/1_mmm-01\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/6_merch\/1_mmm-01\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/content\/6_merch\/1_mmm-01\/merch-product.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/6_merch\/1_mmm-01\/merch-product.txt",
+      "oF" : 0
+    },
+    "\/content\/6_merch\/1_mmm-01\/screenshot-2025-01-24-at-4.27.42-pm.png" : {
+      "ft" : 32768,
+      "iS" : 263790,
+      "oA" : 1,
+      "oAP" : "\/content\/6_merch\/1_mmm-01\/screenshot-2025-01-24-at-4.27.42-pm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/6_merch\/1_mmm-01\/screenshot-2025-01-24-at-4.27.42-pm.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/6_merch\/1_mmm-01\/screenshot-2025-01-24-at-4.27.42-pm.png.txt",
+      "oF" : 0
+    },
+    "\/content\/6_merch\/1_mmm-01\/w-editions-chinese.jpg" : {
+      "ft" : 16384,
+      "iS" : 1003225,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/6_merch\/1_mmm-01\/w-editions-chinese.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/6_merch\/1_mmm-01\/w-editions-chinese.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/6_merch\/1_mmm-01\/w-editions-chinese.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/6_merch\/2_mmm-02\/baby-tee.jpg" : {
+      "ft" : 16384,
+      "iS" : 128292,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/6_merch\/2_mmm-02\/baby-tee.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/6_merch\/2_mmm-02\/baby-tee.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/6_merch\/2_mmm-02\/baby-tee.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/6_merch\/2_mmm-02\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/6_merch\/2_mmm-02\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/content\/6_merch\/2_mmm-02\/merch-product.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/6_merch\/2_mmm-02\/merch-product.txt",
+      "oF" : 0
+    },
+    "\/content\/6_merch\/3_mmm-03\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/6_merch\/3_mmm-03\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/content\/6_merch\/3_mmm-03\/merch-product.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/6_merch\/3_mmm-03\/merch-product.txt",
+      "oF" : 0
+    },
+    "\/content\/6_merch\/3_mmm-03\/waste.jpg" : {
+      "ft" : 16384,
+      "iS" : 114256,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/6_merch\/3_mmm-03\/waste.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/6_merch\/3_mmm-03\/waste.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/6_merch\/3_mmm-03\/waste.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/6_merch\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/6_merch\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/content\/6_merch\/merch-collection.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/6_merch\/merch-collection.txt",
       "oF" : 0
     },
     "\/content\/blog\/_drafts\/buying-art-for-under-1000\/default.txt" : {
@@ -1875,27 +2113,6 @@
       "oAP" : "\/content\/error\/error.txt",
       "oF" : 0
     },
-    "\/content\/home\/full-small-file-size.png" : {
-      "ft" : 32768,
-      "iS" : 5141611,
-      "oA" : 1,
-      "oAP" : "\/content\/home\/full-small-file-size.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/content\/home\/full-small-file-size.png.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/home\/full-small-file-size.png.txt",
-      "oF" : 0
-    },
     "\/content\/home\/home.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1912,11 +2129,11 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/content\/home\/screenshot-2025-01-24-at-4.27.42-pm.png" : {
+    "\/content\/home\/lern-25-001.png" : {
       "ft" : 32768,
-      "iS" : 263790,
+      "iS" : 5141611,
       "oA" : 1,
-      "oAP" : "\/content\/home\/screenshot-2025-01-24-at-4.27.42-pm.png",
+      "oAP" : "\/content\/home\/lern-25-001.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1925,158 +2142,74 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/content\/home\/screenshot-2025-01-24-at-4.27.42-pm.png.txt" : {
+    "\/content\/home\/lern-25-001.png.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/home\/screenshot-2025-01-24-at-4.27.42-pm.png.txt",
+      "oAP" : "\/content\/home\/lern-25-001.png.txt",
       "oF" : 0
     },
-    "\/content\/merch-table\/merch-collection.txt" : {
+    "\/content\/policies\/1_privacy-policy\/default.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/merch-table\/merch-collection.txt",
+      "oAP" : "\/content\/policies\/1_privacy-policy\/default.txt",
       "oF" : 0
     },
-    "\/content\/merch-table\/mmm-01\/merch-product.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/merch-table\/mmm-01\/merch-product.txt",
-      "oF" : 0
-    },
-    "\/content\/merch-table\/mmm-01\/screenshot-2025-01-24-at-4.27.42-pm.png" : {
-      "ft" : 32768,
-      "iS" : 263790,
-      "oA" : 1,
-      "oAP" : "\/content\/merch-table\/mmm-01\/screenshot-2025-01-24-at-4.27.42-pm.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/content\/merch-table\/mmm-01\/screenshot-2025-01-24-at-4.27.42-pm.png.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/merch-table\/mmm-01\/screenshot-2025-01-24-at-4.27.42-pm.png.txt",
-      "oF" : 0
-    },
-    "\/content\/merch-table\/mmm-01\/w-editions-chinese.jpg" : {
-      "ft" : 16384,
-      "iS" : 1003225,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/merch-table\/mmm-01\/w-editions-chinese.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/merch-table\/mmm-01\/w-editions-chinese.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/merch-table\/mmm-01\/w-editions-chinese.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/merch-table\/mmm-02\/baby-tee.jpg" : {
-      "ft" : 16384,
-      "iS" : 128292,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/merch-table\/mmm-02\/baby-tee.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/merch-table\/mmm-02\/baby-tee.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/merch-table\/mmm-02\/baby-tee.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/merch-table\/mmm-02\/merch-product.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/merch-table\/mmm-02\/merch-product.txt",
-      "oF" : 0
-    },
-    "\/content\/merch-table\/mmm-03\/merch-product.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/merch-table\/mmm-03\/merch-product.txt",
-      "oF" : 0
-    },
-    "\/content\/merch-table\/mmm-03\/waste.jpg" : {
-      "ft" : 16384,
-      "iS" : 114256,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/content\/merch-table\/mmm-03\/waste.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/content\/merch-table\/mmm-03\/waste.jpg.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/merch-table\/mmm-03\/waste.jpg.txt",
-      "oF" : 0
-    },
-    "\/content\/privacy-policy\/default.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/privacy-policy\/default.txt",
-      "oF" : 0
-    },
-    "\/content\/privacy-policy\/indieConnector.json" : {
+    "\/content\/policies\/1_privacy-policy\/indieConnector.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/content\/privacy-policy\/indieConnector-min.json",
+      "oAP" : "\/content\/policies\/1_privacy-policy\/indieConnector-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/content\/returns-refunds-resale\/default.txt" : {
+    "\/content\/policies\/2_terms-of-service\/default.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/returns-refunds-resale\/default.txt",
+      "oAP" : "\/content\/policies\/2_terms-of-service\/default.txt",
       "oF" : 0
     },
-    "\/content\/returns-refunds-resale\/indieConnector.json" : {
+    "\/content\/policies\/2_terms-of-service\/indieConnector.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/content\/returns-refunds-resale\/indieConnector-min.json",
+      "oAP" : "\/content\/policies\/2_terms-of-service\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/content\/policies\/3_shipping-returns\/default.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/policies\/3_shipping-returns\/default.txt",
+      "oF" : 0
+    },
+    "\/content\/policies\/3_shipping-returns\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/policies\/3_shipping-returns\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/content\/policies\/default.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/policies\/default.txt",
+      "oF" : 0
+    },
+    "\/content\/policies\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/policies\/indieConnector-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -2088,22 +2221,6 @@
       "oA" : 0,
       "oAP" : "\/content\/site.txt",
       "oF" : 0
-    },
-    "\/content\/terms-of-service\/default.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/terms-of-service\/default.txt",
-      "oF" : 0
-    },
-    "\/content\/terms-of-service\/indieConnector.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/content\/terms-of-service\/indieConnector-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
     },
     "\/content\/w-editions-logo-cover.png" : {
       "ft" : 32768,
@@ -5996,6 +6113,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/about\/b3efe7d013-1745869130\/.jobs\/img012-web-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/b3efe7d013-1745869130\/.jobs\/img012-web-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/b3efe7d013-1745869130\/img012-web-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2105,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/b3efe7d013-1745869130\/img012-web-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/pages\/about\/c8d6324998-1735924525\/.jobs\/screen-shot-2023-03-03-at-3.07.56-pm-250x-q90.png.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -6334,6 +6472,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/about\/e085125ee9-1745869130\/.jobs\/img012-web-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/e085125ee9-1745869130\/.jobs\/img012-web-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/e085125ee9-1745869130\/img012-web-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2105,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/e085125ee9-1745869130\/img012-web-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/pages\/about\/faa83ec187-1735927511\/.jobs\/screen-shot-2023-03-26-at-8.57.35-pm-250x-q90.png.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -6585,6 +6744,22 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/media\/pages\/about\/fd11bc47c6-1745869130\/.jobs\/w-editions-inthemood-2-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/fd11bc47c6-1745869130\/.jobs\/w-editions-inthemood-2-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/fd11bc47c6-1745869130\/.jobs\/w-editions-inthemood-2-76x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/fd11bc47c6-1745869130\/.jobs\/w-editions-inthemood-2-76x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/media\/pages\/artists\/lerner-natalie\/636bbf6f69-1741655873\/.jobs\/exhibition00_810x-38x.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -6827,6 +7002,38 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/artists\/lerner-natalie\/cb98138301-1745539651\/.jobs\/natalie-lerner-profile-pic-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/cb98138301-1745539651\/.jobs\/natalie-lerner-profile-pic-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/cb98138301-1745539651\/.jobs\/natalie-lerner-profile-pic-76x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/cb98138301-1745539651\/.jobs\/natalie-lerner-profile-pic-76x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/cb98138301-1745869130\/.jobs\/natalie-lerner-profile-pic-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/cb98138301-1745869130\/.jobs\/natalie-lerner-profile-pic-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/cb98138301-1745869130\/.jobs\/natalie-lerner-profile-pic-76x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/cb98138301-1745869130\/.jobs\/natalie-lerner-profile-pic-76x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1743789069\/.jobs\/natalie-lerner-profile-pic-38x.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -6959,6 +7166,101 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1743789069\/natalie-lerner-profile-pic-q95.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-2048x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/.jobs\/natalie-lerner-profile-pic-2048x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/natalie-lerner-profile-pic-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 6074,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/natalie-lerner-profile-pic-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/natalie-lerner-profile-pic-1440x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 745475,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/natalie-lerner-profile-pic-1440x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/natalie-lerner-profile-pic-q95.jpg" : {
+      "ft" : 16384,
+      "iS" : 1338981,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1745869130\/natalie-lerner-profile-pic-q95.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -7191,6 +7493,640 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/artists\/wong-nathan\/6e45f04fca-1734110479\/funone-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/blog\/guide-to-framing\/5d0cfaaa9f-1745869131\/.jobs\/img_0647-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/blog\/guide-to-framing\/5d0cfaaa9f-1745869131\/.jobs\/img_0647-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/blog\/guide-to-framing\/5d0cfaaa9f-1745869131\/img_0647-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 3276,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/blog\/guide-to-framing\/5d0cfaaa9f-1745869131\/img_0647-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2510,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 327398,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size.jpg" : {
+      "ft" : 16384,
+      "iS" : 1121969,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 478106,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1033787,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-q95.jpg" : {
+      "ft" : 16384,
+      "iS" : 8177826,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-q95.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-38x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-38x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-352x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-352x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-500x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-500x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-600x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-600x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-800x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-800x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-864x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-864x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-1024x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-1024x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-1440x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-1440x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-76x.png" : {
+      "ft" : 32768,
+      "iS" : 8168,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-76x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-1408x.png" : {
+      "ft" : 32768,
+      "iS" : 2418099,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-1408x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-2048x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 5339878,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-2048x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-q95.png" : {
+      "ft" : 32768,
+      "iS" : 5339878,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-q95.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 557035,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1126865,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-q95.jpg" : {
+      "ft" : 16384,
+      "iS" : 3568772,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-q95.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/.jobs\/risdm-34-563-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/risdm-34-563-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 5993,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/risdm-34-563-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/risdm-34-563-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 999921,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/risdm-34-563-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/risdm-34-563-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1391836,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/risdm-34-563-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/risdm-34-563-q95.jpg" : {
+      "ft" : 16384,
+      "iS" : 2179011,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/25-002\/692ca6f4ed-1745869267\/risdm-34-563-q95.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8273,996 +9209,6 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/editions\/lern-2025-001\/e14e7a800c-1742435956\/lern25-001-detail-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/1a771cd5aa-1742930653\/.jobs\/lern25-001-detail-2-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/1a771cd5aa-1742930653\/.jobs\/lern25-001-detail-2-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/1a771cd5aa-1742930653\/.jobs\/lern25-001-detail-2-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/1a771cd5aa-1742930653\/.jobs\/lern25-001-detail-2-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/1a771cd5aa-1742930653\/lern25-001-detail-2-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 432928,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/1a771cd5aa-1742930653\/lern25-001-detail-2-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/4bd1e05d83-1745010241\/indieConnector.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/4bd1e05d83-1745010241\/indieConnector-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/.jobs\/lern25-01-cropped-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-500x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 5580454,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-500x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-600x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 93970,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-600x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-800x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 172436,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-800x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-864x.jpg" : {
-      "ft" : 16384,
-      "iS" : 202637,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-864x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1024x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 290089,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1024x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 5580454,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1440x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 581679,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-1440x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1126865,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/5a70d1ee7e-1742930653\/lern25-01-cropped-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-38x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-38x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-352x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-352x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-500x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-500x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-600x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-600x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-864x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-864x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-1024x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-1024x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-q95.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/.jobs\/lern-25-01-full-q95.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-76x.png" : {
-      "ft" : 32768,
-      "iS" : 8168,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-76x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-800x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 802510,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-800x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-1408x.png" : {
-      "ft" : 32768,
-      "iS" : 5141611,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-1408x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-1440x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 2523703,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-1440x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-2048x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 5141611,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/7d479d5808-1742930653\/lern-25-01-full-2048x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/.jobs\/full-small-size-38x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/.jobs\/full-small-size-38x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/.jobs\/full-small-size-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/.jobs\/full-small-size-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/.jobs\/full-small-size-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/.jobs\/full-small-size-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/full-small-size-76x.jpg" : {
-      "ft" : 16384,
-      "iS" : 2510,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/full-small-size-76x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/full-small-size-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 327398,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/full-small-size-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/full-small-size.jpg" : {
-      "ft" : 16384,
-      "iS" : 1121969,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/8cdb580b06-1743097648\/full-small-size.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/17a7ae4cda-1742930653\/.jobs\/lern25-001-detail-3-chop-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/17a7ae4cda-1742930653\/.jobs\/lern25-001-detail-3-chop-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/17a7ae4cda-1742930653\/.jobs\/lern25-001-detail-3-chop-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/17a7ae4cda-1742930653\/.jobs\/lern25-001-detail-3-chop-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/17a7ae4cda-1742930653\/lern25-001-detail-3-chop-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 234595,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/17a7ae4cda-1742930653\/lern25-001-detail-3-chop-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/21cd654fed-1742930653\/.jobs\/lern25.001-web-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/21cd654fed-1742930653\/.jobs\/lern25.001-web-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/21cd654fed-1742930653\/.jobs\/lern25.001-web-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/21cd654fed-1742930653\/.jobs\/lern25.001-web-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/21cd654fed-1742930653\/lern25.001-web-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 477494,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/21cd654fed-1742930653\/lern25.001-web-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/.jobs\/lern25-01-cropped-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/lern25-01-cropped-01-800x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 172436,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/lern25-01-cropped-01-800x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/lern25-01-cropped-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 5580454,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/lern25-01-cropped-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/lern25-01-cropped-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1126865,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/442df6f514-1742930653\/lern25-01-cropped-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-38x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-38x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/.jobs\/full-small-size-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/full-small-size-76x.jpg" : {
-      "ft" : 16384,
-      "iS" : 2510,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/full-small-size-76x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/full-small-size-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 327398,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/full-small-size-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/full-small-size.jpg" : {
-      "ft" : 16384,
-      "iS" : 1121969,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/81742a9a86-1743097648\/full-small-size.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-38x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-38x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-352x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-352x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-q95.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/.jobs\/lern-25-01-full-q95.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-76x.png" : {
-      "ft" : 32768,
-      "iS" : 8168,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-76x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-500x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 306905,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-500x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-600x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 443790,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-600x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-800x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 802510,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-800x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-864x.png" : {
-      "ft" : 32768,
-      "iS" : 5141611,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-864x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1024x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 1301519,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1024x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1408x.png" : {
-      "ft" : 32768,
-      "iS" : 5141611,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1408x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1440x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 2523703,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-1440x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-2048x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 5339878,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/14057700be-1742930653\/lern-25-01-full-2048x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/.jobs\/lern25-01-detail-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/lern25-01-detail-01-800x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 152983,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/lern25-01-detail-01-800x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/lern25-01-detail-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 6277537,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/lern25-01-detail-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/lern25-01-detail-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1094248,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/b65733b63b-1742930653\/lern25-01-detail-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/d721bbceea-1742930653\/.jobs\/lern25-001-detail-1-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/d721bbceea-1742930653\/.jobs\/lern25-001-detail-1-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/d721bbceea-1742930653\/.jobs\/lern25-001-detail-1-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/d721bbceea-1742930653\/.jobs\/lern25-001-detail-1-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/d721bbceea-1742930653\/lern25-001-detail-1-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 651569,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/d721bbceea-1742930653\/lern25-001-detail-1-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/.jobs\/lern25-01-detail-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-500x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 6277537,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-500x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-600x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 82061,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-600x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-800x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 152983,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-800x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-864x.jpg" : {
-      "ft" : 16384,
-      "iS" : 6277537,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-864x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1024x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 260746,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1024x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 6277537,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1440x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 535039,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-1440x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1094248,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/lern25-01\/ff9475d1cf-1742930653\/lern25-01-detail-01-2048x-q90.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -10797,6 +10743,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/home-copy\/6b361f1d82-1745869130\/.jobs\/screenshot-2025-01-24-at-4.27.42-pm-38x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home-copy\/6b361f1d82-1745869130\/.jobs\/screenshot-2025-01-24-at-4.27.42-pm-38x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home-copy\/6b361f1d82-1745869130\/.jobs\/screenshot-2025-01-24-at-4.27.42-pm-76x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home-copy\/6b361f1d82-1745869130\/.jobs\/screenshot-2025-01-24-at-4.27.42-pm-76x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/media\/pages\/home-copy\/d5ff8a727b-1742930654\/.jobs\/full-hi-res-38x.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -10811,6 +10773,27 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/home-copy\/d5ff8a727b-1742930654\/full-hi-res-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/home-copy\/d5ff8a727b-1745869130\/.jobs\/full-hi-res-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home-copy\/d5ff8a727b-1745869130\/.jobs\/full-hi-res-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home-copy\/d5ff8a727b-1745869130\/full-hi-res-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2510,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home-copy\/d5ff8a727b-1745869130\/full-hi-res-76x.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -11322,48 +11305,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/media\/pages\/home\/2837a2896f-1741214915\/.jobs\/screenshot-2025-01-24-at-4.27.42-pm-38x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/home\/2837a2896f-1741214915\/.jobs\/screenshot-2025-01-24-at-4.27.42-pm-38x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/home\/2837a2896f-1741214915\/screenshot-2025-01-24-at-4.27.42-pm-76x.png" : {
-      "ft" : 32768,
-      "iS" : 5246,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/home\/2837a2896f-1741214915\/screenshot-2025-01-24-at-4.27.42-pm-76x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/home\/2837a2896f-1741283356\/.jobs\/screenshot-2025-01-24-at-4.27.42-pm-38x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/home\/2837a2896f-1741283356\/.jobs\/screenshot-2025-01-24-at-4.27.42-pm-38x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/home\/2837a2896f-1741283356\/screenshot-2025-01-24-at-4.27.42-pm-76x.png" : {
-      "ft" : 32768,
-      "iS" : 5246,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/home\/2837a2896f-1741283356\/screenshot-2025-01-24-at-4.27.42-pm-76x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/media\/pages\/home\/52611dda27-1734109364\/.jobs\/printer-38x.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -11425,6 +11366,119 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-38x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-38x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-250x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-250x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-500x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-500x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-600x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-600x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-800x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-800x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-1024x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/.jobs\/lern-25-001-1024x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001-76x.png" : {
+      "ft" : 32768,
+      "iS" : 8168,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001-76x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001-1440x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 2523703,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001-1440x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001-2048x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 5339878,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001-2048x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001-q95.png" : {
+      "ft" : 32768,
+      "iS" : 5339878,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001-q95.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001.png" : {
+      "ft" : 32768,
+      "iS" : 5141611,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1745869863\/lern-25-001.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/media\/pages\/home\/cc89254b20-1734109364\/.jobs\/mold-38x.jpg.json" : {
@@ -11756,6 +11810,594 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/.jobs\/w-editions-chinese-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/w-editions-chinese-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 329368,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/w-editions-chinese-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/w-editions-chinese-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 650112,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/02d8f28c23-1745869131\/w-editions-chinese-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/.jobs\/w-editions-chinese-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/w-editions-chinese-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 329368,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/w-editions-chinese-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/w-editions-chinese-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 650112,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-01\/9f28eb545b-1745869131\/w-editions-chinese-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/.jobs\/baby-tee-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/baby-tee-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 178422,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/baby-tee-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/baby-tee-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 178422,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/00ff870f58-1745869131\/baby-tee-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/.jobs\/baby-tee-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/baby-tee-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 178422,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/baby-tee-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/baby-tee-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 178422,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-02\/c44c100eae-1745869131\/baby-tee-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/.jobs\/waste-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/waste-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 152099,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/waste-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/waste-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 152099,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98a7f7a04b-1745869131\/waste-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/.jobs\/waste-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/waste-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 152099,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/waste-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/waste-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 152099,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/merch\/mmm-03\/98b9c4b24e-1745869131\/waste-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/media\/pages\/merch\/sweat-pants\/d774a1be23-1736467956\/.jobs\/screenshot-2025-01-09-at-7.12.10-pm-38x.png.json" : {
@@ -12127,6 +12769,109 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/.jobs\/w-editions-inthemood-film-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/w-editions-inthemood-film-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 3983,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/w-editions-inthemood-film-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/w-editions-inthemood-film-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 491663,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/w-editions-inthemood-film-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/w-editions-inthemood-film.jpg" : {
+      "ft" : 16384,
+      "iS" : 803595,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/news\/blog-post\/9ccf881af1-1745872172\/w-editions-inthemood-film.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/apple-touch-icon-dark.png" : {
       "ft" : 32768,
       "iS" : 1148,
@@ -12468,6 +13213,30 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/media\/site\/e7b8ae1d2f-1745869131\/.jobs\/w-editions-logo-new-cover-352x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/site\/e7b8ae1d2f-1745869131\/.jobs\/w-editions-logo-new-cover-352x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/site\/e7b8ae1d2f-1745869131\/.jobs\/w-editions-logo-new-cover-864x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/site\/e7b8ae1d2f-1745869131\/.jobs\/w-editions-logo-new-cover-864x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/site\/e7b8ae1d2f-1745869131\/.jobs\/w-editions-logo-new-cover-1408x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/site\/e7b8ae1d2f-1745869131\/.jobs\/w-editions-logo-new-cover-1408x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/site\/accounts\/9bZV4otc\/.htpasswd" : {
       "cB" : 0,
       "ft" : 8192,
@@ -12490,6 +13259,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/site\/accounts\/9bZV4otc\/user.txt",
+      "oF" : 0
+    },
+    "\/site\/accounts\/dPClWqFY\/.htpasswd" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/accounts\/dPClWqFY\/.htpasswd",
+      "oF" : 0
+    },
+    "\/site\/accounts\/dPClWqFY\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/accounts\/dPClWqFY\/index-output.php",
+      "oF" : 0
+    },
+    "\/site\/accounts\/dPClWqFY\/user.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/accounts\/dPClWqFY\/user.txt",
       "oF" : 0
     },
     "\/site\/accounts\/index.html" : {
@@ -12774,6 +13567,30 @@
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/site\/plugins",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1746216853.c484243f9152d13b62d9.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1746216853.c484243f9152d13b62d9-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1746220455.99cf13c377338d4c0a8d.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1746220455.99cf13c377338d4c0a8d-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1746224063.a6ad8313c80cc54ac33f.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1746224063.a6ad8313c80cc54ac33f-output.sess",
       "oF" : 0
     },
     "\/site\/sessions\/index.html" : {

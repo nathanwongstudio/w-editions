@@ -4,13 +4,18 @@ tabs:
   content:
     columns:
       main:
-        width: 1
+        width: 3/4
         sections:
           fields:
             type: fields
             fields:
               text:
                 extends: fields/layout
+      side:
+        width: 1/4
+        sections:
+          subpages:
+            type: pages
   media:
     sections:
       files:

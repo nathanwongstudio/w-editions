@@ -24,6 +24,78 @@
 					</close-cart-action>
 				</header>
 			</cart-header>
+
+			<shipping-method section="top">
+				<fieldset class="snipcart-form_set checkboxes">
+					<div class="snipcart-form__field">
+						<div class="snipcart-form__field-checkbox">
+							<snipcart-checkbox
+								name="acknowledgeShipping"
+								required
+							></snipcart-checkbox>
+							<snipcart-label for="acknowledgeShipping">
+								<strong
+									>I understand that for international
+									shipping or framed artworks, there may be
+									additional shipping charges that will be
+									invoiced separately and that the shipping
+									estimates provided here may not be
+									accurate.</strong
+								>
+								<br />
+								<small
+									>We strive to provide accurate shipping
+									estimates online, however, some aspects of
+									international shipping and framing are too
+									complicated to accurately calculate.</small
+								>
+							</snipcart-label>
+						</div>
+					</div>
+				</fieldset>
+			</shipping-method>
+
+			<payment section="top">
+				<fieldset class="snipcart-form__set checkboxes">
+					<h4>Acknowledgements</h4>
+					<div class="snipcart-form__field">
+						<div class="snipcart-form__field-checkbox">
+							<snipcart-checkbox
+								name="acknowledgeReturns"
+								required
+							></snipcart-checkbox>
+							<snipcart-label for="acknowledgeReturns">
+								<strong
+									>I understand that some items are not
+									returnable.</strong
+								><br />
+								<a href="/@/page/9FXwgmrRQDyqNhrs"
+									>See Shipping and Returns Policy</a
+								>
+							</snipcart-label>
+						</div>
+					</div>
+				</fieldset>
+			</payment>
+
+			<featured-payment-methods>
+				<div class="snipcart-featured-payment-methods">
+					<h3 class="snipcart__font--secondary snipcart__font--bold  snipcart-featured-payment-methods__title">
+						<a :href="securedByUrl" class="snipcart-featured-payment-methods__link" target="_blank" rel="nofollow noopener">
+							<icon name="lock" class="snipcart-featured-payment-methods__title-icon"></icon>
+							{{ $localize('cart.secured_by') }}
+						</a>
+					</h3>
+					
+					<ul class="policies">
+						<li><a href="/@/page/RAEh87A64H5cBxwB">Privacy Policy</a></li>
+						<li><a href="/@/page/HKtLGeueX8ETZa3A">Terms of Service</a></li>
+						<li><a href="/@/page/9FXwgmrRQDyqNhrs">Shipping & Returns</a>
+						</li>						
+					</ul>
+					
+				</div>
+			</featured-payment-methods>
 		</div>
 	</body>
 </html>
