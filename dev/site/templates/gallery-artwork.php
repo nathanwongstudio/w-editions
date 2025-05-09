@@ -51,9 +51,25 @@ $layouts = $page->accordionText()->toLayouts();
 
                             <div class="buttons">
                                 <?php if ($page->framable()->toBool() && $page->onlineShop()->toBool()): ?>
-                                    <fieldset>
-                                        <input type="checkbox" name="frame" id="frame" <?= $framing === '1' ? 'checked' : '' ?>>
-                                        <label for="frame">Add a frame for $<?= $page->frame() ?></label>
+                                    <fieldset class="add-on" id="add-ons-fields">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="frame" id="unframed" checked>
+                                                <label for="unframed">Unframed</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="frame" id="framed" <?= $framing === '1' ? 'checked' : '' ?>>
+                                                <label for="framed">Standard Frame — $<?= $page->frame() ?></label>
+                                                <ul>
+                                                    <li><a href="#framing">See Standard Framing Details</a></li>
+                                                    <?php if ($page->optiumAdd()->toFloat() > 0): ?>
+                                                        <li><input type="checkbox" name="glazing" id="glazing" <?= $framing === '1' && $glazing === '1' ? 'checked' : '' ?>>
+                                                            <label for="glazing">+ Optium Non-Reflective Plexiglass — $<?= $page->optiumAdd() ?></label>
+                                                        </li>
+                                                    <?php endif; ?>
+                                                </ul>
+                                            </li>
+                                        </ul>
                                     </fieldset>
                                 <?php endif; ?>
                                 <?php if ($page->onlineShop()->toBool()):
@@ -127,26 +143,82 @@ $layouts = $page->accordionText()->toLayouts();
 <!--  ADD PARAMS FOR CART  -->
 <script>
     // DETECT THE PARAMETER
-    var frame = document.getElementById('frame'),
+    var frame = document.getElementById('add-ons-fields'),
         buttons = document.getElementsByClassName('snipcart-add-item');
     if (frame) {
+        var optium = document.getElementById('glazing'),
+            unframed = document.getElementById('unframed'),
+            inputs = document.querySelectorAll("#add-ons-fields input"),
+            vars = {};
+
+        let weight,
+            height,
+            length,
+            width,
+            custom1,
+            custom2,
+            custom2Type;
+
         frame.addEventListener('change', (event) => {
-            for (let i = 0; i < buttons.length; i++) {
-                if (frame.checked) {
-                    buttons[i].setAttribute('data-item-custom1-value', 'Framed');
-                    buttons[i].setAttribute('data-item-url', '<?= url($page->url(), ['params' => ['frame' => '1']]) ?>');
-                    buttons[i].setAttribute('data-item-weight', '<?= $weightfG ?>');
-                    buttons[i].setAttribute('data-item-height', '<?= $cmf['height'] ?>');
-                    buttons[i].setAttribute('data-item-length', '<?= $cmf['length'] ?>');
-                    buttons[i].setAttribute('data-item-width', '<?= $cmf['width'] ?>');
+
+            if (unframed.checked && optium) {
+                optium.checked = false;
+            }
+
+            for (let a = 0; a < inputs.length; a++) {
+
+                var key = inputs[a].getAttribute('id');
+
+                if (inputs[a].checked) {
+                    vars[key] = 1;
                 } else {
-                    buttons[i].setAttribute('data-item-custom1-value', 'Unframed');
-                    buttons[i].setAttribute('data-item-url', '<?= url($page->url(), ['params' => ['frame' => '0']]) ?>');
-                    buttons[i].setAttribute('data-item-weight', '<?= $weightG ?>');
-                    buttons[i].setAttribute('data-item-height', '<?= $cm['height'] ?>');
-                    buttons[i].setAttribute('data-item-length', '<?= $cm['length'] ?>');
-                    buttons[i].setAttribute('data-item-width', '<?= $cm['width'] ?>');
+                    vars[key] = 0;
                 }
+            }
+
+            if (vars.glazing === 1) {
+                custom2 = 'Optium — $<?= $page->optiumAdd() ?>';
+                custom2Type = 'readonly';
+            } else {
+                custom2 = "UV Plexi";
+                custom2Type = 'readonly';
+
+                if (vars.unframed === 1) {
+                    custom2 = 'None';
+                    custom2Type = 'hidden';
+                }
+            }
+
+            if (vars.framed === 1) {
+                weight = <?= $weightfG ?>;
+                height = <?= $cmf['height'] ?>;
+                length = <?= $cmf['length'] ?>;
+                width = <?= $cmf['width'] ?>;
+                custom1 = 'Framed — $<?= $page->frame() ?>';
+            } else {
+                weight = <?= $weightG ?>;
+                height = <?= $cm['height'] ?>;
+                length = <?= $cm['length'] ?>;
+                width = <?= $cm['width'] ?>;
+                custom1 = 'Unframed';
+            }
+
+            for (let i = 0; i < buttons.length; i++) {
+                // URL
+                buttons[i].setAttribute('data-item-url', '<?= url($page->url()) ?>/frame:' + vars.framed + '/glazing:' + vars.glazing);
+
+                // PACKAGE DIMS
+                buttons[i].setAttribute('data-item-weight', weight);
+                buttons[i].setAttribute('data-item-height', height);
+                buttons[i].setAttribute('data-item-length', length);
+                buttons[i].setAttribute('data-item-width', width);
+
+                // CUSTOM 1 - FRAME
+                buttons[i].setAttribute('data-item-custom1-value', custom1);
+
+                // CUSTOM 2 - GLAZING
+                buttons[i].setAttribute('data-item-custom2-value', custom2);
+                buttons[i].setAttribute('data-item-custom2-type', custom2Type);
             }
         })
     }

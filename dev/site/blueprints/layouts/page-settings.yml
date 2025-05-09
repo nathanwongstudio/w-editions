@@ -1,4 +1,7 @@
 fields:
+  Uuid:
+    type: text
+    disabled: true
   pageDescription:
     type: textarea
     buttons: false

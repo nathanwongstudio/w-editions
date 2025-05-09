@@ -750,4 +750,24 @@ span.text-wrap {
   }
 }
 
+.add-on > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.add-on > ul > li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.add-on > ul > li::before {
+  display: none;
+}
+.add-on > ul > li ul {
+  padding-left: var(--base-line-height);
+}
+.add-on > ul > li li {
+  font-size: 0.8em;
+}
+
 /*# sourceMappingURL=gallery-artwork.css.map */

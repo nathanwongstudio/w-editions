@@ -15,6 +15,7 @@ use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
 corepack_enable: false
+ngrok_args: --domain morally-sweeping-shark.ngrok-free.app
 
 # Key features of DDEV's config.yaml:
 

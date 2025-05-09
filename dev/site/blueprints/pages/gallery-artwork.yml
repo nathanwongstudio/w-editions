@@ -142,10 +142,28 @@ tabs:
               frame:
                 type: number
                 step: .01
-                label: Frame Add. Cost
+                label: Frame Additional Cost
                 width: 1/3
                 before: $
-                help: Frame cost if only one option for framing. Set to 0.00 or blank if you will give Optium and OP3 costs separate.
+                help: Frame cost
+                when:
+                  framable: true
+              optiumAdd:
+                type: number
+                step: .01
+                label: Optium Non-Reflective Additional Cost
+                width: 1/3
+                before: $
+                help: Add Optium for
+                when:
+                  framable: true
+              frameBox:
+                type: number
+                step: .01
+                label: Packaging Additional Cost
+                width: 1/3
+                before: $
+                help: Add on cost for frame box
                 when:
                   framable: true
               frameDimensions:

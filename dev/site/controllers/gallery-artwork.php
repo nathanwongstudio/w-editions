@@ -8,6 +8,20 @@ return function($kirby, $pages, $page) {
     // FRAMING PARAM
     $framing = param('frame');
 
+    if($page->optiumAdd()->toFloat() > 0) {
+        $glazing = param('glazing');
+    } else {
+        $glazing = 0;
+    }
+    
+    if($framing == 0) {
+        $glazing = 2;
+    }
+
+    if($framing == 1 && $glazing == 2) {
+        $glazing = 0;
+    }
+
     foreach($page->artist()->split() as $artist) {
         if($artistPage = $pages->find('artists/'.$artist)) {
             $artist = $artistPage->title()->value();
@@ -56,6 +70,7 @@ return function($kirby, $pages, $page) {
         'cm' => $cm,
         'cmf' => $cmf,
         'framing' => $framing,
+        'glazing' => $glazing
     ];
 
 };
