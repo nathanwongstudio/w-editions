@@ -7,15 +7,33 @@
 		padding: 0;
 	}
 
-	li {
+	li,
+	article {
 		display: grid;
 
 		margin: 0;
 		padding: 0;
 
+		header {
+			display: grid;
+			grid-template-columns: 1fr 6.5rem;
+			place-items: center;
+
+			box-sizing: border-box;
+			width:100%;
+			
+			time {
+				font-size: 0.9em;
+
+				color: var(--c-paynes);
+			}
+		}
+		
+
 		a,
 		&.header {
 			@extend %contrast-text;
+			box-sizing: border-box;
 			width: 100%;
 			height: 100%;
 			padding: calc(var(--base-line-height) / 2) var(--base-line-height);

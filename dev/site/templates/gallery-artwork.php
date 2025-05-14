@@ -64,7 +64,7 @@ $layouts = $page->accordionText()->toLayouts();
                                                     <li><a href="#framing">See Standard Framing Details</a></li>
                                                     <?php if ($page->optiumAdd()->toFloat() > 0): ?>
                                                         <li><input type="checkbox" name="glazing" id="glazing" <?= $framing === '1' && $glazing === '1' ? 'checked' : '' ?>>
-                                                            <label for="glazing">+ Optium Non-Reflective Plexiglass — $<?= $page->optiumAdd() ?></label>
+                                                            <label for="glazing">+ Optium Acrylic — $<?= $page->optiumAdd() ?></label>
                                                         </li>
                                                     <?php endif; ?>
                                                 </ul>
