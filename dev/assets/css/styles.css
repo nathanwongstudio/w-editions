@@ -34,6 +34,7 @@
 a.button,
 .button,
 button,
+a.buttondown-button,
 [type=submit],
 [type=button],
 [type=reset] {
@@ -600,6 +601,7 @@ select::after {
 a.button,
 .button,
 button,
+a.buttondown-button,
 [type=submit],
 [type=button],
 [type=reset] {
@@ -616,6 +618,7 @@ button,
 a.button.inline,
 .button.inline,
 button.inline,
+a.buttondown-button.inline,
 [type=submit].inline,
 [type=button].inline,
 [type=reset].inline {
@@ -624,6 +627,7 @@ button.inline,
 a.button.negative,
 .button.negative,
 button.negative,
+a.buttondown-button.negative,
 [type=submit].negative,
 [type=button].negative,
 [type=reset].negative {
@@ -634,6 +638,7 @@ button.negative,
 a.button:active,
 .button:active,
 button:active,
+a.buttondown-button:active,
 [type=submit]:active,
 [type=button]:active,
 [type=reset]:active {
@@ -644,6 +649,8 @@ a.button:focus, a.button:focus-visible,
 .button:focus-visible,
 button:focus,
 button:focus-visible,
+a.buttondown-button:focus,
+a.buttondown-button:focus-visible,
 [type=submit]:focus,
 [type=submit]:focus-visible,
 [type=button]:focus,
@@ -655,6 +662,7 @@ button:focus-visible,
 a.button::after,
 .button::after,
 button::after,
+a.buttondown-button::after,
 [type=submit]::after,
 [type=button]::after,
 [type=reset]::after {
@@ -670,6 +678,7 @@ button::after,
 a.button.reverse,
 .button.reverse,
 button.reverse,
+a.buttondown-button.reverse,
 [type=submit].reverse,
 [type=button].reverse,
 [type=reset].reverse {
@@ -678,6 +687,7 @@ button.reverse,
 a.button.reverse::after,
 .button.reverse::after,
 button.reverse::after,
+a.buttondown-button.reverse::after,
 [type=submit].reverse::after,
 [type=button].reverse::after,
 [type=reset].reverse::after {
@@ -690,6 +700,8 @@ a.button:disabled, a.button.disabled,
 .button.disabled,
 button:disabled,
 button.disabled,
+a.buttondown-button:disabled,
+a.buttondown-button.disabled,
 [type=submit]:disabled,
 [type=submit].disabled,
 [type=button]:disabled,
@@ -995,11 +1007,6 @@ blockquote {
   line-height: 1.25 !important;
   width: 100% !important;
   max-width: 35rem;
-  color: transparent;
-  background-color: white;
-  text-shadow: 0 0 2px var(--c-cobalt);
-  filter: contrast(50);
-  mix-blend-mode: multiply;
 }
 blockquote footer {
   font-size: var(--base-font-size);
@@ -1121,8 +1128,11 @@ figure.is-empty::after {
   display: none;
 }
 figure figcaption {
+  font-size: 0.9em;
   position: relative;
   z-index: 9;
+  padding: calc(var(--base-line-height) / 2) 0;
+  color: var(--c-paynes);
 }
 figure:first-child {
   margin-top: 0;

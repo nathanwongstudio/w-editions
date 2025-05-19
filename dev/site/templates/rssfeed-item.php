@@ -3,7 +3,7 @@ $parent = $page->parent();
 snippet('header'); ?>
 
 <div class="default-content">
-    <div class="section-wrapper header">
+    <div class="section-wrapper">
         <section class="grid single">
             <div class="column col-1-1" style="--span:12">
                 <div class="blocks">

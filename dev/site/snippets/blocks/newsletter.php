@@ -11,11 +11,13 @@
 	<div class="email">
 		<input type="hidden" name="tag" value="website" />
 		<fieldset>
-			<div class="field name-input is-empty">
-				<input type="text" name="metadata__full_name" id="full_name" placeholder="<?= ($block->namePlaceholder()->isNotEmpty()) ? $block->namePlaceholder() : 'First Name' ?>" class="is-empty" />
+			<div class="field name-input">
+				<label for="full_name"><?= ($block->namePlaceholder()->isNotEmpty()) ? $block->namePlaceholder() : 'Full Name' ?></label>
+				<input type="text" name="metadata__full_name" id="full_name" placeholder="<?= ($block->namePlaceholder()->isNotEmpty()) ? $block->namePlaceholder() : 'Full Name' ?>"/>
 			</div>
-			<div class="field email-input is-empty">
-				<input type="email" name="email" id="bd-email" placeholder="<?= ($block->emailPlaceholder()->isNotEmpty()) ? $block->emailPlaceholder() : 'Email' ?>" class="is-empty" />
+			<div class="field email-input">
+				<label for="bd-email"><?= ($block->emailPlaceholder()->isNotEmpty()) ? $block->emailPlaceholder() : 'Email' ?></label>
+				<input type="email" name="email" id="bd-email" placeholder="<?= ($block->emailPlaceholder()->isNotEmpty()) ? $block->emailPlaceholder() : 'Email' ?>"/>
 			</div>
 			<div class="field submit">
 				<button class="go" type="submit" value="Sign Up">Sign up</button>
@@ -24,39 +26,6 @@
 		<div class="bd-error"></div>
 	</div>
 </form>
-
-<?php if ($page->isHomePage()): ?>
-	<script>
-		// var input = document.getElementsByTagName('input');
-
-		// for (var i = 0; i < input.length; i++) {
-
-		// 	input[i].onmouseover = function() {
-		// 		this.focus();
-		// 	};
-
-		// 	input[i].onfocus = function() {
-		// 		this.parentElement.classList.add('is-focused');
-		// 		document.documentElement.classList.add('input-focused');
-		// 	};
-
-		// 	input[i].onblur = function() {
-		// 		this.parentElement.classList.remove('is-focused');
-		// 		document.documentElement.classList.remove('input-focused');
-		// 	};
-
-		// 	input[i].onchange = function() {
-		// 		if (this.value == "") {
-		// 			this.classList.add('is-empty');
-		// 			this.parentElement.classList.add('is-empty');
-		// 		} else {
-		// 			this.classList.remove('is-empty');
-		// 			this.parentElement.classList.remove('is-empty');
-		// 		}
-		// 	};
-		// }
-	</script>
-<?php endif; ?>
 
 <script>
 	async function submitNewsletter() {

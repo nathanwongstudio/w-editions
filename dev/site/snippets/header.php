@@ -14,6 +14,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="CACHE-CONTROL" content="<?= $page->isListed() ? 'public' : 'private' ?>">
 
     <!-- FAVICON -->
     <?php if ($site->favicon()->isNotEmpty()): ?>
@@ -55,7 +56,7 @@
     <?= css('assets/css/overlay.css') ?>
 
     <?= css('assets/css/nav.css') ?>
-    
+
     <!-- AUTO CSS FOR TEMPLATES -->
     <?= css('@auto') ?>
 
@@ -106,11 +107,11 @@
         }
 
         .no-js .is-loading img {
-            opacity:1;
+            opacity: 1;
         }
 
         .no-js figure.is-loading {
-            background-color:transparent;
+            background-color: transparent;
         }
     </style>
 
@@ -137,7 +138,7 @@
     <?= js('assets/js/accordion.js') ?>
 
     <?php
-        $parent = $parent ?? null;
+    $parent = $parent ?? null;
     ?>
 </head>
 

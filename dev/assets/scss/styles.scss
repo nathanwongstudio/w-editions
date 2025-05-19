@@ -90,13 +90,6 @@ blockquote {
 	width: 100% !important;
 	max-width: 35rem;
 
-	color: transparent;
-	background-color: white;
-	text-shadow: 0 0 2px var(--c-cobalt);
-
-	filter: contrast(50);
-	mix-blend-mode: multiply;
-
 	// margin:0 auto;
 
 	footer {
@@ -272,8 +265,14 @@ figure {
 	}
 
 	figcaption {
+		font-size: 0.9em;
+
 		position: relative;
 		z-index: 9;
+
+		padding: calc(var(--base-line-height) / 2) 0;
+
+		color: var(--c-paynes);
 	}
 
 	&:first-child {
