@@ -37,14 +37,14 @@ settings:
             mode: options
             default: "#f6f0e6"
             options:
-                "Cobalt": "#0000ff"
-                "Benibana": "#ff99a1"
-                "Cinnabar": "#dd6c6c"
+                "Cobalt": "#ccccff"
+                "Benibana": "#ffccd0"
+                "Cinnabar": "#e69696"
                 "Paper": "#f6f0e6"
                 "Paynes": "#b4b7ad"
-                "Violet": "#9a65ee"
-                "Gold": "#e5c303"
-                "Green": "#00b300"
+                "Violet": "#b893f3"
+                "Gold": "#fded8e"
+                "Green": "#00d700"
             when:
                 role: feature
         featureTC:
@@ -72,14 +72,14 @@ settings:
             mode: options
             default: "#f6f0e6"
             options:
-                "Cobalt": "#0000ff"
-                "Benibana": "#ff99a1"
-                "Cinnabar": "#dd6c6c"
+                "Cobalt": "#ccccff"
+                "Benibana": "#ffccd0"
+                "Cinnabar": "#e69696"
                 "Paper": "#f6f0e6"
                 "Paynes": "#b4b7ad"
-                "Violet": "#9a65ee"
-                "Gold": "#e5c303"
-                "Green": "#00b300"
+                "Violet": "#b893f3"
+                "Gold": "#fded8e"
+                "Green": "#00d700"
             when:
                 role: accordion
         accordionTC:
@@ -127,7 +127,7 @@ settings:
                 "Paynes": "#4e5147"
                 "Violet": "#4c12a8"
                 "Gold": "#fcdf39"
-                "Green": "#00b300"
+                "Green": "#00d700"
             when:
                 role: ticker
         tickerTextColor:

@@ -13,7 +13,7 @@ return [
     ],
 
     'zephir.cookieconsent' => [
-        'cdn' => false,
+        'cdn' => true,
         'revision' => 1,
         'root' => 'document.body',
         'autoClearCookies' => true, // Only works when the categories have an autoClear array

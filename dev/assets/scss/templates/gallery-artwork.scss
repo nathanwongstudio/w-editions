@@ -403,7 +403,6 @@ h1.title {
 .title-card {
 	position: sticky;
 	z-index: 99;
-	top: var(--nav-height);
 	left: 0;
 
 	padding: calc(var(--base-line-height) / 2);

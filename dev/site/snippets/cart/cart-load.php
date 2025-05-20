@@ -1,5 +1,5 @@
 <?php $apikey = option('hashandsalt.kirby-snipcart.snipcartlive') === true ? option('hashandsalt.kirby-snipcart.apikeylive') : option('hashandsalt.kirby-snipcart.apikeytest'); ?>
-<script>
+<script defer async>
   window.SnipcartSettings = {
     publicApiKey: "<?= $apikey ?>",
     loadStrategy: "on-user-interaction",

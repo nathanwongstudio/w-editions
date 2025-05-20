@@ -3,6 +3,7 @@
 	font-family: microns;
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 	src: url("../fonts/microns.woff2") format("woff2"),
 		url("../fonts/microns.woff") format("woff"),
 		url("../fonts/microns.otf") format("opentype"),

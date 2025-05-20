@@ -1,8 +1,3 @@
-<?php if ($block->label()->isNotEmpty()): ?>
-	<h3 class="newsletter-header" data-text="<?= $block->label() ?>">
-		<?= $block->label() ?>
-	</h3>
-<?php endif; ?>
 <form
 	action="https://buttondown.com/api/emails/embed-subscribe/weditions"
 	method="post"
@@ -10,7 +5,8 @@
 	id="buttondown">
 	<div class="email">
 		<input type="hidden" name="tag" value="website" />
-		<fieldset>
+		<fieldset title="newsletter form">
+			<legend class="newsletter-header"><?= $block->label()->isNotEmpty() ? $block->label() : 'Newsletter' ?></legend>
 			<div class="field name-input">
 				<label for="full_name"><?= ($block->namePlaceholder()->isNotEmpty()) ? $block->namePlaceholder() : 'Full Name' ?></label>
 				<input type="text" name="metadata__full_name" id="full_name" placeholder="<?= ($block->namePlaceholder()->isNotEmpty()) ? $block->namePlaceholder() : 'Full Name' ?>"/>

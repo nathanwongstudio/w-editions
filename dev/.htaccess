@@ -93,19 +93,19 @@ Header set X-Content-Type-Options "nosniff"
 </IfModule>
 
 # BROWSER CACHING USING CACHE-CONTROL HEADERS
-<IfModule mod_headers.c> 
-    # One year for image and video files
-    <FilesMatch ".(flv|gif|ico|jpg|jpeg|mp4|mpeg|png|svg|swf|webp)$">
-        Header set Cache-Control "max-age=31536000, public"
-    </FilesMatch>
+# <IfModule mod_headers.c> 
+#     # One year for image and video files
+#     <FilesMatch ".(flv|gif|ico|jpg|jpeg|mp4|mpeg|png|svg|swf|webp)$">
+#         Header set Cache-Control "max-age=31536000, public"
+#     </FilesMatch>
 
-    # One month for JavaScript and PDF files
-    <FilesMatch ".(js|pdf)$">
-        Header set Cache-Control "max-age=2592000, public"
-    </FilesMatch>
+#     # One month for JavaScript and PDF files
+#     <FilesMatch ".(js|pdf)$">
+#         Header set Cache-Control "max-age=2592000, public"
+#     </FilesMatch>
 
-    # One week for CSS files
-    <FilesMatch ".(css)$">
-        Header set Cache-Control "max-age=604800, public"
-    </FilesMatch>
-</IfModule>
+#     # One week for CSS files
+#     <FilesMatch ".(css)$">
+#         Header set Cache-Control "max-age=604800, public"
+#     </FilesMatch>
+# </IfModule>

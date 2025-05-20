@@ -2,6 +2,35 @@
 
 $layouts = $page->accordionText()->toLayouts();
 
+echo $site->schema('Product')
+  ->additionalType('VisualArtwork')
+  ->category('500044')
+  ->name($page->title())
+  ->image($page->primaryImg()->toFile()->url())
+  ->description($page->artDescription())
+  ->url($page->url())
+  ->material($page->artMedium())
+  ->brand($artists)
+  ->height($page->artHeight())
+  ->width($page->artWidth())
+  ->depth($page->artDepth())
+  ->releaseDate($page->year())
+  ->sku($page->artId())
+  ->manufacturer('W Editions')
+  ->publisher('W Editions')
+  ->artEdition($page->editionOf())
+  ->artform($page->artform())
+  ->artworkSurface($page->artSurface())
+  ->artist($artists)
+  
+  ->offers($site->schema('offer')
+    ->name($page->title() . ' by ' . $artists)
+    ->price($page->price())
+    ->priceCurrency('usd')
+    ->availability($page->available()->toBool() ? 'https://schema.org/LimitedAvailability' : 'https://schema.org/OutOfStock')
+    ->url($page->url())
+  )
+
 ?>
 
 <div class="default-content">
@@ -33,7 +62,7 @@ $layouts = $page->accordionText()->toLayouts();
 
         <div class="secondary-info">
             <div class="title-card-wrapper">
-                <div class="overlay modal-opened">
+                <div class="overlay modal-opened" itemscope itemtype="https://schema.org/VisualArtwork">
                     <div class="modal-header">
                         <h3>Info</h3><button class="modal-close" disabled></button>
                     </div>

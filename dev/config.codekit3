@@ -852,6 +852,26 @@
       "oAP" : "\/assets\/fonts\/HelveticaLTStd-Roman.otf",
       "oF" : 0
     },
+    "\/assets\/fonts\/microns.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/microns-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/fonts\/microns.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/microns.css.map",
+      "oF" : 0
+    },
     "\/assets\/fonts\/microns.otf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1668,12 +1688,12 @@
       "oAP" : "\/content\/.sqliteindieConnector.sqlite",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/full-small-size.jpg" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/full-small-size.jpg" : {
       "ft" : 16384,
       "iS" : 1121969,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/full-small-size.jpg",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/full-small-size.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1681,35 +1701,64 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/full-small-size.jpg.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/full-small-size.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/full-small-size.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/full-small-size.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/gallery-artwork.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/gallery-artwork.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/gallery-artwork.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/gallery-artwork.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/indieConnector.json" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/indieConnector.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/indieConnector-min.json",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/indieConnector-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/content\/1_editions\/1_25-001\/lern-25-01-full.png" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/indieConnector.json.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/indieConnector.json.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern-25-01-frame.jpg" : {
+      "ft" : 16384,
+      "iS" : 4393112,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern-25-01-frame.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern-25-01-frame.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern-25-01-frame.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern-25-01-full.png" : {
       "ft" : 32768,
       "iS" : 5141611,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern-25-01-full.png",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern-25-01-full.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1718,20 +1767,20 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/lern-25-01-full.png.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern-25-01-full.png.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern-25-01-full.png.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern-25-01-full.png.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/lern25-01-cropped-01.jpg" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-01-cropped-01.jpg" : {
       "ft" : 16384,
       "iS" : 5580454,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-01-cropped-01.jpg",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-01-cropped-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1739,20 +1788,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/lern25-01-cropped-01.jpg.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-01-cropped-01.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-01-cropped-01.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-01-cropped-01.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/lern25-01-detail-01.jpg" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-01-detail-01.jpg" : {
       "ft" : 16384,
-      "iS" : 6036332,
+      "iS" : 6277537,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-01-detail-01.jpg",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-01-detail-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1760,12 +1809,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/lern25-001-detail-1.jpg" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-1.jpg" : {
       "ft" : 16384,
       "iS" : 5917660,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-001-detail-1.jpg",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1773,28 +1822,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/lern25-01-detail-01.jpg.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-01-detail-01.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-01-detail-01.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-01-detail-01.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/lern25-001-detail-1.jpg.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-1.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-001-detail-1.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-1.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/lern25-001-detail-2.jpg" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-2.jpg" : {
       "ft" : 16384,
       "iS" : 3695039,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-001-detail-2.jpg",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1802,20 +1851,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/lern25-001-detail-2.jpg.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-2.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-001-detail-2.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-2.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/lern25-001-detail-3-chop.jpg" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-3-chop.jpg" : {
       "ft" : 16384,
       "iS" : 300254,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-001-detail-3-chop.jpg",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-3-chop.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1823,20 +1872,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/lern25-001-detail-3-chop.jpg.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-3-chop.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-001-detail-3-chop.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-detail-3-chop.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/lern25-001-iggrid-6.jpg" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-iggrid-6.jpg" : {
       "ft" : 16384,
       "iS" : 733980,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-001-iggrid-6.jpg",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-iggrid-6.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1844,20 +1893,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/lern25-001-iggrid-6.jpg.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-iggrid-6.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25-001-iggrid-6.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25-001-iggrid-6.jpg.txt",
       "oF" : 0
     },
-    "\/content\/1_editions\/1_25-001\/lern25.001-web.jpg" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25.001-web.jpg" : {
       "ft" : 16384,
       "iS" : 2065547,
       "jF" : 0,
       "oA" : 1,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25.001-web.jpg",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25.001-web.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1865,12 +1914,33 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/content\/1_editions\/1_25-001\/lern25.001-web.jpg.txt" : {
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25.001-web.jpg.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/1_editions\/1_25-001\/lern25.001-web.jpg.txt",
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/lern25.001-web.jpg.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/signature-chop.png" : {
+      "ft" : 32768,
+      "iS" : 332817,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/signature-chop.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/signature-chop.png.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/signature-chop.png.txt",
       "oF" : 0
     },
     "\/content\/1_editions\/gallery-collection.txt" : {
@@ -1896,6 +1966,14 @@
       "oA" : 0,
       "oAP" : "\/content\/2_artists\/0_lerner-natalie\/artists-profile.txt",
       "oF" : 0
+    },
+    "\/content\/2_artists\/0_lerner-natalie\/indieConnector.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/content\/2_artists\/0_lerner-natalie\/indieConnector-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/content\/2_artists\/0_lerner-natalie\/natalie-lerner-profile-pic.jpg" : {
       "ft" : 16384,
@@ -6570,6 +6648,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/about\/e085125ee9-1747234945\/.jobs\/img012-web-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/e085125ee9-1747234945\/.jobs\/img012-web-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/e085125ee9-1747234945\/img012-web-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2105,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/e085125ee9-1747234945\/img012-web-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/pages\/about\/faa83ec187-1735927511\/.jobs\/screen-shot-2023-03-26-at-8.57.35-pm-250x-q90.png.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -7485,10 +7584,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-250x-q90.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-352x.jpg-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -7517,6 +7632,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/.jobs\/natalie-lerner-profile-pic-1024x-q90.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -7540,6 +7663,32 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/natalie-lerner-profile-pic-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 6074,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/natalie-lerner-profile-pic-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/natalie-lerner-profile-pic-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 717604,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/natalie-lerner-profile-pic-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1747234945\/natalie-lerner-profile-pic-1440x-q90.jpg" : {
       "ft" : 16384,
@@ -7800,1638 +7949,6 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/blog\/guide-to-framing\/5d0cfaaa9f-1745869131\/img_0647-76x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-38x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-38x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/.jobs\/full-small-size-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size-76x.jpg" : {
-      "ft" : 16384,
-      "iS" : 2510,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size-76x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 327398,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size.jpg" : {
-      "ft" : 16384,
-      "iS" : 1121969,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/061a899e26-1745869129\/full-small-size.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-1408x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/84a111ecc2-1745869130\/.jobs\/lern25.001-web-1408x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/.jobs\/lern25-01-detail-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/lern25-01-detail-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 478106,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/lern25-01-detail-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/lern25-01-detail-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1033787,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1746206095\/lern25-01-detail-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747167920\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747167920\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747167920\/.jobs\/lern25-01-detail-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747167920\/.jobs\/lern25-01-detail-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747167920\/lern25-01-detail-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 478106,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747167920\/lern25-01-detail-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/.jobs\/lern25-01-detail-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/lern25-01-detail-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 478106,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/lern25-01-detail-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/lern25-01-detail-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1033787,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747168305\/lern25-01-detail-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/.jobs\/lern25-01-detail-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/lern25-01-detail-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 6036332,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/222ee401a0-1747234945\/lern25-01-detail-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/.jobs\/lern25-001-iggrid-6-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/lern25-001-iggrid-6-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 495993,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/251c645ffe-1747180345\/lern25-001-iggrid-6-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-1408x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/5060e07e32-1745869129\/.jobs\/lern25-001-detail-3-chop-1408x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-1408x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/5576ab93fa-1745869129\/.jobs\/lern25-001-detail-1-1408x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/.jobs\/lern25-01-detail-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 478106,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1033787,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-q95.jpg" : {
-      "ft" : 16384,
-      "iS" : 8177826,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/9229a83e00-1746206095\/lern25-01-detail-01-q95.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1745869129\/.jobs\/full-small-size-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1745869129\/.jobs\/full-small-size-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1745869129\/.jobs\/full-small-size-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1745869129\/.jobs\/full-small-size-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1745869129\/full-small-size-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 327398,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1745869129\/full-small-size-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747167919\/.jobs\/full-small-size-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747167919\/.jobs\/full-small-size-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747167919\/.jobs\/full-small-size-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747167919\/.jobs\/full-small-size-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747167919\/full-small-size-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 327398,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747167919\/full-small-size-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168241\/.jobs\/full-small-size-38x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168241\/.jobs\/full-small-size-38x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168241\/full-small-size-76x.jpg" : {
-      "ft" : 16384,
-      "iS" : 2510,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168241\/full-small-size-76x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/.jobs\/full-small-size-38x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/.jobs\/full-small-size-38x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/.jobs\/full-small-size-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/.jobs\/full-small-size-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/.jobs\/full-small-size-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/.jobs\/full-small-size-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/full-small-size-76x.jpg" : {
-      "ft" : 16384,
-      "iS" : 2510,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/full-small-size-76x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/full-small-size-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 327398,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/a01fd8a3b4-1747168304\/full-small-size-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-1408x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b5517ceb16-1745869129\/.jobs\/lern25-001-detail-2-1408x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-38x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-38x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-352x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-352x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-500x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-500x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-600x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-600x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-800x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-800x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-864x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-864x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-1024x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-1024x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-1440x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-1440x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-q95.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/.jobs\/lern-25-01-full-q95.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/lern-25-01-full-76x.png" : {
-      "ft" : 32768,
-      "iS" : 8168,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/lern-25-01-full-76x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/lern-25-01-full-1408x.png" : {
-      "ft" : 32768,
-      "iS" : 2418099,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/lern-25-01-full-1408x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/lern-25-01-full-2048x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 5339878,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1745869129\/lern-25-01-full-2048x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/.jobs\/lern-25-01-full-38x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/.jobs\/lern-25-01-full-38x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/.jobs\/lern-25-01-full-352x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/.jobs\/lern-25-01-full-352x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/.jobs\/lern-25-01-full-864x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/.jobs\/lern-25-01-full-864x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/lern-25-01-full-76x.png" : {
-      "ft" : 32768,
-      "iS" : 8168,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/lern-25-01-full-76x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/lern-25-01-full-1408x.png" : {
-      "ft" : 32768,
-      "iS" : 2418099,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747167919\/lern-25-01-full-1408x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-38x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-38x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-352x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-352x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-500x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-500x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-600x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-600x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-800x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-800x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-864x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-864x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-1024x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-1024x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-1440x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-1440x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-q95.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/.jobs\/lern-25-01-full-q95.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/lern-25-01-full-76x.png" : {
-      "ft" : 32768,
-      "iS" : 8168,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/lern-25-01-full-76x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/lern-25-01-full-1408x.png" : {
-      "ft" : 32768,
-      "iS" : 2418099,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/lern-25-01-full-1408x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/lern-25-01-full-2048x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 5339878,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747168304\/lern-25-01-full-2048x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-500x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-500x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-600x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-600x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-800x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-800x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-1024x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-1024x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-1440x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-1440x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-q95.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/.jobs\/lern-25-01-full-q95.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/lern-25-01-full-2048x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 5141611,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/b020343cf5-1747234944\/lern-25-01-full-2048x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-38x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-38x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-352x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-352x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-500x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-500x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-600x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-600x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-800x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-800x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-864x.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-864x.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-1024x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-1024x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-1440x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/.jobs\/lern-25-01-full-1440x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-76x.png" : {
-      "ft" : 32768,
-      "iS" : 8168,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-76x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-1408x.png" : {
-      "ft" : 32768,
-      "iS" : 2418099,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-1408x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-2048x-q90.png" : {
-      "ft" : 32768,
-      "iS" : 5339878,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-2048x-q90.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-q95.png" : {
-      "ft" : 32768,
-      "iS" : 5339878,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/bee07c0f90-1745869129\/lern-25-01-full-q95.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 557035,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1126865,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-q95.jpg" : {
-      "ft" : 16384,
-      "iS" : 3568772,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/d77ea083da-1745869129\/lern25-01-cropped-01-q95.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/.jobs\/lern25-01-cropped-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/lern25-01-cropped-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 557035,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/lern25-01-cropped-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/lern25-01-cropped-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1126865,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1745869129\/lern25-01-cropped-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747167920\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747167920\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747167920\/.jobs\/lern25-01-cropped-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747167920\/.jobs\/lern25-01-cropped-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747167920\/lern25-01-cropped-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 557035,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747167920\/lern25-01-cropped-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-864x.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-864x.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/.jobs\/lern25-01-cropped-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/lern25-01-cropped-01-1408x.jpg" : {
-      "ft" : 16384,
-      "iS" : 557035,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/lern25-01-cropped-01-1408x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/lern25-01-cropped-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 1126865,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747168305\/lern25-01-cropped-01-2048x-q90.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-500x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-500x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-600x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-600x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-800x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-800x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-q95.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/.jobs\/lern25-01-cropped-01-q95.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/lern25-01-cropped-01-2048x-q90.jpg" : {
-      "ft" : 16384,
-      "iS" : 5580454,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/editions\/25-001\/eaf30ce6d7-1747234944\/lern25-01-cropped-01-2048x-q90.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -10804,6 +9321,536 @@
       "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-76x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-76x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/.jobs\/lern-25-01-frame-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/lern-25-01-frame-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 373282,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/lern-25-01-frame-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/lern-25-01-frame-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 822172,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1747683282\/lern-25-01-frame-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-352x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-352x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-500x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-500x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-600x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-600x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-800x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-800x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-864x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-864x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-1024x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-1024x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-1440x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-1440x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-q95.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/.jobs\/lern-25-01-full-q95.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/lern-25-01-full-1408x.png" : {
+      "ft" : 32768,
+      "iS" : 2418099,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/lern-25-01-full-1408x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/lern-25-01-full-2048x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 5339878,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1747234944\/lern-25-01-full-2048x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1747234944\/.jobs\/full-small-size-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1747234944\/.jobs\/full-small-size-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1747234944\/.jobs\/full-small-size-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1747234944\/.jobs\/full-small-size-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1747234944\/.jobs\/full-small-size-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1747234944\/.jobs\/full-small-size-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/.jobs\/lern25-01-cropped-01-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/lern25-01-cropped-01-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 557035,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/lern25-01-cropped-01-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/lern25-01-cropped-01-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1126865,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1747234944\/lern25-01-cropped-01-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/lern25-01-detail-01-1408x.jpg" : {
+      "ft" : 16384,
+      "iS" : 511678,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/lern25-01-detail-01-1408x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/lern25-01-detail-01-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1094248,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/lern25-01-detail-01-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-250x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-250x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-352x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-352x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-500x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-500x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-600x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-600x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-800x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-800x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-864x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-864x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-1024x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-1024x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-1440x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-1440x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-q95.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/.jobs\/signature-chop-q95.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/signature-chop-1408x.png" : {
+      "ft" : 32768,
+      "iS" : 373517,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/signature-chop-1408x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/signature-chop-2048x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 373517,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1747683282\/signature-chop-2048x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/media\/pages\/editions\/study-of-buddhist-symbols\/652a7d6ecc-1734110469\/.jobs\/study-of-buddhist-symbols-38x.jpg.json" : {
@@ -12797,6 +11844,14 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/media\/pages\/home\/baf750c1bb-1747234945\/.jobs\/lern-25-001-38x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1747234945\/.jobs\/lern-25-001-38x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/media\/pages\/home\/baf750c1bb-1747234945\/.jobs\/lern-25-001-250x-q90.png.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -12837,14 +11892,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/media\/pages\/home\/baf750c1bb-1747234945\/.jobs\/lern-25-001-1440x-q90.png.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/home\/baf750c1bb-1747234945\/.jobs\/lern-25-001-1440x-q90.png-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/media\/pages\/home\/baf750c1bb-1747234945\/.jobs\/lern-25-001-q95.png.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -12852,6 +11899,32 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1747234945\/lern-25-001-76x.png" : {
+      "ft" : 32768,
+      "iS" : 8168,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1747234945\/lern-25-001-76x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/home\/baf750c1bb-1747234945\/lern-25-001-1440x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 2523703,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1747234945\/lern-25-001-1440x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/media\/pages\/home\/baf750c1bb-1747234945\/lern-25-001-2048x-q90.png" : {
       "ft" : 32768,
@@ -14490,6 +13563,29 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/container-query-polyfill.modern.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/container-query-polyfill.modern.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/css\/style.min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/css\/style.min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/css\/style.min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -14501,6 +13597,28 @@
       "oAP" : "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/css\/style.min-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/Docs.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/Docs.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/DocsView.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/DocsView.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/favicon-dark.png" : {
       "ft" : 32768,
@@ -14538,6 +13656,17 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/Highlight.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/Highlight.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/img\/icons.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -14547,6 +13676,28 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/index.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/index.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/IndexView.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/IndexView.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/js\/container-query-polyfill.modern.min.js" : {
       "bF" : 0,
@@ -14676,6 +13827,72 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/vuedraggable.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/PlaygroundView.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/PlaygroundView.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/plugins.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/plugins.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/vendor.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/vendor.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/vue.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/vue.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/vue.runtime.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/vue.runtime.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/d794a9cd24f47c508609ee13d758511f\/vuedraggable.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/vuedraggable.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -15169,6 +14386,38 @@
       "oAP" : "\/site\/plugins",
       "oF" : 0
     },
+    "\/site\/sessions\/1747697661.23fd1d9cc15efc9f0a74.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1747697661.23fd1d9cc15efc9f0a74-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1747701077.2172683e008d09523b7f.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1747701077.2172683e008d09523b7f-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1747701077.ebb864f0901131ba709e.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1747701077.ebb864f0901131ba709e-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1747704750.886330feaa97059a8c18.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1747704750.886330feaa97059a8c18-output.sess",
+      "oF" : 0
+    },
     "\/site\/sessions\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -15367,6 +14616,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/site\/snippets\/products\/product-add-to-cart-output.php",
+      "oF" : 0
+    },
+    "\/site\/snippets\/sitemap.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/snippets\/sitemap-output.php",
       "oF" : 0
     },
     "\/site\/snippets\/snipcart\/cart\/cart-checkout-summary.php" : {
@@ -15826,12 +15083,12 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 0,
     "buildFolderName" : "_build",
     "cleanBuild" : 0,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 13,

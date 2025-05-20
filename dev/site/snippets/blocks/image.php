@@ -9,6 +9,7 @@ $ratio   = $block->ratio()->or('auto');
 $src     = null;
 $web     = false;
 $fullscreen = $block->full()->toBool();
+$imgMinWidth = $blockWidth ?? null;
 // $column  = null; /** COLUMN WIDTH FROM LAYOUT TAGS IN VW */
 
 if ($block->location() == 'web') {
@@ -21,7 +22,7 @@ if ($block->location() == 'web') {
 
 ?>
 
-<?php snippet('images', compact('src', 'link', 'fullscreen'), slots: true) ?>
+<?php snippet('images', compact('src', 'link', 'fullscreen', 'imgMinWidth'), slots: true) ?>
 		
 		<?php slot('caption') ?>
 		

@@ -14,7 +14,8 @@
         "belugadigital/kirby-navigation": "^4.1",
         "zephir/kirby-cookieconsent": "^3.2",
         "easypost/easypost-php": "^7.4",
-        "mauricerenck/indieconnector": "^2.6"
+        "mauricerenck/indieconnector": "^2.6",
+        "hashandsalt/kirby3-schema": "^0.0.2"
     },
     "license": "Proprietary",
     "authors": [

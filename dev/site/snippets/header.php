@@ -26,8 +26,11 @@
 
     <!-- PRELOAD STYLES -->
     <link rel="preload" href="https://use.typekit.net/inc5dxe.css" as="style">
+    <link rel="preload" href="/assets/css/type-mobile.css" as="style">
     <link rel="preload" href="/assets/css/styles.css" as="style">
     <link rel="preload" href="/assets/css/nav.css" as="style">
+    <link rel="preload" href="/assets/css/microns-min.css" as="style">
+    <link rel="preload" href="/assets/css/overlay.css" as="style">
 
     <!-- META TAGS FOR SOCIALS AND OPEN GRAPH -->
     <?php echo $page->metaTags() ?>
@@ -49,16 +52,11 @@
     <!-- OTHER CSS FOR THE PAGE -->
     <?= snippet('cookieconsentCss') ?>
 
-    <?= css('assets/css/microns-min.css') ?>
-
-    <?= css('assets/css/type-mobile.css', 'screen and (max-width: 50em)') ?>
-
-    <?= css('assets/css/overlay.css') ?>
-
     <?= css('assets/css/nav.css') ?>
 
     <!-- AUTO CSS FOR TEMPLATES -->
     <?= css('@auto') ?>
+    <?= $page->intendedTemplate() == "home" ? css('assets/css/templates/default.css') : '' ?>
 
     <!-- LAYOUT SPECIFIC CSS -->
     <?php if (isset($layouts)) {
@@ -115,9 +113,6 @@
         }
     </style>
 
-    <!-- SNIPCART STYLES -->
-    <?= css('assets/css/snipcart.css') ?>
-
     <!-- CUSTOM HEADER JAVASCRIPT -->
     <?php if ($page->headerCode()->isNotEmpty()): ?>
         <script>
@@ -133,13 +128,69 @@
     <?php endif; ?>
 
     <!-- MAIN JS FILES -->
-    <?= js('assets/js/main.js', false) ?>
-
-    <?= js('assets/js/accordion.js') ?>
+    <?= js('assets/js/accordion.js', ['defer'=> true]) ?>
 
     <?php
     $parent = $parent ?? null;
     ?>
+
+    <script>
+        // LAZY LOADING JAVASCRIPT
+
+        function lazyLoader() {
+            var lazyImages = document.querySelectorAll("img[loading=lazy]");
+            var allImages = document.querySelectorAll("img");
+
+            var lazyLoad;
+
+            clearTimeout(lazyLoad);
+
+            lazyLoad = setTimeout(() => {
+                for (var i of allImages) {
+                    if (i.loading != "lazy" && i.closest(".is-loading")) {
+                        i.closest(".is-loading").classList.remove("is-loading");
+                    }
+                }
+
+                if ("loading" in HTMLImageElement.prototype) {
+                    for (var img of lazyImages) {
+                        if (!img.complete) {
+                            img.addEventListener("load", lazyImageLoad, false);
+                            img.addEventListener("error", lazyImageError, false);
+                        } else {
+                            img.closest(".is-loading").classList.remove("is-loading");
+                        }
+                    }
+
+                    function lazyImageLoad(e) {
+                        if (e.currentTarget.closest(".is-loading") !== null) {
+                            e.currentTarget
+                                .closest(".is-loading")
+                                .classList.remove("is-loading");
+                        }
+                    }
+
+                    function lazyImageError(e) {
+                        var parent = e.currentTarget.closest(".is-loading");
+                        parent.classList.remove("is-loading");
+                        parent.classList.add("is-empty");
+                        setTimeout(function() {
+                            parent.classList.add("img-is-empty");
+                        }, 60);
+                    }
+                } else {
+                    // if 'loading' supported, else
+
+                    for (var img of lazyImages) {
+                        img.classList.remove("is-loading");
+                    }
+                } // if 'loading' supported
+            }, "300");
+
+        }
+
+        lazyLoader();
+    </script>
 </head>
 
 <body class="<?= $temp = $temp ?? $page->intendedTemplate() ?>

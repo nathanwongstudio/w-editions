@@ -18,6 +18,12 @@ return [
         }
     ],
     [
+        'pattern' => '/editions/25-001',
+        'action' => function() {
+            go(site()->page('editions')->children()->filterBy('artId', 'LerN25.01')->first()->url(), 301);
+        }
+    ],
+    [
         'pattern' => 'sitemap.xml',
         'action'  => function () {
             $pages = site()->pages()->index()->listed();

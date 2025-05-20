@@ -1,16 +1,18 @@
-<?= !($page->isErrorPage()) ? snippet('cart/cart-checkout-summary') : '' ?>
+    <?= !($page->isErrorPage()) ? snippet('cart/cart-checkout-summary') : '' ?>
 
-<?php
-if (!isset($foot)) {
-    $foot = true;
-}
+    <?php
+    if (!isset($foot)) {
+        $foot = true;
+    }
 
-if ($foot): ?>
-    <footer class="signed-area">
-        <!-- <span class="chop" data-text="W/">W/</span> -->
-    </footer>
-<?php endif; ?>
-</div>
+    if ($foot): ?>
+        <footer class="signed-area">
+            <!-- <span class="chop" data-text="W/">W/</span> -->
+        </footer>
+    <?php endif; ?>
+    </div>
+
+</body>
 
 
 <?= js('@auto', ['type' => 'module']) ?>
@@ -80,9 +82,9 @@ if ($foot): ?>
     }
 </style>
 
-<?= $site->customAnalytics() ?>
-
 <?= snippet('cart/cart-load') ?>
+
+<?= $site->customAnalytics() ?>
 
 <?php if ($page->footerCode()->isNotEmpty()): ?>
     <script>
@@ -92,12 +94,20 @@ if ($foot): ?>
 
 <?= snippet('cookieconsentJs') ?>
 
+<!-- UNIMPORTANT CSS THAT CAN BE LOADED LATER -->
+<?= css('assets/css/microns-min.css') ?>
+
+<?= css('assets/css/type-mobile.css', 'screen and (max-width: 50em)') ?>
+
+<?= css('assets/css/overlay.css') ?>
+
+<!-- SNIPCART STYLES -->
+<?= css('assets/css/snipcart.css') ?>
+
 <script>
     function closeModal(target) {
         target.parentElement.parentElement.classList.remove('modal-opened');
     }
 </script>
-
-</body>
 
 </html>
