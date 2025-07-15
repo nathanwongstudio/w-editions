@@ -3,7 +3,7 @@
     "description": "W Editions website",
     "type": "project",
     "require": {
-        "getkirby/cms": "^5",
+        "getkirby/cms": "^4",
         "stripe/stripe-php": "^10.19",
         "paulmorel/fathom-analytics": "^1.0",
         "wearejust/kirby-meta-tags": "^3.0",
