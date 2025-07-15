@@ -2,34 +2,39 @@
 
 $layouts = $page->accordionText()->toLayouts();
 
+$inquire = $page->inquireOnly()->toBool();
+
+$inquireMessage = $page->inquiryMessage();
+
 echo $site->schema('Product')
-  ->additionalType('VisualArtwork')
-  ->category('500044')
-  ->name($page->title())
-  ->image($page->primaryImg()->toFile()->url())
-  ->description($page->artDescription())
-  ->url($page->url())
-  ->material($page->artMedium())
-  ->brand($artists)
-  ->height($page->artHeight())
-  ->width($page->artWidth())
-  ->depth($page->artDepth())
-  ->releaseDate($page->year())
-  ->sku($page->artId())
-  ->manufacturer('W Editions')
-  ->publisher('W Editions')
-  ->artEdition($page->editionOf())
-  ->artform($page->artform())
-  ->artworkSurface($page->artSurface())
-  ->artist($artists)
-  
-  ->offers($site->schema('offer')
-    ->name($page->title() . ' by ' . $artists)
-    ->price($page->price())
-    ->priceCurrency('usd')
-    ->availability($page->available()->toBool() ? 'https://schema.org/LimitedAvailability' : 'https://schema.org/OutOfStock')
+    ->additionalType('VisualArtwork')
+    ->category('500044')
+    ->name($page->title())
+    ->image($page->primaryImg()->toFile()->url())
+    ->description($page->artDescription())
     ->url($page->url())
-  )
+    ->material($page->artMedium())
+    ->brand($artists)
+    ->height($page->artHeight())
+    ->width($page->artWidth())
+    ->depth($page->artDepth())
+    ->releaseDate($page->year())
+    ->sku($page->artId())
+    ->manufacturer('W Editions')
+    ->publisher('W Editions')
+    ->artEdition($page->editionOf())
+    ->artform($page->artform())
+    ->artworkSurface($page->artSurface())
+    ->artist($artists)
+
+    ->offers(
+        $site->schema('offer')
+            ->name($page->title() . ' by ' . $artists)
+            ->price($page->price())
+            ->priceCurrency('usd')
+            ->availability($page->available()->toBool() ? 'https://schema.org/LimitedAvailability' : 'https://schema.org/OutOfStock')
+            ->url($page->url())
+    )
 
 ?>
 
@@ -58,7 +63,7 @@ echo $site->schema('Product')
             </div>
         </div>
 
-        <?= snippet('action-bar') ?>
+        <?= snippet('action-bar', ['inquire' => $inquire]) ?>
 
         <div class="secondary-info">
             <div class="title-card-wrapper">
@@ -76,10 +81,16 @@ echo $site->schema('Product')
                         <div class="title-card-footer">
                             <div class="price">
                                 $<?= $page->price() ?>
+                                <?php if ($page->framable()->toBool() && $inquire): ?>
+                                    <p>
+                                        <small>Optional frame +$<?= $page->frame() ?>
+                                            <br />Add message to inquiry to learn more about framing.</small>
+                                    </p>
+                                <?php endif; ?>
                             </div>
 
                             <div class="buttons">
-                                <?php if ($page->framable()->toBool() && $page->onlineShop()->toBool()): ?>
+                                <?php if ($page->framable()->toBool() && !$inquire): ?>
                                     <fieldset class="add-on" id="add-ons-fields">
                                         <ul>
                                             <li>
@@ -101,18 +112,18 @@ echo $site->schema('Product')
                                         </ul>
                                     </fieldset>
                                 <?php endif; ?>
-                                <?php if ($page->onlineShop()->toBool()):
-                                    $inquire = false; ?>
-                                    <?= snippet('products/product-add-to-cart', ['class' => 'button']) ?>
-                                <?php else:
-                                    $inquire = true; ?>
+
+                                <?php if ($inquire): ?>
                                     <div class="inquire button">
                                         Inquire
                                     </div>
                                     <div class="addtl-info">
-                                        <p><em>Submit an inquiry to be notified by email when presale begins.</em></p>
+                                        <p><em><?= $inquireMessage->isNotEmpty() ? $inquireMessage : 'This item is available by inquiry only. Kindly send us a message using this form to inquire.' ?></em></p>
                                     </div>
+                                <?php else: ?>
+                                    <?= snippet('products/product-add-to-cart', ['class' => 'button']) ?>
                                 <?php endif; ?>
+
                             </div>
                         </div>
 
@@ -159,13 +170,13 @@ echo $site->schema('Product')
             <?= snippet('accordion-js') ?>
         <?php endif; ?>
 
-        <?= snippet('action-bar') ?>
+        <?= snippet('action-bar', ['inquire' => $inquire]) ?>
     </div>
 
 </div>
 
 
-<?= snippet('action-bar', ['class' => 'mobile-only']) ?>
+<?= snippet('action-bar', ['class' => 'mobile-only', 'inquire' => $inquire]) ?>
 
 <?= ($inquire) ? snippet('inquire-form') : '' ?>
 
