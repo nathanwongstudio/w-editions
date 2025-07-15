@@ -10,12 +10,11 @@
         "johannschopplich/kirby-locked-pages": "^2.1",
         "mzur/kirby-uniform": "^5.5",
         "anselmh/kirby-uniform-turnstile": "^1.0",
-        "hashandsalt/kirby3-snipcart": "^0.5.0",
         "belugadigital/kirby-navigation": "^4.1",
         "zephir/kirby-cookieconsent": "^3.2",
         "easypost/easypost-php": "^7.4",
         "mauricerenck/indieconnector": "^2.6",
-        "hashandsalt/kirby3-schema": "^0.0.2"
+        "hashandsalt/kirby-snipcart": "^0.5"
     },
     "license": "Proprietary",
     "authors": [

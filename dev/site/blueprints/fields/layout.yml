@@ -37,14 +37,14 @@ settings:
             mode: options
             default: "#f6f0e6"
             options:
-                "Cobalt": "#ccccff"
-                "Benibana": "#ffccd0"
-                "Cinnabar": "#e69696"
-                "Paper": "#f6f0e6"
-                "Paynes": "#b4b7ad"
-                "Violet": "#b893f3"
-                "Gold": "#fded8e"
-                "Green": "#00d700"
+                "#ccccff" : "Cobalt"
+                "#ffccd0" : "Benibana"
+                "#e69696" : "Cinnabar"
+                "#f6f0e6" : "Paper"
+                "#b4b7ad" : "Paynes"
+                "#b893f3" : "Violet"
+                "#fded8e" : "Gold"
+                "#00d700" : "Green"
             when:
                 role: feature
         featureTC:
@@ -54,14 +54,14 @@ settings:
             mode: options
             default: "#0000ff"
             options:
-                "Cobalt": "#0000ff"
-                "Benibana": "#ff99a1"
-                "Cinnabar": "#b82b2b"
-                "Paper": "#f6f0e6"
-                "Paynes": "#4e5147"
-                "Violet": "#4c12a8"
-                "Gold": "#fcdf39"
-                "Black": "#000000"
+                "#0000ff" : "Cobalt"
+                "#ff99a1" : "Benibana"
+                "#b82b2b" : "Cinnabar"
+                "#f6f0e6" : "Paper"
+                "#4e5147" : "Paynes"
+                "#4c12a8" : "Violet"
+                "#fcdf39" : "Gold"
+                "#000000" : "Black"
             when:
                 role: feature
 
@@ -72,14 +72,14 @@ settings:
             mode: options
             default: "#f6f0e6"
             options:
-                "Cobalt": "#ccccff"
-                "Benibana": "#ffccd0"
-                "Cinnabar": "#e69696"
-                "Paper": "#f6f0e6"
-                "Paynes": "#b4b7ad"
-                "Violet": "#b893f3"
-                "Gold": "#fded8e"
-                "Green": "#00d700"
+                "#ccccff" : "Cobalt"
+                "#ffccd0" : "Benibana"
+                "#e69696" : "Cinnabar"
+                "#f6f0e6" : "Paper"
+                "#b4b7ad" : "Paynes"
+                "#b893f3" : "Violet"
+                "#fded8e" : "Gold"
+                "#00d700" : "Green"
             when:
                 role: accordion
         accordionTC:
@@ -89,14 +89,14 @@ settings:
             mode: options
             default: "#0000ff"
             options:
-                "Cobalt": "#0000ff"
-                "Benibana": "#ff99a1"
-                "Cinnabar": "#b82b2b"
-                "Paper": "#f6f0e6"
-                "Paynes": "#4e5147"
-                "Violet": "#4c12a8"
-                "Gold": "#fcdf39"
-                "Black": "#000000"
+                "#0000ff" : "Cobalt"
+                "#ff99a1" : "Benibana"
+                "#b82b2b" : "Cinnabar"
+                "#f6f0e6" : "Paper"
+                "#4e5147" : "Paynes"
+                "#4c12a8" : "Violet"
+                "#fcdf39" : "Gold"
+                "#000000" : "Black"
             when:
                 role: accordion
         openDefault:
@@ -120,14 +120,14 @@ settings:
             mode: options
             default: "#0000ff"
             options:
-                "Cobalt": "#0000ff"
-                "Benibana": "#ff99a1"
-                "Cinnabar": "#b82b2b"
-                "Paper": "#f6f0e6"
-                "Paynes": "#4e5147"
-                "Violet": "#4c12a8"
-                "Gold": "#fcdf39"
-                "Green": "#00d700"
+                "#0000ff" : "Cobalt"
+                "#ff99a1" : "Benibana"
+                "#b82b2b" : "Cinnabar"
+                "#f6f0e6" : "Paper"
+                "#4e5147" : "Paynes"
+                "#4c12a8" : "Violet"
+                "#fcdf39" : "Gold"
+                "#000000" : "Black"
             when:
                 role: ticker
         tickerTextColor:
@@ -137,14 +137,14 @@ settings:
             mode: options
             default: "#f6f0e6"
             options:
-                "Cobalt": "#0000ff"
-                "Benibana": "#ff99a1"
-                "Cinnabar": "#b82b2b"
-                "Paper": "#f6f0e6"
-                "Paynes": "#4e5147"
-                "Violet": "#4c12a8"
-                "Gold": "#fcdf39"
-                "Green": "#00b300"
+                "#0000ff" : "Cobalt"
+                "#ff99a1" : "Benibana"
+                "#b82b2b" : "Cinnabar"
+                "#f6f0e6" : "Paper"
+                "#4e5147" : "Paynes"
+                "#4c12a8" : "Violet"
+                "#fcdf39" : "Gold"
+                "#000000" : "Black"
             when:
                 role: ticker
         tickerDirection:
