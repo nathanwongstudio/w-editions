@@ -31,7 +31,7 @@
 
                 <input type="checkbox" name="include-a-message" id="include-a-message"><label for="include-a-message">Add a message</label>
                 <div class="message-wrapper">
-                    <textarea name="message" id="included-message"></textarea>
+                    <textarea name="message" id="included-message"> </textarea>
                 </div>
 
                 <?php echo csrf_field(); ?>

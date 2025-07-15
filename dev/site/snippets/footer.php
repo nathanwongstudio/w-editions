@@ -1,4 +1,4 @@
-    <?= !($page->isErrorPage()) ? snippet('cart/cart-checkout-summary') : '' ?>
+    <!-- // !($page->isErrorPage()) ? snippet('cart/cart-checkout-summary') : '' -->
 
     <?php
     if (!isset($foot)) {
@@ -18,16 +18,16 @@
 <?= js('@auto', ['type' => 'module']) ?>
 
 <script>
-    document.addEventListener('snipcart.ready', () => {
+    // document.addEventListener('snipcart.ready', () => {
 
-        Snipcart.store.subscribe(() => {
-            if (Snipcart.store.getState().cart.items.count === 0) {
-                document.getElementById('checkout-button').classList.add('empty');
-            } else {
-                document.getElementById('checkout-button').classList.remove('empty');
-            }
-        });
-    });
+    //     Snipcart.store.subscribe(() => {
+    //         if (Snipcart.store.getState().cart.items.count === 0) {
+    //             document.getElementById('checkout-button').classList.add('empty');
+    //         } else {
+    //             document.getElementById('checkout-button').classList.remove('empty');
+    //         }
+    //     });
+    // });
 </script>
 
 <script>
@@ -82,7 +82,7 @@
     }
 </style>
 
-<?= snippet('cart/cart-load') ?>
+<!-- // snippet('cart/cart-load') ?-->
 
 <?= $site->customAnalytics() ?>
 
@@ -102,7 +102,7 @@
 <?= css('assets/css/overlay.css') ?>
 
 <!-- SNIPCART STYLES -->
-<?= css('assets/css/snipcart.css') ?>
+<!-- css('assets/css/snipcart.css') -->
 
 <script>
     function closeModal(target) {

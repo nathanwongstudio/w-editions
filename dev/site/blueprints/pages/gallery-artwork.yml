@@ -159,6 +159,15 @@ tabs:
             productdata:
                 type: fields
                 fields:
+                    inquireOnly:
+                        type: toggle
+                        label: Inquire Only
+                        width: 1/4
+                        default: true
+                    inquiryMessage:
+                        type: textarea
+                        label: Message under Inquire button
+                        width: 1/2
                     onlineShop:
                         type: toggle
                         label: E Commerce Availability
