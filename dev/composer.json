@@ -3,7 +3,7 @@
     "description": "W Editions website",
     "type": "project",
     "require": {
-        "getkirby/cms": "^4",
+        "getkirby/cms": "^5",
         "stripe/stripe-php": "^10.19",
         "paulmorel/fathom-analytics": "^1.0",
         "wearejust/kirby-meta-tags": "^3.0",
@@ -14,7 +14,8 @@
         "zephir/kirby-cookieconsent": "^3.2",
         "easypost/easypost-php": "^7.4",
         "mauricerenck/indieconnector": "^2.6",
-        "hashandsalt/kirby-snipcart": "^0.5"
+        "hashandsalt/kirby3-schema": "^0.0.2",
+        "hashandsalt/kirby-snipcart": "^0.5.0"
     },
     "license": "Proprietary",
     "authors": [
