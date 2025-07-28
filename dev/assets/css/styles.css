@@ -57,25 +57,25 @@ br {
 :root {
   --primary-font-family: neue-haas-grotesk-text, sans-serif;
   --scale: 1;
-  --base-font-size: 20px;
-  --base-line-height: 30px;
+  --base-font-size: 18px;
+  --base-line-height: 25.2px;
   --em-line-height: var(--em-line-height);
-  --up-1: 20px;
-  --up-2: 20px;
-  --up-3: 20px;
-  --up-4: 20px;
-  --up-5: 20px;
-  --up-6: 20px;
-  --up-7: 20px;
-  --up-8: 20px;
-  --down-1: 20px;
-  --down-2: 20px;
-  --down-3: 20px;
-  --down-4: 20px;
-  --down-5: 20px;
-  --down-6: 20px;
-  --down-7: 20px;
-  --down-8: 20px;
+  --up-1: 18px;
+  --up-2: 18px;
+  --up-3: 18px;
+  --up-4: 18px;
+  --up-5: 18px;
+  --up-6: 18px;
+  --up-7: 18px;
+  --up-8: 18px;
+  --down-1: 18px;
+  --down-2: 18px;
+  --down-3: 18px;
+  --down-4: 18px;
+  --down-5: 18px;
+  --down-6: 18px;
+  --down-7: 18px;
+  --down-8: 18px;
 }
 
 /* ------------------------------------*\
@@ -84,8 +84,8 @@ br {
 html,
 body {
   font-family: "neue-haas-grotesk-text", sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -100,7 +100,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.4;
   margin-top: var(--base-line-height);
   margin-bottom: var(--base-line-height);
 }
@@ -115,34 +115,34 @@ h6:first-child {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 p {
@@ -170,7 +170,7 @@ ul ol,
 ol ul,
 ol ol {
   margin: 0;
-  padding-left: 20px;
+  padding-left: 18px;
 }
 
 hr {
@@ -182,9 +182,9 @@ hr {
 }
 
 blockquote {
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
-  line-height: 1.5;
+  line-height: 1.4;
   width: 70%;
   margin: var(--em-line-height) 0;
   margin: auto;
@@ -192,7 +192,7 @@ blockquote {
 }
 
 cite {
-  font-size: 20px;
+  font-size: 18px;
   display: block;
 }
 
@@ -215,8 +215,8 @@ th {
 
 th,
 td {
-  padding: 0.75 em;
-  padding-top: -0.25 em;
+  padding: 0.7 em;
+  padding-top: -0.3 em;
 }
 
 figure {
@@ -230,7 +230,7 @@ figure + p {
 }
 
 figcaption {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 0 var(--em-line-height);
 }
 
@@ -252,7 +252,7 @@ pre code {
 
 code {
   font-family: courier new, courier, mono;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1em;
   position: relative;
   top: -0.1em;
@@ -282,8 +282,8 @@ img {
 }
 
 :root {
-  --em-line-height: 1.5em;
-  --base-line-height: 30px;
+  --em-line-height: 1.4em;
+  --base-line-height: 25.2px;
   --primary-font-stack: "neue-haas-grotesk-text", helvetica, sans-serif;
   --secondary-font-stack: "neue-haas-grotesk-display", sans-serif;
 }

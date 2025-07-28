@@ -6,11 +6,11 @@
 	$typescale: 1,
 
 	// Base Font for HTML
-	$base-font-size: 20px,
-	$base-line-height: 1.5,
+	$base-font-size: 18px,
+	$base-line-height: 1.4,
 
 	// Header Styles
-	$header-line-height: 1.5,
+	$header-line-height: 1.4,
 
 	// Paragraph Styles
 	$paragraph-size: 1rem,
@@ -26,8 +26,8 @@
 @forward "nw-type";
 
 :root {
-	--em-line-height: 1.5em;
-	--base-line-height: 30px;
+	--em-line-height: 1.4em;
+	--base-line-height: 25.2px;
 
 	// fonts
 	--primary-font-stack: "neue-haas-grotesk-text", helvetica, sans-serif;

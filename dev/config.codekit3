@@ -1474,6 +1474,14 @@
       "oAP" : "\/content\/_drafts\/buy-back\/default.txt",
       "oF" : 0
     },
+    "\/content\/_drafts\/faq-frequently-asked-questions\/default.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/_drafts\/faq-frequently-asked-questions\/default.txt",
+      "oF" : 0
+    },
     "\/content\/_drafts\/home-copy\/full-hi-res.jpeg" : {
       "ft" : 16384,
       "iS" : 6647554,
@@ -1765,6 +1773,14 @@
       "oAP" : "\/content\/_drafts\/services\/lern-25-01-frame-web4.jpg.txt",
       "oF" : 0
     },
+    "\/content\/_drafts\/support\/default.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/_drafts\/support\/default.txt",
+      "oF" : 0
+    },
     "\/content\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1779,6 +1795,35 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/content\/.sqliteindieConnector.sqlite",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/_drafts\/test\/gallery-artwork.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/_drafts\/test\/gallery-artwork.txt",
+      "oF" : 0
+    },
+    "\/content\/1_editions\/_drafts\/test\/lern-25-01-frame-full3.jpg" : {
+      "ft" : 16384,
+      "iS" : 4418825,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/content\/1_editions\/_drafts\/test\/lern-25-01-frame-full3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/content\/1_editions\/_drafts\/test\/lern-25-01-frame-full3.jpg.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/1_editions\/_drafts\/test\/lern-25-01-frame-full3.jpg.txt",
       "oF" : 0
     },
     "\/content\/1_editions\/1_sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/full-small-size.jpg" : {
@@ -2234,28 +2279,20 @@
       "oAP" : "\/content\/3_about\/w-editions-inthemood-2.jpg.txt",
       "oF" : 0
     },
-    "\/content\/4_support\/default.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/content\/4_support\/default.txt",
-      "oF" : 0
-    },
-    "\/content\/5_news\/indieConnector.json" : {
+    "\/content\/4_news\/indieConnector.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/content\/5_news\/indieConnector-min.json",
+      "oAP" : "\/content\/4_news\/indieConnector-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/content\/5_news\/rssfeed.txt" : {
+    "\/content\/4_news\/rssfeed.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/5_news\/rssfeed.txt",
+      "oAP" : "\/content\/4_news\/rssfeed.txt",
       "oF" : 0
     },
     "\/content\/blog\/_drafts\/buying-art-for-under-1000\/default.txt" : {
@@ -8323,14 +8360,6 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-1440x-q90.jpg.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-1440x-q90.jpg-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-2048x-q90.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -8353,6 +8382,19 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/natalie-lerner-profile-pic-1024x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/natalie-lerner-profile-pic-1440x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 745475,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/natalie-lerner-profile-pic-1440x-q90.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -14347,11 +14389,80 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-250x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-250x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-500x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-500x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-600x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-600x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-800x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-800x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-1024x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-1024x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-2048x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-2048x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-q95.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/.jobs\/lern-25-001-q95.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/media\/pages\/home\/baf750c1bb-1752602215\/lern-25-001-76x.png" : {
       "ft" : 32768,
       "iS" : 8168,
       "oA" : 1,
       "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/lern-25-001-76x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/home\/baf750c1bb-1752602215\/lern-25-001-1440x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 2523703,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home\/baf750c1bb-1752602215\/lern-25-001-1440x-q90.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -16827,6 +16938,30 @@
       "oAP" : "\/site\/sessions\/1752616783.d30d9c7b20d68c35e9d8-output.sess",
       "oF" : 0
     },
+    "\/site\/sessions\/1753739965.d9cfe87a8483b305c59c.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1753739965.d9cfe87a8483b305c59c-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1753740056.023cba4e5de2f12a8f42.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1753740056.023cba4e5de2f12a8f42-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1753741742.a581d2fccabe926263ff.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1753741742.a581d2fccabe926263ff-output.sess",
+      "oF" : 0
+    },
     "\/site\/sessions\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -17073,6 +17208,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/site\/templates\/emails\/email.html-output.php",
+      "oF" : 0
+    },
+    "\/site\/templates\/emails\/inquiry copy.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/templates\/emails\/inquiry copy.html",
       "oF" : 0
     },
     "\/site\/templates\/emails\/inquiry.html.php" : {
