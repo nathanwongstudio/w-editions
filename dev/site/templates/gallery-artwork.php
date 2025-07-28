@@ -114,9 +114,9 @@ echo $site->schema('Product')
                                 <?php endif; ?>
 
                                 <?php if ($inquire): ?>
-                                    <div class="inquire button">
+                                    <button class="inquire button" onclick="fathom.trackEvent('inquire button click <?= $page->artId() ?>');">
                                         Inquire
-                                    </div>
+                                    </button>
                                     <div class="addtl-info">
                                         <p><em><?= $inquireMessage->isNotEmpty() ? $inquireMessage : 'This item is available by inquiry only. Kindly send us a message using this form to inquire.' ?></em></p>
                                     </div>

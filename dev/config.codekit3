@@ -6486,6 +6486,75 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/a7268c17ee-1752602215\/.jobs\/lern-25-01-frame-web4-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/a7268c17ee-1752602215\/lern-25-01-frame-web4-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 4393112,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/a7268c17ee-1752602215\/lern-25-01-frame-web4-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/pages\/about\/b3efe7d013-1743097648\/.jobs\/img012-web-38x.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -6985,6 +7054,27 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/about\/e085125ee9-1747234945\/img012-web-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/about\/e085125ee9-1752602215\/.jobs\/img012-web-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/e085125ee9-1752602215\/.jobs\/img012-web-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/about\/e085125ee9-1752602215\/img012-web-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2105,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/about\/e085125ee9-1752602215\/img012-web-76x.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -8184,6 +8274,91 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-76x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-76x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-2048x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-2048x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/.jobs\/natalie-lerner-profile-pic-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/natalie-lerner-profile-pic-1024x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 421218,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/artists\/lerner-natalie\/dc0bdf0e10-1752602215\/natalie-lerner-profile-pic-1024x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/media\/pages\/artists\/lerner-natalie\/e0a04d2ca6-1743288605\/.jobs\/k1_8198-1_web-250x-q90.jpg.json" : {
       "ft" : 524288,
@@ -10017,6 +10192,115 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-76x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-76x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/.jobs\/lern-25-01-frame-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/lern-25-01-frame-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 822172,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/4f410fcdcb-1752602215\/lern-25-01-frame-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/5a567fb0d1-1752602215\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -10282,6 +10566,120 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-38x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-38x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-250x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-250x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-352x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-352x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-500x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-500x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-600x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-600x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-800x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-800x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-864x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-864x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-1024x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-1024x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-1408x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-1408x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-1440x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-1440x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-q95.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/.jobs\/lern-25-01-full-q95.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/lern-25-01-full-76x.png" : {
+      "ft" : 32768,
+      "iS" : 8168,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/lern-25-01-full-76x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/lern-25-01-full-2048x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 5339878,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/6ac5e76be3-1752602215\/lern-25-01-full-2048x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/20cdfba0dd-1752602215\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -10429,6 +10827,30 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1747234944\/.jobs\/full-small-size-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1752602215\/.jobs\/full-small-size-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1752602215\/.jobs\/full-small-size-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1752602215\/.jobs\/full-small-size-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1752602215\/.jobs\/full-small-size-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1752602215\/.jobs\/full-small-size-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/80d1ac42b3-1752602215\/.jobs\/full-small-size-1408x.jpg-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -10600,6 +11022,99 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/.jobs\/lern25-01-cropped-01-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/lern25-01-cropped-01-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1126865,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/3360b2e610-1752602215\/lern25-01-cropped-01-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1747683282\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -10760,6 +11275,99 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752587127\/lern25-01-detail-01-2048x-q90.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-250x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-250x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-352x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-352x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-500x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-500x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-600x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-600x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-800x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-800x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-864x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-864x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-1024x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-1024x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-1408x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-1408x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-1440x-q90.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-1440x-q90.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-q95.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/.jobs\/lern25-01-detail-01-q95.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/lern25-01-detail-01-2048x-q90.jpg" : {
+      "ft" : 16384,
+      "iS" : 1094248,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/83492d6d5a-1752602215\/lern25-01-detail-01-2048x-q90.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -11209,6 +11817,99 @@
       "iS" : 373517,
       "oA" : 1,
       "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752587127\/signature-chop-2048x-q90.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-250x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-250x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-352x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-352x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-500x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-500x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-600x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-600x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-800x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-800x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-864x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-864x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-1024x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-1024x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-1408x.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-1408x.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-1440x-q90.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-1440x-q90.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-q95.png.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/.jobs\/signature-chop-q95.png-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/signature-chop-2048x-q90.png" : {
+      "ft" : 32768,
+      "iS" : 373517,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/editions\/sewing-kit-by-natalie-lerner-lern25-01-limited-edition-print\/f0a8dd5afc-1752602215\/signature-chop-2048x-q90.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -12729,6 +13430,27 @@
       "jF" : 0,
       "oA" : 1,
       "oAP" : "\/media\/pages\/home-copy\/d5ff8a727b-1752587127\/full-hi-res-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/pages\/home-copy\/d5ff8a727b-1752602215\/.jobs\/full-hi-res-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home-copy\/d5ff8a727b-1752602215\/.jobs\/full-hi-res-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/home-copy\/d5ff8a727b-1752602215\/full-hi-res-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2510,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/home-copy\/d5ff8a727b-1752602215\/full-hi-res-76x.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15299,11 +16021,32 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/apple-touch-icon-dark.png" : {
+    "\/media\/pages\/services\/31885af101-1752602215\/.jobs\/lern-25-01-frame-web4-38x.jpg.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/services\/31885af101-1752602215\/.jobs\/lern-25-01-frame-web4-38x.jpg-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/media\/pages\/services\/31885af101-1752602215\/lern-25-01-frame-web4-76x.jpg" : {
+      "ft" : 16384,
+      "iS" : 2637,
+      "jF" : 0,
+      "oA" : 1,
+      "oAP" : "\/media\/pages\/services\/31885af101-1752602215\/lern-25-01-frame-web4-76x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/apple-touch-icon-dark.png" : {
       "ft" : 32768,
       "iS" : 1148,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/apple-touch-icon-dark.png",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/apple-touch-icon-dark.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15312,11 +16055,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/apple-touch-icon.png" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/apple-touch-icon.png" : {
       "ft" : 32768,
       "iS" : 4115,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/apple-touch-icon.png",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/apple-touch-icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15325,7 +16068,7 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/css\/style.min.css" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/css\/style.min.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -15333,15 +16076,15 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/css\/style.min-min.css",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/css\/style.min-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/favicon-dark.png" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/favicon-dark.png" : {
       "ft" : 32768,
       "iS" : 416,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/favicon-dark.png",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/favicon-dark.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15350,11 +16093,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/favicon.png" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/favicon.png" : {
       "ft" : 32768,
       "iS" : 539,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/favicon.png",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/favicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -15363,154 +16106,154 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/favicon.svg" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/favicon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/favicon.svg",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/favicon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/img\/icons.svg" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/img\/icons.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/img\/icons.svg",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/img\/icons.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/Docs.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/Docs.min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/DocsView.min.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/container-query-polyfill.modern.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/DocsView.min.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/container-query-polyfill.modern.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/Highlight.min.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/Docs.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/Highlight.min.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/Docs.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/index.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/index.min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/IndexView.min.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/DocsView.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/IndexView.min.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/DocsView.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/PlaygroundView.min.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/Highlight.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/PlaygroundView.min.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/Highlight.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/plugins.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/index.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/plugins.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/index.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/sortable.esm.min.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/IndexView.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/sortable.esm.min.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/IndexView.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/vendor.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/vendor.min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/vue.esm.browser.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/PlaygroundView.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/vue.esm.browser.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/PlaygroundView.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/vue.esm.browser.min.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/plugins.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/vue.esm.browser.min.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/plugins.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/js\/vue.runtime.esm.min.js" : {
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/vendor.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/media\/panel\/656aaffb18e6a1aff5fbfe3cf106e125\/vue.runtime.esm.min.js",
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/vendor.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/vue.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/vue.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/vue.runtime.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/vue.runtime.min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/js\/vuedraggable.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/media\/panel\/f910aeead3c702f2abe93e67de4c766f\/vuedraggable.min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -16074,6 +16817,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/site\/sessions\/1752613173.5ef655fe8cc870abc3dd-output.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1752616783.d30d9c7b20d68c35e9d8.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/sessions\/1752616783.d30d9c7b20d68c35e9d8-output.sess",
       "oF" : 0
     },
     "\/site\/sessions\/index.html" : {

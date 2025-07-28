@@ -121,6 +121,8 @@
                 fields[key].disabled = true;
             }
             message.classList.remove('error');
+            
+            fathom.trackEvent('form submitted <?= $page->artId() . $page->artists() ?>');
         };
         form.addEventListener('submit', submit);
     });

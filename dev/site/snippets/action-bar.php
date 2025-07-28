@@ -8,9 +8,9 @@
             $buytext = $buytext ?? "$" . $page->price() . "—" . "Buy"; ?>
             <?= snippet('products/product-add-to-cart', ['class' => 'button inline', 'buttonText' => $buytext]) ?>
         <?php else: ?>
-            <div class="button inline inquire">
+            <button class="button inline inquire" onclick="fathom.trackEvent('inquire button click <?= $page->artId() ?>');">
                 <?= "$" . $page->price() ?> — Inquire
-            </div>
+            </button>
         <?php endif; ?>
     </div>
 </div>
