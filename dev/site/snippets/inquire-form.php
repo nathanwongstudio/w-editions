@@ -11,7 +11,7 @@
     <div class="inquire-wrapper modal-body">
 
         <div class="modal-body-wrapper">
-            <form action="<?php echo $page->url() ?>" method="POST">
+            <form action="<?= $page->url() ?>" method="POST">
                 <div class="card">
                     <div class="card-image mobile-only">
                         <?= snippet('images', ['src' => $page->primaryImg()->toFile()]); ?>
@@ -80,40 +80,44 @@
             fields[field.name] = field;
         });
 
-        // Displays all error messages and adds 'error' classes to the form fields with
-        // failed validation.
-        var handleError = function(response) {
-            var errors = [];
-            for (var key in response) {
-                if (!response.hasOwnProperty(key)) continue;
-                if (fields.hasOwnProperty(key)) fields[key].classList.add('error');
-                Array.prototype.push.apply(errors, response[key]);
-            }
-            message.classList.add('error');
-            message.innerHTML = errors.join('<br>');
-        }
+        const submit = async (e) => {
+            e.preventDefault();
+            const body = new FormData(e.target);
 
-        var onload = function(e) {
-            if (e.target.status === 200) {
-                message.classList.add('success');
-                message.innerHTML = 'Your inquiry was submitted.'
-                document.querySelector('.modal-body-wrapper').removeChild(form);
-                form.classList.add('submitted');
-                document.getElementById('submit').disabled = true;
-            } else {
-                handleError(JSON.parse(e.target.response));
+            const request = await fetch(e.target.action, {
+                body,
+                method: 'POST',
+            })
+
+            const res = await request.json()
+
+            if (!request.ok) {
+                console.log('error', res)
+                var errors = [];
+
+                for (var key in res) {
+                    if (!res.hasOwnProperty(key)) continue;
+                    if (fields.hasOwnProperty(key)) fields[key].classList.add('error');
+                    Array.prototype.push.apply(errors, res[key]);
+                }
+
+                message.classList.add('error');
+                message.innerHTML = errors.join('<br>');
+
                 for (var key in fields) {
                     fields[key].disabled = false;
                 }
-            }
-        };
 
-        var submit = function(e) {
-            e.preventDefault();
-            var request = new XMLHttpRequest();
-            request.open('POST', e.target.action);
-            request.onload = onload;
-            request.send(new FormData(e.target));
+                return false
+            }
+            console.log('success', res)
+
+            message.classList.add('success');
+            message.innerHTML = 'Your inquiry was submitted.'
+            document.querySelector('.modal-body-wrapper').removeChild(form);
+            form.classList.add('submitted');
+            document.getElementById('submit').disabled = true;
+
             // Remove all 'error' classes of a possible previously failed validation.
             for (var key in fields) {
                 if (!fields.hasOwnProperty(key)) continue;
@@ -121,8 +125,10 @@
                 fields[key].disabled = true;
             }
             message.classList.remove('error');
-            
+
             fathom.trackEvent('form submitted <?= $page->artId() . $page->artists() ?>');
+
+            return
         };
         form.addEventListener('submit', submit);
     });

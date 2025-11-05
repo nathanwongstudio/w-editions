@@ -258,6 +258,35 @@ tabs:
                                 after: in
                                 when:
                                     framable: true
+    inquiries:
+        label: Inquiries
+        icon: cart
+        fields:
+            submittedInquiries:
+                type: structure
+                label: Submitted Inquiries
+                fields:
+                    inquiryDate:
+                        label: Date and Time
+                        type: date
+                        time: true
+                        default: now
+                        disabled: true
+                    inquiryName:
+                        type: text
+                        label: Name
+                        disabled: true
+                    inquiryEmail:
+                        type: text
+                        label: Email
+                        disabled: true
+                    inquiryMessage:
+                        type: textarea
+                        label: Message
+                        disabled: true
+                    inquiryStatus:
+                        type: text
+                        label: Status
 
     media:
         label: Media

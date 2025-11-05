@@ -1,0 +1,18 @@
+title: Default Page
+
+tabs:
+    content:
+        columns:
+            main:
+                width: 3/4
+                sections:
+                    fields:
+                        type: fields
+                        fields:
+                            text:
+                                type: writer
+                                label: Error Text
+    media:
+        sections:
+            files:
+                type: files
