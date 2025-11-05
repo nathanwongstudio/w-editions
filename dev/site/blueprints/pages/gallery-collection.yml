@@ -2,56 +2,54 @@ title: Gallery
 icon: 🏛
 
 tabs:
-  content:
-    icon: edit
-    columns:
-
-      main:
-        width: 1
+    content:
+        icon: edit
+        columns:
+            main:
+                width: 1
+                sections:
+                    field:
+                        type: fields
+                        fields:
+                            counter:
+                                label: Artworks Counter
+                                type: number
+                                width: 1/4
+                                disabled: true
+                                default: 0
+                    portfolio:
+                        type: pages
+                        label: Gallery
+                        layout: table
+                        size: large
+                        empty: No artwork yet.
+                        templates: gallery-artwork
+                        image:
+                            query: page.primaryImg.toFile
+                            back: white
+                            ratio: 1/1
+                            cover: false
+                        search: true
+                        columns:
+                            artid:
+                                label: Art ID
+                            year:
+                                label: Year Published
+                            artist:
+                                label: Artist
+                                type: tags
+                                value: "{{ page.artist.text }}"
+    media:
         sections:
-          field:
-            type: fields
-            fields:
-              counter:
-                label: Artworks Counter
-                type: number
-                width: 1/4
-                disabled: true
-                default: 0
-          portfolio:
-            type: pages
-            label: Gallery
-            layout: table
-            size: large
-            empty: No artwork yet.
-            templates: gallery-artwork
-            image:
-              query: page.primaryImg.toFile
-              back: white
-              ratio: 1/1
-              cover: false
-            search: true
-            columns:
-              artid:
-                label: Art ID
-              year: 
-                label: Year Published
-              artist:
-                label: Artist
-                type: tags
-                value: '{{ page.artist.text }}'
-  media:
-    sections:
-      files:
-        type: files
-  security:
-    icon: lock
-    columns:
-      - width: 1/3
-        fields:
-          pageProtect: fields/locked-pages
-  
-  settings:
-    icon: cog
-    extends: layouts/page-settings
+            files:
+                type: files
+    security:
+        icon: lock
+        columns:
+            - width: 1/3
+              fields:
+                  pageProtect: fields/locked-pages
 
+    settings:
+        icon: cog
+        extends: layouts/page-settings

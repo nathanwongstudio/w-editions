@@ -112,13 +112,15 @@ return [
 
             $submissions = page("editions/" . $page)->submittedInquiries()->yaml();
 
-            $submissions[] = [
+            $newSubmission = [
                 'inquiryDate' => $date,
                 'inquiryName' => $name,
                 'inquiryEmail' => $email,
                 'inquiryMessage' => $message,
                 'inquiryStatus' => $success ? 'sent' : $errors
             ];
+
+            array_unshift($submissions, $newSubmission);
 
             page("editions/" . $page)->update([
                 'submittedInquiries' => Yaml::encode($submissions)

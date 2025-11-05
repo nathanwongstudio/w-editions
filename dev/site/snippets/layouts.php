@@ -1,7 +1,11 @@
 <div class="section-wrapper 
             <?= $layout->class() ?> 
             <?= $layout->role() ?>
-            <?php if ($layout->next()) {
+            <?php
+
+            use Kirby\Toolkit\Str;
+
+            if ($layout->next()) {
                 echo ($layout->role() == 'accordion' && $layout->next()->role() != 'accordion') ? 'last' : '';
             } else {
                 echo 'last';
@@ -22,8 +26,7 @@
             <?= ($layout->accordionBG()->isNotEmpty()) ? '--accordion-bg:' . $layout->accordionBG() . ';' : '' ?>
             <?= ($layout->accordionTC()->isNotEmpty()) ? '--contrast-text-color:' . $layout->accordionTC() . ';' : '' ?>
             <?= ($layout->accordionTC()->isNotEmpty()) ? '--accordion-text-color:' . $layout->accordionTC() . ';' : '' ?>
-    "
-    >
+    ">
     <section
         class="grid
         <?= (count($layout->columns()) == 1) ? 'single' : '' ?>
@@ -36,8 +39,8 @@
                     <?php else: ?>
                         <?php foreach ($column->blocks() as $block):
                             $blockWidth = $column->span() / 0.12 . 'vw';
-                            ?>
-                            <div class="block block-type-<?= $block->type() ?> <?= ($block->full()->toBool() ? 'full-image-block' : ' ') ?>"  <?= $layout->role() == 'accordion' && $block->isFirst() ? 'tabindex="0" aria-label="Click to open accordion menu for ' . $block->text() . '"' : '' ?>>
+                        ?>
+                            <div class="block block-type-<?= $block->type() ?> <?= ($block->full()->toBool() ? 'full-image-block' : ' ') ?>" <?= $layout->role() == 'accordion' && $block->isFirst() ? 'tabindex="0" aria-label="Click to open accordion menu for ' . $block->text() . '"' : '' ?>>
                                 <?php snippet('blocks/' . $block->type(), [
                                     'block' => $block,
                                     'blockWidth' => $blockWidth

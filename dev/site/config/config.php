@@ -11,6 +11,7 @@ return [
         'sqlitePath' => 'content/.sqlite',
         'stats.enabled' => true,
     ],
+    'panel.vue.compiler' => true,
 
     'zephir.cookieconsent' => [
         'cdn' => true,

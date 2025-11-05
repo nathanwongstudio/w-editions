@@ -265,8 +265,8 @@ tabs:
             submittedInquiries:
                 type: structure
                 label: Submitted Inquiries
-                sortBy: inquiryDate desc
                 sortable: false
+                prepend: true
                 fields:
                     inquiryDate:
                         label: Date and Time
