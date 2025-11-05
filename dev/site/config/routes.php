@@ -101,6 +101,7 @@ return [
 
             $kirby = kirby();
             $kirby->impersonate('kirby');
+            date_default_timezone_set('America/New_York');
 
             $name = $form->data('name');
             $email = $form->data('email');
