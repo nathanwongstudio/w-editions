@@ -58,10 +58,9 @@ return [
         }
     ],
     [
-        'pattern' => 'editions/(:any)',
+        'pattern' => 'inquire/(:all)',
         'method' => 'POST',
         'action' => function ($page) {
-
             $form = new \Uniform\Form([
                 'name' => [
                     'rules' => ['required', 'min' => 3],
@@ -92,7 +91,7 @@ return [
             // If validation and guards passed, execute the action.
             $form->emailAction([
                 'to' => 'acquire@w-editions.com',
-                'from' => getenv('MAILGUN_EMAIL'),
+                'from' => env('MAILGUN_EMAIL'),
                 'subject' => 'New Inquiry from {{name}}',
                 'template' => 'inquiry',
             ]);
@@ -108,7 +107,9 @@ return [
             $success = $form->success();
             $date = date("Y-m-d H:i:s");
 
-            $submissions = page("editions/" . $page)->submittedInquiries()->yaml();
+            $artwork = page("editions")->children()->filter('artId', $page)->first();
+
+            $submissions = $artwork->submittedInquiries()->yaml();
 
             $newSubmission = [
                 'inquiryDate' => $date,
@@ -120,7 +121,7 @@ return [
 
             array_unshift($submissions, $newSubmission);
 
-            page("editions/" . $page)->update([
+            $artwork->update([
                 'submittedInquiries' => Yaml::encode($submissions)
             ]);
 
@@ -130,7 +131,7 @@ return [
             }
 
             // Return code 200 on success.
-            return Response::json([], 200);
+            return Response::json(['message' => 'Your inquiry was submitted successfully, we will reach out to you as soon as possible.'], 200);
         }
     ],
 ];

@@ -11,7 +11,7 @@
     <div class="inquire-wrapper modal-body">
 
         <div class="modal-body-wrapper">
-            <form action="<?= $page->url() ?>" method="POST">
+            <form action="<?= url('inquire/' . $page->artId()) ?>" method="POST">
                 <div class="card">
                     <div class="card-image mobile-only">
                         <?= snippet('images', ['src' => $page->primaryImg()->toFile()]); ?>
@@ -113,7 +113,7 @@
             console.log('success', res)
 
             message.classList.add('success');
-            message.innerHTML = 'Your inquiry was submitted.'
+            message.innerHTML = res.message;
             document.querySelector('.modal-body-wrapper').removeChild(form);
             form.classList.add('submitted');
             document.getElementById('submit').disabled = true;

@@ -125,12 +125,20 @@ return [
     ],
 
     'sitemap.ignore' => ['error'],
-
     'routes' => require_once 'routes.php',
 
-    'email' => require_once 'email.php',
+    'ready' => function () {
+        return [
 
-    'anselmh.uniform-turnstile' => require_once 'turnstile.php',
+            'anselmh.uniform-turnstile' => [
+                'siteKey' => env('TURNSTILE_SITEKEY'),
+                'secretKey' => env('TURNSTILE_SECRET'),
+
+            ],
+
+            'email' => require_once 'email.php',
+        ];
+    },
 
 
     'hooks' => [
