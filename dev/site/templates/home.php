@@ -6,15 +6,52 @@ $layouts = $page->text()->toLayouts();
 
 ?>
 
+<style>
+    .moire {
+        width: 100%;
+        height: 100%;
+    }
+
+    .moire::after {
+        content: " ";
+
+        width: 500vw;
+        animation: 100s ease-in-out 0s infinite both moireRotate;
+        transform-origin: center;
+        height: 500vw;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%) rotate(0);
+        position: absolute;
+        display: block;
+        background: repeating-linear-gradient(55deg,
+                blue,
+                blue 2px,
+                transparent 2px,
+                transparent 4px);
+        background-size: 400% 400%;
+        z-index: -1;
+    }
+
+    @keyframes moireRotate {
+        0% {
+            /* transform: translate(-50%, -50%) rotate(0); */
+            background-position: 0% 0%;
+        }
+
+        100% {
+            /* transform: translate(-50%, -50%) rotate(300deg); */
+            background-position: 187% 0%;
+        }
+    }
+</style>
+
 <div class="hero">
     <div class="container-full">
-        <div class="iframe-wrapper">
-            <iframe class="bg-vid" src="https://player.vimeo.com/video/890057192?background=1&dnt=1" width="1920" height="1080" frameborder="0" allow="autoplay" title="video-screen-loop"></iframe>
-        </div>
+        <div class="moire"></div>
         <div class="header">
             <h1>
-                <span data-text="W/">W/</span>
-                <span data-text="EDITIONS">EDITIONS</span>
+                <span data-text="W/">W/</span><!--  --><span data-text="EDITIONS">EDITIONS</span>
             </h1>
         </div>
     </div>
@@ -26,7 +63,7 @@ $layouts = $page->text()->toLayouts();
     <?php endforeach; ?>
 </div>
 
-<script>
+<!-- <script>
     window.addEventListener("load", () => {
 
         if (document.documentElement.classList.contains('show--consent')) {
@@ -62,7 +99,7 @@ $layouts = $page->text()->toLayouts();
             observer.observe(i);
         }
     });
-</script>
+</script> -->
 
 <svg class="hidden" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
     <defs>

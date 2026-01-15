@@ -1,1 +1,148 @@
-:root{--shadow-color:#efefd8e6;--accent-shadow:#ffff00e6}.hero .container-full .header h1{color:#0000;text-shadow:0 0 3px var(--shadow-color);transition:text-shadow 1s 1s}@media screen and (width<=60rem){.hero .container-full .header h1{text-shadow:0 0 2px var(--shadow-color)}}html,body{overflow-x:hidden}body.home2{scroll-behavior:smooth;scroll-snap-type:none;height:auto;background-color:var(--c-paper)!important}.error.start-out *{transition:text-shadow .5s 1s;text-shadow:0 0 #0000!important}.error.start-out :after{transition:text-shadow 1s 2s;text-shadow:0 0 #0000!important}.home2.start-out nav,.home2.start-out #checkout-button{top:calc(var(--nav-height)*-2);transition:top 1s ease-out 11s;position:fixed}.home2.start-out .hero .container-full{transition:transform 1s 1s;transform:scale(2)}.home2.start-out .hero .container-full h1{transition:transform 1s ease-out 1s;transform:scale(0)}nav{transition:top .45s ease-out 9.5s;position:fixed;top:0}#checkout-button{z-index:99;opacity:1;transition:top .45s ease-out,opacity .45s ease-out;position:fixed}#checkout-button.empty{opacity:0}.iframe-wrapper{z-index:0;pointer-events:none;background-color:var(--c-paynes);width:100%;height:100%;position:fixed;top:0;left:0;overflow:hidden}.iframe-wrapper:after{content:" ";background:repeating-linear-gradient(90deg,#000,#0000 1px,#000 2px);width:100%;height:100%;display:block;position:absolute}.iframe-wrapper iframe{width:100vw;min-width:177.77vh;height:56.25vw;min-height:100vh;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.hero{z-index:999;width:100vw;height:calc(100vh - var(--nav-height) - 2*var(--base-line-height));margin-top:var(--nav-height);background:#000;position:relative}.hero .container-full{z-index:0;clip-path:url(#squircle);width:100%;height:100%;transition:transform 5s ease-out 3s;position:absolute;top:0;left:0;transform:scale(.8)}.hero .container-full .iframe-wrapper{position:absolute}.hero .container-full .header{mix-blend-mode:hard-light;grid-template-columns:1fr;place-items:center;width:100%;height:100%;display:grid;position:absolute;inset:0}.hero .container-full .header h1{font-family:var(--secondary-font-stack);text-align:center;width:100vw;font-size:10vw;font-weight:900;transition:transform 2s ease-out 2s;transform:scale(1)}.hero .container-full .header h1 span{display:inline-block}.hero .container-full .header h1 span:first-child{z-index:99;transform-origin:0;letter-spacing:-3px;transform:scale(2.55,1.05)}.hero .container-full .header h1 span:last-child{transform-origin:100%;transform:scaleX(.55)}
+:root {
+  --shadow-color: rgba(239 239 216 / 90%);
+  --accent-shadow: rgba(255 255 0 / 90%);
+}
+
+.hero .container-full .header h1 {
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
+  color: transparent;
+  text-shadow: 0 0 3px var(--shadow-color);
+}
+@media screen and (width <= 60rem) {
+  .hero .container-full .header h1 {
+    text-shadow: 0 0 2px var(--shadow-color);
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body.home2 {
+  height: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: none;
+  background-color: var(--c-paper) !important;
+}
+
+.error.start-out * {
+  transition: 500ms ease text-shadow;
+  transition-delay: 1s;
+  text-shadow: 0 0 0 transparent !important;
+}
+
+.error.start-out *::after {
+  transition: 1s ease text-shadow;
+  transition-delay: 2s;
+  text-shadow: 0 0 0 transparent !important;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  transition: 450ms ease-out top;
+  transition-delay: 9.5s;
+}
+
+#checkout-button {
+  position: fixed;
+  z-index: 99;
+  transition: 450ms ease-out top, 450ms ease-out opacity;
+  opacity: 1;
+}
+#checkout-button.empty {
+  opacity: 0;
+}
+
+/* Makes a fixed background wrapper
+which the user cannot interact with */
+.iframe-wrapper {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-color: var(--c-paynes);
+  /* Make the iframe keep an aspect ratio, and
+  position it in the middle of its parent wrapper */
+}
+.iframe-wrapper::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: repeating-linear-gradient(90deg, black, transparent 1px, black 2px);
+}
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  min-height: 100vh;
+  transform: translate(-50%, -50%);
+}
+
+.hero {
+  position: relative;
+  z-index: 999;
+  width: 100vw;
+  height: calc(100vh - var(--nav-height) - 2 * var(--base-line-height));
+  margin-top: var(--nav-height);
+  background: black;
+}
+.hero .container-full {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(80%);
+  -webkit-clip-path: url("#squircle");
+          clip-path: url("#squircle");
+}
+.hero .container-full .moire {
+  position: absolute;
+  overflow: hidden;
+}
+.hero .container-full .header {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  mix-blend-mode: overlay;
+}
+.hero .container-full .header h1 {
+  font-family: var(--secondary-font-stack);
+  font-size: 10vw;
+  font-weight: 900;
+  width: 100vw;
+  transform: scale(100%);
+  text-align: center;
+}
+.hero .container-full .header h1 span {
+  display: inline-block;
+}
+.hero .container-full .header h1 span:first-child {
+  z-index: 99;
+  transform: scale(255%, 105%);
+  transform-origin: left;
+  letter-spacing: -3px;
+}
+.hero .container-full .header h1 span:last-child {
+  transform: scale(55%, 100%);
+  transform-origin: right;
+}
+
+/*# sourceMappingURL=home.css.map */

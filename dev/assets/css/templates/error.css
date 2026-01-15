@@ -1,1 +1,894 @@
-:root{--shadow-color:#efefd8e6;--accent-shadow:#ffff00e6}.error .block.block-type-newsletter form input[type=email]::-moz-placeholder,.error .block.block-type-newsletter form input[type=text]::-moz-placeholder{color:#0000;text-shadow:0 0 3px var(--shadow-color);-moz-transition:text-shadow 1s 1s;transition:text-shadow 1s 1s}.home h1,.home h2,.home h3,.home h4,.home h5,.home h6,.error h1,.error h2,.error h3,.error h4,.error h5,.error h6,.error .section-wrapper:first-child:before,.error .section-wrapper:first-child:after,.error .block.block-type-heading,.error .block.block-type-newsletter,.error .block.block-type-text,.error .block.block-type-markdown,.error .block.block-type-newsletter form input[type=email]::placeholder,.error .block.block-type-newsletter form input[type=text]::placeholder,.error .block.block-type-newsletter form button[type=submit],.hero .container-full .header h1{color:#0000;text-shadow:0 0 3px var(--shadow-color);transition:text-shadow 1s 1s}@media screen and (width<=60rem){.error .block.block-type-newsletter form input[type=email]::-moz-placeholder,.error .block.block-type-newsletter form input[type=text]::-moz-placeholder{text-shadow:0 0 2px var(--shadow-color)}.home h1,.home h2,.home h3,.home h4,.home h5,.home h6,.error h1,.error h2,.error h3,.error h4,.error h5,.error h6,.error .section-wrapper:first-child:before,.error .section-wrapper:first-child:after,.error .block.block-type-heading,.error .block.block-type-newsletter,.error .block.block-type-text,.error .block.block-type-markdown,.error .block.block-type-newsletter form input[type=email]::placeholder,.error .block.block-type-newsletter form input[type=text]::placeholder,.error .block.block-type-newsletter form button[type=submit],.hero .container-full .header h1{text-shadow:0 0 2px var(--shadow-color)}}.error .block.block-type-newsletter form .email:hover input::-moz-placeholder,.error .block.block-type-newsletter form .email:hover button::-moz-placeholder,.error .block.block-type-newsletter form fieldset .field.is-focused~.submit input::-moz-placeholder,.error .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder,.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder,.error .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder{color:#0000;text-shadow:0 0 3px #000;-moz-transition:text-shadow 1s 1s;transition:text-shadow 1s 1s}.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder{color:#0000;text-shadow:0 0 3px #000;-moz-transition:text-shadow 1s 1s;transition:text-shadow 1s 1s}.error .block.block-type-text a,.error .block.block-type-text a:after,.error .block.block-type-newsletter form .email:hover input,.error .block.block-type-newsletter form .email:hover button,.error .block.block-type-newsletter form .email:hover input::placeholder,.error .block.block-type-newsletter form .email:hover button::placeholder,.error .block.block-type-newsletter form fieldset .field.is-focused~.submit input,.error .block.block-type-newsletter form fieldset .field.is-focused~.submit input::placeholder,.error .block.block-type-newsletter form input[type=email]:focus,.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=text]:focus,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=email]:focus::placeholder,.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,.error .block.block-type-newsletter form input[type=text]:focus::placeholder,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder,.error .block-type-featuredArtist .go{color:#0000;text-shadow:0 0 3px #000;transition:text-shadow 1s 1s}@media screen and (width<=60rem){.error .block.block-type-newsletter form .email:hover input::-moz-placeholder,.error .block.block-type-newsletter form .email:hover button::-moz-placeholder,.error .block.block-type-newsletter form fieldset .field.is-focused~.submit input::-moz-placeholder,.error .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder,.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder,.error .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder{text-shadow:0 0 2px #000}.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder{text-shadow:0 0 2px #000}.error .block.block-type-text a,.error .block.block-type-text a:after,.error .block.block-type-newsletter form .email:hover input,.error .block.block-type-newsletter form .email:hover button,.error .block.block-type-newsletter form .email:hover input::placeholder,.error .block.block-type-newsletter form .email:hover button::placeholder,.error .block.block-type-newsletter form fieldset .field.is-focused~.submit input,.error .block.block-type-newsletter form fieldset .field.is-focused~.submit input::placeholder,.error .block.block-type-newsletter form input[type=email]:focus,.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=text]:focus,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=email]:focus::placeholder,.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,.error .block.block-type-newsletter form input[type=text]:focus::placeholder,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder,.error .block-type-featuredArtist .go{text-shadow:0 0 2px #000}}html,body{overflow-x:hidden}body.home2{scroll-behavior:smooth;scroll-snap-type:none;height:auto;background-color:var(--c-paper)!important}.error.start-out *{transition:text-shadow .5s 1s;text-shadow:0 0 #0000!important}.error.start-out :after{transition:text-shadow 1s 2s;text-shadow:0 0 #0000!important}.home2.start-out nav,.home2.start-out #checkout-button{top:calc(var(--nav-height)*-2);transition:top 1s ease-out 11s;position:fixed}.home2.start-out .hero .container-full{transition:transform 1s 1s;transform:scale(2)}.home2.start-out .hero .container-full h1{transition:transform 1s ease-out 1s;transform:scale(0)}nav{transition:top .45s ease-out 9.5s;position:fixed;top:0}#checkout-button{z-index:99;opacity:1;transition:top .45s ease-out,opacity .45s ease-out;position:fixed}#checkout-button.empty{opacity:0}.iframe-wrapper{z-index:0;pointer-events:none;background-color:var(--c-paynes);width:100%;height:100%;position:fixed;top:0;left:0;overflow:hidden}.iframe-wrapper:after{content:" ";background:repeating-linear-gradient(90deg,#000,#0000 1px,#000 2px);width:100%;height:100%;display:block;position:absolute}.iframe-wrapper iframe{width:100vw;min-width:177.77vh;height:56.25vw;min-height:100vh;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.hero{z-index:999;width:100vw;height:calc(100vh - var(--nav-height) - 2*var(--base-line-height));margin-top:var(--nav-height);background:#000;position:relative}.hero .container-full{z-index:0;clip-path:url(#squircle);width:100%;height:100%;transition:transform 5s ease-out 3s;position:absolute;top:0;left:0;transform:scale(.8)}.hero .container-full .iframe-wrapper{position:absolute}.hero .container-full .header{mix-blend-mode:hard-light;grid-template-columns:1fr;place-items:center;width:100%;height:100%;display:grid;position:absolute;inset:0}.hero .container-full .header h1{font-family:var(--secondary-font-stack);text-align:center;width:100vw;font-size:10vw;font-weight:900;transition:transform 2s ease-out 2s;transform:scale(1)}.hero .container-full .header h1 span{display:inline-block}.hero .container-full .header h1 span:first-child{z-index:99;transform-origin:0;letter-spacing:-3px;transform:scale(2.55,1.05)}.hero .container-full .header h1 span:last-child{transform-origin:100%;transform:scaleX(.55)}html{scroll-snap-type:y mandatory}body{image-rendering:pixelated;scroll-behavior:smooth;scroll-snap-type:y mandatory;background-position:50%;background-repeat:no-repeat;background-size:cover;background-attachment:fixed}body.input-focused{scroll-snap-type:none}.home,.error{text-wrap:pretty}.home .button,.error .button{color:#0000;background:var(--accent-shadow);width:auto;box-shadow:0 0 3px 3px var(--accent-shadow);text-shadow:0 0 4px #000;border-radius:0;margin:0;line-height:1}.home .button:before,.error .button:before{display:none}.home .button:after,.error .button:after{color:#0000;text-shadow:0 0 4px #000;width:auto;display:block;left:auto;right:.5em}@media screen and (width<=50em){.home .button,.error .button{padding:.25em .5em}}.home .button:hover,.error .button:hover{color:#0000;box-shadow:0 0 100vh 30vh var(--accent-shadow);text-shadow:0 0 4px #000;border:0}.home h1,.home h2,.home h3,.home h4,.home h5,.home h6,.error h1,.error h2,.error h3,.error h4,.error h5,.error h6{font-family:var(--secondary-font-stack);font-size:var(--base-font-size);max-width:70vw;margin:auto;font-weight:900;line-height:1}@media screen and (width<=60rem){.home h1,.home h2,.home h3,.home h4,.home h5,.home h6,.error h1,.error h2,.error h3,.error h4,.error h5,.error h6{max-width:95vw}}.error .section-wrapper{--base-font-size:60px;font-size:var(--base-font-size);z-index:0;mix-blend-mode:hard-light;scroll-snap-align:start;background:#000;border:none;width:100%;min-height:100vh;position:relative}@media screen and (width<=60em){.error .section-wrapper{min-height:100svh}}@media screen and (width<=500px){.error .section-wrapper{--base-font-size:10vw}}@media screen and (height<=400px){.error .section-wrapper{--base-font-size:5vw}}.error .section-wrapper .content-wrapper{grid-template-columns:1fr;place-content:center;align-items:center;display:grid;position:fixed;inset:10px}.error .section-wrapper.in-view{z-index:9999}.error .section-wrapper.in-view section{opacity:1;transition:all .4s ease-in-out}.error .section-wrapper section{opacity:0;transition:all .4s ease-in-out}.error .section-wrapper:first-child:before{content:"scroll";text-align:center;font-size:26px;font-weight:700;position:absolute;bottom:1.25rem;left:0;right:0}.error .section-wrapper:first-child:after{z-index:999;content:"";text-align:center;font-family:microns;font-size:1rem;position:absolute;bottom:.25rem;left:0;right:0}.error .section-wrapper.ticker{z-index:9;box-shadow:0 0 15px 15px var(--c-cobalt-800);mix-blend-mode:normal;--ticker-size:1.25em;--ticker-font-size:1em;font-size:7vw}.error .section-wrapper.ticker section{height:auto;min-height:0}.error .section-wrapper.ticker section.grid .column{color:#0000;background:var(--c-cobalt-800);padding:.5rem}.error .section-wrapper.ticker section.grid .column .blocks{font-weight:700}.error .section-wrapper.ticker section.grid .column .blocks .block{scroll-snap-align:start}.error .block{z-index:9;box-sizing:border-box;border:none;position:relative}.error .block .overlay{z-index:-1;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:100%;position:absolute}.error .block .overlay form{z-index:999999;visibility:hidden;pointer-events:none;opacity:0;height:calc(3em + 2rem)}@media screen and (width<=60em){.error .block .overlay form{height:calc(3.75em + 2rem + 10px)}}.error .block .overlay form .email{visibility:hidden;display:none}.error .block h1,.error .block h2,.error .block h3,.error .block h4,.error .block h5,.error .block h6,.error .block p,.error .block div,.error .block *{position:relative}.error .block h1:after,.error .block h2:after,.error .block h3:after,.error .block h4:after,.error .block h5:after,.error .block h6:after,.error .block p:after,.error .block div:after,.error .block :after{z-index:-1;content:attr(data-text);word-break:break-word;width:100%;text-shadow:0 0 .5em var(--c-cobalt);font-style:normal;transition:text-shadow 2.5s 1s;position:absolute;top:0;left:0}.error .block.block-type-markdown{padding:2em}@media screen and (width<=50em){.error .block.block-type-markdown{padding:1em}}.error .block.block-type-heading,.error .block.block-type-newsletter,.error .block.block-type-text,.error .block.block-type-markdown{text-align:center;color:#0000;margin:0;padding:1em;font-weight:700}@media screen and (width<=60rem){.error .block.block-type-heading,.error .block.block-type-newsletter,.error .block.block-type-text,.error .block.block-type-markdown{-webkit-hyphens:auto;hyphens:auto;padding:16px}}.error .block.block-type-heading a,.error .block.block-type-newsletter a,.error .block.block-type-text a,.error .block.block-type-markdown a{word-break:break-word;color:inherit}.error .block.block-type-heading a:hover,.error .block.block-type-newsletter a:hover,.error .block.block-type-text a:hover,.error .block.block-type-markdown a:hover{color:inherit}.error .block.block-type-text a{background:var(--c-gold);box-shadow:0 0 5px 5px var(--c-gold);border-radius:5px;padding:.25em 2em .25em .75em;font-weight:700;text-decoration:none;transition:box-shadow .3s;display:inline-block}.error .block.block-type-text a:hover{box-shadow:0 0 15px 20px var(--c-gold);transition:box-shadow .3s}.error .block.block-type-text a:after{z-index:99;content:"";text-align:right;width:1em;padding:.375em .25em .375em 0;font-family:microns;position:absolute;left:auto;right:0}.error .block.block-type-text a[href^=\#]{padding:.25em;position:relative}.error .block.block-type-text a[href^=\#]:after{display:none}.error .block.block-type-text p{margin-top:1.5em;font-size:36px;line-height:1!important}@media screen and (width<=60em){.error .block.block-type-text p{word-break:normal;-webkit-hyphens:none;hyphens:none;text-shadow:0 0 1px var(--shadow-color);font-size:20px;line-height:1.15!important}}.error .block.block-type-heading+.error .block.block-type-heading{width:100%;padding:0 1em}.error .block.block-type-newsletter form{position:relative}.error .block.block-type-newsletter form fieldset .field.is-empty.is-focused:after,.error .block.block-type-newsletter form .email:hover .field.is-empty:after{box-shadow:0 0 3px 3px black,0 0 10px 4px var(--c-cobalt);background:#000}.error .block.block-type-newsletter form .message{color:#0000;width:100%;text-shadow:0 0 3px var(--shadow-color);margin-top:.5em;padding:.125em 0;font-size:.5em;position:absolute;top:0}.error .block.block-type-newsletter form .message.success{background:0 0;border:none;place-content:center;margin:0;display:grid;position:absolute;top:0;left:0;right:0}.error .block.block-type-newsletter form .message.error{top:100%}.error .block.block-type-newsletter form fieldset .field.is-focused~.submit input,.error .block.block-type-newsletter form .email:hover input,.error .block.block-type-newsletter form .email:hover button{background:0 0;background:var(--shadow-color);box-shadow:0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);transition:all .1s}.error .block.block-type-newsletter form .email{width:100%;box-shadow:0 0 0 var(--shadow-color);background:#000;margin:2rem auto auto;position:relative}.error .block.block-type-newsletter form .email:hover{transition:all .1s}.error .block.block-type-newsletter form fieldset{grid-gap:6px;opacity:1;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:none;grid-template-columns:6fr 1fr;grid-template-areas:"a c""b c";margin:0;padding:0;transition:opacity .2s ease-out;display:grid}@media screen and (width<=60rem){.error .block.block-type-newsletter form fieldset{grid-template-areas:"a a""b b""c c";font-size:40px}}.error .block.block-type-newsletter form fieldset.disabled{opacity:0;transition:opacity .2s ease-out}.error .block.block-type-newsletter form fieldset .field{min-width:0;min-height:0}.error .block.block-type-newsletter form fieldset .field.name-input{grid-area:a}.error .block.block-type-newsletter form fieldset .field.email-input{grid-area:b}.error .block.block-type-newsletter form fieldset .field.submit{grid-area:c}.error .block.block-type-newsletter form fieldset .field:after{z-index:1;content:" ";opacity:0;background:var(--shadow-color);width:3px;height:1em;box-shadow:0 0 3px 3px var(--shadow-color),0 0 10px 4px var(--c-cobalt);border-radius:1px;position:absolute;top:50%;left:.5em;transform:translateY(-50%)}@media screen and (width<=60em){.error .block.block-type-newsletter form fieldset .field:after{height:1.5em;top:.5em;transform:none}}.error .block.block-type-newsletter form fieldset .field.is-empty:after{animation:.5s infinite alternate cursor}@keyframes cursor{0%{opacity:0}to{opacity:1}}.error .block.block-type-newsletter form input{font-size:inherit;background:0 0}.error .block.block-type-newsletter form input[type=email],.error .block.block-type-newsletter form input[type=text]{box-sizing:border-box;border:none;border-radius:0;outline:none;margin:0;padding:.5em;font-weight:700;line-height:1;transition:all .1s;display:block;position:relative}@media screen and (width<=60em){.error .block.block-type-newsletter form input[type=email],.error .block.block-type-newsletter form input[type=text]{padding:1em;font-size:.75em}}.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown){background:var(--shadow-color);box-shadow:0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);-moz-transition:all .1s;transition:all .1s}.error .block.block-type-newsletter form input[type=email]:focus,.error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),.error .block.block-type-newsletter form input[type=text]:focus,.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown){background:var(--shadow-color);box-shadow:0 0 3px 3px var(--shadow-color),0 0 15px 4px var(--c-cobalt);transition:all .1s}.error .block.block-type-newsletter form button[type=submit]{z-index:99;cursor:pointer;transform-origin:100%;text-transform:uppercase;width:200%;height:100%;box-shadow:none;background:0 0;border:none;border-radius:0;margin:0;padding:1em .5em;font-family:inherit;font-weight:700;line-height:1;display:block;position:absolute;top:0;right:0;transform:scaleX(50%)}.error .block.block-type-newsletter form button[type=submit]:before{display:none}@media screen and (width<=60em){.error .block.block-type-newsletter form button[type=submit]{transform-origin:0 0;width:50%;margin-top:10px;padding:.5em;font-size:.75em;position:relative;transform:scale(2,.75)}}.error .block h1,.error .block h2,.error .block h3,.error .block h4,.error .block h5,.error .block h6{text-transform:uppercase;line-height:1}.error .header{text-align:center;font-size:0}.error .header h1{font-size:calc(var(--base-line-height)*4);text-align:center;letter-spacing:-1px;word-spacing:0;width:100%;max-width:none;text-shadow:0 0 6px var(--shadow-color);margin:0;padding:0;display:block}.error .header h1:after{content:"";display:none}.error .header h1 span{display:inline-block}.error .header h1 span:first-child{z-index:99;transform-origin:0;letter-spacing:-3px;transform:scale(2.55,1.05)}.error .header h1 span:last-child{transform-origin:100%;transform:scaleX(.55)}@media screen and (width<=60em){.error .header h1{text-shadow:0 0 4px var(--shadow-color);font-size:14vw}}.error .header .blocks{display:contents}.error h3.top-text,.error h3.bottom-text{z-index:1;text-align:left;width:100%;max-width:100vw;margin:0;padding:0;font-size:2em;line-height:.8;position:absolute;top:0;left:0}.error h3.bottom-text{text-align:right;inset:auto 0 0 auto}.error .block-type-featuredArtist{text-align:center;height:100vh}.error .block-type-featuredArtist figure,.error .block-type-featuredArtist picture{display:contents}.error .block-type-featuredArtist img{z-index:0;-o-object-fit:contain;object-fit:contain;width:90%;height:90%;margin:0;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.error .block-type-featuredArtist .go{text-align:center;text-transform:uppercase;opacity:.9;background:var(--c-paper);width:2em;height:1em;box-shadow:0 0 10px 10px var(--c-paper);border-radius:50%;font-family:microns;font-size:1em;font-weight:700;line-height:1;display:block;position:absolute;top:calc(50% - .5em);right:.5em}.error .feature-link{display:contents}.wrapper,.layouts,body{font-family:var(--secondary-font-stack);display:contents}#snipcart,#checkout-button{display:none}.section-wrapper{scroll-snap-align:start}.section-wrapper:first-child:before,.section-wrapper:first-child:after{visibility:hidden;display:none}
+:root {
+  --shadow-color: rgba(239 239 216 / 90%);
+  --accent-shadow: rgba(255 255 0 / 90%);
+}
+
+.error .block.block-type-newsletter form input[type=email]::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]::-moz-placeholder {
+  -moz-transition: 1s ease text-shadow;
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
+  color: transparent;
+  text-shadow: 0 0 3px var(--shadow-color);
+}
+
+.home h1,
+.home h2,
+.home h3,
+.home h4,
+.home h5,
+.home h6,
+.error h1,
+.error h2,
+.error h3,
+.error h4,
+.error h5,
+.error h6, .error .section-wrapper:first-child::before, .error .section-wrapper:first-child::after, .error .block.block-type-heading, .error .block.block-type-newsletter, .error .block.block-type-text, .error .block.block-type-markdown, .error .block.block-type-newsletter form input[type=email]::placeholder,
+.error .block.block-type-newsletter form input[type=text]::placeholder, .error .block.block-type-newsletter form button[type=submit], .hero .container-full .header h1 {
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
+  color: transparent;
+  text-shadow: 0 0 3px var(--shadow-color);
+}
+@media screen and (width <= 60rem) {
+  .error .block.block-type-newsletter form input[type=email]::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]::-moz-placeholder {
+    text-shadow: 0 0 2px var(--shadow-color);
+  }
+  .home h1,
+  .home h2,
+  .home h3,
+  .home h4,
+  .home h5,
+  .home h6,
+  .error h1,
+  .error h2,
+  .error h3,
+  .error h4,
+  .error h5,
+  .error h6, .error .section-wrapper:first-child::before, .error .section-wrapper:first-child::after, .error .block.block-type-heading, .error .block.block-type-newsletter, .error .block.block-type-text, .error .block.block-type-markdown, .error .block.block-type-newsletter form input[type=email]::placeholder,
+  .error .block.block-type-newsletter form input[type=text]::placeholder, .error .block.block-type-newsletter form button[type=submit], .hero .container-full .header h1 {
+    text-shadow: 0 0 2px var(--shadow-color);
+  }
+}
+
+.error .block.block-type-newsletter form .email:hover input::-moz-placeholder, .error .block.block-type-newsletter form .email:hover button::-moz-placeholder, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .error .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder {
+  -moz-transition: 1s ease text-shadow;
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
+  color: transparent;
+  text-shadow: 0 0 3px black;
+}
+
+.error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder), .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder), .error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder)::placeholder, .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder)::placeholder {
+  -moz-transition: 1s ease text-shadow;
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
+  color: transparent;
+  text-shadow: 0 0 3px black;
+}
+
+.error .block.block-type-text a, .error .block.block-type-text a::after, .error .block.block-type-newsletter form .email:hover input,
+.error .block.block-type-newsletter form .email:hover button, .error .block.block-type-newsletter form .email:hover input::placeholder,
+.error .block.block-type-newsletter form .email:hover button::placeholder, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .error .block.block-type-newsletter form input[type=email]:focus, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+.error .block.block-type-newsletter form input[type=text]:focus,
+.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .error .block.block-type-newsletter form input[type=email]:focus::placeholder, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
+.error .block.block-type-newsletter form input[type=text]:focus::placeholder,
+.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .error .block-type-featuredArtist .go {
+  transition: 1s ease text-shadow;
+  transition-delay: 1s;
+  color: transparent;
+  text-shadow: 0 0 3px black;
+}
+@media screen and (width <= 60rem) {
+  .error .block.block-type-newsletter form .email:hover input::-moz-placeholder, .error .block.block-type-newsletter form .email:hover button::-moz-placeholder, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::-moz-placeholder, .error .block.block-type-newsletter form input[type=email]:focus::-moz-placeholder, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]:focus::-moz-placeholder, .error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::-moz-placeholder {
+    text-shadow: 0 0 2px black;
+  }
+  .error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder), .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder), .error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder)::placeholder, .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder)::placeholder {
+    text-shadow: 0 0 2px black;
+  }
+  .error .block.block-type-text a, .error .block.block-type-text a::after, .error .block.block-type-newsletter form .email:hover input,
+  .error .block.block-type-newsletter form .email:hover button, .error .block.block-type-newsletter form .email:hover input::placeholder,
+  .error .block.block-type-newsletter form .email:hover button::placeholder, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input::placeholder, .error .block.block-type-newsletter form input[type=email]:focus, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+  .error .block.block-type-newsletter form input[type=text]:focus,
+  .error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown), .error .block.block-type-newsletter form input[type=email]:focus::placeholder, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown)::placeholder,
+  .error .block.block-type-newsletter form input[type=text]:focus::placeholder,
+  .error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown)::placeholder, .error .block-type-featuredArtist .go {
+    text-shadow: 0 0 2px black;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body.home2 {
+  height: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: none;
+  background-color: var(--c-paper) !important;
+}
+
+.error.start-out * {
+  transition: 500ms ease text-shadow;
+  transition-delay: 1s;
+  text-shadow: 0 0 0 transparent !important;
+}
+
+.error.start-out *::after {
+  transition: 1s ease text-shadow;
+  transition-delay: 2s;
+  text-shadow: 0 0 0 transparent !important;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  transition: 450ms ease-out top;
+  transition-delay: 9.5s;
+}
+
+#checkout-button {
+  position: fixed;
+  z-index: 99;
+  transition: 450ms ease-out top, 450ms ease-out opacity;
+  opacity: 1;
+}
+#checkout-button.empty {
+  opacity: 0;
+}
+
+/* Makes a fixed background wrapper
+which the user cannot interact with */
+.iframe-wrapper {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-color: var(--c-paynes);
+  /* Make the iframe keep an aspect ratio, and
+  position it in the middle of its parent wrapper */
+}
+.iframe-wrapper::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  background: repeating-linear-gradient(90deg, black, transparent 1px, black 2px);
+}
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  min-height: 100vh;
+  transform: translate(-50%, -50%);
+}
+
+.hero {
+  position: relative;
+  z-index: 999;
+  width: 100vw;
+  height: calc(100vh - var(--nav-height) - 2 * var(--base-line-height));
+  margin-top: var(--nav-height);
+  background: black;
+}
+.hero .container-full {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(80%);
+  -webkit-clip-path: url("#squircle");
+          clip-path: url("#squircle");
+}
+.hero .container-full .moire {
+  position: absolute;
+  overflow: hidden;
+}
+.hero .container-full .header {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  mix-blend-mode: overlay;
+}
+.hero .container-full .header h1 {
+  font-family: var(--secondary-font-stack);
+  font-size: 10vw;
+  font-weight: 900;
+  width: 100vw;
+  transform: scale(100%);
+  text-align: center;
+}
+.hero .container-full .header h1 span {
+  display: inline-block;
+}
+.hero .container-full .header h1 span:first-child {
+  z-index: 99;
+  transform: scale(255%, 105%);
+  transform-origin: left;
+  letter-spacing: -3px;
+}
+.hero .container-full .header h1 span:last-child {
+  transform: scale(55%, 100%);
+  transform-origin: right;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  image-rendering: pixelated;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+body.input-focused {
+  scroll-snap-type: none;
+}
+
+.home,
+.error {
+  text-wrap: pretty;
+}
+.home .button,
+.error .button {
+  line-height: 1;
+  width: auto;
+  margin: 0;
+  color: transparent;
+  border-radius: 0;
+  background: var(--accent-shadow);
+  box-shadow: 0 0 3px 3px var(--accent-shadow);
+  text-shadow: 0 0 4px black;
+}
+.home .button::before,
+.error .button::before {
+  display: none;
+}
+.home .button::after,
+.error .button::after {
+  right: 0.5em;
+  left: auto;
+  display: block;
+  width: auto;
+  color: transparent;
+  text-shadow: 0 0 4px black;
+}
+@media screen and (width <= 50em) {
+  .home .button,
+  .error .button {
+    padding: 0.25em 0.5em;
+  }
+}
+.home .button:hover,
+.error .button:hover {
+  color: transparent;
+  border: 0;
+  box-shadow: 0 0 100vh 30vh var(--accent-shadow);
+  text-shadow: 0 0 4px black;
+}
+.home h1,
+.home h2,
+.home h3,
+.home h4,
+.home h5,
+.home h6,
+.error h1,
+.error h2,
+.error h3,
+.error h4,
+.error h5,
+.error h6 {
+  font-family: var(--secondary-font-stack);
+  font-size: var(--base-font-size);
+  font-weight: 900;
+  line-height: 1;
+  max-width: 70vw;
+  margin: auto;
+}
+@media screen and (width <= 60rem) {
+  .home h1,
+  .home h2,
+  .home h3,
+  .home h4,
+  .home h5,
+  .home h6,
+  .error h1,
+  .error h2,
+  .error h3,
+  .error h4,
+  .error h5,
+  .error h6 {
+    max-width: 95vw;
+  }
+}
+
+.error .section-wrapper {
+  --base-font-size: 60px;
+  font-size: var(--base-font-size);
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  min-height: 100vh;
+  border: none;
+  background: black;
+  mix-blend-mode: hard-light;
+  scroll-snap-align: start;
+}
+@media screen and (width <= 60em) {
+  .error .section-wrapper {
+    min-height: 100svh;
+  }
+}
+@media screen and (width <= 500px) {
+  .error .section-wrapper {
+    --base-font-size: 10vw;
+  }
+}
+@media screen and (height <= 400px) {
+  .error .section-wrapper {
+    --base-font-size: 5vw;
+  }
+}
+.error .section-wrapper .content-wrapper {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  place-content: center;
+  inset: 10px;
+}
+.error .section-wrapper.in-view {
+  z-index: 9999;
+}
+.error .section-wrapper.in-view section {
+  transition: 400ms ease-in-out;
+  opacity: 1;
+}
+.error .section-wrapper section {
+  transition: 400ms ease-in-out;
+  opacity: 0;
+}
+.error .section-wrapper:first-child::before {
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  bottom: 1.25rem;
+  left: 0;
+  content: "scroll";
+  text-align: center;
+}
+.error .section-wrapper:first-child::after {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: microns;
+  font-size: 1rem;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  bottom: 0.25rem;
+  left: 0;
+  content: "\e707";
+  text-align: center;
+}
+.error .section-wrapper.ticker {
+  font-size: 7vw;
+  z-index: 9;
+  box-shadow: 0 0 15px 15px var(--c-cobalt-800);
+  mix-blend-mode: normal;
+  --ticker-size: 1.25em;
+  --ticker-font-size: 1em;
+}
+.error .section-wrapper.ticker section {
+  height: auto;
+  min-height: 0;
+}
+.error .section-wrapper.ticker section.grid .column {
+  padding: 0.5rem;
+  color: transparent;
+  background: var(--c-cobalt-800);
+}
+.error .section-wrapper.ticker section.grid .column .blocks {
+  font-weight: bold;
+}
+.error .section-wrapper.ticker section.grid .column .blocks .block {
+  scroll-snap-align: start;
+}
+
+.error .block {
+  position: relative;
+  z-index: 9;
+  box-sizing: border-box;
+  border: none;
+}
+.error .block .overlay {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.error .block .overlay form {
+  z-index: 999999;
+  visibility: hidden;
+  height: calc(3em + 2rem);
+  pointer-events: none;
+  opacity: 0;
+}
+@media screen and (width <= 60em) {
+  .error .block .overlay form {
+    height: calc(3.75em + 2rem + 10px);
+  }
+}
+.error .block .overlay form .email {
+  display: none;
+  visibility: hidden;
+}
+.error .block h1,
+.error .block h2,
+.error .block h3,
+.error .block h4,
+.error .block h5,
+.error .block h6,
+.error .block p,
+.error .block div,
+.error .block * {
+  position: relative;
+}
+.error .block h1::after,
+.error .block h2::after,
+.error .block h3::after,
+.error .block h4::after,
+.error .block h5::after,
+.error .block h6::after,
+.error .block p::after,
+.error .block div::after,
+.error .block *::after {
+  font-style: normal;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: attr(data-text);
+  transition: 2.5s ease text-shadow;
+  transition-delay: 1s;
+  word-break: break-word;
+  text-shadow: 0 0 0.5em var(--c-cobalt);
+}
+.error .block.block-type-markdown {
+  padding: 2em;
+}
+@media screen and (width <= 50em) {
+  .error .block.block-type-markdown {
+    padding: 1em;
+  }
+}
+.error .block.block-type-heading, .error .block.block-type-newsletter, .error .block.block-type-text, .error .block.block-type-markdown {
+  font-weight: bold;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  color: transparent;
+}
+@media screen and (width <= 60rem) {
+  .error .block.block-type-heading, .error .block.block-type-newsletter, .error .block.block-type-text, .error .block.block-type-markdown {
+    padding: 16px;
+    -webkit-hyphens: auto;
+            hyphens: auto;
+  }
+}
+.error .block.block-type-heading a, .error .block.block-type-newsletter a, .error .block.block-type-text a, .error .block.block-type-markdown a {
+  word-break: break-word;
+  color: inherit;
+}
+.error .block.block-type-heading a:hover, .error .block.block-type-newsletter a:hover, .error .block.block-type-text a:hover, .error .block.block-type-markdown a:hover {
+  color: inherit;
+}
+.error .block.block-type-text a {
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  padding-right: 2em;
+  transition: box-shadow 300ms ease;
+  text-decoration: none;
+  border-radius: 5px;
+  background: var(--c-gold);
+  box-shadow: 0 0 5px 5px var(--c-gold);
+}
+.error .block.block-type-text a:hover {
+  transition: box-shadow 300ms ease;
+  box-shadow: 0 0 15px 20px var(--c-gold);
+}
+.error .block.block-type-text a::after {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: microns;
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  left: auto;
+  width: 1em;
+  padding: 0.375em 0.25em 0.375em 0;
+  content: "\e701";
+  text-align: right;
+}
+.error .block.block-type-text a[href^="#"] {
+  position: relative;
+  padding: 0.25em;
+}
+.error .block.block-type-text a[href^="#"]::after {
+  display: none;
+}
+.error .block.block-type-text p {
+  font-size: 36px;
+  line-height: 1 !important;
+  margin-top: 1.5em;
+}
+@media screen and (width <= 60em) {
+  .error .block.block-type-text p {
+    font-size: 20px;
+    line-height: 1.15 !important;
+    word-break: normal;
+    -webkit-hyphens: none;
+            hyphens: none;
+    text-shadow: 0 0 1px var(--shadow-color);
+  }
+}
+.error .block.block-type-heading + .error .block.block-type-heading {
+  width: 100%;
+  padding: 0 1em;
+}
+.error .block.block-type-newsletter form {
+  position: relative;
+}
+.error .block.block-type-newsletter form fieldset .field.is-empty.is-focused::after, .error .block.block-type-newsletter form .email:hover .field.is-empty::after {
+  background: black;
+  box-shadow: 0 0 3px 3px black, 0 0 10px 4px var(--c-cobalt);
+}
+.error .block.block-type-newsletter form .message {
+  font-size: 0.5em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-top: 0.5em;
+  padding: 0.125em 0;
+  color: transparent;
+  text-shadow: 0 0 3px var(--shadow-color);
+}
+.error .block.block-type-newsletter form .message.success {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: grid;
+  place-content: center;
+  margin: 0;
+  border: none;
+  background: transparent;
+}
+.error .block.block-type-newsletter form .message.error {
+  top: 100%;
+}
+.error .block.block-type-newsletter form fieldset .field.is-focused ~ .submit input, .error .block.block-type-newsletter form .email:hover input,
+.error .block.block-type-newsletter form .email:hover button {
+  transition: 100ms ease;
+  background: transparent;
+  background: var(--shadow-color);
+  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
+}
+.error .block.block-type-newsletter form .email {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  background: black;
+  box-shadow: 0 0 0 var(--shadow-color);
+}
+.error .block.block-type-newsletter form .email:hover {
+  transition: 100ms ease;
+}
+.error .block.block-type-newsletter form fieldset {
+  display: grid;
+  grid-template-areas: "a c" "b c";
+  grid-template-columns: 6fr 1fr;
+  grid-gap: 6px;
+  margin: 0;
+  padding: 0;
+  transition: opacity 200ms ease-out;
+  opacity: 1;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+@media screen and (width <= 60rem) {
+  .error .block.block-type-newsletter form fieldset {
+    font-size: 40px;
+    grid-template-areas: "a a" "b b" "c c";
+  }
+}
+.error .block.block-type-newsletter form fieldset.disabled {
+  transition: opacity 200ms ease-out;
+  opacity: 0;
+}
+.error .block.block-type-newsletter form fieldset .field {
+  min-width: 0;
+  min-height: 0;
+}
+.error .block.block-type-newsletter form fieldset .field.name-input {
+  grid-area: a;
+}
+.error .block.block-type-newsletter form fieldset .field.email-input {
+  grid-area: b;
+}
+.error .block.block-type-newsletter form fieldset .field.submit {
+  grid-area: c;
+}
+.error .block.block-type-newsletter form fieldset .field::after {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0.5em;
+  width: 3px;
+  height: 1em;
+  content: " ";
+  transform: translateY(-50%);
+  opacity: 0;
+  border-radius: 1px;
+  background: var(--shadow-color);
+  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 10px 4px var(--c-cobalt);
+}
+@media screen and (width <= 60em) {
+  .error .block.block-type-newsletter form fieldset .field::after {
+    top: 0.5em;
+    height: 1.5em;
+    transform: none;
+  }
+}
+.error .block.block-type-newsletter form fieldset .field.is-empty::after {
+  animation: 0.5s infinite alternate cursor;
+}
+@keyframes cursor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.error .block.block-type-newsletter form input {
+  font-size: inherit;
+  background: transparent;
+}
+.error .block.block-type-newsletter form input[type=email],
+.error .block.block-type-newsletter form input[type=text] {
+  font-weight: bold;
+  line-height: 1;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.5em;
+  transition: 100ms ease;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+@media screen and (width <= 60em) {
+  .error .block.block-type-newsletter form input[type=email],
+  .error .block.block-type-newsletter form input[type=text] {
+    font-size: 0.75em;
+    padding: 1em;
+  }
+}
+.error .block.block-type-newsletter form input[type=email]:not(:-moz-placeholder), .error .block.block-type-newsletter form input[type=text]:not(:-moz-placeholder) {
+  -moz-transition: 100ms ease;
+  transition: 100ms ease;
+  background: var(--shadow-color);
+  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
+}
+.error .block.block-type-newsletter form input[type=email]:focus, .error .block.block-type-newsletter form input[type=email]:not(:placeholder-shown),
+.error .block.block-type-newsletter form input[type=text]:focus,
+.error .block.block-type-newsletter form input[type=text]:not(:placeholder-shown) {
+  transition: 100ms ease;
+  background: var(--shadow-color);
+  box-shadow: 0 0 3px 3px var(--shadow-color), 0 0 15px 4px var(--c-cobalt);
+}
+.error .block.block-type-newsletter form button[type=submit] {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 200%;
+  height: 100%;
+  margin: 0;
+  padding: 1em 0.5em;
+  cursor: pointer;
+  transform: scaleX(50%);
+  transform-origin: right;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.error .block.block-type-newsletter form button[type=submit]::before {
+  display: none;
+}
+@media screen and (width <= 60em) {
+  .error .block.block-type-newsletter form button[type=submit] {
+    font-size: 0.75em;
+    position: relative;
+    width: 50%;
+    margin-top: 10px;
+    padding: 0.5em;
+    transform: scale(200%, 75%);
+    transform-origin: top left;
+  }
+}
+.error .block h1,
+.error .block h2,
+.error .block h3,
+.error .block h4,
+.error .block h5,
+.error .block h6 {
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.error .header {
+  font-size: 0;
+  text-align: center;
+}
+.error .header h1 {
+  font-size: calc(var(--base-line-height) * 4);
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  letter-spacing: -1px;
+  word-spacing: 0;
+  text-shadow: 0 0 6px var(--shadow-color);
+}
+.error .header h1::after {
+  display: none;
+  content: "";
+}
+.error .header h1 span {
+  display: inline-block;
+}
+.error .header h1 span:first-child {
+  z-index: 99;
+  transform: scale(255%, 105%);
+  transform-origin: left;
+  letter-spacing: -3px;
+}
+.error .header h1 span:last-child {
+  transform: scale(55%, 100%);
+  transform-origin: right;
+}
+@media screen and (width <= 60em) {
+  .error .header h1 {
+    font-size: 14vw;
+    text-shadow: 0 0 4px var(--shadow-color);
+  }
+}
+.error .header .blocks {
+  display: contents;
+}
+
+.error h3.top-text,
+.error h3.bottom-text {
+  font-size: 2em;
+  line-height: 0.8;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.error h3.bottom-text {
+  inset: auto 0 0 auto;
+  text-align: right;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.error .block-type-featuredArtist {
+  height: 100vh;
+  text-align: center;
+}
+.error .block-type-featuredArtist figure {
+  display: contents;
+}
+.error .block-type-featuredArtist picture {
+  display: contents;
+}
+.error .block-type-featuredArtist img {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.error .block-type-featuredArtist .go {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: microns;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 0.5em;
+  display: block;
+  width: 2em;
+  height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.9;
+  border-radius: 50%;
+  background: var(--c-paper);
+  box-shadow: 0 0 10px 10px var(--c-paper);
+}
+
+.error .feature-link {
+  display: contents;
+}
+
+.wrapper,
+.layouts,
+body {
+  font-family: var(--secondary-font-stack);
+  display: contents;
+}
+
+#snipcart {
+  display: none;
+}
+
+#checkout-button {
+  display: none;
+}
+
+.section-wrapper {
+  scroll-snap-align: start;
+}
+.section-wrapper:first-child::before, .section-wrapper:first-child::after {
+  display: none;
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=error.css.map */
