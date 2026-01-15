@@ -26,3 +26,4 @@ dev/_build/site/config/turnstile.php
 env-shopify.txt
 dev/site/config/routes.php
 .DS_Store
+dev/.env
