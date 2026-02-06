@@ -1,3 +1,71 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# Lock files
+# ---------------
+
+.lock
+
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+*.sublime-workspace
+/.vscode
+/.idea
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+
+/site/config/.license
+
+
+# IGNORE KIRBY (Composer Install)
+
+/kirby
+
+#ignore plugins (composer)
+
+**/plugins/*
+
+# UNIGNORE SPECIAL PLUGINS
+!/site/plugins/wong-shared-templates
+
+*.psd
+
+.env*
+!.env.example
+
 *vendor
 *content
 archive
@@ -9,8 +77,8 @@ dev/source/assets/loop_3.mp4
 dev/source/assets/static-gb-1.mp4
 dev/source/assets/static-gb.mp4
 
-*kirby/*
-*kirby
+*/kirby/*
+*/kirby
 shared-assets
 dev/_notes.txt
 

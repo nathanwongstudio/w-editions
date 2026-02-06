@@ -16,7 +16,8 @@
 		"mauricerenck/indieconnector": "^2.6",
 		"hashandsalt/kirby3-schema": "^0.0.2",
 		"hashandsalt/kirby-snipcart": "^0.5.0",
-		"bnomei/kirby3-dotenv": "^5.0"
+		"bnomei/kirby3-dotenv": "^5.0",
+		"johannschopplich/kirby-headless": "^6.0"
 	},
 	"license": "Proprietary",
 	"authors": [
