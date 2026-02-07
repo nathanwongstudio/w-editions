@@ -2,6 +2,17 @@
 
 return [
 
+    // API
+    'kql' => [
+        'auth' => 'bearer'
+    ],
+
+    'headless' => [
+        'token' => env('KIRBY_API_KEY'),
+    ],
+
+    'cors' => 'true',
+
     'paulmorel.fathom-analytics' => [
         'siteId' => 'TCMXSOEX',
         'sharePassword' => 'w/editions212'
@@ -13,6 +24,7 @@ return [
     ],
     'panel.vue.compiler' => true,
 
+    //COOKIES
     'zephir.cookieconsent' => [
         'cdn' => true,
         'revision' => 1,
@@ -55,7 +67,7 @@ return [
         ]
     ],
 
-    'hashandsalt.kirby-snipcart' => require_once 'snipcart.php',
+    // 'hashandsalt.kirby-snipcart' => require_once 'snipcart.php',
 
     'wearejust.meta-tags.default' => function ($page, $site) {
         return [

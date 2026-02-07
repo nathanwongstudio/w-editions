@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6914bbe35121bdc807d603e6d4d40831",
+    "content-hash": "34b35d64793d8f7fb0661d2b0c02ac20",
     "packages": [
         {
             "name": "anselmh/kirby-uniform-turnstile",
@@ -56,16 +56,16 @@
         },
         {
             "name": "belugadigital/kirby-navigation",
-            "version": "4.2.0",
+            "version": "5.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisbeluga/kirby-navigation.git",
-                "reference": "d7bf0d3fed20da34268c413fb2d1d1a88627f21a"
+                "reference": "c19e6a1322931dc7e361bad4bff7207f1bfaac40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisbeluga/kirby-navigation/zipball/d7bf0d3fed20da34268c413fb2d1d1a88627f21a",
-                "reference": "d7bf0d3fed20da34268c413fb2d1d1a88627f21a",
+                "url": "https://api.github.com/repos/chrisbeluga/kirby-navigation/zipball/c19e6a1322931dc7e361bad4bff7207f1bfaac40",
+                "reference": "c19e6a1322931dc7e361bad4bff7207f1bfaac40",
                 "shasum": ""
             },
             "require": {
@@ -100,91 +100,21 @@
                     "homepage": "https://diesachbearbeiter.de/"
                 }
             ],
-            "description": "Kirby 4 field for hierarchical menus with drag & drop level indentation.",
+            "description": "Kirby 5 field for hierarchical menus with drag & drop level indentation.",
             "homepage": "https://github.com/chrisbeluga/kirby-navigation",
             "keywords": [
                 "field",
+                "kirby",
+                "kirby-cms",
                 "kirby-plugin",
                 "menu",
                 "navigation"
             ],
             "support": {
                 "issues": "https://github.com/chrisbeluga/kirby-navigation/issues",
-                "source": "https://github.com/chrisbeluga/kirby-navigation/tree/4.2.0"
+                "source": "https://github.com/chrisbeluga/kirby-navigation/tree/5.0.8"
             },
-            "time": "2025-06-24T10:39:06+00:00"
-        },
-        {
-            "name": "bnomei/kirby3-dotenv",
-            "version": "5.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bnomei/kirby3-dotenv.git",
-                "reference": "69380949d992351665454508f28b1ee857be68fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-dotenv/zipball/69380949d992351665454508f28b1ee857be68fa",
-                "reference": "69380949d992351665454508f28b1ee857be68fa",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1",
-                "php": ">=8.2",
-                "vlucas/phpdotenv": "^5.3"
-            },
-            "require-dev": {
-                "getkirby/cli": "^1.5",
-                "getkirby/cms": "^5.0.0-alpha.4",
-                "larastan/larastan": "^v3.0.0",
-                "laravel/pint": "^1.13",
-                "pestphp/pest": "^v3.5.1",
-                "spatie/ray": "^1.39"
-            },
-            "suggest": {
-                "bnomei/kirby3-janitor": "Use a Panel Button or PHP code to clear the cache",
-                "bnomei/kirby3-lapse": "For faster and automatic caching based on modification of Kirby Objects",
-                "bnomei/kirby3-security-headers": "CPS headers to make the the web a saver place. Sensible defaults with zero configuration."
-            },
-            "type": "kirby-plugin",
-            "extra": {
-                "kirby-cms-path": "tests/kirby"
-            },
-            "autoload": {
-                "files": [
-                    "global.php"
-                ],
-                "psr-4": {
-                    "Bnomei\\": "classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bruno Meilick",
-                    "email": "b@bnomei.com"
-                }
-            ],
-            "description": "Kirby Plugin for environment variables from .env",
-            "keywords": [
-                ".env",
-                "dotenv",
-                "dotenv-loader",
-                "env",
-                "enviroment",
-                "enviroment-variables",
-                "kirby",
-                "kirby-cms",
-                "kirby-plugin"
-            ],
-            "support": {
-                "issues": "https://github.com/bnomei/kirby3-dotenv/issues",
-                "source": "https://github.com/bnomei/kirby3-dotenv/tree/v5.0.1"
-            },
-            "time": "2025-08-23T07:02:29+00:00"
+            "time": "2025-09-07T14:33:34+00:00"
         },
         {
             "name": "christian-riesen/base32",
@@ -699,6 +629,74 @@
                 }
             ],
             "time": "2020-12-28T12:54:39+00:00"
+        },
+        {
+            "name": "getkirby/kql",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getkirby/kql.git",
+                "reference": "b67598f93d17e567abab6b8c692548c2c4a2e5b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getkirby/kql/zipball/b67598f93d17e567abab6b8c692548c2c4a2e5b6",
+                "reference": "b67598f93d17e567abab6b8c692548c2c4a2e5b6",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/cms": "^3.10.0 || ^4.0 || ^5.0",
+                "getkirby/composer-installer": "^1.2.1"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "kql",
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kirby\\": [
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bastian Allgeier",
+                    "email": "bastian@getkirby.com"
+                },
+                {
+                    "name": "Nico Hoffmann",
+                    "email": "nico@getkirby.com"
+                }
+            ],
+            "description": "Kirby Query Language",
+            "homepage": "https://getkirby.com",
+            "keywords": [
+                "api",
+                "cms",
+                "headless",
+                "json",
+                "kirby",
+                "query"
+            ],
+            "support": {
+                "email": "support@getkirby.com",
+                "forum": "https://forum.getkirby.com",
+                "issues": "https://github.com/getkirby/kql/issues",
+                "source": "https://github.com/getkirby/kql"
+            },
+            "funding": [
+                {
+                    "url": "https://getkirby.com/buy",
+                    "type": "custom"
+                }
+            ],
+            "time": "2025-07-03T10:26:56+00:00"
         },
         {
             "name": "graham-campbell/result-type",

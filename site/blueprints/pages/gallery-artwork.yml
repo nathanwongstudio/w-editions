@@ -51,9 +51,9 @@ tabs:
                         icon: false
                         options:
                             type: query
-                            query: site.find('artists').children.listed
-                            text: "{{ page.title }} ({{ page.slug }})"
-                            value: "{{ page.slug }}"
+                            query: page('artists').children
+                            text: "{{ item.title }} ({{ item.slug }})"
+                            value: "{{ item.uuid }}"
                     price:
                         label: Price
                         width: 1/2
