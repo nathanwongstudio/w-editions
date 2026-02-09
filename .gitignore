@@ -67,7 +67,6 @@ Icon
 !.env.example
 
 *vendor
-*content
 archive
 dev/build/assets/loop_3.mp4
 dev/build/assets/static-gb.mp4
