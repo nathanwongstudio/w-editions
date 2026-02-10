@@ -18,7 +18,8 @@ settings:
                 ticker: Ticker
                 layout-gallery: Gallery
                 feature: Feature
-                accordion: Accordion Item
+                accordion: Accordion Group
+                full-width: Full Width
         gapDefault:
             type: gap
             width: 1/2
@@ -172,6 +173,8 @@ fieldsets:
             list: true
             line: true
             quote: true
+            accordion: true
+            bio: true
             button:
                 preview: fields
                 fields:
@@ -180,6 +183,12 @@ fieldsets:
                         label: Button Text
                     buttonLink:
                         type: link
+                    buttonVariant:
+                        type: select
+                        options:
+                            - "primary"
+                            - "secondary"
+                            - "tertiary"
             newsletter:
                 preview: fields
                 fields:

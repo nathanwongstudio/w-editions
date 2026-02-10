@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34b35d64793d8f7fb0661d2b0c02ac20",
+    "content-hash": "b699693cc305c8a6f334ac1574812228",
     "packages": [
         {
             "name": "anselmh/kirby-uniform-turnstile",
@@ -485,16 +485,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "5.2.3",
+            "version": "5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "a7697cda77464fe3a7001dae95553a3789c9165b"
+                "reference": "3e1446322398c5b7705a03a9e8ad14920b9bbfa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/a7697cda77464fe3a7001dae95553a3789c9165b",
-                "reference": "a7697cda77464fe3a7001dae95553a3789c9165b",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/3e1446322398c5b7705a03a9e8ad14920b9bbfa6",
+                "reference": "3e1446322398c5b7705a03a9e8ad14920b9bbfa6",
                 "shasum": ""
             },
             "require": {
@@ -581,7 +581,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-02-03T10:26:00+00:00"
+            "time": "2026-02-10T12:03:52+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -2299,16 +2299,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v10.21.0",
+            "version": "v14.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "b4ab319731958077227fad1874a3671458c5d593"
+                "reference": "7e1c4b5d2beadeaeddc42fd1f8a50fdb18b37f30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/b4ab319731958077227fad1874a3671458c5d593",
-                "reference": "b4ab319731958077227fad1874a3671458c5d593",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/7e1c4b5d2beadeaeddc42fd1f8a50fdb18b37f30",
+                "reference": "7e1c4b5d2beadeaeddc42fd1f8a50fdb18b37f30",
                 "shasum": ""
             },
             "require": {
@@ -2319,10 +2319,8 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "3.5.0",
-                "php-coveralls/php-coveralls": "^2.5",
                 "phpstan/phpstan": "^1.2",
-                "phpunit/phpunit": "^5.7 || ^9.0",
-                "squizlabs/php_codesniffer": "^3.3"
+                "phpunit/phpunit": "^5.7 || ^9.0"
             },
             "type": "library",
             "extra": {
@@ -2354,9 +2352,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v10.21.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v14.10.0"
             },
-            "time": "2023-08-11T00:23:24+00:00"
+            "time": "2024-06-13T21:04:47+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -3008,6 +3006,70 @@
                 }
             ],
             "time": "2025-12-27T19:49:13+00:00"
+        },
+        {
+            "name": "wagnerwagner/merx",
+            "version": "1.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wagnerwagner/merx.git",
+                "reference": "ba4f14d08b0bb4ec3d4f15d49b231fd641814e63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wagnerwagner/merx/zipball/ba4f14d08b0bb4ec3d4f15d49b231fd641814e63",
+                "reference": "ba4f14d08b0bb4ec3d4f15d49b231fd641814e63",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+                "stripe/stripe-php": "^14"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.9 || ^4.0 || ^5.0",
+                "phpunit/phpunit": "^11",
+                "vimeo/psalm": "^6.12"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wagnerwagner\\Merx\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Wolf",
+                    "email": "tobias.wolf@wagnerwagner.de"
+                }
+            ],
+            "description": "A toolkit to create online shops with Kirby",
+            "homepage": "https://merx.wagnerwagner.de",
+            "keywords": [
+                "e-commerce",
+                "kirby",
+                "kirby3",
+                "kirby4",
+                "kirby5"
+            ],
+            "support": {
+                "issues": "https://github.com/wagnerwagner/merx/issues",
+                "source": "https://github.com/wagnerwagner/merx"
+            },
+            "funding": [
+                {
+                    "url": "https://merx.wagnerwagner.de/buy",
+                    "type": "custom"
+                }
+            ],
+            "time": "2026-01-21T15:11:51+00:00"
         },
         {
             "name": "wearejust/kirby-meta-tags",

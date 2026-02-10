@@ -18,7 +18,7 @@ columns:
               fields:
                   caption:
                       label: Caption
-                      type: textarea
+                      type: writer
                       size: medium
     - width: 1/2
       sections:
@@ -28,6 +28,7 @@ columns:
                   alt:
                       label: Alternative Text
                       type: text
+                      required: true
                   photographer:
                       label: Photographer
                       type: text

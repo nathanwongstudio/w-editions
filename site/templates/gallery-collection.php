@@ -15,7 +15,7 @@ $data = [
           'url' => $file->url(),
           'alt' => $file->alt()->value()
         ];
-      })->toArray(),
+      }),
       'published' => $child->publishedate()->toDate('Y-m-d'),
       'artId' => $child->artId()->value(),
       'editionYear' => $child->year()->value(),
@@ -30,12 +30,12 @@ $data = [
       'artWidth' => $child->artWidth()->value(),
       'artDepth' => $child->artDepth()->value(),
       'artDescription' => $child->artDescription()->value(),
-      'accordions' => $child->accordionText()->toResolvedLayouts()->toArray(),
-      'stickers' => $child->stickers()->toStructure()->toArray(),
+      'accordions' => $child->accordionText()->toResolvedLayouts(),
+      'stickers' => $child->stickers()->toStructure(),
       'text' => $child->text()->value(),
 
     ];
-  })->toArray(),
+  }),
 
 ];
 

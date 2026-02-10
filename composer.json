@@ -4,7 +4,6 @@
 	"type": "project",
 	"require": {
 		"getkirby/cms": "^5",
-		"stripe/stripe-php": "^10.19",
 		"paulmorel/fathom-analytics": "^1.0",
 		"wearejust/kirby-meta-tags": "^3.0",
 		"johannschopplich/kirby-locked-pages": "^2.1",
@@ -18,7 +17,8 @@
 		"hashandsalt/kirby-snipcart": "^0.5.0",
 		"johannschopplich/kirby-headless": "^6.0",
 		"getkirby/kql": "^3.0",
-		"vlucas/phpdotenv": "^5.6"
+		"vlucas/phpdotenv": "^5.6",
+		"wagnerwagner/merx": "^1.10"
 	},
 	"license": "Proprietary",
 	"authors": [

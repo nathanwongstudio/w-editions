@@ -1,0 +1,17 @@
+name: Accordion
+icon: bars
+preview: fields
+fields:
+    headline:
+        label: Headline
+        type: text
+    text:
+        label: Body
+        type: blocks
+        extends: fields/blocks
+    defaultOpen:
+        label: Default Open
+        type: toggle
+        text:
+            - "no"
+            - "yes"

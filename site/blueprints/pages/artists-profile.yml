@@ -33,6 +33,14 @@ tabs:
                             birth:
                                 type: text
                                 label: Birth Year
+    editionsTab:
+        label: Editions
+        sections:
+            editions:
+                type: pages
+                create: false
+                query: page.getWorks()
+
     media:
         sections:
             files:

@@ -1,0 +1,9 @@
+name: Bio
+icon: profile
+preview: fields
+fields:
+    artistlink:
+        label: Artist to Link
+        type: pages
+        multiple: false
+        query: site.find('artists')

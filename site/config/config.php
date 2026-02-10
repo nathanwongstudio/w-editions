@@ -1,14 +1,67 @@
 <?php
 
+use Kirby\Cms\Block;
+use Kirby\Content\Field;
+
 return [
 
     // API
     'kql' => [
-        'auth' => 'bearer'
+        'auth' => false
     ],
 
     'headless' => [
-        'token' => env('KIRBY_API_KEY'),
+        // 'token' => env('KIRBY_API_KEY'),
+        'globalRoutes' => true
+    ],
+
+    'blocksResolver' => [
+        'files' => [
+            'gallery' => ['images'],
+            'image' => ['image']
+        ],
+
+        'defaultResolvers' => [
+            'files' => fn(\Kirby\Cms\File $file) => [
+                'url' => $file->url(),
+                'width' => $file->width(),
+                'height' => $file->height(),
+                'srcset' => $file->srcset(),
+                'alt' => $file->alt()->value(),
+                'id' => $file->uuid()->id(),
+                'caption' => $file->caption()->value(),
+            ]
+        ],
+        'resolvers' => [
+            'accordion:text' => fn(Field $field, Block $block) =>
+            $field->toResolvedBlocks()->toArray(),
+            'accordion:headline' => fn(Field $field, Block $block) => $field->value(),
+            'bio:artistlink' => function (Field $field, Block $block) {
+                $page = $field->toPages()->first();
+
+                return [
+                    'image' => [
+                        'url' => $page->profilepic()->toFile()->url(),
+                        'alt' => $page->profilepic()->toFile()->alt()->value(),
+                        'width' => $page->profilepic()->toFile()->width(),
+                        'height' => $page->profilepic()->toFile()->height(),
+                        'caption' => $page->profilepic()->toFile()->caption()->value(),
+                        'srcset' => $page->profilepic()->toFile()->srcset(),
+                        'id' => $page->profilepic()->toFile()->uuid()->id(),
+                    ],
+                    'text' => $page->bio()->toResolvedLayouts()->toArray()
+                ];
+            },
+            'button:buttonlink' => function (Field $field, Block $block) {
+                if (page($field)) {
+                    return '/' . page($field)->id();
+                }
+                if ($field->toFile()) {
+                    return $field->toFile()->url();
+                }
+                return $field->value();
+            }
+        ]
     ],
 
     'cors' => 'true',
