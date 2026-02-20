@@ -57,7 +57,7 @@ $data = [
   'depth' => $page->artDepth()->value(),
   'description' => $page->artDescription()->value(),
   'accordions' => $page->accordionText()->toResolvedLayouts()->toArray(),
-  'stickers' => $page->stickers()->toStructure(),
+  'stickers' => $page->stickers()->toStructure()->toArray(),
 ];
 
 echo \Kirby\Data\Json::encode($data);
